@@ -2,7 +2,7 @@ import type {
   ApiReferencePlugin as OriginalApiReferencePlugin,
   SpecificationExtension,
   ViewComponent,
-} from '@scalar/types/api-reference'
+} from '@vektopay/types/api-reference'
 
 export type ApiReferencePlugin = OriginalApiReferencePlugin
 

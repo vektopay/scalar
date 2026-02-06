@@ -21,10 +21,10 @@ export default {}
 </script>
 
 <script lang="ts" setup>
-import { ServerVariablesForm } from '@scalar/api-client/components/Server'
-import { ScalarMarkdown } from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ServerVariablesForm } from '@vektopay/api-client/components/Server'
+import { ScalarMarkdown } from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { useId } from 'vue'
 
 import Selector from './Selector.vue'

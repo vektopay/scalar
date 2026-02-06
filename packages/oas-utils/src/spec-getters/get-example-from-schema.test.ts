@@ -1,6 +1,6 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import { SchemaObjectSchema } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import { SchemaObjectSchema } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { describe, expect, it } from 'vitest'
 
 import { getExampleFromSchema } from './get-example-from-schema'

@@ -1,6 +1,6 @@
-// TODO: This is copied from @scalar/import, because the import (haha) of the package doesn't work.
+// TODO: This is copied from @vektopay/import, because the import (haha) of the package doesn't work.
 /**
- * Find an OpenAPI document URL in the HTML of @scalar/api-reference and other places.
+ * Find an OpenAPI document URL in the HTML of @vektopay/api-reference and other places.
  * This is useful to open the OpenAPI document from basically any source.
  */
 export async function resolve(value?: string): Promise<string | Record<string, any> | undefined> {
@@ -48,10 +48,10 @@ export async function resolve(value?: string): Promise<string | Record<string, a
           return embeddedSpec
         }
       } else {
-        console.warn(`[@scalar/import] Failed to fetch ${value}`)
+        console.warn(`[@vektopay/import] Failed to fetch ${value}`)
       }
     } catch (error) {
-      console.error(`[@scalar/import] Failed to fetch ${value}`, error)
+      console.error(`[@vektopay/import] Failed to fetch ${value}`, error)
     }
   }
 
@@ -138,7 +138,7 @@ function parseEmbeddedOpenApi(html: string): object | undefined {
       return content
     }
   } catch (error) {
-    console.error('[@scalar/import] Failed to parse embedded OpenAPI document:', error)
+    console.error('[@vektopay/import] Failed to parse embedded OpenAPI document:', error)
   }
 
   return undefined

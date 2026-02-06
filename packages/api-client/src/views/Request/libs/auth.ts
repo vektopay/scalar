@@ -1,5 +1,5 @@
-import type { Collection, Operation, SecurityScheme } from '@scalar/oas-utils/entities/spec'
-import { isDefined } from '@scalar/oas-utils/helpers'
+import type { Collection, Operation, SecurityScheme } from '@vektopay/oas-utils/entities/spec'
+import { isDefined } from '@vektopay/oas-utils/helpers'
 
 import { ADD_AUTH_OPTIONS, type SecuritySchemeGroup, type SecuritySchemeOption } from '@/views/Request/consts'
 

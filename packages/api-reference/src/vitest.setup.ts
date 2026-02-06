@@ -6,7 +6,7 @@ import {
   isConsoleErrorEnabled,
   isConsoleWarnEnabled,
   resetConsoleSpies,
-} from '@scalar/helpers/testing/console-spies'
+} from '@vektopay/helpers/testing/console-spies'
 import { afterEach, expect, vi } from 'vitest'
 
 import { createPluginManager } from '@/plugins/plugin-manager'

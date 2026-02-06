@@ -1,4 +1,4 @@
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 import { z } from 'zod'
 
 /**

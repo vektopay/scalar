@@ -115,18 +115,18 @@ import {
   ScalarCodeBlock,
   ScalarCombobox,
   ScalarVirtualText,
-} from '@scalar/components'
-import { freezeElement } from '@scalar/helpers/dom/freeze-element'
-import type { HttpMethod as HttpMethodType } from '@scalar/helpers/http/http-methods'
-import { ScalarIconCaretDown } from '@scalar/icons'
-import { type AvailableClients } from '@scalar/snippetz'
-import { type WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { XScalarCookie } from '@scalar/workspace-store/schemas/extensions/general/x-scalar-cookies'
+} from '@vektopay/components'
+import { freezeElement } from '@vektopay/helpers/dom/freeze-element'
+import type { HttpMethod as HttpMethodType } from '@vektopay/helpers/http/http-methods'
+import { ScalarIconCaretDown } from '@vektopay/icons'
+import { type AvailableClients } from '@vektopay/snippetz'
+import { type WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { XScalarCookie } from '@vektopay/workspace-store/schemas/extensions/general/x-scalar-cookies'
 import type {
   OperationObject,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { operationToHar } from '@v2/blocks/operation-code-sample/helpers/operation-to-har/operation-to-har'
 import { computed, ref, useId, watch, type ComponentPublicInstance } from 'vue'
 

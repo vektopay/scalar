@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { ScalarCodeBlockCopy } from '@scalar/components'
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
-import { useCodeMirror, type CodeMirrorLanguage } from '@scalar/use-codemirror'
+import { ScalarCodeBlockCopy } from '@vektopay/components'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
+import { useCodeMirror, type CodeMirrorLanguage } from '@vektopay/use-codemirror'
 import { ref, toRef, useId } from 'vue'
 
 const props = defineProps<{

@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto'
 import fs from 'node:fs/promises'
 
-import { consoleWarnSpy, resetConsoleSpies } from '@scalar/helpers/testing/console-spies'
+import { consoleWarnSpy, resetConsoleSpies } from '@vektopay/helpers/testing/console-spies'
 import fastify, { type FastifyInstance } from 'fastify'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import YAML from 'yaml'

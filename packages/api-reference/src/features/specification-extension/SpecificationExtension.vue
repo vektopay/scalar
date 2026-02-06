@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarErrorBoundary } from '@scalar/components'
+import { ScalarErrorBoundary } from '@vektopay/components'
 import { computed } from 'vue'
 
 import { usePluginManager } from '@/plugins'

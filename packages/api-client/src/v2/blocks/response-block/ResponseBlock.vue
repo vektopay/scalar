@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ScalarErrorBoundary } from '@scalar/components'
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import type { ResponseInstance } from '@scalar/oas-utils/entities/spec'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { ScalarErrorBoundary } from '@vektopay/components'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import type { ResponseInstance } from '@vektopay/oas-utils/entities/spec'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { computed, ref, useId } from 'vue'
 
 import SectionFilter from '@/components/SectionFilter.vue'

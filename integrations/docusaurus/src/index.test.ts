@@ -21,7 +21,7 @@ describe('ScalarDocusaurus', () => {
         route: '/scalar',
       })
 
-      expect(plugin).toHaveProperty('name', '@scalar/docusaurus')
+      expect(plugin).toHaveProperty('name', '@vektopay/docusaurus')
       expect(plugin).toHaveProperty('injectHtmlTags')
       expect(plugin).toHaveProperty('loadContent')
       expect(plugin).toHaveProperty('contentLoaded')
@@ -53,7 +53,7 @@ describe('ScalarDocusaurus', () => {
           {
             tagName: 'script',
             attributes: {
-              src: 'https://cdn.jsdelivr.net/npm/@scalar/api-reference',
+              src: 'https://cdn.vektopay.com/@vektopay/api-reference',
             },
           },
         ],

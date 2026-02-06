@@ -1,4 +1,4 @@
-import { createMagicProxy } from '@scalar/json-magic/magic-proxy'
+import { createMagicProxy } from '@vektopay/json-magic/magic-proxy'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { reactive } from 'vue'
 

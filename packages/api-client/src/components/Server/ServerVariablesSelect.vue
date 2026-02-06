@@ -3,8 +3,8 @@ import {
   ScalarButton,
   ScalarListbox,
   type ScalarListboxOption,
-} from '@scalar/components'
-import { ScalarIconCaretDown } from '@scalar/icons'
+} from '@vektopay/components'
+import { ScalarIconCaretDown } from '@vektopay/icons'
 import { computed } from 'vue'
 
 const props = defineProps<{

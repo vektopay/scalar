@@ -11,7 +11,7 @@ export default {
 
 <script setup lang="ts">
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { useId } from 'vue'
 
 import ValueEmitter from './ValueEmitter.vue'

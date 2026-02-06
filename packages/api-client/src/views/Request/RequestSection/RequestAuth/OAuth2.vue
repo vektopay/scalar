@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { ScalarButton, useLoadingState } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarButton, useLoadingState } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import {
   pkceOptions,
   type Collection,
   type Oauth2Flow,
   type SecuritySchemeOauth2,
   type Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { useToasts } from '@scalar/use-toasts'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { useToasts } from '@vektopay/use-toasts'
 
 import { DataTableRow } from '@/components/DataTable'
 import type { EnvVariable } from '@/store/active-entities'

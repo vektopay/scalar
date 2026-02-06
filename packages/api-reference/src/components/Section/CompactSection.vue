@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIconCaretRight } from '@scalar/icons'
+import { ScalarIconCaretRight } from '@vektopay/icons'
 
 import { Anchor } from '@/components/Anchor'
 

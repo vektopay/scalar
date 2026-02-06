@@ -1,5 +1,5 @@
-import type { RequestExample, RequestMethod } from '@scalar/oas-utils/entities/spec'
-import { canMethodHaveBody } from '@scalar/oas-utils/helpers'
+import type { RequestExample, RequestMethod } from '@vektopay/oas-utils/entities/spec'
+import { canMethodHaveBody } from '@vektopay/oas-utils/helpers'
 
 import { replaceTemplateVariables } from '@/libs/string-template'
 

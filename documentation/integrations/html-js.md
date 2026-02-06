@@ -17,15 +17,15 @@ To get started, you can use a simple HTML file. It's the easiest, and probably a
     <div id="app"></div>
 
     <!-- Load the Script -->
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
 
     <!-- Initialize the Scalar API Reference -->
     <script>
       Scalar.createApiReference('#app', {
         // The URL of the OpenAPI/Swagger document
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
         // Avoid CORS issues
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
       })
     </script>
   </body>
@@ -45,7 +45,7 @@ It's recommended to use the latest version from jsdelivr. You'll get continuous 
 If you really want to stick to a specific version, that's possible, too. You can just add the version to the URL of the script:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.28.5"></script>
+<script src="https://cdn.vektopay.com/@vektopay/api-reference@1.28.5"></script>
 ```
 
 ## JavaScript API
@@ -56,7 +56,7 @@ The HTML sample above showed how to integrate Scalar using automatic mounting an
 
 ```ts
 Scalar.createApiReference('#app', {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
 })
 ```
 
@@ -64,7 +64,7 @@ Scalar.createApiReference('#app', {
 
 ```ts
 const app = Scalar.createApiReference({
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
 })
 
 // Mounting
@@ -83,7 +83,7 @@ app.mount(element)
 
 ```ts
 const app = Scalar.createApiReference('#app', {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
 })
 
 // Updating the configuration
@@ -96,7 +96,7 @@ app.updateConfiguration({
 
 ```ts
 const app = Scalar.createApiReference('#app', {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
 })
 
 app.destroy()
@@ -115,6 +115,6 @@ Here is an example:
 import { createApiReference } from '@scalar/api-reference'
 
 createApiReference('#app', {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
 })
 ```

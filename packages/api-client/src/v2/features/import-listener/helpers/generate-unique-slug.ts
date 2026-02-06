@@ -1,4 +1,4 @@
-import { generateUniqueValue } from '@scalar/workspace-store/helpers/generate-unique-value'
+import { generateUniqueValue } from '@vektopay/workspace-store/helpers/generate-unique-value'
 
 import { slugify } from '@/v2/helpers/slugify'
 

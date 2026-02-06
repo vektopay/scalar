@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/api-client-react",
+  "name": "@vektopay/api-client-react",
   "description": "the open source API testing client for react",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -49,11 +49,11 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/api-client": "workspace:*",
-    "@scalar/types": "workspace:*"
+    "@vektopay/api-client": "workspace:*",
+    "@vektopay/types": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
     "@vitejs/plugin-react": "catalog:*",
@@ -64,5 +64,8 @@
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -1,7 +1,7 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import { xScalarEnvironmentSchema } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import { OpenAPIDocumentSchema } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import { xScalarEnvironmentSchema } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import { OpenAPIDocumentSchema } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

@@ -1,6 +1,6 @@
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
-import type { HotkeyEventName, KeydownKey } from '@scalar/oas-utils/entities/hotkeys'
-import type { HotKeyConfig, HotKeyModifiers } from '@scalar/oas-utils/entities/workspace'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
+import type { HotkeyEventName, KeydownKey } from '@vektopay/oas-utils/entities/hotkeys'
+import type { HotKeyConfig, HotKeyModifiers } from '@vektopay/oas-utils/entities/workspace'
 
 import type { EventBus } from '@/libs'
 

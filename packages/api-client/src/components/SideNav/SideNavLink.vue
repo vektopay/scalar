@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIcon, type Icon } from '@scalar/components'
+import { ScalarIcon, type Icon } from '@vektopay/components'
 import type { Component } from 'vue'
 
 import { useLayout } from '@/hooks'

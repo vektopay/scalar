@@ -1,6 +1,6 @@
-import { shouldUseProxy } from '@scalar/helpers/url/redirect-to-proxy'
-import { type Cookie, cookieSchema } from '@scalar/oas-utils/entities/cookie'
-import type { RequestExample } from '@scalar/oas-utils/entities/spec'
+import { shouldUseProxy } from '@vektopay/helpers/url/redirect-to-proxy'
+import { type Cookie, cookieSchema } from '@vektopay/oas-utils/entities/cookie'
+import type { RequestExample } from '@vektopay/oas-utils/entities/spec'
 
 import { replaceTemplateVariables } from '@/libs/string-template'
 

@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 
 export const cookieSchema = z.object({
   uid: nanoidSchema.brand<ENTITY_BRANDS['COOKIE']>(),

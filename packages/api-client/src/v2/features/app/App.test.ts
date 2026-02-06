@@ -1,5 +1,5 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import { createWorkspaceStorePersistence } from '@scalar/workspace-store/persistence'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import { createWorkspaceStorePersistence } from '@vektopay/workspace-store/persistence'
 import { flushPromises, mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import { nextTick } from 'vue'

@@ -1,4 +1,4 @@
-import { type SecurityScheme, securitySchemeSchema } from '@scalar/oas-utils/entities/spec'
+import { type SecurityScheme, securitySchemeSchema } from '@vektopay/oas-utils/entities/spec'
 import { encode } from 'js-base64'
 import { beforeEach, describe, expect, it } from 'vitest'
 

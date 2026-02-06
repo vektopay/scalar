@@ -1,4 +1,4 @@
-import { type Static, Type } from '@scalar/typebox'
+import { type Static, Type } from '@vektopay/typebox'
 
 import { compose } from '@/schemas/compose'
 import { XScalarCredentialsLocationSchema } from '@/schemas/extensions/security/x-scalar-credentials-location'

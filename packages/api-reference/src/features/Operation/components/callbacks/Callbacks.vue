@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { isHttpMethod } from '@scalar/helpers/http/is-http-method'
-import { objectEntries } from '@scalar/helpers/object/object-entries'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { isHttpMethod } from '@vektopay/helpers/http/is-http-method'
+import { objectEntries } from '@vektopay/helpers/object/object-entries'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   CallbackObject,
   OperationObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import type { OperationProps } from '@/features/Operation/Operation.vue'

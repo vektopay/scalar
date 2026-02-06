@@ -1,5 +1,5 @@
 {
-  "name": "@scalarapi/docker-api-reference",
+  "name": "@vektopay/docker-api-reference",
   "description": "Docker image to serve beautiful, interactive API documentation from OpenAPI/Swagger documents in containerized environments.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -35,9 +35,9 @@
     "documentation": "https://scalar.com/products/api-references/integrations/docker"
   },
   "dependencies": {
-    "@scalar/api-reference": "workspace:*"
+    "@vektopay/api-reference": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*"
+    "@vektopay/build-tooling": "workspace:*"
   }
 }

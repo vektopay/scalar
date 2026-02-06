@@ -1,4 +1,4 @@
-import type { OpenAPI, OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPI, OpenAPIV3_1 } from '@vektopay/openapi-types'
 import { type ZodSchema, z } from 'zod'
 
 import type { RequestExampleParameter } from './request-examples'

@@ -1,4 +1,4 @@
-import { securityOauthSchema, serverSchema } from '@scalar/oas-utils/entities/spec'
+import { securityOauthSchema, serverSchema } from '@vektopay/oas-utils/entities/spec'
 import { flushPromises } from '@vue/test-utils'
 import { encode } from 'js-base64'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'

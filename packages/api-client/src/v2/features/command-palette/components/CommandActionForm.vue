@@ -32,7 +32,7 @@ export default {
 </script>
 
 <script setup lang="ts">
-import { ScalarButton, useBindCx, type LoadingState } from '@scalar/components'
+import { ScalarButton, useBindCx, type LoadingState } from '@vektopay/components'
 
 const { loader, disabled = false } = defineProps<{
   /** Loading state from useLoadingState composable to show spinner on submit button */

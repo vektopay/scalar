@@ -43,20 +43,20 @@ export type OperationProps = {
 </script>
 
 <script lang="ts" setup>
-import type { ClientOptionGroup } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import type { MergedSecuritySchemes } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import { combineParams } from '@scalar/api-client/v2/features/operation'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { AuthStore } from '@scalar/workspace-store/entities/auth'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import type { ClientOptionGroup } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import type { MergedSecuritySchemes } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import { combineParams } from '@vektopay/api-client/v2/features/operation'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { AuthStore } from '@vektopay/workspace-store/entities/auth'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   OpenApiDocument,
   PathItemObject,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import { filterSelectedSecurity } from '@/features/Operation/helpers/filter-selected-security'

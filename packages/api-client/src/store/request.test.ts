@@ -1,4 +1,4 @@
-import type { Collection, Request, Tag } from '@scalar/oas-utils/entities/spec'
+import type { Collection, Request, Tag } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { findRequestParentsFactory } from './requests'

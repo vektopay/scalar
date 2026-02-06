@@ -57,7 +57,7 @@ export const createApiClientApp = (el: HTMLElement | null, { layout = 'desktop',
   // Mount the vue app
   if (!el) {
     console.error(
-      '[@scalar/api-client-modal] Could not create the API client.',
+      '[@vektopay/api-client-modal] Could not create the API client.',
       'Invalid HTML element provided.',
       'Read more: https://github.com/scalar/scalar/tree/main/packages/api-client',
     )

@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import type { PathItemObject } from './path-item'
 import { PathItemObjectRef } from './ref-definitions'

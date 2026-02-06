@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { isLocalUrl } from '@scalar/helpers/url/is-local-url'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { isLocalUrl } from '@vektopay/helpers/url/is-local-url'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import { computed } from 'vue'
 
 import ApiReferenceToolbarConfig from '@/features/toolbar/ApiReferenceToolbarConfig.vue'
@@ -9,9 +9,9 @@ import ApiReferenceToolbarSdks from '@/features/toolbar/ApiReferenceToolbarSdks.
 import ApiReferenceToolbarShare from '@/features/toolbar/ApiReferenceToolbarShare.vue'
 import ApiReferenceToolbarTitle from '@/features/toolbar/ApiReferenceToolbarTitle.vue'
 
-const { configuration } = defineProps<{
-  workspace?: WorkspaceStore
+const { configuration, workspace } = defineProps<{
   configuration?: Partial<ApiReferenceConfiguration>
+  workspace?: WorkspaceStore
 }>()
 
 const overrides = defineModel<Partial<ApiReferenceConfiguration>>('overrides')

@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/analytics-client",
+  "name": "@vektopay/analytics-client",
   "description": "Event and metric tracking across Scalar",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -39,8 +39,11 @@
     "zod": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/node": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

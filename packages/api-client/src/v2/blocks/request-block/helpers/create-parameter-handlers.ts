@@ -1,4 +1,4 @@
-import type { OperationExampleMeta, WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { OperationExampleMeta, WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 import type { TableRow } from '@/v2/blocks/request-block/components/RequestTableRow.vue'
 

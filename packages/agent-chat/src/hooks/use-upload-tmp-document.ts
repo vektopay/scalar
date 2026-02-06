@@ -41,7 +41,7 @@ export function useUploadTmpDocument() {
 
     const params = new URLSearchParams({ scalar_url: url.toString() })
 
-    return new URL(`https://proxy.scalar.com/?${params}`)
+    return new URL(`https://proxy.vektopay.com/?${params}`)
   }
 
   async function uploadTempDocument(document: string, isAgent = false) {

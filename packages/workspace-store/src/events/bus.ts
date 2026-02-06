@@ -1,4 +1,4 @@
-import { debounce } from '@scalar/helpers/general/debounce'
+import { debounce } from '@vektopay/helpers/general/debounce'
 
 import { unpackProxyObject } from '@/helpers/unpack-proxy'
 

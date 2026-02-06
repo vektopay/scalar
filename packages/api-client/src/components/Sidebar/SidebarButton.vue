@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarHotkey } from '@scalar/components'
+import { ScalarButton, ScalarHotkey } from '@vektopay/components'
 
 import { useLayout } from '@/hooks'
 

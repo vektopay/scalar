@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ScalarLoading, useLoadingState } from '@scalar/components'
+import { ScalarLoading, useLoadingState } from '@vektopay/components'
 import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 
 import ViewLayoutCollapse from '@/components/ViewLayout/ViewLayoutCollapse.vue'

@@ -1,5 +1,5 @@
-import type { XCodeSample } from '@scalar/workspace-store/schemas/extensions/operation'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { XCodeSample } from '@vektopay/workspace-store/schemas/extensions/operation'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /**
  * Grabs any custom code samples from the operation

@@ -1,4 +1,4 @@
-import type { ApiClientPlugin, hooksSchema } from '@scalar/types/api-reference'
+import type { ApiClientPlugin, hooksSchema } from '@vektopay/types/api-reference'
 import type { z } from 'zod'
 
 export type { ApiClientPlugin }

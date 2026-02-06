@@ -1,4 +1,4 @@
-import { securitySchemeSchema } from '@scalar/types/entities'
+import { securitySchemeSchema } from '@vektopay/types/entities'
 import { describe, it, expect } from 'vitest'
 
 import { hasToken } from './has-token'

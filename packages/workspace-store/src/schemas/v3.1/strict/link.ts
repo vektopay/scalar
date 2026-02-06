@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import { ServerObjectRef } from '@/schemas/v3.1/strict/ref-definitions'
 

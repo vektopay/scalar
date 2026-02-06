@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /**
  * An OpenAPI extension set any query parameters for the OAuth authorize request

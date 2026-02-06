@@ -1,6 +1,6 @@
 import type * as Preset from '@docusaurus/preset-classic'
 import type { Config } from '@docusaurus/types'
-import type { ScalarOptions } from '@scalar/docusaurus'
+import type { ScalarOptions } from '@vektopay/docusaurus'
 
 const config: Config = {
   title: 'My Site',
@@ -54,30 +54,30 @@ const config: Config = {
 
   plugins: [
     [
-      '@scalar/docusaurus',
+      '@vektopay/docusaurus',
       {
         id: 'json-url-cdn',
         label: 'json-url-cdn',
         route: '/json-url-cdn',
-        cdn: 'https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.28.11',
+        cdn: 'https://cdn.vektopay.com/@vektopay/api-reference@1.28.11',
         configuration: {
-          url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+          url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
         },
       } as ScalarOptions,
     ],
     [
-      '@scalar/docusaurus',
+      '@vektopay/docusaurus',
       {
         id: 'yaml-url',
         label: 'yaml-url',
         route: '/yaml-url',
         configuration: {
-          url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+          url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
         },
       } as ScalarOptions,
     ],
     [
-      '@scalar/docusaurus',
+      '@vektopay/docusaurus',
       {
         id: 'json-string',
         label: 'json-string',
@@ -95,7 +95,7 @@ const config: Config = {
       } as ScalarOptions,
     ],
     [
-      '@scalar/docusaurus',
+      '@vektopay/docusaurus',
       {
         id: 'yaml-string',
         label: 'yaml-string',

@@ -109,7 +109,7 @@ class TestGetScalarApiReference:
 
         # Check other HTML elements
         assert 'href="https://fastapi.tiangolo.com/img/favicon.png"' in html_content
-        assert 'src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"' in html_content
+        assert 'src="https://cdn.vektopay.com/@vektopay/api-reference"' in html_content
 
     def test_custom_parameters(self):
         """Test custom parameter values"""

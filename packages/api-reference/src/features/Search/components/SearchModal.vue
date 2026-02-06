@@ -4,9 +4,9 @@ import {
   ScalarSearchInput,
   ScalarSearchResultList,
   type ModalState,
-} from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { OpenApiDocument } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { OpenApiDocument } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { nanoid } from 'nanoid'
 import { computed, ref, watch } from 'vue'
 

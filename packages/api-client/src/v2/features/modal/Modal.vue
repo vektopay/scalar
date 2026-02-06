@@ -47,13 +47,13 @@ import {
   ScalarTeleportRoot,
   type ModalState,
   type ScalarListboxOption,
-} from '@scalar/components'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import { ScalarToasts } from '@scalar/use-toasts'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import { type WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
+} from '@vektopay/components'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import { ScalarToasts } from '@vektopay/use-toasts'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import { type WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
 import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
 import {
   computed,

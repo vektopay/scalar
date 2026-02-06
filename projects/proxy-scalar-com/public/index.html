@@ -11,17 +11,17 @@
   <body>
     <div id="app"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
     <script>
       Scalar.createApiReference('#app', {
         url: '/openapi.yaml',
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
         servers: [
           {
             url: '/',
           },
           {
-            url: 'https://proxy.scalar.com',
+            url: 'https://proxy.vektopay.com',
           },
         ],
       })

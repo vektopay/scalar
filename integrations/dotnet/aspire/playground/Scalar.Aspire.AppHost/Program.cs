@@ -23,7 +23,7 @@ var scalar = builder
     .AddScalarApiReference(options =>
     {
         options
-            .WithBundleUrl("https://cdn.jsdelivr.net/npm/@scalar/api-reference")
+            .WithBundleUrl("https://cdn.vektopay.com/@vektopay/api-reference")
             .PreferHttpsEndpoint()
             .AllowSelfSignedCertificates();
     })

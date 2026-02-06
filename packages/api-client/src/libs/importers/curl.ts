@@ -1,4 +1,4 @@
-import type { RequestMethod, RequestParameterPayload } from '@scalar/oas-utils/entities/spec'
+import type { RequestMethod, RequestParameterPayload } from '@vektopay/oas-utils/entities/spec'
 
 import { parseCurlCommand } from '@/libs/parse-curl'
 

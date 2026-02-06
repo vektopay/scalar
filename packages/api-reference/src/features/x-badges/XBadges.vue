@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { XBadge } from '@scalar/workspace-store/schemas/extensions/operation'
+import type { XBadge } from '@vektopay/workspace-store/schemas/extensions/operation'
 import { computed } from 'vue'
 
 import { Badge } from '@/components/Badge'

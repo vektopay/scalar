@@ -1,24 +1,24 @@
 <script setup lang="ts">
-import { ScalarErrorBoundary } from '@scalar/components'
-import { canMethodHaveBody } from '@scalar/helpers/http/can-method-have-body'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { REGEX } from '@scalar/helpers/regex/regex-helpers'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { SelectedSecurity } from '@scalar/workspace-store/entities/auth'
+import { ScalarErrorBoundary } from '@vektopay/components'
+import { canMethodHaveBody } from '@vektopay/helpers/http/can-method-have-body'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { REGEX } from '@vektopay/helpers/regex/regex-helpers'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { SelectedSecurity } from '@vektopay/workspace-store/entities/auth'
 import type {
   ApiReferenceEvents,
   AuthMeta,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { XScalarCookie } from '@scalar/workspace-store/schemas/extensions/general/x-scalar-cookies'
+} from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { XScalarCookie } from '@vektopay/workspace-store/schemas/extensions/general/x-scalar-cookies'
 import type {
   OpenApiDocument,
   OperationObject,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref, useId, watch } from 'vue'
 
 import SectionFilter from '@/components/SectionFilter.vue'

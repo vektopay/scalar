@@ -4,9 +4,9 @@ import {
   ScalarFloating,
   ScalarFloatingBackdrop,
   ScalarIcon,
-} from '@scalar/components'
-import type { Operation, RequestEvent } from '@scalar/oas-utils/entities/spec'
-import { httpStatusCodes } from '@scalar/oas-utils/helpers'
+} from '@vektopay/components'
+import type { Operation, RequestEvent } from '@vektopay/oas-utils/entities/spec'
+import { httpStatusCodes } from '@vektopay/oas-utils/helpers'
 import { computed } from 'vue'
 
 import { formatMs } from '@/libs/formatters'

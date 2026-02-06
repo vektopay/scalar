@@ -682,7 +682,7 @@
 - bbef120: fix: remove extra coerces and cleanUp plugin from bundler
 - a1429ca: chore: move to new extensions system for better type safety
 - 66b18fc: feat: update the references to handle $refs from the magic proxy
-- 5f022b5: feat: use registry.scalar.com URLs as example
+- 5f022b5: feat: use registry.vektopay.com URLs as example
 - Updated dependencies [bbef120]
 - Updated dependencies [b93e1fe]
 - Updated dependencies [a1429ca]

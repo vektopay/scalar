@@ -1,4 +1,4 @@
-import type { HarRequest } from '@scalar/snippetz'
+import type { HarRequest } from '@vektopay/snippetz'
 
 type FetchRequestToHarProps = {
   /** The Fetch API Request object to convert */

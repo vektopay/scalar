@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useToasts } from '@scalar/use-toasts'
+import { useToasts } from '@vektopay/use-toasts'
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 

@@ -1,5 +1,5 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { OperationObject, PathItemObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { OperationObject, PathItemObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /** Combine pathItem and operation parameters into a single, dereferenced parameter array */
 export const combineParams = (

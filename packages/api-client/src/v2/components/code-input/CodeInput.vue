@@ -36,15 +36,15 @@ export default {
 </script>
 
 <script setup lang="ts">
-import { isDefined } from '@scalar/helpers/array/is-defined'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
 import {
   colorPicker as colorPickerExtension,
   useCodeMirror,
   useDropdown,
   type CodeMirrorLanguage,
   type Extension,
-} from '@scalar/use-codemirror'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/use-codemirror'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { nanoid } from 'nanoid'
 import { computed, ref, toRef, useAttrs, watch, type Ref } from 'vue'
 

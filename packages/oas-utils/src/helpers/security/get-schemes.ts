@@ -1,5 +1,5 @@
-import type { SecurityScheme } from '@scalar/types/entities'
-import { isDefined } from '@scalar/helpers/array/is-defined'
+import type { SecurityScheme } from '@vektopay/types/entities'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
 
 import type { Operation } from '@/entities/spec/operation'
 

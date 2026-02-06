@@ -1,6 +1,6 @@
-import { type Cookie, cookieSchema } from '@scalar/oas-utils/entities/cookie'
-import type { SecurityScheme } from '@scalar/oas-utils/entities/spec'
-import { isDefined } from '@scalar/oas-utils/helpers'
+import { type Cookie, cookieSchema } from '@vektopay/oas-utils/entities/cookie'
+import type { SecurityScheme } from '@vektopay/oas-utils/entities/spec'
+import { isDefined } from '@vektopay/oas-utils/helpers'
 import { encode } from 'js-base64'
 
 import { replaceTemplateVariables } from '@/libs/string-template'

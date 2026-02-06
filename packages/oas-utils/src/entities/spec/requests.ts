@@ -2,10 +2,10 @@ import {
   type PostResponseSchema,
   XCodeSamplesSchema,
   XPostResponseSchema,
-} from '@scalar/openapi-types/schemas/extensions'
-import { oasSecurityRequirementSchema } from '@scalar/types/entities'
-import { XScalarStability } from '@scalar/types/legacy'
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+} from '@vektopay/openapi-types/schemas/extensions'
+import { oasSecurityRequirementSchema } from '@vektopay/types/entities'
+import { XScalarStability } from '@vektopay/types/legacy'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 import { type ZodSchema, z } from 'zod'
 
 import { selectedSecuritySchemeUidSchema } from '@/entities/shared/utility'

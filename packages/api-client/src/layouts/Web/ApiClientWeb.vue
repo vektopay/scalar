@@ -2,11 +2,11 @@
 import {
   addScalarClassesToHeadless,
   ScalarTeleportRoot,
-} from '@scalar/components'
-import { getThemeStyles } from '@scalar/themes'
-import { useBreakpoints } from '@scalar/use-hooks/useBreakpoints'
-import { useColorMode } from '@scalar/use-hooks/useColorMode'
-import { ScalarToasts } from '@scalar/use-toasts'
+} from '@vektopay/components'
+import { getThemeStyles } from '@vektopay/themes'
+import { useBreakpoints } from '@vektopay/use-hooks/useBreakpoints'
+import { useColorMode } from '@vektopay/use-hooks/useColorMode'
+import { ScalarToasts } from '@vektopay/use-toasts'
 import { computed, onBeforeMount, onBeforeUnmount, onMounted, watch } from 'vue'
 import { RouterView } from 'vue-router'
 

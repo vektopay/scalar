@@ -1,8 +1,8 @@
-import type { Cookie } from '@scalar/oas-utils/entities/cookie'
-import { type Environment, environmentSchema } from '@scalar/oas-utils/entities/environment'
-import type { Collection, Request, RequestExample, Server } from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { isDefined } from '@scalar/oas-utils/helpers'
+import type { Cookie } from '@vektopay/oas-utils/entities/cookie'
+import { type Environment, environmentSchema } from '@vektopay/oas-utils/entities/environment'
+import type { Collection, Request, RequestExample, Server } from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { isDefined } from '@vektopay/oas-utils/helpers'
 import { type InjectionKey, computed, inject } from 'vue'
 import type { Router } from 'vue-router'
 

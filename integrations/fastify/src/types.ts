@@ -1,4 +1,4 @@
-import type { HtmlRenderingConfiguration } from '@scalar/core/libs/html-rendering'
+import type { HtmlRenderingConfiguration } from '@vektopay/core/libs/html-rendering'
 import type { onRequestHookHandler, preHandlerHookHandler } from 'fastify'
 
 /**
@@ -24,11 +24,11 @@ export type FastifyApiReferenceOptions = {
   /**
    * Set where the OpenAPI specification is exposed under `${routePrefix}`.
    *
-   * The specification is always available on these endpoints, parsed by `@scalar/openapi-parser`.
+   * The specification is always available on these endpoints, parsed by `@vektopay/openapi-parser`.
    *
    * The specification is sourced from, in order of precedence:
    * - `configuration.spec.content`
-   * - `configuration.spec.url` – fetched via `@scalar/openapi-parser/plugins/fetch-urls`
+   * - `configuration.spec.url` – fetched via `@vektopay/openapi-parser/plugins/fetch-urls`
    * - `@fastify/swagger` – if `configuration.spec` is not provided
    *
    * These endpoints can be used to fetch the OpenAPI specification for your own programmatic use.
@@ -54,7 +54,7 @@ export type FastifyApiReferenceOptions = {
     yaml?: `/${string}`
   }
   /**
-   * The universal configuration object for @scalar/api-reference.
+   * The universal configuration object for @vektopay/api-reference.
    *
    * Read more: https://github.com/scalar/scalar
    */

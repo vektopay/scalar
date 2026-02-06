@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/snippetz",
+  "name": "@vektopay/snippetz",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
   "homepage": "https://github.com/scalar/scalar",
@@ -240,13 +240,16 @@
     "CHANGELOG"
   ],
   "dependencies": {
-    "@scalar/types": "workspace:*",
+    "@vektopay/types": "workspace:*",
     "js-base64": "catalog:*",
     "stringify-object": "^6.0.0"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/stringify-object": "^4.0.5",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

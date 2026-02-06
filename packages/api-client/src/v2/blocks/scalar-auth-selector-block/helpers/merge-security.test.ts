@@ -1,10 +1,10 @@
-import type { AuthenticationConfiguration } from '@scalar/types/api-reference'
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
+import type { AuthenticationConfiguration } from '@vektopay/types/api-reference'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
 import {
   type ComponentsObject,
   SecuritySchemeObjectSchema,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { describe, expect, it } from 'vitest'
 
 import { mergeSecurity } from './merge-security'

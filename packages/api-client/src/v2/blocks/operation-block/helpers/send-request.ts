@@ -1,6 +1,6 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { httpStatusCodes } from '@scalar/helpers/http/http-status-codes'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { httpStatusCodes } from '@vektopay/helpers/http/http-status-codes'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { ERRORS, type ErrorResponse, normalizeError } from '@/libs/errors'
 import { normalizeHeaders } from '@/libs/normalize-headers'

@@ -5,16 +5,16 @@ import {
   ScalarCombobox,
   ScalarIcon,
   type ScalarComboboxOption,
-} from '@scalar/components'
+} from '@vektopay/components'
 import type {
   Collection,
   Operation,
   RequestExample,
   SecurityScheme,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { snippetz, type ClientId, type TargetId } from '@scalar/snippetz'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { snippetz, type ClientId, type TargetId } from '@vektopay/snippetz'
 import { computed, ref } from 'vue'
 
 import DataTable from '@/components/DataTable/DataTable.vue'

@@ -1,13 +1,13 @@
-import { objectEntries } from '@scalar/helpers/object/object-entries'
-import type { AuthenticationConfiguration } from '@scalar/types/api-reference'
-import type { AuthStore } from '@scalar/workspace-store/entities/auth'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { mergeObjects } from '@scalar/workspace-store/helpers/merge-object'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
+import { objectEntries } from '@vektopay/helpers/object/object-entries'
+import type { AuthenticationConfiguration } from '@vektopay/types/api-reference'
+import type { AuthStore } from '@vektopay/workspace-store/entities/auth'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { mergeObjects } from '@vektopay/workspace-store/helpers/merge-object'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
 import type {
   ComponentsObject,
   SecuritySchemeObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { extractSecuritySchemeSecrets } from './extract-security-scheme-secrets'
 import type { SecuritySchemeObjectSecret } from './secret-types'

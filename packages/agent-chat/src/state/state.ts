@@ -1,9 +1,9 @@
 import { Chat } from '@ai-sdk/vue'
-import { type ModalState, useModal } from '@scalar/components'
-import { type ApiReferenceConfigurationRaw, apiReferenceConfigurationSchema } from '@scalar/types/api-reference'
-import { type WorkspaceStore, createWorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import { type ModalState, useModal } from '@vektopay/components'
+import { type ApiReferenceConfigurationRaw, apiReferenceConfigurationSchema } from '@vektopay/types/api-reference'
+import { type WorkspaceStore, createWorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { DefaultChatTransport, type UIDataTypes, type UIMessage, lastAssistantMessageIsCompleteWithToolCalls } from 'ai'
 import { type ComputedRef, type InjectionKey, type Ref, computed, inject, ref, watch } from 'vue'
 
@@ -161,7 +161,7 @@ export function createState({
   const registryDocuments = ref<ApiMetadata[]>([])
   const pendingDocuments = ref<{ namespace: string; slug: string }[]>([])
   const curatedDocuments = ref<ApiMetadata[]>([])
-  const proxyUrl = ref<State['proxyUrl']['value']>('https://proxy.scalar.com')
+  const proxyUrl = ref<State['proxyUrl']['value']>('https://proxy.vektopay.com')
   const uploadedTmpDocumentUrl = ref<string>()
   const terms = useTermsAndConditions()
 

@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/nuxt",
+  "name": "@vektopay/nuxt",
   "description": "Nuxt module to render beautiful, interactive API documentation from OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -62,10 +62,10 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.0.0",
-    "@scalar/api-client": "workspace:*",
-    "@scalar/api-reference": "workspace:*",
-    "@scalar/types": "workspace:*",
-    "@scalar/use-hooks": "workspace:*",
+    "@vektopay/api-client": "workspace:*",
+    "@vektopay/api-reference": "workspace:*",
+    "@vektopay/types": "workspace:*",
+    "@vektopay/use-hooks": "workspace:*",
     "vue": "catalog:*"
   },
   "devDependencies": {
@@ -74,5 +74,8 @@
     "cross-env": "^7.0.3",
     "nuxt": "^4.1.0",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

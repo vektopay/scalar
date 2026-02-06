@@ -1,4 +1,4 @@
-import { ScalarIconCube } from '@scalar/icons'
+import { ScalarIconCube } from '@vektopay/icons'
 import type { Meta, StoryObj } from '@storybook/vue3-vite'
 
 import { useLoadingState } from '../ScalarLoading'

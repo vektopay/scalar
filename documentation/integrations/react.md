@@ -23,7 +23,7 @@ function App() {
   return (
     <ApiReferenceReact
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
       }}
     />
   )
@@ -116,7 +116,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ApiReferenceReact
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
       }}
     />
   </StrictMode>,

@@ -1,5 +1,5 @@
-import { bundle } from '@scalar/json-magic/bundle'
-import { fetchUrls } from '@scalar/json-magic/bundle/plugins/browser'
+import { bundle } from '@vektopay/json-magic/bundle'
+import { fetchUrls } from '@vektopay/json-magic/bundle/plugins/browser'
 import { type FastifyInstance, fastify } from 'fastify'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

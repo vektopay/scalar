@@ -1,6 +1,6 @@
-import type { AvailableClient } from '@scalar/snippetz'
-import type { XCodeSample } from '@scalar/workspace-store/schemas/extensions/operation'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { AvailableClient } from '@vektopay/snippetz'
+import type { XCodeSample } from '@vektopay/workspace-store/schemas/extensions/operation'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { consoleErrorSpy } from '@test/vitest.setup'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

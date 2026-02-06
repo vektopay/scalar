@@ -1,5 +1,5 @@
-import { sleep } from '@scalar/helpers/testing/sleep'
-import { apiReferenceConfigurationSchema, apiReferenceConfigurationWithSourceSchema } from '@scalar/types/api-reference'
+import { sleep } from '@vektopay/helpers/testing/sleep'
+import { apiReferenceConfigurationSchema, apiReferenceConfigurationWithSourceSchema } from '@vektopay/types/api-reference'
 import { flushPromises } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'
@@ -7,7 +7,7 @@ import { nextTick } from 'vue'
 import { createApiReference, createContainer, findDataAttributes, getConfigurationFromDataAttributes } from './html-api'
 
 beforeEach(() => {
-  vi.mock('@scalar/use-hooks/useBreakpoints', () => ({
+  vi.mock('@vektopay/use-hooks/useBreakpoints', () => ({
     useBreakpoints: () => ({
       mediaQueries: {
         lg: { value: true },
@@ -342,7 +342,7 @@ describe('getConfigurationFromDataAttributes', () => {
   it.skip('handles missing spec elements with error', () => {
     expect(getConfigurationFromDataAttributes(document)).toStrictEqual(baseConfig)
     expect(consoleWarnSpy).toHaveBeenCalledWith(
-      "Couldn't find a [data-spec], [data-spec-url] or <script id='api-reference' /> element. Try adding it like this: %c<div data-spec-url='https://registry.scalar.com/@scalar/apis/galaxy?format=yaml' />",
+      "Couldn't find a [data-spec], [data-spec-url] or <script id='api-reference' /> element. Try adding it like this: %c<div data-spec-url='https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml' />",
       'font-family: monospace;',
     )
   })

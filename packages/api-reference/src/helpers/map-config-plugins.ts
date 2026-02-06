@@ -1,5 +1,5 @@
-import type { ClientPlugin } from '@scalar/api-client/v2/helpers'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
+import type { ClientPlugin } from '@vektopay/api-client/v2/helpers'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
 import { type ComputedRef, watch } from 'vue'
 
 /**

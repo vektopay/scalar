@@ -1,4 +1,4 @@
-import type { ScalarIconComponent, ScalarIconWeight } from '@scalar/icons/types'
+import type { ScalarIconComponent, ScalarIconWeight } from '@vektopay/icons/types'
 
 import type { ButtonVariant } from '../ScalarButton/types'
 import type { Icon as LegacyIcon } from '../ScalarIcon'
@@ -14,7 +14,7 @@ export type ScalarIconButtonProps = {
   /**
    * The icon to display in the icon button
    *
-   * Use a component from the `@scalar/icons` package to display
+   * Use a component from the `@vektopay/icons` package to display
    * an icon. String values are deprecated.
    */
   icon: LegacyIcon | ScalarIconComponent

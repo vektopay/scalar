@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import Schema from './Schema.vue'

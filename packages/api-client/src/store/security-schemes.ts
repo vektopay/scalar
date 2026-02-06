@@ -1,11 +1,11 @@
-import { LS_KEYS } from '@scalar/helpers/object/local-storage'
+import { LS_KEYS } from '@vektopay/helpers/object/local-storage'
 import {
   type Collection,
   type SecurityScheme,
   type SecuritySchemePayload,
   securitySchemeSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { mutationFactory } from '@scalar/object-utils/mutator-record'
+} from '@vektopay/oas-utils/entities/spec'
+import { mutationFactory } from '@vektopay/object-utils/mutator-record'
 import { reactive } from 'vue'
 
 import type { StoreContext } from '@/store/store-context'

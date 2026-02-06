@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { truncate } from '@scalar/helpers/string/truncate'
+import { truncate } from '@vektopay/helpers/string/truncate'
 import { computed } from 'vue'
 
 import { ConfirmationForm } from '@/v2/components/forms'

@@ -4,8 +4,8 @@ import {
   ScalarSidebarFooter,
   ScalarSidebarItem,
   ScalarSidebarSearchInput,
-} from '@scalar/components'
-import { ScalarIconDotsThree, ScalarIconPlus } from '@scalar/icons'
+} from '@vektopay/components'
+import { ScalarIconDotsThree, ScalarIconPlus } from '@vektopay/icons'
 
 import { createSidebarState, ScalarSidebar, type Item } from '@/index'
 

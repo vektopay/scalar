@@ -1,4 +1,4 @@
-import type { ApiReferenceConfiguration } from '@scalar/api-reference'
+import type { ApiReferenceConfiguration } from '@vektopay/api-reference'
 import { generate } from 'random-words'
 import { useEffect, useState } from 'react'
 
@@ -41,7 +41,7 @@ function App() {
         {
           title: 'Scalar Galaxy', // optional, would fallback to 'API #1'
           slug: 'scalar-galaxy', // optional, would be auto-generated from the title or the index
-          url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+          url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
           authentication: auth,
         },
       ]}

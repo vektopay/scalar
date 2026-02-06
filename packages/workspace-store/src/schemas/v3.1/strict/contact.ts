@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /** Contact information for the exposed API. */
 export const ContactObjectSchemaDefinition = Type.Object({

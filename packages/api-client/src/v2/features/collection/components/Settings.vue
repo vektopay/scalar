@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ThemeId } from '@scalar/themes'
-import type { ColorMode } from '@scalar/workspace-store/schemas/workspace'
+import type { ThemeId } from '@vektopay/themes'
+import type { ColorMode } from '@vektopay/workspace-store/schemas/workspace'
 import { useRouter } from 'vue-router'
 
 import type { CollectionProps } from '@/v2/features/app/helpers/routes'

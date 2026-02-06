@@ -1,6 +1,6 @@
 import { URL, fileURLToPath } from 'node:url'
 
-import { createViteBuildOptions } from '@scalar/build-tooling/vite'
+import { createViteBuildOptions } from '@vektopay/build-tooling/vite'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import type { PluginOption } from 'vite'

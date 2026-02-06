@@ -5,9 +5,9 @@ import {
   ScalarListbox,
   ScalarModal,
   type ModalState,
-} from '@scalar/components'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
-import { useToasts } from '@scalar/use-toasts'
+} from '@vektopay/components'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
+import { useToasts } from '@vektopay/use-toasts'
 import { computed, ref, watch } from 'vue'
 
 import CommandActionForm from '@/components/CommandPalette/CommandActionForm.vue'

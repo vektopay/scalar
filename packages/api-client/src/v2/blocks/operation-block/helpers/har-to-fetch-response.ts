@@ -1,5 +1,5 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { HarResponse } from '@scalar/snippetz'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { HarResponse } from '@vektopay/snippetz'
 
 import { getCookieHeaderKeys } from '@/v2/blocks/operation-block/helpers/get-cookie-header-keys'
 import type { ResponseInstance } from '@/v2/blocks/operation-block/helpers/send-request'

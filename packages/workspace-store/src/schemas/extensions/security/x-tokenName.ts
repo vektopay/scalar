@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /**
  * An OpenAPI extension to specify a custom token name for OAuth2 flows

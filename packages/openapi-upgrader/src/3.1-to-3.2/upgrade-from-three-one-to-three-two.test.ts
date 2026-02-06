@@ -1,4 +1,4 @@
-import type { OpenAPIV3_2 } from '@scalar/openapi-types'
+import type { OpenAPIV3_2 } from '@vektopay/openapi-types'
 import { describe, expect, it } from 'vitest'
 
 import { upgradeFromThreeOneToThreeTwo } from '@/3.1-to-3.2/upgrade-from-three-one-to-three-two'

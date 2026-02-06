@@ -1,6 +1,6 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
-import type { ParameterObject } from '@scalar/workspace-store/schemas/v3.1/strict/parameter'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
+import type { ParameterObject } from '@vektopay/workspace-store/schemas/v3.1/strict/parameter'
 
 /**
  * Retrieves a parameter from an operation's parameters by name and type ('in').

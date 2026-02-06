@@ -1,4 +1,4 @@
-import type { ENTITY_BRANDS } from '@scalar/types/utils'
+import type { ENTITY_BRANDS } from '@vektopay/types/utils'
 import { z } from 'zod'
 
 /** Schema for selectedSecuritySchemeUids */

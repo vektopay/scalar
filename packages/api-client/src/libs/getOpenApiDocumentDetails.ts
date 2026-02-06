@@ -1,4 +1,4 @@
-import { json, yaml } from '@scalar/oas-utils/helpers'
+import { json, yaml } from '@vektopay/oas-utils/helpers'
 
 import { isUrl } from './isUrl'
 

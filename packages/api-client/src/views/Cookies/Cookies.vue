@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useModal } from '@scalar/components'
-import { cookieSchema, type Cookie } from '@scalar/oas-utils/entities/cookie'
+import { useModal } from '@vektopay/components'
+import { cookieSchema, type Cookie } from '@vektopay/oas-utils/entities/cookie'
 import { computed, onBeforeUnmount, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 

@@ -1,5 +1,5 @@
-// import { ReactRenderer } from '@scalar/react-renderer'
-import type { ApiReferencePlugin } from '@scalar/types/api-reference'
+// import { ReactRenderer } from '@vektopay/react-renderer'
+import type { ApiReferencePlugin } from '@vektopay/types/api-reference'
 
 // import { CustomReactComponent } from './components/CustomReactComponent'
 import CustomVueComponent from './components/CustomVueComponent.vue'

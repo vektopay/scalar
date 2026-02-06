@@ -2,12 +2,12 @@
 /**
  * Scalar Icon Wrapper
  *
- * @deprecated Use the icons from the `@scalar/icons` package instead.
+ * @deprecated Use the icons from the `@vektopay/icons` package instead.
  */
 export default {}
 </script>
 <script setup lang="ts">
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 import { computed } from 'vue'
 
 import type { ScalarIconProps } from './types'

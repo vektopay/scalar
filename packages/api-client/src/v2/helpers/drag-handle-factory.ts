@@ -1,19 +1,19 @@
-import { sortByOrder } from '@scalar/helpers/array/sort-by-order'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { dereference, escapeJsonPointer } from '@scalar/openapi-parser'
-import type { DragOffset, DraggingItem, HoveredItem, SidebarState } from '@scalar/sidebar'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import { getOpenapiObject, getParentEntry } from '@scalar/workspace-store/navigation'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
+import { sortByOrder } from '@vektopay/helpers/array/sort-by-order'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { dereference, escapeJsonPointer } from '@vektopay/openapi-parser'
+import type { DragOffset, DraggingItem, HoveredItem, SidebarState } from '@vektopay/sidebar'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import { getOpenapiObject, getParentEntry } from '@vektopay/workspace-store/navigation'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
 import type {
   TraversedDocument,
   TraversedEntry,
   TraversedOperation,
   TraversedTag,
-} from '@scalar/workspace-store/schemas/navigation'
-import type { OpenApiDocument, TagObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
+} from '@vektopay/workspace-store/schemas/navigation'
+import type { OpenApiDocument, TagObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
 import { type MaybeRefOrGetter, toValue } from 'vue'
 
 import { removeCircular } from '@/v2/helpers/remove-circular'

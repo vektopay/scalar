@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { json2xml } from '@scalar/helpers/file/json2xml'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import { json2xml } from '@vektopay/helpers/file/json2xml'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 withDefaults(
   defineProps<{

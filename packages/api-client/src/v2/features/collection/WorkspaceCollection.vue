@@ -9,7 +9,7 @@ export default {}
 </script>
 
 <script setup lang="ts">
-import { ScalarIconGlobe } from '@scalar/icons'
+import { ScalarIconGlobe } from '@vektopay/icons'
 import { RouterView } from 'vue-router'
 
 import type { RouteProps } from '@/v2/features/app/helpers/routes'

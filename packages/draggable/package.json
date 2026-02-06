@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/draggable",
+  "name": "@vektopay/draggable",
   "description": "A simple vue wrapper around html drag and drop",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -56,9 +56,12 @@
     "vue": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "vite": "catalog:*",
     "vue": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -75,7 +75,7 @@ export default function References() {
   return (
     <ApiReferenceReact
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
       }}
     />
   )
@@ -86,7 +86,7 @@ export default function References() {
 
 By default, this integration will use the latest version of the `@scalar/api-reference`.
 
-You can also pin the CDN to a specific version by specifying it in the CDN string like `https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.25.28`
+You can also pin the CDN to a specific version by specifying it in the CDN string like `https://cdn.vektopay.com/@vektopay/api-reference@1.25.28`
 
 You can find all available CDN versions [here](https://www.jsdelivr.com/package/npm/@scalar/api-reference?tab=files)
 
@@ -96,7 +96,7 @@ import { ApiReference } from '@scalar/nextjs-api-reference'
 
 const config = {
   url: '/openapi.json',
-  cdn: 'https://cdn.jsdelivr.net/npm/@scalar/api-reference@latest',
+  cdn: 'https://cdn.vektopay.com/@vektopay/api-reference@latest',
 }
 
 export const GET = ApiReference(config)
@@ -152,7 +152,7 @@ npm add @scalar/nextjs-api-reference
 import { ApiReference } from '@scalar/nextjs-api-reference'
 
 const config = {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
 }
 
 export const GET = ApiReference(config)
@@ -179,7 +179,7 @@ export default function References() {
   return (
     <ApiReferenceReact
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
       }}
     />
   )

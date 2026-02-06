@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { useRouter } from 'vue-router'
 
 import { ROUTES } from '@/constants'

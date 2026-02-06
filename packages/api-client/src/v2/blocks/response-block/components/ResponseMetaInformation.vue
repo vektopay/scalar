@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import type { ResponseInstance } from '@scalar/oas-utils/entities/spec'
-import { httpStatusCodes, type HttpStatusCode } from '@scalar/oas-utils/helpers'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { ResponseInstance } from '@vektopay/oas-utils/entities/spec'
+import { httpStatusCodes, type HttpStatusCode } from '@vektopay/oas-utils/helpers'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import prettyMilliseconds from 'pretty-ms'
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 

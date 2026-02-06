@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { standardLanguages, syntaxHighlight } from '@scalar/code-highlight'
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
+import { standardLanguages, syntaxHighlight } from '@vektopay/code-highlight'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
 import { computed, useId } from 'vue'
 
 import { ScalarCodeBlockCopy } from '../ScalarCodeBlock'
@@ -87,7 +87,7 @@ const isContentValid = computed(() => {
   </div>
 </template>
 <style>
-@import '@scalar/code-highlight/css/code.css';
+@import '@vektopay/code-highlight/css/code.css';
 .scalar-code-block {
   background: inherit;
   position: relative;

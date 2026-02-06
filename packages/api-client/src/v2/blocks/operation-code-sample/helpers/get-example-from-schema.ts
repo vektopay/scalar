@@ -1,8 +1,8 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { getRaw } from '@scalar/json-magic/magic-proxy'
-import { unpackOverridesProxy } from '@scalar/workspace-store/helpers/overrides-proxy'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { getRaw } from '@vektopay/json-magic/magic-proxy'
+import { unpackOverridesProxy } from '@vektopay/workspace-store/helpers/overrides-proxy'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /** Maximum recursion depth to prevent infinite loops in circular references */
 const MAX_LEVELS_DEEP = 10

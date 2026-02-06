@@ -1,6 +1,6 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
-import type { OpenApiDocument } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
+import type { OpenApiDocument } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import type { FuseData } from '@/v2/features/search/types'
 

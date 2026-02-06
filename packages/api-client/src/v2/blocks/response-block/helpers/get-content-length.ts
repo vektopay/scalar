@@ -1,4 +1,4 @@
-import type { ResponseInstance } from '@scalar/oas-utils/entities/spec'
+import type { ResponseInstance } from '@vektopay/oas-utils/entities/spec'
 import prettyBytes from 'pretty-bytes'
 
 /** Extract content length from headers */

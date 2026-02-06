@@ -1,4 +1,4 @@
-import galaxy from '@scalar/galaxy/3.1.json'
+import galaxy from '@vektopay/galaxy/3.1.json'
 import { bench, describe, expect, vi } from 'vitest'
 
 describe('standalone', () => {

@@ -1,12 +1,12 @@
 import type {
   MergedSecuritySchemes,
   SecuritySchemeObjectSecret,
-} from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import type { AuthenticationConfiguration } from '@scalar/types/api-reference'
+} from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import type { AuthenticationConfiguration } from '@vektopay/types/api-reference'
 import type {
   SecurityRequirementObject,
   SecuritySchemeObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { describe, expect, it } from 'vitest'
 
 import { getDefaultScopes, getDefaultSecurity } from './get-default-security'

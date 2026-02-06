@@ -54,7 +54,7 @@
     "@nestjs/platform-express": "catalog:*",
     "@nestjs/platform-fastify": "catalog:*",
     "@nestjs/swagger": "catalog:*",
-    "@scalar/nestjs-api-reference": "workspace:*",
+    "@vektopay/nestjs-api-reference": "workspace:*",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },

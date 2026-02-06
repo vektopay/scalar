@@ -1,6 +1,6 @@
 import { URL, fileURLToPath } from 'node:url'
 
-import { findEntryPoints } from '@scalar/build-tooling'
+import { findEntryPoints } from '@vektopay/build-tooling'
 import { defineConfig } from 'vite'
 
 import pkg from './package.json'

@@ -1,8 +1,8 @@
 import type { Chat } from '@ai-sdk/vue'
-import { buildRequestSecurity, getResolvedUrl } from '@scalar/api-client/v2/blocks/operation-block'
-import type { SecuritySchemeObjectSecret } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import { redirectToProxy } from '@scalar/helpers/url/redirect-to-proxy'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { buildRequestSecurity, getResolvedUrl } from '@vektopay/api-client/v2/blocks/operation-block'
+import type { SecuritySchemeObjectSecret } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import { redirectToProxy } from '@vektopay/helpers/url/redirect-to-proxy'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import type { UIDataTypes, UIMessage } from 'ai'
 import { n } from 'neverpanic'
 import truncateJson from 'truncate-json'
@@ -77,7 +77,7 @@ function createUrl({ path, activeServer }: { path: string; activeServer: ServerO
     },
   })
 
-  return redirectToProxy('https://proxy.scalar.com', resolvedUrl)
+  return redirectToProxy('https://proxy.vektopay.com', resolvedUrl)
 }
 
 /**

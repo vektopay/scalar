@@ -1,4 +1,4 @@
-import type { CreateApiReference } from '@scalar/types/api-reference'
+import type { CreateApiReference } from '@vektopay/types/api-reference'
 
 import { createApiReference } from '@/standalone/lib/html-api'
 

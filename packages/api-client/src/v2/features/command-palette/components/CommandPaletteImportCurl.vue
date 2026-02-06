@@ -28,9 +28,9 @@ import {
   ScalarIcon,
   ScalarListbox,
   type ScalarComboboxOption,
-} from '@scalar/components'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+} from '@vektopay/components'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 

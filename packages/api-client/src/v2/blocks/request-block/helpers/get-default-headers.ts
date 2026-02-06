@@ -1,7 +1,7 @@
-import { canMethodHaveBody } from '@scalar/helpers/http/can-method-have-body'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { canMethodHaveBody } from '@vektopay/helpers/http/can-method-have-body'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { isElectron } from '@/libs/electron'
 

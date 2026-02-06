@@ -1,6 +1,6 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { OperationExampleMeta, WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { OperationExampleMeta, WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { type ShallowRef, computed } from 'vue'
 import type { Router } from 'vue-router'
 

@@ -1,4 +1,4 @@
-import { REGEX } from '@scalar/helpers/regex/regex-helpers'
+import { REGEX } from '@vektopay/helpers/regex/regex-helpers'
 
 import type { ParsedUrl } from '@/types'
 

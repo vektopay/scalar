@@ -1,6 +1,6 @@
-import { REFERENCE_LS_KEYS, safeLocalStorage } from '@scalar/helpers/object/local-storage'
-import { type Auth, AuthSchema } from '@scalar/workspace-store/entities/auth'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
+import { REFERENCE_LS_KEYS, safeLocalStorage } from '@vektopay/helpers/object/local-storage'
+import { type Auth, AuthSchema } from '@vektopay/workspace-store/entities/auth'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
 
 // Local storage helper instance, safely wrapped.
 const storage = safeLocalStorage()

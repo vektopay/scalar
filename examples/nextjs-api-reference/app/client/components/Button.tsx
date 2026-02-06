@@ -1,6 +1,6 @@
 'use client'
 
-import { useApiClientModal } from '@scalar/api-client-react'
+import { useApiClientModal } from '@vektopay/api-client-react'
 
 export const Button = ({ method, path }: { method: 'GET' | 'POST'; path: string }) => {
   const client = useApiClientModal()

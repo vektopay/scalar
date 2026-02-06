@@ -1,8 +1,8 @@
-import { bundle } from '@scalar/json-magic/bundle'
-import { fetchUrls } from '@scalar/json-magic/bundle/plugins/browser'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { bundle } from '@vektopay/json-magic/bundle'
+import { fetchUrls } from '@vektopay/json-magic/bundle/plugins/browser'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import type { Ref } from 'vue'
 
 import type { Api } from '@/api'

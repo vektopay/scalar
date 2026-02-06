@@ -1,6 +1,6 @@
-import { getHtmlDocument } from '@scalar/core/libs/html-rendering'
-import { normalize, toJson, toYaml } from '@scalar/openapi-parser'
-import type { OpenAPI } from '@scalar/openapi-types'
+import { getHtmlDocument } from '@vektopay/core/libs/html-rendering'
+import { normalize, toJson, toYaml } from '@vektopay/openapi-parser'
+import type { OpenAPI } from '@vektopay/openapi-types'
 import type { FastifyBaseLogger, FastifyTypeProviderDefault, RawServerDefault } from 'fastify'
 import fp from 'fastify-plugin'
 import { slug } from 'github-slugger'
@@ -103,7 +103,7 @@ const fastifyApiReference = fp<
     // If no OpenAPI specification is passed and @fastify/swagger isn't loaded, show a warning.
     if (!specSource && !configuration.sources) {
       fastify.log.warn(
-        "[@scalar/fastify-api-reference] You didn't provide a `content`, `url`, `sources` or @fastify/swagger could not be found. Please provide one of these options.",
+        "[@vektopay/fastify-api-reference] You didn't provide a `content`, `url`, `sources` or @fastify/swagger could not be found. Please provide one of these options.",
       )
 
       return next()
@@ -124,7 +124,7 @@ const fastifyApiReference = fp<
     }
 
     const getSpecFilenameSlug = (spec: OpenAPI.Document) => {
-      // Same GitHub Slugger and default file name as in `@scalar/api-reference`, when generating the download
+      // Same GitHub Slugger and default file name as in `@vektopay/api-reference`, when generating the download
       return slug(spec?.specification?.info?.title ?? 'spec')
     }
 
@@ -250,7 +250,7 @@ const fastifyApiReference = fp<
     next()
   },
   {
-    name: '@scalar/fastify-api-reference',
+    name: '@vektopay/fastify-api-reference',
   },
 )
 

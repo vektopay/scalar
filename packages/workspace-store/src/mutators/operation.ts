@@ -1,7 +1,7 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { isHttpMethod } from '@scalar/helpers/http/is-http-method'
-import { preventPollution } from '@scalar/helpers/object/prevent-pollution'
-import { findVariables } from '@scalar/helpers/regex/find-variables'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { isHttpMethod } from '@vektopay/helpers/http/is-http-method'
+import { preventPollution } from '@vektopay/helpers/object/prevent-pollution'
+import { findVariables } from '@vektopay/helpers/regex/find-variables'
 
 import type { WorkspaceStore } from '@/client'
 import type { HooksEvents } from '@/events/definitions/hooks'

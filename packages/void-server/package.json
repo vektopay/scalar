@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/void-server",
+  "name": "@vektopay/void-server",
   "description": "Mirror for HTTP requests",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -47,12 +47,15 @@
   ],
   "dependencies": {
     "@hono/node-server": "catalog:*",
-    "@scalar/helpers": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
     "hono": "catalog:*",
     "js-base64": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

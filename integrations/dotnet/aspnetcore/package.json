@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/aspnetcore",
+  "name": "@vektopay/aspnetcore",
   "description": "The `Scalar.AspNetCore` NuGet package provides an easy way to render beautiful API References based on OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -43,10 +43,10 @@
     }
   },
   "dependencies": {
-    "@scalar/api-reference": "workspace:*",
-    "@scalar/dotnet-shared": "workspace:*"
+    "@vektopay/api-reference": "workspace:*",
+    "@vektopay/dotnet-shared": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*"
+    "@vektopay/build-tooling": "workspace:*"
   }
 }

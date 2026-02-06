@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import { ScalarIconButton } from '@scalar/components'
-import { ScalarIconNotePencil, ScalarIconTrash } from '@scalar/icons'
+import { ScalarIconButton } from '@vektopay/components'
+import { ScalarIconNotePencil, ScalarIconTrash } from '@vektopay/icons'
 import type {
   CollectionType,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 
 import EnvironmentVariablesTable from '@/v2/features/environments/components/EnvironmentVariablesTable.vue'
 

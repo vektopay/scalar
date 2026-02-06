@@ -1,4 +1,4 @@
-import { normalize, toYaml } from '@scalar/openapi-parser'
+import { normalize, toYaml } from '@vektopay/openapi-parser'
 import { describe, expect, it } from 'vitest'
 
 import { createMockServer } from '../src/create-mock-server'

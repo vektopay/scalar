@@ -4,11 +4,11 @@ import {
   ScalarIconButton,
   ScalarTextInput,
   useLoadingState,
-} from '@scalar/components'
-import { ScalarIconCopy } from '@scalar/icons'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
-import { useToasts } from '@scalar/use-toasts'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+} from '@vektopay/components'
+import { ScalarIconCopy } from '@vektopay/icons'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
+import { useToasts } from '@vektopay/use-toasts'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 
 import { REGISTRY_SHARE_URL } from '@/consts/urls'
 import ApiReferenceToolbarBlurb from '@/features/toolbar/ApiReferenceToolbarBlurb.vue'

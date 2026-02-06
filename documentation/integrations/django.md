@@ -103,7 +103,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 def scalar_viewer(request):
     openapi_url = "/api/schema/"
     title = "Scalar Api Reference"
-    scalar_js_url = "https://cdn.jsdelivr.net/npm/@scalar/api-reference"
+    scalar_js_url = "https://cdn.vektopay.com/@vektopay/api-reference"
     scalar_proxy_url = ""
     scalar_favicon_url = "/static/favicon.ico"
 

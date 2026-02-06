@@ -25,13 +25,13 @@ import {
   ScalarDropdownItem,
   ScalarIcon,
   ScalarListbox,
-} from '@scalar/components'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+} from '@vektopay/components'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import type {
   TraversedEntry,
   TraversedOperation,
-} from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/workspace-store/schemas/navigation'
 import { computed, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

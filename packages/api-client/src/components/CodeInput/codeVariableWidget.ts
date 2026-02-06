@@ -1,7 +1,7 @@
-import { ScalarTooltip } from '@scalar/components'
-import { ScalarIconGlobe } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import { REGEX } from '@scalar/oas-utils/helpers'
+import { ScalarTooltip } from '@vektopay/components'
+import { ScalarIconGlobe } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import { REGEX } from '@vektopay/oas-utils/helpers'
 import {
   Decoration,
   type DecorationSet,
@@ -10,7 +10,7 @@ import {
   ViewPlugin,
   type ViewUpdate,
   WidgetType,
-} from '@scalar/use-codemirror'
+} from '@vektopay/use-codemirror'
 import { nanoid } from 'nanoid'
 import { createApp, defineComponent, h } from 'vue'
 

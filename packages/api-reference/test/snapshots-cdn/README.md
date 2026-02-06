@@ -4,7 +4,7 @@ This directory contains automated snapshot testing infrastructure for Scalar API
 
 ## Overview
 
-The testing setup uses Playwright to capture visual snapshots of different reference configuration and compares the snapshots of the current branch to snapshots of the CDN (`https://cdn.jsdelivr.net/npm/@scalar/api-reference`).
+The testing setup uses Playwright to capture visual snapshots of different reference configuration and compares the snapshots of the current branch to snapshots of the CDN (`https://cdn.vektopay.com/@vektopay/api-reference`).
 
 Because of variability between the latest released version and `main` there may be differences that are caused by other changes in `main` that aren't part of the current branch.
 

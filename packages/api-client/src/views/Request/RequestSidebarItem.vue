@@ -4,15 +4,15 @@ import {
   ScalarIcon,
   ScalarSidebarGroupToggle,
   ScalarTooltip,
-} from '@scalar/components'
+} from '@vektopay/components'
 import {
   Draggable,
   type DraggableProps,
   type DraggingItem,
   type HoveredItem,
-} from '@scalar/draggable'
-import type { Collection, Request } from '@scalar/oas-utils/entities/spec'
-import { shouldIgnoreEntity } from '@scalar/oas-utils/helpers'
+} from '@vektopay/draggable'
+import type { Collection, Request } from '@vektopay/oas-utils/entities/spec'
+import { shouldIgnoreEntity } from '@vektopay/oas-utils/helpers'
 import { computed, nextTick, ref } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
 
@@ -679,7 +679,7 @@ const shouldShowItem = computed(() => {
   </li>
 </template>
 <style>
-@import '@scalar/draggable/style.css';
+@import '@vektopay/draggable/style.css';
 </style>
 <style scoped>
 .indent-border-line-offset:before {

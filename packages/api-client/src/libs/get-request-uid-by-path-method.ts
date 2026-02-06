@@ -1,4 +1,4 @@
-import type { Operation } from '@scalar/oas-utils/entities/spec'
+import type { Operation } from '@vektopay/oas-utils/entities/spec'
 
 import type { OpenClientPayload } from '@/libs/create-client'
 import { findRequestByPathMethod } from '@/libs/find-request'

@@ -1,6 +1,6 @@
-import { environmentSchema } from '@scalar/oas-utils/entities/environment'
-import { operationSchema, requestExampleSchema } from '@scalar/oas-utils/entities/spec'
-import { workspaceSchema } from '@scalar/oas-utils/entities/workspace'
+import { environmentSchema } from '@vektopay/oas-utils/entities/environment'
+import { operationSchema, requestExampleSchema } from '@vektopay/oas-utils/entities/spec'
+import { workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

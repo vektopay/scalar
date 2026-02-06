@@ -1,6 +1,6 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { isHttpMethod } from '@scalar/helpers/http/is-http-method'
-import { objectKeys } from '@scalar/helpers/object/object-keys'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { isHttpMethod } from '@vektopay/helpers/http/is-http-method'
+import { objectKeys } from '@vektopay/helpers/object/object-keys'
 
 import { getResolvedRef } from '@/helpers/get-resolved-ref'
 import { isDeprecatedOperation } from '@/navigation/helpers/traverse-paths'
@@ -86,6 +86,7 @@ export const traverseWebhooks = ({
   generateId,
   untaggedWebhooksParentId,
   documentId,
+  includeInternal = false,
 }: {
   /** Openapi document */
   document: OpenApiDocument
@@ -94,6 +95,7 @@ export const traverseWebhooks = ({
   generateId: TraverseSpecOptions['generateId']
   untaggedWebhooksParentId: string
   documentId: string
+  includeInternal?: boolean
 }): TraversedWebhook[] => {
   const untagged: TraversedWebhook[] = []
 
@@ -109,7 +111,7 @@ export const traverseWebhooks = ({
       }
 
       // Skip if the operation is internal or scalar-ignore
-      if (operation['x-internal'] || operation['x-scalar-ignore']) {
+      if ((!includeInternal && operation['x-internal']) || operation['x-scalar-ignore']) {
         return
       }
 

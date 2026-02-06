@@ -1,4 +1,4 @@
-import { apiReferenceConfigurationWithSourceSchema } from '@scalar/types/api-reference'
+import { apiReferenceConfigurationWithSourceSchema } from '@vektopay/types/api-reference'
 import { renderToString } from '@vue/server-renderer'
 import { expect, it, vi } from 'vitest'
 import { createSSRApp, h } from 'vue'
@@ -15,12 +15,12 @@ const EXAMPLE_API_DEFINITIONS = [
   },
   {
     title: 'Scalar Galaxy',
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
     name: 'scalar-galaxy-1.json',
   },
   {
     title: 'Scalar Galaxy',
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
     name: 'scalar-galaxy-2.yaml',
   },
   {

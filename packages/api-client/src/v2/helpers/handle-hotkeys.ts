@@ -1,5 +1,5 @@
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
-import type { ApiReferenceEvents, WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
+import type { ApiReferenceEvents, WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 import type { ClientLayout } from '@/v2/types/layout'
 

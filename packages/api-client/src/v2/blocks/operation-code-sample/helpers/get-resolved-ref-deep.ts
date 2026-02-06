@@ -1,5 +1,5 @@
-import { getRaw } from '@scalar/json-magic/magic-proxy'
-import type { Dereference } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import { getRaw } from '@vektopay/json-magic/magic-proxy'
+import type { Dereference } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 
 type RefNode<Node> = Partial<Node> & { $ref: string; '$ref-value': Node | RefNode<Node> }
 type NodeInput<Node> = Node | RefNode<Node>

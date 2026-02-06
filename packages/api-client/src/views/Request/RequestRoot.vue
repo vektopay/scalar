@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { safeJSON } from '@scalar/object-utils/parse'
-import { useToasts } from '@scalar/use-toasts'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { safeJSON } from '@vektopay/object-utils/parse'
+import { useToasts } from '@vektopay/use-toasts'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { RouterView } from 'vue-router'
 

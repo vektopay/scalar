@@ -1,6 +1,6 @@
-import type { Operation, RequestExample, SecurityScheme, Server } from '@scalar/oas-utils/entities/spec'
-import { REGEX } from '@scalar/oas-utils/helpers'
-import type { HarRequest } from '@scalar/snippetz'
+import type { Operation, RequestExample, SecurityScheme, Server } from '@vektopay/oas-utils/entities/spec'
+import { REGEX } from '@vektopay/oas-utils/helpers'
+import type { HarRequest } from '@vektopay/snippetz'
 
 import type { EnvVariables } from '@/libs/env-helpers'
 import { buildRequestSecurity } from '@/libs/send-request/build-request-security'

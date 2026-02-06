@@ -7,21 +7,21 @@ import {
   useModal,
   type Icon,
   type ScalarButton as ScalarButtonType,
-} from '@scalar/components'
-import { ScalarIconCaretDown, ScalarIconTrash } from '@scalar/icons'
-import type { SelectedSecurity } from '@scalar/workspace-store/entities/auth'
+} from '@vektopay/components'
+import { ScalarIconCaretDown, ScalarIconTrash } from '@vektopay/icons'
+import type { SelectedSecurity } from '@vektopay/workspace-store/entities/auth'
 import type {
   AuthMeta,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import type {
   OpenApiDocument,
   SecurityRequirementObject,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref, useId } from 'vue'
 
 import DeleteRequestAuthModal from '@/v2/blocks/scalar-auth-selector-block/components/DeleteRequestAuthModal.vue'

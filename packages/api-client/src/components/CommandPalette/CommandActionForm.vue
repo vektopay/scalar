@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarButton, useBindCx, type LoadingState } from '@scalar/components'
+import { ScalarButton, useBindCx, type LoadingState } from '@vektopay/components'
 
 const { loader, disabled = false } = defineProps<{
   loader?: LoadingState

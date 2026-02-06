@@ -1,4 +1,4 @@
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 import { defineComponent } from 'vue'
 
 const variants = cva({

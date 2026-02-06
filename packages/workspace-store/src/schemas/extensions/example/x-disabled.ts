@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /**
  * OpenAPI extension to control whether a parameter example is enabled (checkbox on) or disabled (checkbox off).

@@ -1,9 +1,9 @@
-import { getHtmlDocument } from '@scalar/core/libs/html-rendering'
+import { getHtmlDocument } from '@vektopay/core/libs/html-rendering'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { ApiReference } from '../src/ApiReference'
 
-vi.mock('@scalar/core/libs/html-rendering', { spy: true })
+vi.mock('@vektopay/core/libs/html-rendering', { spy: true })
 vi.mock('../src/custom-theme', () => ({ customTheme: '___customTheme___' }))
 
 const getHtmlDocumentSpy = vi.mocked(getHtmlDocument)

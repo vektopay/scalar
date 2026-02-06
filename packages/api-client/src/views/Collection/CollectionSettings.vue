@@ -5,7 +5,7 @@ import {
   ScalarModal,
   ScalarToggle,
   useModal,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { useRouter } from 'vue-router'
 
 import DeleteSidebarListElement from '@/components/Sidebar/Actions/DeleteSidebarListElement.vue'

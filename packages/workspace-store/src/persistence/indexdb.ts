@@ -1,4 +1,4 @@
-import type { Static, TObject, TRecord } from '@scalar/typebox'
+import type { Static, TObject, TRecord } from '@vektopay/typebox'
 
 type TableEntry<S extends TObject, K extends readonly (keyof Static<S>)[]> = {
   schema: S
@@ -19,7 +19,7 @@ type TableEntry<S extends TObject, K extends readonly (keyof Static<S>)[]> = {
  *
  * Example usage:
  * ```ts
- * import { Type } from '@scalar/typebox'
+ * import { Type } from '@vektopay/typebox'
  * import { createIndexDbConnection } from './indexdb'
  *
  * // Define a schema for a user

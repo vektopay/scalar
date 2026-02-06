@@ -1,6 +1,6 @@
 import FastifyBasicAuth, { type FastifyBasicAuthOptions } from '@fastify/basic-auth'
 import fastifySwagger from '@fastify/swagger'
-import type { OpenAPI } from '@scalar/openapi-types'
+import type { OpenAPI } from '@vektopay/openapi-types'
 import Fastify, { type FastifyPluginAsync } from 'fastify'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import YAML from 'yaml'
@@ -31,7 +31,7 @@ function exampleDocument() {
     },
     paths: {},
     /**
-     * Required, to match result of the exposed spec endpoint, provided by `@scalar/openapi-parser`
+     * Required, to match result of the exposed spec endpoint, provided by `@vektopay/openapi-parser`
      */
     components: {
       schemas: {},
@@ -143,7 +143,7 @@ describe('fastifyApiReference', () => {
       },
     })
 
-    expect(fastify.hasPlugin('@scalar/fastify-api-reference')).toBeTruthy()
+    expect(fastify.hasPlugin('@vektopay/fastify-api-reference')).toBeTruthy()
   })
 
   it('no fastify-html exposed', async () => {
@@ -497,10 +497,10 @@ describe('fastifyApiReference', () => {
 
     expect(warnSpy).toHaveBeenCalledExactlyOnceWith(
       expect.stringContaining(
-        "[@scalar/fastify-api-reference] You didn't provide a `content`, `url`, `sources` or @fastify/swagger could not be found.",
+        "[@vektopay/fastify-api-reference] You didn't provide a `content`, `url`, `sources` or @fastify/swagger could not be found.",
       ),
     )
-    expect(fastify.hasPlugin('@scalar/fastify-api-reference')).toBeTruthy()
+    expect(fastify.hasPlugin('@vektopay/fastify-api-reference')).toBeTruthy()
   })
 
   it('serves Scalar UI when only sources option is provided', async () => {

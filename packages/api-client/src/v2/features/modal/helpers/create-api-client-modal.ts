@@ -1,6 +1,6 @@
-import { type ModalState, useModal } from '@scalar/components'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import { type WorkspaceEventBus, createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import { type ModalState, useModal } from '@vektopay/components'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import { type WorkspaceEventBus, createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { type App, computed, createApp, reactive } from 'vue'
 
 import {
@@ -109,7 +109,7 @@ export const createApiClientModal = ({
   const mount = (mountingEl: HTMLElement | null = el): void => {
     if (!mountingEl) {
       console.error(
-        '[@scalar/api-client] Could not create the API client Modal.',
+        '[@vektopay/api-client] Could not create the API client Modal.',
         'Invalid HTML element provided.',
         'Read more: https://github.com/scalar/scalar/tree/main/packages/api-client',
       )

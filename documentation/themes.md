@@ -83,7 +83,7 @@ Here is an example of how to use the `Roboto` font from Google Fonts with the CD
         withDefaultFonts: 'false',
       }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
   </body>
 </html>
 ```

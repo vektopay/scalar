@@ -18,7 +18,7 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { ScalarIconArrowRight, ScalarIconCaretLeft } from '@scalar/icons'
+import { ScalarIconArrowRight, ScalarIconCaretLeft } from '@vektopay/icons'
 import { nextTick, ref, useTemplateRef } from 'vue'
 
 import { ScalarIconLegacyAdapter } from '../ScalarIcon'

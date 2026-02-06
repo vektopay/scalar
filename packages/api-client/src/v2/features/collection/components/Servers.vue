@@ -4,10 +4,10 @@ import {
   ScalarMarkdown,
   ScalarModal,
   useModal,
-} from '@scalar/components'
-import { debounce } from '@scalar/helpers/general/debounce'
-import { ScalarIconPlus, ScalarIconTrash } from '@scalar/icons'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/components'
+import { debounce } from '@vektopay/helpers/general/debounce'
+import { ScalarIconPlus, ScalarIconTrash } from '@vektopay/icons'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref } from 'vue'
 
 import { ServerVariablesForm } from '@/components/Server'

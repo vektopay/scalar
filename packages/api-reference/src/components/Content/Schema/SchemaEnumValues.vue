@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { ScalarIconPlus } from '@scalar/icons'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import { isArraySchema } from '@scalar/workspace-store/schemas/v3.1/strict/type-guards'
+import { ScalarButton } from '@vektopay/components'
+import { ScalarIconPlus } from '@vektopay/icons'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import { isArraySchema } from '@vektopay/workspace-store/schemas/v3.1/strict/type-guards'
 import { computed, ref } from 'vue'
 
 import SchemaEnumPropertyItem from './SchemaEnumPropertyItem.vue'

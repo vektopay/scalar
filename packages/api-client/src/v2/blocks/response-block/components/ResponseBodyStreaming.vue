@@ -3,7 +3,7 @@ import {
   ScalarButton,
   ScalarLoading,
   useLoadingState,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { nextTick, onBeforeUnmount, ref, watch } from 'vue'
 
 import { CollapsibleSection } from '@/v2/components/layout'

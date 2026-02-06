@@ -1,7 +1,7 @@
-import { useModal } from '@scalar/components'
-import type { RequestEvent, SecurityScheme } from '@scalar/oas-utils/entities/spec'
-import type { Path, PathValue } from '@scalar/object-utils/nested'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+import { useModal } from '@vektopay/components'
+import type { RequestEvent, SecurityScheme } from '@vektopay/oas-utils/entities/spec'
+import type { Path, PathValue } from '@vektopay/object-utils/nested'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 import { inject, reactive, ref, toRaw } from 'vue'
 
 import { createStoreCollections, extendedCollectionDataFactory } from '@/store/collections'

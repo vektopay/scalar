@@ -24,13 +24,13 @@
   },
   "type": "module",
   "dependencies": {
-    "@scalar/api-reference": "workspace:*",
-    "@scalar/oas-utils": "workspace:*",
-    "@scalar/types": "workspace:*",
+    "@vektopay/api-reference": "workspace:*",
+    "@vektopay/oas-utils": "workspace:*",
+    "@vektopay/types": "workspace:*",
     "vue": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "vite": "catalog:*",
     "vite-ssg": "catalog:*"

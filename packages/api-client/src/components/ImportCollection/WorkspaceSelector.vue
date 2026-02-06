@@ -7,8 +7,8 @@ import {
   ScalarIcon,
   ScalarModal,
   useModal,
-} from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
+} from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 

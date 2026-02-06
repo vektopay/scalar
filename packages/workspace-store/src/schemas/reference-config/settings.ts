@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 import type { RequiredDeep } from 'type-fest'
 
 import { ServerObjectSchema } from '@/schemas/v3.1/strict/openapi-document'

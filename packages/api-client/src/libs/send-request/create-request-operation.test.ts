@@ -1,5 +1,5 @@
-import type { SelectedSecuritySchemeUids } from '@scalar/oas-utils/entities/shared'
-import { securitySchemeSchema } from '@scalar/oas-utils/entities/spec'
+import type { SelectedSecuritySchemeUids } from '@vektopay/oas-utils/entities/shared'
+import { securitySchemeSchema } from '@vektopay/oas-utils/entities/spec'
 import { PROXY_PORT, PROXY_URL, VOID_PORT, VOID_URL, createRequestPayload } from '@test/helpers'
 import { encode } from 'js-base64'
 import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest'
@@ -18,7 +18,7 @@ beforeAll(async () => {
   } catch (_error) {
     throw new Error(`
 
-[sendRequest.test.ts] Looks like you're not running @scalar/proxy-server on <http://127.0.0.1:${PROXY_PORT}>, but it's required for this test file.
+[sendRequest.test.ts] Looks like you're not running @vektopay/proxy-server on <http://127.0.0.1:${PROXY_PORT}>, but it's required for this test file.
 
 Try to run it like this:
 
@@ -36,7 +36,7 @@ $ pnpm dev:proxy-server
   } catch (_error) {
     throw new Error(`
 
-[sendRequest.test.ts] Looks like you're not running @scalar/void-server on <http://127.0.0.1:${VOID_PORT}>, but it's required for this test file.
+[sendRequest.test.ts] Looks like you're not running @vektopay/void-server on <http://127.0.0.1:${VOID_PORT}>, but it's required for this test file.
 
 Try to run it like this:
 

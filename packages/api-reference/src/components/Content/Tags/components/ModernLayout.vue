@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { TraversedTag } from '@scalar/workspace-store/schemas/navigation'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { TraversedTag } from '@vektopay/workspace-store/schemas/navigation'
 import { computed, ref, useId } from 'vue'
 
 import Lazy from '@/components/Lazy/Lazy.vue'

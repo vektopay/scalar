@@ -1,4 +1,4 @@
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 
 export type EnvVariables = { key: string; value: string; source: 'global' | 'collection' }[]
 

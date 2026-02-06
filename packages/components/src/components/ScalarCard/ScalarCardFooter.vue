@@ -11,7 +11,7 @@
 export default {}
 </script>
 <script lang="ts" setup>
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 import ScalarCardSection from './ScalarCardSection.vue'
 

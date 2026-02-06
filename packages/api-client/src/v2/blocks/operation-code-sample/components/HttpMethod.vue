@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { getHttpMethodInfo } from '@scalar/helpers/http/http-info'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { normalizeHttpMethod } from '@scalar/helpers/http/normalize-http-method'
+import { getHttpMethodInfo } from '@vektopay/helpers/http/http-info'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { normalizeHttpMethod } from '@vektopay/helpers/http/normalize-http-method'
 import { computed, type Component } from 'vue'
 
 const props = defineProps<{

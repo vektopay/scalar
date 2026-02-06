@@ -1,11 +1,11 @@
 <script lang="ts" setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ScalarIcon, ScalarMarkdown } from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { ScalarIcon, ScalarMarkdown } from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import type {
   DiscriminatorObject,
   SchemaObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import type { SchemaOptions } from '@/components/Content/Schema/types'

@@ -1,13 +1,13 @@
 <script lang="ts" setup>
-import { ScalarListbox, type ScalarListboxOption } from '@scalar/components'
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { ScalarIconCaretDown } from '@scalar/icons'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { resolve } from '@scalar/workspace-store/resolve'
+import { ScalarListbox, type ScalarListboxOption } from '@vektopay/components'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { ScalarIconCaretDown } from '@vektopay/icons'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { resolve } from '@vektopay/workspace-store/resolve'
 import type {
   DiscriminatorObject,
   SchemaObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref } from 'vue'
 
 import type { SchemaOptions } from '@/components/Content/Schema/types'

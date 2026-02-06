@@ -3,16 +3,16 @@ import {
   ScalarIconButton,
   ScalarSidebarSearchInput,
   type ScalarListboxOption,
-} from '@scalar/components'
-import { ScalarIconFileDashed, ScalarIconMagnifyingGlass } from '@scalar/icons'
+} from '@vektopay/components'
+import { ScalarIconFileDashed, ScalarIconMagnifyingGlass } from '@vektopay/icons'
 import {
   ScalarSidebar,
   type DraggingItem,
   type HoveredItem,
   type SidebarState,
-} from '@scalar/sidebar'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/sidebar'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
 import { computed, ref } from 'vue'
 
 import { Resize } from '@/v2/components/resize'

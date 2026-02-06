@@ -1,5 +1,5 @@
-import { ScalarTooltip } from '@scalar/components'
-import { REGEX } from '@scalar/helpers/regex/regex-helpers'
+import { ScalarTooltip } from '@vektopay/components'
+import { REGEX } from '@vektopay/helpers/regex/regex-helpers'
 import {
   Decoration,
   type DecorationSet,
@@ -8,8 +8,8 @@ import {
   ViewPlugin,
   type ViewUpdate,
   WidgetType,
-} from '@scalar/use-codemirror'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/use-codemirror'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { createApp, defineComponent, h } from 'vue'
 
 /**

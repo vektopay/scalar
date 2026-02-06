@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cva, cx, ScalarButton, ScalarIcon } from '@scalar/components'
+import { cva, cx, ScalarButton, ScalarIcon } from '@vektopay/components'
 
 defineProps<{
   colorMode: 'system' | 'light' | 'dark'

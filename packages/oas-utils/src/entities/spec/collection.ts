@@ -1,5 +1,5 @@
-import { oasSecurityRequirementSchema } from '@scalar/types/entities'
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+import { oasSecurityRequirementSchema } from '@vektopay/types/entities'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 import { z } from 'zod'
 
 import { selectedSecuritySchemeUidSchema } from '@/entities/shared/utility'

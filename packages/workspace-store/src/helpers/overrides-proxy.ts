@@ -1,4 +1,4 @@
-import { isObject } from '@scalar/helpers/object/is-object'
+import { isObject } from '@vektopay/helpers/object/is-object'
 
 const isOverridesProxy = Symbol('isOverridesProxy')
 export const getOverridesTarget = Symbol('getOverridesTarget')

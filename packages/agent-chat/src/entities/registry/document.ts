@@ -1,5 +1,5 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import type { SecurityScheme } from '@scalar/types/entities'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import type { SecurityScheme } from '@vektopay/types/entities'
 import z from 'zod'
 
 export const registryApiMetadata = z.object({

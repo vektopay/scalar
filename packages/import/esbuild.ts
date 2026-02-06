@@ -1,4 +1,4 @@
-import { build } from '@scalar/build-tooling/esbuild'
+import { build } from '@vektopay/build-tooling/esbuild'
 
 build({
   entries: ['./src/index.ts'],

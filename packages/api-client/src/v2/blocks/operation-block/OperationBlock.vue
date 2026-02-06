@@ -17,26 +17,26 @@ export default {
 }
 </script>
 <script setup lang="ts">
-import type { HttpMethod as HttpMethodType } from '@scalar/helpers/http/http-methods'
-import type { ResponseInstance } from '@scalar/oas-utils/entities/spec'
+import type { HttpMethod as HttpMethodType } from '@vektopay/helpers/http/http-methods'
+import type { ResponseInstance } from '@vektopay/oas-utils/entities/spec'
 import {
   AVAILABLE_CLIENTS,
   type AvailableClients,
-} from '@scalar/types/snippetz'
-import { useToasts } from '@scalar/use-toasts'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { SelectedSecurity } from '@scalar/workspace-store/entities/auth'
-import type { HistoryEntry } from '@scalar/workspace-store/entities/history/schema'
+} from '@vektopay/types/snippetz'
+import { useToasts } from '@vektopay/use-toasts'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { SelectedSecurity } from '@vektopay/workspace-store/entities/auth'
+import type { HistoryEntry } from '@vektopay/workspace-store/entities/history/schema'
 import type {
   AuthMeta,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import type {
   OpenApiDocument,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 
 import ViewLayout from '@/components/ViewLayout/ViewLayout.vue'

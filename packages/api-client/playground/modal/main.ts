@@ -3,8 +3,8 @@ import { createApiClientModal } from '@/index'
 const { client } = await createApiClientModal({
   el: document.getElementById('app'),
   configuration: {
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
-    proxyUrl: 'https://proxy.scalar.com',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
+    proxyUrl: 'https://proxy.vektopay.com',
   },
 })
 

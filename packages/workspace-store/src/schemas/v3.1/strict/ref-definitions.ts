@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /**
  * Reference definitions for OpenAPI 3.1 objects.

@@ -1,5 +1,5 @@
-import { getObjectKeys, normalizeMimeTypeObject } from '@scalar/oas-utils/helpers'
-import type { MediaTypeObject, ResponseObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { getObjectKeys, normalizeMimeTypeObject } from '@vektopay/oas-utils/helpers'
+import type { MediaTypeObject, ResponseObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /**
  * Checks if a media type object has any displayable content.

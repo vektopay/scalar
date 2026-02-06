@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import type { Cookie } from '@scalar/oas-utils/entities/cookie'
-import type { Path, PathValue } from '@scalar/object-utils/nested'
+import { ScalarIcon } from '@vektopay/components'
+import type { Cookie } from '@vektopay/oas-utils/entities/cookie'
+import type { Path, PathValue } from '@vektopay/object-utils/nested'
 import { useId } from 'vue'
 
 import DataTable from '@/components/DataTable/DataTable.vue'

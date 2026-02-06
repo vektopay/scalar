@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 
 import SideNavLink from '@/components/SideNav/SideNavLink.vue'
 import { useLayout } from '@/hooks'

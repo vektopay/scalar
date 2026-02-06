@@ -1,7 +1,7 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { isHttpMethod } from '@scalar/helpers/http/is-http-method'
-import { objectKeys } from '@scalar/helpers/object/object-keys'
-import { escapeJsonPointer } from '@scalar/json-magic/helpers/escape-json-pointer'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { isHttpMethod } from '@vektopay/helpers/http/is-http-method'
+import { objectKeys } from '@vektopay/helpers/object/object-keys'
+import { escapeJsonPointer } from '@vektopay/json-magic/helpers/escape-json-pointer'
 
 import { getResolvedRef } from '@/helpers/get-resolved-ref'
 import { traverseOperationExamples } from '@/navigation/helpers/traverse-examples'
@@ -104,6 +104,7 @@ export const traversePaths = ({
   tagsMap,
   generateId,
   documentId,
+  includeInternal = false,
 }: {
   document: OpenApiDocument
   /** Map of tags and their entries */
@@ -112,6 +113,8 @@ export const traversePaths = ({
   generateId: TraverseSpecOptions['generateId']
   /** Document ID */
   documentId: string
+  /** Whether to include x-internal entities */
+  includeInternal?: boolean
 }): { untaggedOperations: TraversedOperation[] } => {
   const untaggedOperations: TraversedOperation[] = []
 
@@ -127,7 +130,7 @@ export const traversePaths = ({
       }
 
       // Skip if the operation is internal or scalar-ignore
-      if (operation['x-internal'] || operation['x-scalar-ignore'] || !isHttpMethod(method)) {
+      if ((!includeInternal && operation['x-internal']) || operation['x-scalar-ignore'] || !isHttpMethod(method)) {
         return
       }
 

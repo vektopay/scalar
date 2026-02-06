@@ -5,9 +5,9 @@ import {
   ScalarModal,
   type ModalState,
   type ScalarListboxOption,
-} from '@scalar/components'
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import type { InMemoryWorkspace } from '@scalar/workspace-store/schemas/inmemory-workspace'
+} from '@vektopay/components'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import type { InMemoryWorkspace } from '@vektopay/workspace-store/schemas/inmemory-workspace'
 import { computed, onUnmounted, ref, watch } from 'vue'
 
 import WatchModeToggle from '@/components/CommandPalette/WatchModeToggle.vue'

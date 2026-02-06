@@ -1,4 +1,4 @@
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/server'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/server'
 import { describe, expect, it } from 'vitest'
 
 import { getServerUrl } from './get-server-url'

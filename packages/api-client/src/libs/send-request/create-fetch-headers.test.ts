@@ -1,4 +1,4 @@
-import type { RequestExample } from '@scalar/oas-utils/entities/spec'
+import type { RequestExample } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { createFetchHeaders } from './create-fetch-headers'

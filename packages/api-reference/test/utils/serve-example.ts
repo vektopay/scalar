@@ -3,8 +3,8 @@ import { join } from 'node:path'
 
 import { serve } from '@hono/node-server'
 import { serveStatic } from '@hono/node-server/serve-static'
-import { getHtmlDocument } from '@scalar/core/libs/html-rendering'
-import type { HtmlRenderingConfiguration } from '@scalar/types/api-reference'
+import { getHtmlDocument } from '@vektopay/core/libs/html-rendering'
+import type { HtmlRenderingConfiguration } from '@vektopay/types/api-reference'
 import { Hono } from 'hono'
 
 /**
@@ -16,8 +16,8 @@ const DEFAULT_PORT = process.env.PORT || 0
 
 const DEFAULT_CONFIGURATION: Partial<HtmlRenderingConfiguration> = {
   cdn: '/scalar.js',
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
-  proxyUrl: 'https://proxy.scalar.com',
+  url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
+  proxyUrl: 'https://proxy.vektopay.com',
   // TODO: Remove this once the CDN supports the showDeveloperTools attribute
   // @ts-expect-error - we need this until next release (after 1.39.3)
   showToolbar: 'never',
@@ -40,7 +40,7 @@ export function serveExample(givenConfiguration?: Partial<HtmlRenderingConfigura
 
   if (!existsSync(pathToJavaScriptBundle)) {
     throw new Error(
-      `JavaScript bundle not found at ${pathToJavaScriptBundle}. Please build @scalar/api-reference first.`,
+      `JavaScript bundle not found at ${pathToJavaScriptBundle}. Please build @vektopay/api-reference first.`,
     )
   }
 

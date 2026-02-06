@@ -1,4 +1,4 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 import { describe, expect, it } from 'vitest'
 
 import { isSchemaPath, upgradeFromThreeToThreeOne } from './upgrade-from-three-to-three-one'

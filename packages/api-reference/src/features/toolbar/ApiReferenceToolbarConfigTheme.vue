@@ -4,9 +4,9 @@ import {
   ScalarFormInput,
   ScalarListboxCheckbox,
   ScalarThemeSwatches,
-} from '@scalar/components'
-import { ScalarIconCaretDown } from '@scalar/icons'
-import { presets, themeIds, themeLabels, type ThemeId } from '@scalar/themes'
+} from '@vektopay/components'
+import { ScalarIconCaretDown } from '@vektopay/icons'
+import { presets, themeIds, themeLabels, type ThemeId } from '@vektopay/themes'
 import { computed } from 'vue'
 
 type ThemeOption = {

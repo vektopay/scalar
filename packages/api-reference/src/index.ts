@@ -1,6 +1,6 @@
-import type { AnyApiReferenceConfiguration } from '@scalar/types/api-reference'
+import type { AnyApiReferenceConfiguration } from '@vektopay/types/api-reference'
 
-export type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+export type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 
 export { default as ApiReference } from '@/components/ApiReference.vue'
 export { default as GettingStarted } from '@/components/GettingStarted.vue'

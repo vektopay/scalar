@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { cva, ScalarIconButton } from '@scalar/components'
-import { ScalarIconList, ScalarIconX } from '@scalar/icons'
-import { useBreakpoints } from '@scalar/use-hooks/useBreakpoints'
+import { cva, ScalarIconButton } from '@vektopay/components'
+import { ScalarIconList, ScalarIconX } from '@vektopay/icons'
+import { useBreakpoints } from '@vektopay/use-hooks/useBreakpoints'
 
 defineProps<{
   breadcrumb: string

@@ -3,8 +3,8 @@ import {
   ScalarDropdown,
   ScalarDropdownItem,
   useModal,
-} from '@scalar/components'
-import { ScalarIconMagnifyingGlass, ScalarIconUpload } from '@scalar/icons'
+} from '@vektopay/components'
+import { ScalarIconMagnifyingGlass, ScalarIconUpload } from '@vektopay/icons'
 
 import Catalog from '@/views/Catalog/Catalog.vue'
 

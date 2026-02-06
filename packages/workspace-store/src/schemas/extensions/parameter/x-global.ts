@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /**
  * OpenAPI extension used by the api-client application to determine if a parameter is considered global in scope

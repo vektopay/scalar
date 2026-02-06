@@ -1,4 +1,4 @@
-import type { OpenAPI } from '@scalar/openapi-types'
+import type { OpenAPI } from '@vektopay/openapi-types'
 
 import { Validator } from '@/lib/Validator/Validator'
 import type { AnyObject, Filesystem, ThrowOnErrorOption, ValidateResult } from '@/types/index'

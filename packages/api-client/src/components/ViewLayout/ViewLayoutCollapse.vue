@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { onMounted, ref, useId } from 'vue'
 
 const {

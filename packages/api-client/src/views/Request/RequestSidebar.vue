@@ -5,10 +5,10 @@ import {
   ScalarSearchResultItem,
   ScalarSearchResultList,
   ScalarSidebarSearchInput,
-} from '@scalar/components'
-import { LibraryIcon } from '@scalar/icons/library'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
-import { useToasts } from '@scalar/use-toasts'
+} from '@vektopay/components'
+import { LibraryIcon } from '@vektopay/icons/library'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
+import { useToasts } from '@vektopay/use-toasts'
 import {
   computed,
   onBeforeUnmount,

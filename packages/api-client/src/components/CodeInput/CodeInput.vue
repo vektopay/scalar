@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import {
   colorPicker as colorPickerExtension,
   useCodeMirror,
   useDropdown,
   type CodeMirrorLanguage,
   type Extension,
-} from '@scalar/use-codemirror'
+} from '@vektopay/use-codemirror'
 import { nanoid } from 'nanoid'
 import { computed, ref, toRef, useAttrs, watch, type Ref } from 'vue'
 

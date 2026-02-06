@@ -131,7 +131,7 @@ test.concurrent.each(fetched)('diff $file', async ({ file, content }) => {
           console.log('* PATH:', path.join('/'))
           console.log()
           console.log('[@apidevtools/swagger-parser]', get(oldSchema, path))
-          console.log('[@scalar/openapi-parser]', get(newSchema, path))
+          console.log('[@vektopay/openapi-parser]', get(newSchema, path))
           console.log()
         })
       }

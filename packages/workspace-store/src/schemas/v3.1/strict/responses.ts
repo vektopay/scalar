@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import { ResponseObjectRef } from './ref-definitions'
 import { type ReferenceType, reference } from './reference'

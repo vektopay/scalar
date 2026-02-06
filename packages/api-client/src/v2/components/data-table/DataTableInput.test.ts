@@ -1,4 +1,4 @@
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { type VueWrapper, mount } from '@vue/test-utils'
 import { afterEach, describe, expect, it } from 'vitest'
 

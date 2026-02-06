@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/use-codemirror",
+  "name": "@vektopay/use-codemirror",
   "description": "CodeMirror for Vue",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -63,15 +63,18 @@
     "@lezer/common": "^1.2.3",
     "@lezer/highlight": "^1.2.1",
     "@replit/codemirror-css-color-picker": "^6.3.0",
-    "@scalar/components": "workspace:*",
+    "@vektopay/components": "workspace:*",
     "vue": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/themes": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/themes": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "vite": "catalog:*",
     "vitest": "catalog:*",
     "vue": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

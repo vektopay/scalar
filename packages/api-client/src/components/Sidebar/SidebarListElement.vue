@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ScalarIcon, type Icon } from '@scalar/components'
+import { ScalarIcon, type Icon } from '@vektopay/components'
 import {
   Draggable,
   type DraggableProps,
   type DraggingItem,
   type HoveredItem,
-} from '@scalar/draggable'
+} from '@vektopay/draggable'
 import { computed, ref } from 'vue'
 import { useRouter, type RouteLocationRaw } from 'vue-router'
 
@@ -134,7 +134,7 @@ const getDraggableOffsets = computed(() => ({
 </template>
 
 <style>
-@import '@scalar/draggable/style.css';
+@import '@vektopay/draggable/style.css';
 </style>
 
 <style scoped>

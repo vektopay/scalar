@@ -53,14 +53,14 @@ describe('changelog functions', () => {
       {
         id: '123',
         summary: 'Fix api ref',
-        releases: [{ name: '@scalar/api-reference', type: 'patch' }],
+        releases: [{ name: '@vektopay/api-reference', type: 'patch' }],
         commit: 'abc123',
       },
     ]
 
     const deps = [
       {
-        name: '@scalar/api-reference',
+        name: '@vektopay/api-reference',
         newVersion: '1.0.1',
       },
     ] as Array<ModCompWithPackage>
@@ -71,7 +71,7 @@ describe('changelog functions', () => {
       [
         '#### Updated Dependencies',
         '',
-        '- **@scalar/api-reference@1.0.1**',
+        '- **@vektopay/api-reference@1.0.1**',
         '  - [#10](https://github.com/scalar/scalar/pull/10): Fix api ref',
       ].join('\n'),
     )

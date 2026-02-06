@@ -7,8 +7,8 @@ import {
   ScalarFloating,
   ScalarHotkey,
   ScalarTooltip,
-} from '@scalar/components'
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
+} from '@vektopay/components'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
 import {
   ScalarIconArrowUpRight,
   ScalarIconFolderSimple,
@@ -17,9 +17,9 @@ import {
   ScalarIconTabs,
   ScalarIconX,
   ScalarIconXSquare,
-} from '@scalar/icons'
-import type { ScalarIconComponent } from '@scalar/icons/types'
-import type { Tab } from '@scalar/workspace-store/schemas/extensions/workspace'
+} from '@vektopay/icons'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
+import type { Tab } from '@vektopay/workspace-store/schemas/extensions/workspace'
 import { computed } from 'vue'
 
 const {

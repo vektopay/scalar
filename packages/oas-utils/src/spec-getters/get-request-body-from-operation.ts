@@ -1,6 +1,6 @@
-import { json2xml } from '@scalar/helpers/file/json2xml'
-import type { ContentType } from '@scalar/types/legacy'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import { json2xml } from '@vektopay/helpers/file/json2xml'
+import type { ContentType } from '@vektopay/types/legacy'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 
 import type { Operation } from '@/entities/spec'
 import { normalizeMimeTypeObject } from '@/helpers/normalize-mime-type-object'

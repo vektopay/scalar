@@ -27,7 +27,7 @@ app.get('/scalar', Scalar({ url: '/doc' }))
 app.get('/scalar', Scalar((c) => {
   return {
     url: '/doc',
-    proxyUrl: c.env.ENVIRONMENT === 'development' ? 'https://proxy.scalar.com' : undefined,
+    proxyUrl: c.env.ENVIRONMENT === 'development' ? 'https://proxy.vektopay.com' : undefined,
   }
 }))
 
@@ -66,9 +66,9 @@ app.get('/scalar', Scalar({
 
 ### Custom CDN
 
-You can use a custom CDN, default is `https://cdn.jsdelivr.net/npm/@scalar/api-reference`.
+You can use a custom CDN, default is `https://cdn.vektopay.com/@vektopay/api-reference`.
 
-You can also pin the CDN to a specific version by specifying it in the CDN string like `https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.25.28`
+You can also pin the CDN to a specific version by specifying it in the CDN string like `https://cdn.vektopay.com/@vektopay/api-reference@1.25.28`
 
 You can find all available CDN versions [here](https://www.jsdelivr.com/package/npm/@scalar/api-reference?tab=files)
 
@@ -79,7 +79,7 @@ app.get('/scalar', Scalar({ url: '/doc', pageTitle: 'Awesome API' }))
 
 app.get('/scalar', Scalar({
   url: '/doc',
-  cdn: 'https://cdn.jsdelivr.net/npm/@scalar/api-reference@latest',
+  cdn: 'https://cdn.vektopay.com/@vektopay/api-reference@latest',
 }))
 ```
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBindCx } from '@scalar/components'
+import { useBindCx } from '@vektopay/components'
 
 defineOptions({ inheritAttrs: false })
 

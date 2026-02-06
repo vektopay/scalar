@@ -27,7 +27,7 @@ describe('if we get list of operations we need to perform A -> B, when we apply 
         },
       },
     ],
-    [{ version: '1.1.0', name: '@scalar/json-diff' }, {}],
+    [{ version: '1.1.0', name: '@vektopay/json-diff' }, {}],
     [
       {
         openapi: '3.0.0',

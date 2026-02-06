@@ -1,4 +1,4 @@
-import { collectionSchema } from '@scalar/oas-utils/entities/spec'
+import { collectionSchema } from '@vektopay/oas-utils/entities/spec'
 import { mockUseLayout } from '@test/vitest.setup'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'

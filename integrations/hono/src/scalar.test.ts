@@ -83,7 +83,7 @@ describe('Scalar', () => {
     expect(response.headers.get('content-type')).toContain('text/html')
     const text = await response.text()
     expect(text).toContain('<title>Scalar API Reference</title>')
-    expect(text).toContain('https://cdn.jsdelivr.net/npm/@scalar/api-reference')
+    expect(text).toContain('https://cdn.vektopay.com/@vektopay/api-reference')
   })
 
   it('includes content only once', async () => {
@@ -107,7 +107,7 @@ describe('Scalar', () => {
     app.get(
       '/',
       Scalar({
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
       }),
     )
 
@@ -115,7 +115,7 @@ describe('Scalar', () => {
     const text = await response.text()
 
     // Check the URL is present
-    expect(text).toContain('https://registry.scalar.com/@scalar/apis/galaxy?format=json')
+    expect(text).toContain('https://registry.vektopay.com/@vektopay/apis/galaxy?format=json')
   })
 
   it('applies custom theme CSS without theme specified', async () => {
@@ -217,7 +217,7 @@ describe('Scalar', () => {
         expect(c.env.ENVIRONMENT).toBe('development')
         return {
           ...config,
-          proxyUrl: c.env.ENVIRONMENT === 'development' ? 'https://proxy.scalar.com' : undefined,
+          proxyUrl: c.env.ENVIRONMENT === 'development' ? 'https://proxy.vektopay.com' : undefined,
         }
       }),
     )
@@ -228,7 +228,7 @@ describe('Scalar', () => {
     const text = await response.text()
     expect(text).toContain('<title>Scalar API Reference</title>')
     expect(text).toContain('Test API')
-    expect(text).toContain('https://proxy.scalar.com')
+    expect(text).toContain('https://proxy.vektopay.com')
   })
 
   it('works with config resolver (async)', async () => {

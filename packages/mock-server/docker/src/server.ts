@@ -1,6 +1,6 @@
 import { serve } from '@hono/node-server'
-import { Scalar } from '@scalar/hono-api-reference'
-import { createMockServer } from '@scalar/mock-server'
+import { Scalar } from '@vektopay/hono-api-reference'
+import { createMockServer } from '@vektopay/mock-server'
 
 interface ServerConfig {
   document: string

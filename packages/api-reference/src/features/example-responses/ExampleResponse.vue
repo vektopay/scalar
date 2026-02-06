@@ -2,14 +2,14 @@
 import {
   getExampleFromSchema,
   getResolvedRefDeep,
-} from '@scalar/api-client/v2/blocks/operation-code-sample'
-import { ScalarCodeBlock, ScalarVirtualText } from '@scalar/components'
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+} from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import { ScalarCodeBlock, ScalarVirtualText } from '@vektopay/components'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   ExampleObject,
   MediaTypeObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 const { example, response } = defineProps<{

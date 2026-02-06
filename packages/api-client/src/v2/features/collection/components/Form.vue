@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { ScalarIcon } from '@vektopay/components'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { useId } from 'vue'
 
 import ViewLayoutSection from '@/components/ViewLayout/ViewLayoutSection.vue'

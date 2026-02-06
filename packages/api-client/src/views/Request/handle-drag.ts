@@ -1,5 +1,5 @@
-import type { DraggingItem, HoveredItem } from '@scalar/draggable'
-import type { Collection, Tag } from '@scalar/oas-utils/entities/spec'
+import type { DraggingItem, HoveredItem } from '@vektopay/draggable'
+import type { Collection, Tag } from '@vektopay/oas-utils/entities/spec'
 
 import { useLayout } from '@/hooks'
 import type { WorkspaceStore } from '@/store'

@@ -1,4 +1,4 @@
-import type { ApiReferenceConfiguration, ApiReferenceConfigurationWithSource } from '@scalar/types/api-reference'
+import type { ApiReferenceConfiguration, ApiReferenceConfigurationWithSource } from '@vektopay/types/api-reference'
 
 export type Configuration = Omit<
   Partial<ApiReferenceConfigurationWithSource>,

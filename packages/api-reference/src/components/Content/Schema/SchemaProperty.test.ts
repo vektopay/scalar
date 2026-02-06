@@ -1,6 +1,6 @@
-import { ScalarListbox } from '@scalar/components'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import { SchemaObjectSchema } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ScalarListbox } from '@vektopay/components'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import { SchemaObjectSchema } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 

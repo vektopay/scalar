@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarFormInputGroup, ScalarToggleInput } from '@scalar/components'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+import { ScalarFormInputGroup, ScalarToggleInput } from '@vektopay/components'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 
 type LayoutOptions = {
   showSidebar?: boolean

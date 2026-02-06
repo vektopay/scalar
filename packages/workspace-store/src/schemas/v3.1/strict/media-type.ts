@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import type { EncodingObject } from './encoding'
 import type { ExampleObject } from './example'

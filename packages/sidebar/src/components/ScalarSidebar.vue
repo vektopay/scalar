@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarSidebar, ScalarSidebarItems } from '@scalar/components'
+import { ScalarSidebar, ScalarSidebarItems } from '@vektopay/components'
 
 import { filterItems } from '@/helpers/filter-items'
 import type {

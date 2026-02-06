@@ -4,8 +4,8 @@ import {
   ScalarSidebarGroupToggle,
   ScalarSidebarItem,
   ScalarSidebarSection,
-} from '@scalar/components'
-import { LibraryIcon } from '@scalar/icons/library'
+} from '@vektopay/components'
+import { LibraryIcon } from '@vektopay/icons/library'
 
 import SidebarItemDecorator from '@/components/SidebarItemDecorator.vue'
 import { filterItems } from '@/helpers/filter-items'

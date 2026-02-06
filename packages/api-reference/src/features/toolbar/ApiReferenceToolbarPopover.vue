@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { ScalarFloatingBackdrop, ScalarPopover } from '@scalar/components'
-import { ScalarIconCaretDown, ScalarIconInfo } from '@scalar/icons'
+import { ScalarFloatingBackdrop, ScalarPopover } from '@vektopay/components'
+import { ScalarIconCaretDown, ScalarIconInfo } from '@vektopay/icons'
 </script>
 <template>
   <ScalarPopover

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarIconButton } from '@scalar/components'
-import { ScalarIconGlobe, ScalarIconTrash } from '@scalar/icons'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { ScalarButton, ScalarIcon, ScalarIconButton } from '@vektopay/components'
+import { ScalarIconGlobe, ScalarIconTrash } from '@vektopay/icons'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import type {
   ParameterObject,
   SchemaObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref, watch } from 'vue'
 
 import { getFileName } from '@/v2/blocks/request-block/helpers/files'

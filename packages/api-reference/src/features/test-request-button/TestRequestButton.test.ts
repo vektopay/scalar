@@ -1,4 +1,4 @@
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 

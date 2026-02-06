@@ -1,4 +1,4 @@
-import type { UnknownObject } from '@scalar/types/utils'
+import type { UnknownObject } from '@vektopay/types/utils'
 
 /**
  * Recursively traverses the content and applies the transform function to each node.

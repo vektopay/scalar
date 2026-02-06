@@ -4,14 +4,14 @@ import { redirectToProxy, shouldUseProxy } from './redirect-to-proxy'
 
 describe('redirectToProxy', () => {
   it('rewrites URLs', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', 'https://example.com')).toBe(
-      'https://proxy.scalar.com/?scalar_url=https%3A%2F%2Fexample.com',
+    expect(redirectToProxy('https://proxy.vektopay.com', 'https://example.com')).toBe(
+      'https://proxy.vektopay.com/?scalar_url=https%3A%2F%2Fexample.com',
     )
   })
 
   it('keeps query parameters', () => {
-    expect(redirectToProxy('https://proxy.scalar.com?foo=bar', 'https://example.com')).toBe(
-      'https://proxy.scalar.com/?foo=bar&scalar_url=https%3A%2F%2Fexample.com',
+    expect(redirectToProxy('https://proxy.vektopay.com?foo=bar', 'https://example.com')).toBe(
+      'https://proxy.vektopay.com/?foo=bar&scalar_url=https%3A%2F%2Fexample.com',
     )
   })
 
@@ -26,15 +26,15 @@ describe('redirectToProxy', () => {
   })
 
   it('skips the proxy for relative URLs starting with a slash', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', '/api')).toBe('/api')
+    expect(redirectToProxy('https://proxy.vektopay.com', '/api')).toBe('/api')
   })
 
   it('skips the proxy for relative URLs not starting with a slash', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', 'api')).toBe('api')
+    expect(redirectToProxy('https://proxy.vektopay.com', 'api')).toBe('api')
   })
 
   it('skips the proxy for relative URLs not starting with a slash, but containing a dot', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', 'openapi.json')).toBe('openapi.json')
+    expect(redirectToProxy('https://proxy.vektopay.com', 'openapi.json')).toBe('openapi.json')
   })
 
   it("uses the proxy when it's local", () => {
@@ -44,7 +44,7 @@ describe('redirectToProxy', () => {
   })
 
   it('handles undefined url parameter', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', undefined)).toBe('')
+    expect(redirectToProxy('https://proxy.vektopay.com', undefined)).toBe('')
   })
 
   it('handles undefined proxyUrl parameter', () => {
@@ -56,18 +56,18 @@ describe('redirectToProxy', () => {
   })
 
   it('handles malformed URLs gracefully', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', 'not a valid url')).toBe('not a valid url')
+    expect(redirectToProxy('https://proxy.vektopay.com', 'not a valid url')).toBe('not a valid url')
   })
 
   it('preserves hash fragments in the original URL', () => {
-    expect(redirectToProxy('https://proxy.scalar.com', 'https://example.com#section')).toBe(
-      'https://proxy.scalar.com/?scalar_url=https%3A%2F%2Fexample.com%23section',
+    expect(redirectToProxy('https://proxy.vektopay.com', 'https://example.com#section')).toBe(
+      'https://proxy.vektopay.com/?scalar_url=https%3A%2F%2Fexample.com%23section',
     )
   })
 
   it('handles proxy URLs with paths', () => {
-    expect(redirectToProxy('https://proxy.scalar.com/v1/proxy', 'https://example.com')).toBe(
-      'https://proxy.scalar.com/v1/proxy?scalar_url=https%3A%2F%2Fexample.com',
+    expect(redirectToProxy('https://proxy.vektopay.com/v1/proxy', 'https://example.com')).toBe(
+      'https://proxy.vektopay.com/v1/proxy?scalar_url=https%3A%2F%2Fexample.com',
     )
   })
 
@@ -84,7 +84,7 @@ describe('shouldUseProxy', () => {
   })
 
   it('returns false when url is missing', () => {
-    expect(shouldUseProxy('https://proxy.scalar.com', undefined)).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', undefined)).toBe(false)
   })
 
   it('returns false when both parameters are missing', () => {
@@ -92,9 +92,9 @@ describe('shouldUseProxy', () => {
   })
 
   it('returns false for relative URLs', () => {
-    expect(shouldUseProxy('https://proxy.scalar.com', '/api')).toBe(false)
-    expect(shouldUseProxy('https://proxy.scalar.com', 'api/endpoint')).toBe(false)
-    expect(shouldUseProxy('https://proxy.scalar.com', './api')).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', '/api')).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', 'api/endpoint')).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', './api')).toBe(false)
   })
 
   it('returns true for relative proxy URLs', () => {
@@ -108,8 +108,8 @@ describe('shouldUseProxy', () => {
   })
 
   it('returns false for localhost URLs with remote proxy', () => {
-    expect(shouldUseProxy('https://proxy.scalar.com', 'http://localhost:3000')).toBe(false)
-    expect(shouldUseProxy('https://proxy.scalar.com', 'http://127.0.0.1:8080')).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', 'http://localhost:3000')).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', 'http://127.0.0.1:8080')).toBe(false)
   })
 
   it('returns true for local proxy with local URL', () => {
@@ -117,11 +117,11 @@ describe('shouldUseProxy', () => {
   })
 
   it('returns true for remote proxy with remote URL', () => {
-    expect(shouldUseProxy('https://proxy.scalar.com', 'https://api.example.com')).toBe(true)
+    expect(shouldUseProxy('https://proxy.vektopay.com', 'https://api.example.com')).toBe(true)
   })
 
   it('returns false for empty strings', () => {
     expect(shouldUseProxy('', 'https://example.com')).toBe(false)
-    expect(shouldUseProxy('https://proxy.scalar.com', '')).toBe(false)
+    expect(shouldUseProxy('https://proxy.vektopay.com', '')).toBe(false)
   })
 })

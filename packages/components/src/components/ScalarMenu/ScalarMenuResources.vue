@@ -3,7 +3,7 @@ import {
   ScalarIconBookOpenText,
   ScalarIconEnvelopeSimple,
   ScalarIconFileText,
-} from '@scalar/icons'
+} from '@vektopay/icons'
 
 import ScalarMenuLink from './ScalarMenuLink.vue'
 import ScalarMenuSection from './ScalarMenuSection.vue'

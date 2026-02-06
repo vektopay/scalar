@@ -1,11 +1,11 @@
-import type { MergedSecuritySchemes } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import type { AuthenticationConfiguration } from '@scalar/types/api-reference'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
+import type { MergedSecuritySchemes } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import type { AuthenticationConfiguration } from '@vektopay/types/api-reference'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
 import type {
   SecurityRequirementObject,
   SecuritySchemeObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /**
  * Extracts the default scopes for a security scheme.

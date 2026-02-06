@@ -3,17 +3,17 @@ import {
   ScalarButton,
   ScalarIcon,
   ScalarWrappingText,
-} from '@scalar/components'
-import { REQUEST_METHODS } from '@scalar/helpers/http/http-info'
-import type { HttpMethod as HttpMethodType } from '@scalar/helpers/http/http-methods'
-import { ScalarIconCopy, ScalarIconWarningCircle } from '@scalar/icons'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
+} from '@vektopay/components'
+import { REQUEST_METHODS } from '@vektopay/helpers/http/http-info'
+import type { HttpMethod as HttpMethodType } from '@vektopay/helpers/http/http-methods'
+import { ScalarIconCopy, ScalarIconWarningCircle } from '@vektopay/icons'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
 import type {
   ApiReferenceEvents,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import {
   computed,
   onBeforeUnmount,

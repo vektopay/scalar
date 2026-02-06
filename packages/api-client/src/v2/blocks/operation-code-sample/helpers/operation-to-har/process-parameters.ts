@@ -1,5 +1,5 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { OperationObject, ParameterObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { OperationObject, ParameterObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { getExampleFromSchema } from '@v2/blocks/operation-code-sample/helpers/get-example-from-schema'
 import type { Request as HarRequest } from 'har-format'
 

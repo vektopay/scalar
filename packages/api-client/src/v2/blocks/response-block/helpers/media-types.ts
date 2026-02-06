@@ -1,4 +1,4 @@
-import type { CodeMirrorLanguage } from '@scalar/use-codemirror'
+import type { CodeMirrorLanguage } from '@vektopay/use-codemirror'
 
 type MediaPreview = 'object' | 'image' | 'video' | 'audio'
 

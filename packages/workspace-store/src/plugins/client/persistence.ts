@@ -1,4 +1,4 @@
-import { debounce } from '@scalar/helpers/general/debounce'
+import { debounce } from '@vektopay/helpers/general/debounce'
 
 import { createWorkspaceStorePersistence } from '@/persistence'
 import type { WorkspacePlugin } from '@/workspace-plugin'

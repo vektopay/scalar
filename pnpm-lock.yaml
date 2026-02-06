@@ -6,6 +6,12 @@ settings:
 
 catalogs:
   '*':
+    '@ai-sdk/google':
+      specifier: 0.0.29
+      version: 0.0.29
+    '@ai-sdk/openai':
+      specifier: 0.0.36
+      version: 0.0.36
     '@ai-sdk/vue':
       specifier: 3.0.33
       version: 3.0.33
@@ -246,6 +252,7 @@ catalogs:
 
 overrides:
   '@types/node': ^22.19.3
+  '@vektopay/typebox': npm:@scalar/typebox@0.1.3
 
 importers:
 
@@ -356,7 +363,7 @@ importers:
       '@nestjs/swagger':
         specifier: catalog:*
         version: 7.3.1(@nestjs/common@11.1.11(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.1.11)(reflect-metadata@0.1.14)
-      '@scalar/nestjs-api-reference':
+      '@vektopay/nestjs-api-reference':
         specifier: workspace:*
         version: link:../../../integrations/nestjs
       reflect-metadata:
@@ -429,7 +436,7 @@ importers:
       '@nestjs/swagger':
         specifier: catalog:*
         version: 7.3.1(@nestjs/common@11.1.11(reflect-metadata@0.1.14)(rxjs@7.8.1))(@nestjs/core@11.1.11)(reflect-metadata@0.1.14)
-      '@scalar/nestjs-api-reference':
+      '@vektopay/nestjs-api-reference':
         specifier: workspace:*
         version: link:../../../integrations/nestjs
       reflect-metadata:
@@ -490,13 +497,13 @@ importers:
 
   examples/nextjs-api-reference:
     dependencies:
-      '@scalar/api-client-react':
+      '@vektopay/api-client-react':
         specifier: workspace:*
         version: link:../../packages/api-client-react
-      '@scalar/api-reference-react':
+      '@vektopay/api-reference-react':
         specifier: workspace:*
         version: link:../../packages/api-reference-react
-      '@scalar/nextjs-api-reference':
+      '@vektopay/nextjs-api-reference':
         specifier: workspace:*
         version: link:../../integrations/nextjs
       next:
@@ -524,20 +531,20 @@ importers:
 
   examples/nuxt:
     dependencies:
-      '@scalar/nuxt':
+      '@vektopay/nuxt':
         specifier: workspace:*
         version: link:../../integrations/nuxt
       nuxt:
         specifier: 3.19.0 || ^3.19.2
         version: 3.19.2(@biomejs/biome@2.2.4)(@netlify/blobs@9.1.2)(@parcel/watcher@2.4.1)(@types/node@22.19.3)(@vue/compiler-sfc@3.5.26)(db0@0.3.2)(encoding@0.1.13)(eslint@9.39.2(jiti@2.6.1))(ioredis@5.7.0)(lightningcss@1.30.2)(magicast@0.3.5)(meow@13.2.0)(optionator@0.9.4)(rollup@4.50.2)(terser@5.31.2)(tsx@4.19.1)(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue-tsc@2.2.12(typescript@5.9.3))(yaml@2.8.0)
     devDependencies:
-      '@scalar/api-client':
+      '@vektopay/api-client':
         specifier: workspace:*
         version: link:../../packages/api-client
 
   examples/react:
     dependencies:
-      '@scalar/galaxy':
+      '@vektopay/galaxy':
         specifier: workspace:*
         version: link:../../packages/galaxy
       random-words:
@@ -550,9 +557,6 @@ importers:
         specifier: catalog:*
         version: 19.2.3(react@19.2.3)
     devDependencies:
-      '@scalar/api-reference-react':
-        specifier: workspace:*
-        version: link:../../packages/api-reference-react
       '@types/react':
         specifier: catalog:*
         version: 19.2.7
@@ -562,6 +566,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: catalog:*
         version: 8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+      '@vektopay/api-reference-react':
+        specifier: workspace:*
+        version: link:../../packages/api-reference-react
       '@vitejs/plugin-react':
         specifier: catalog:*
         version: 5.0.4(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -592,7 +599,7 @@ importers:
 
   examples/react-webpack:
     dependencies:
-      '@scalar/api-reference-react':
+      '@vektopay/api-reference-react':
         specifier: workspace:*
         version: link:../../packages/api-reference-react
       react:
@@ -629,20 +636,20 @@ importers:
 
   examples/ssg:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../packages/api-reference
-      '@scalar/oas-utils':
+      '@vektopay/oas-utils':
         specifier: workspace:*
         version: link:../../packages/oas-utils
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../../packages/types
       vue:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../packages/build-tooling
       '@vitejs/plugin-vue':
@@ -657,7 +664,7 @@ importers:
 
   examples/sveltekit:
     dependencies:
-      '@scalar/sveltekit':
+      '@vektopay/sveltekit':
         specifier: workspace:*
         version: link:../../integrations/sveltekit
     devDependencies:
@@ -685,25 +692,25 @@ importers:
 
   examples/web:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../packages/api-reference
-      '@scalar/components':
+      '@vektopay/components':
         specifier: workspace:*
         version: link:../../packages/components
-      '@scalar/galaxy':
+      '@vektopay/galaxy':
         specifier: workspace:*
         version: link:../../packages/galaxy
-      '@scalar/themes':
+      '@vektopay/themes':
         specifier: workspace:*
         version: link:../../packages/themes
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@scalar/use-hooks':
+      '@vektopay/use-hooks':
         specifier: workspace:*
         version: link:../../packages/use-hooks
-      '@scalar/workspace-store':
+      '@vektopay/workspace-store':
         specifier: workspace:*
         version: link:../../packages/workspace-store
       '@vueuse/core':
@@ -740,7 +747,7 @@ importers:
 
   integrations/astro:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -750,7 +757,7 @@ importers:
 
   integrations/astro/playground:
     dependencies:
-      '@scalar/astro':
+      '@vektopay/astro':
         specifier: workspace:*
         version: link:..
       astro:
@@ -761,17 +768,17 @@ importers:
 
   integrations/docker:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../packages/api-reference
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../packages/build-tooling
 
   integrations/docusaurus:
     dependencies:
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../../packages/types
     devDependencies:
@@ -793,15 +800,15 @@ importers:
       '@mdx-js/react':
         specifier: ^3.1.1
         version: 3.1.1(@types/react@19.2.7)(react@19.2.3)
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../../packages/build-tooling
       '@types/react':
         specifier: catalog:*
         version: 19.2.7
       '@types/react-dom':
         specifier: catalog:*
         version: 19.2.3(@types/react@19.2.7)
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../../packages/build-tooling
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -829,14 +836,14 @@ importers:
 
   integrations/dotnet/aspire:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../../packages/api-reference
-      '@scalar/dotnet-shared':
+      '@vektopay/dotnet-shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../../packages/build-tooling
 
@@ -844,35 +851,32 @@ importers:
 
   integrations/dotnet/aspnetcore:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../../packages/api-reference
-      '@scalar/dotnet-shared':
+      '@vektopay/dotnet-shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../../packages/build-tooling
 
   integrations/dotnet/shared:
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../../packages/build-tooling
-      '@scalar/snippetz':
+      '@vektopay/snippetz':
         specifier: workspace:*
         version: link:../../../packages/snippetz
 
   integrations/express:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../../packages/build-tooling
       '@types/express':
         specifier: catalog:*
         version: 5.0.3
@@ -882,6 +886,9 @@ importers:
       '@types/swagger-jsdoc':
         specifier: ^6.0.3
         version: 6.0.4
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../../packages/build-tooling
       express:
         specifier: catalog:*
         version: 5.1.0
@@ -902,13 +909,13 @@ importers:
 
   integrations/fastify:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@scalar/openapi-parser':
+      '@vektopay/openapi-parser':
         specifier: workspace:*
         version: link:../../packages/openapi-parser
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../../packages/openapi-types
       fastify-plugin:
@@ -927,10 +934,10 @@ importers:
       '@fastify/swagger':
         specifier: catalog:*
         version: 8.14.0
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../packages/api-reference
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../packages/build-tooling
       fastify:
@@ -948,7 +955,7 @@ importers:
 
   integrations/hono:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -958,10 +965,10 @@ importers:
       '@hono/zod-openapi':
         specifier: ^1.2.0
         version: 1.2.0(hono@4.11.7)(zod@4.3.5)
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../packages/build-tooling
-      '@scalar/openapi-to-markdown':
+      '@vektopay/openapi-to-markdown':
         specifier: workspace:*
         version: link:../../packages/openapi-to-markdown
       hono:
@@ -976,17 +983,17 @@ importers:
 
   integrations/java:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../packages/api-reference
     devDependencies:
-      '@scalar/snippetz':
+      '@vektopay/snippetz':
         specifier: workspace:*
         version: link:../../packages/snippetz
 
   integrations/nestjs:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -1029,13 +1036,10 @@ importers:
 
   integrations/nextjs:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../../packages/build-tooling
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
@@ -1045,6 +1049,9 @@ importers:
       '@types/react-dom':
         specifier: catalog:*
         version: 19.2.3(@types/react@19.2.7)
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../../packages/build-tooling
       '@vitejs/plugin-react':
         specifier: catalog:*
         version: 5.0.4(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -1072,16 +1079,16 @@ importers:
       '@nuxt/kit':
         specifier: ^4.0.0
         version: 4.1.2(magicast@0.5.1)
-      '@scalar/api-client':
+      '@vektopay/api-client':
         specifier: workspace:*
         version: link:../../packages/api-client
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../../packages/api-reference
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@scalar/use-hooks':
+      '@vektopay/use-hooks':
         specifier: workspace:*
         version: link:../../packages/use-hooks
       vue:
@@ -1108,7 +1115,7 @@ importers:
 
   integrations/sveltekit:
     dependencies:
-      '@scalar/core':
+      '@vektopay/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
@@ -1133,31 +1140,31 @@ importers:
       '@ai-sdk/vue':
         specifier: catalog:*
         version: 3.0.33(vue@3.5.26(typescript@5.9.3))(zod@4.3.5)
-      '@scalar/api-client':
+      '@vektopay/api-client':
         specifier: workspace:*
         version: link:../api-client
-      '@scalar/components':
+      '@vektopay/components':
         specifier: workspace:*
         version: link:../components
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/icons':
+      '@vektopay/icons':
         specifier: workspace:*
         version: link:../icons
-      '@scalar/json-magic':
+      '@vektopay/json-magic':
         specifier: workspace:*
         version: link:../json-magic
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
-      '@scalar/themes':
+      '@vektopay/themes':
         specifier: workspace:*
         version: link:../themes
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
-      '@scalar/workspace-store':
+      '@vektopay/workspace-store':
         specifier: workspace:*
         version: link:../workspace-store
       '@vueuse/core':
@@ -1185,15 +1192,15 @@ importers:
       '@modelcontextprotocol/sdk':
         specifier: catalog:*
         version: 1.25.2(hono@4.11.7)(zod@4.3.5)
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@tailwindcss/vite':
         specifier: catalog:*
         version: 4.1.18(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
       '@types/whatwg-mimetype':
         specifier: catalog:*
         version: 3.0.2
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       '@vitejs/plugin-vue':
         specifier: catalog:*
         version: 6.0.3(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue@3.5.26(typescript@5.9.3))
@@ -1213,12 +1220,12 @@ importers:
         specifier: catalog:*
         version: 4.3.5
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -1231,69 +1238,69 @@ importers:
       '@headlessui/vue':
         specifier: catalog:*
         version: 1.7.23(vue@3.5.26(typescript@5.9.3))
-      '@scalar/analytics-client':
-        specifier: workspace:*
-        version: link:../analytics-client
-      '@scalar/components':
-        specifier: workspace:*
-        version: link:../components
-      '@scalar/draggable':
-        specifier: workspace:*
-        version: link:../draggable
-      '@scalar/helpers':
-        specifier: workspace:*
-        version: link:../helpers
-      '@scalar/icons':
-        specifier: workspace:*
-        version: link:../icons
-      '@scalar/import':
-        specifier: workspace:*
-        version: link:../import
-      '@scalar/json-magic':
-        specifier: workspace:*
-        version: link:../json-magic
-      '@scalar/oas-utils':
-        specifier: workspace:*
-        version: link:../oas-utils
-      '@scalar/object-utils':
-        specifier: workspace:*
-        version: link:../object-utils
-      '@scalar/openapi-parser':
-        specifier: workspace:*
-        version: link:../openapi-parser
-      '@scalar/openapi-types':
-        specifier: workspace:*
-        version: link:../openapi-types
-      '@scalar/postman-to-openapi':
-        specifier: workspace:*
-        version: link:../postman-to-openapi
-      '@scalar/sidebar':
-        specifier: workspace:*
-        version: link:../sidebar
-      '@scalar/snippetz':
-        specifier: workspace:*
-        version: link:../snippetz
-      '@scalar/themes':
-        specifier: workspace:*
-        version: link:../themes
-      '@scalar/types':
-        specifier: workspace:*
-        version: link:../types
-      '@scalar/use-codemirror':
-        specifier: workspace:*
-        version: link:../use-codemirror
-      '@scalar/use-hooks':
-        specifier: workspace:*
-        version: link:../use-hooks
-      '@scalar/use-toasts':
-        specifier: workspace:*
-        version: link:../use-toasts
-      '@scalar/workspace-store':
-        specifier: workspace:*
-        version: link:../workspace-store
       '@types/har-format':
         specifier: ^1.2.15
         version: 1.2.16
+      '@vektopay/analytics-client':
+        specifier: workspace:*
+        version: link:../analytics-client
+      '@vektopay/components':
+        specifier: workspace:*
+        version: link:../components
+      '@vektopay/draggable':
+        specifier: workspace:*
+        version: link:../draggable
+      '@vektopay/helpers':
+        specifier: workspace:*
+        version: link:../helpers
+      '@vektopay/icons':
+        specifier: workspace:*
+        version: link:../icons
+      '@vektopay/import':
+        specifier: workspace:*
+        version: link:../import
+      '@vektopay/json-magic':
+        specifier: workspace:*
+        version: link:../json-magic
+      '@vektopay/oas-utils':
+        specifier: workspace:*
+        version: link:../oas-utils
+      '@vektopay/object-utils':
+        specifier: workspace:*
+        version: link:../object-utils
+      '@vektopay/openapi-parser':
+        specifier: workspace:*
+        version: link:../openapi-parser
+      '@vektopay/openapi-types':
+        specifier: workspace:*
+        version: link:../openapi-types
+      '@vektopay/postman-to-openapi':
+        specifier: workspace:*
+        version: link:../postman-to-openapi
+      '@vektopay/sidebar':
+        specifier: workspace:*
+        version: link:../sidebar
+      '@vektopay/snippetz':
+        specifier: workspace:*
+        version: link:../snippetz
+      '@vektopay/themes':
+        specifier: workspace:*
+        version: link:../themes
+      '@vektopay/types':
+        specifier: workspace:*
+        version: link:../types
+      '@vektopay/use-codemirror':
+        specifier: workspace:*
+        version: link:../use-codemirror
+      '@vektopay/use-hooks':
+        specifier: workspace:*
+        version: link:../use-hooks
+      '@vektopay/use-toasts':
+        specifier: workspace:*
+        version: link:../use-toasts
+      '@vektopay/workspace-store':
+        specifier: workspace:*
+        version: link:../workspace-store
       '@vueuse/core':
         specifier: catalog:*
         version: 13.9.0(vue@3.5.26(typescript@5.9.3))
@@ -1343,12 +1350,6 @@ importers:
         specifier: catalog:*
         version: 4.3.5
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
-      '@scalar/galaxy':
-        specifier: workspace:*
-        version: link:../galaxy
       '@tailwindcss/vite':
         specifier: catalog:*
         version: 4.1.18(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -1358,6 +1359,12 @@ importers:
       '@types/whatwg-mimetype':
         specifier: catalog:*
         version: 3.0.2
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
+      '@vektopay/galaxy':
+        specifier: workspace:*
+        version: link:../galaxy
       '@vitejs/plugin-vue':
         specifier: catalog:*
         version: 6.0.3(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue@3.5.26(typescript@5.9.3))
@@ -1388,22 +1395,22 @@ importers:
 
   packages/api-client-react:
     dependencies:
-      '@scalar/api-client':
+      '@vektopay/api-client':
         specifier: workspace:*
         version: link:../api-client
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/react':
         specifier: catalog:*
         version: 19.2.7
       '@types/react-dom':
         specifier: catalog:*
         version: 19.2.3(@types/react@19.2.7)
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       '@vitejs/plugin-react':
         specifier: catalog:*
         version: 5.0.4(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -1425,57 +1432,57 @@ importers:
       '@headlessui/vue':
         specifier: catalog:*
         version: 1.7.23(vue@3.5.26(typescript@5.9.3))
-      '@scalar/agent-chat':
-        specifier: workspace:*
-        version: link:../agent-chat
-      '@scalar/api-client':
-        specifier: workspace:*
-        version: link:../api-client
-      '@scalar/code-highlight':
-        specifier: workspace:*
-        version: link:../code-highlight
-      '@scalar/components':
-        specifier: workspace:*
-        version: link:../components
-      '@scalar/helpers':
-        specifier: workspace:*
-        version: link:../helpers
-      '@scalar/icons':
-        specifier: workspace:*
-        version: link:../icons
-      '@scalar/oas-utils':
-        specifier: workspace:*
-        version: link:../oas-utils
-      '@scalar/openapi-parser':
-        specifier: workspace:*
-        version: link:../openapi-parser
-      '@scalar/openapi-types':
-        specifier: workspace:*
-        version: link:../openapi-types
-      '@scalar/sidebar':
-        specifier: workspace:*
-        version: link:../sidebar
-      '@scalar/snippetz':
-        specifier: workspace:*
-        version: link:../snippetz
-      '@scalar/themes':
-        specifier: workspace:*
-        version: link:../themes
-      '@scalar/types':
-        specifier: workspace:*
-        version: link:../types
-      '@scalar/use-hooks':
-        specifier: workspace:*
-        version: link:../use-hooks
-      '@scalar/use-toasts':
-        specifier: workspace:*
-        version: link:../use-toasts
-      '@scalar/workspace-store':
-        specifier: workspace:*
-        version: link:../workspace-store
       '@unhead/vue':
         specifier: ^1.11.20
         version: 1.11.20(vue@3.5.26(typescript@5.9.3))
+      '@vektopay/agent-chat':
+        specifier: workspace:*
+        version: link:../agent-chat
+      '@vektopay/api-client':
+        specifier: workspace:*
+        version: link:../api-client
+      '@vektopay/code-highlight':
+        specifier: workspace:*
+        version: link:../code-highlight
+      '@vektopay/components':
+        specifier: workspace:*
+        version: link:../components
+      '@vektopay/helpers':
+        specifier: workspace:*
+        version: link:../helpers
+      '@vektopay/icons':
+        specifier: workspace:*
+        version: link:../icons
+      '@vektopay/oas-utils':
+        specifier: workspace:*
+        version: link:../oas-utils
+      '@vektopay/openapi-parser':
+        specifier: workspace:*
+        version: link:../openapi-parser
+      '@vektopay/openapi-types':
+        specifier: workspace:*
+        version: link:../openapi-types
+      '@vektopay/sidebar':
+        specifier: workspace:*
+        version: link:../sidebar
+      '@vektopay/snippetz':
+        specifier: workspace:*
+        version: link:../snippetz
+      '@vektopay/themes':
+        specifier: workspace:*
+        version: link:../themes
+      '@vektopay/types':
+        specifier: workspace:*
+        version: link:../types
+      '@vektopay/use-hooks':
+        specifier: workspace:*
+        version: link:../use-hooks
+      '@vektopay/use-toasts':
+        specifier: workspace:*
+        version: link:../use-toasts
+      '@vektopay/workspace-store':
+        specifier: workspace:*
+        version: link:../workspace-store
       '@vueuse/core':
         specifier: catalog:*
         version: 13.9.0(vue@3.5.26(typescript@5.9.3))
@@ -1501,21 +1508,21 @@ importers:
       '@playwright/test':
         specifier: catalog:*
         version: 1.56.0
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
-      '@scalar/core':
-        specifier: workspace:*
-        version: link:../core
-      '@scalar/galaxy':
-        specifier: workspace:*
-        version: link:../galaxy
-      '@scalar/react-renderer':
-        specifier: workspace:*
-        version: link:../react-renderer
       '@tailwindcss/vite':
         specifier: catalog:*
         version: 4.1.18(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
+      '@vektopay/core':
+        specifier: workspace:*
+        version: link:../core
+      '@vektopay/galaxy':
+        specifier: workspace:*
+        version: link:../galaxy
+      '@vektopay/react-renderer':
+        specifier: workspace:*
+        version: link:../react-renderer
       '@vitejs/plugin-vue':
         specifier: catalog:*
         version: 6.0.3(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue@3.5.26(typescript@5.9.3))
@@ -1555,22 +1562,22 @@ importers:
 
   packages/api-reference-react:
     dependencies:
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../api-reference
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/react':
         specifier: catalog:*
         version: 19.2.7
       '@types/react-dom':
         specifier: catalog:*
         version: 19.2.3(@types/react@19.2.7)
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       '@vitejs/plugin-react':
         specifier: catalog:*
         version: 5.0.4(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -1595,7 +1602,7 @@ importers:
       '@hono/node-server':
         specifier: catalog:*
         version: 1.19.7(hono@4.11.7)
-      '@scalar/api-reference':
+      '@vektopay/api-reference':
         specifier: workspace:*
         version: link:../..
       compression:
@@ -1706,12 +1713,6 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
-      '@scalar/themes':
-        specifier: workspace:*
-        version: link:../themes
       '@types/hast':
         specifier: ^3.0.4
         version: 3.0.4
@@ -1721,6 +1722,12 @@ importers:
       '@types/unist':
         specifier: ^3.0.3
         version: 3.0.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
+      '@vektopay/themes':
+        specifier: workspace:*
+        version: link:../themes
       vfile:
         specifier: ^6.0.1
         version: 6.0.3
@@ -1739,22 +1746,22 @@ importers:
       '@headlessui/vue':
         specifier: catalog:*
         version: 1.7.23(vue@3.5.26(typescript@5.9.3))
-      '@scalar/code-highlight':
+      '@vektopay/code-highlight':
         specifier: workspace:*
         version: link:../code-highlight
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/icons':
+      '@vektopay/icons':
         specifier: workspace:*
         version: link:../icons
-      '@scalar/oas-utils':
+      '@vektopay/oas-utils':
         specifier: workspace:*
         version: link:../oas-utils
-      '@scalar/themes':
+      '@vektopay/themes':
         specifier: workspace:*
         version: link:../themes
-      '@scalar/use-hooks':
+      '@vektopay/use-hooks':
         specifier: workspace:*
         version: link:../use-hooks
       '@vueuse/core':
@@ -1785,9 +1792,6 @@ importers:
       '@playwright/test':
         specifier: catalog:*
         version: 1.56.0
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@storybook/addon-docs':
         specifier: 10.1.11
         version: 10.1.11(@types/react@19.2.7)(esbuild@0.27.2)(rollup@4.50.2)(storybook@10.1.11(@testing-library/dom@9.3.4)(prettier@3.6.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(webpack@5.103.0(esbuild@0.27.2))
@@ -1806,6 +1810,9 @@ importers:
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       '@vitejs/plugin-vue':
         specifier: catalog:*
         version: 6.0.3(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue@3.5.26(typescript@5.9.3))
@@ -1839,11 +1846,11 @@ importers:
 
   packages/core:
     dependencies:
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       vite:
@@ -1856,7 +1863,7 @@ importers:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       '@vitejs/plugin-vue':
@@ -1868,10 +1875,10 @@ importers:
 
   packages/galaxy:
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
-      '@scalar/openapi-parser':
+      '@vektopay/openapi-parser':
         specifier: workspace:*
         version: link:../openapi-parser
       vite:
@@ -1880,7 +1887,7 @@ importers:
 
   packages/helpers:
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       jsdom:
@@ -1908,7 +1915,7 @@ importers:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       '@vitejs/plugin-vue':
@@ -1935,14 +1942,14 @@ importers:
 
   packages/import:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
       yaml:
         specifier: catalog:*
         version: 2.8.0
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       vite:
@@ -1951,14 +1958,14 @@ importers:
 
   packages/json-magic:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
       yaml:
         specifier: catalog:*
         version: 2.8.0
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       fastify:
@@ -1973,34 +1980,34 @@ importers:
       '@faker-js/faker':
         specifier: ^10.2.0
         version: 10.2.0
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/json-magic':
+      '@vektopay/json-magic':
         specifier: workspace:*
         version: link:../json-magic
-      '@scalar/oas-utils':
+      '@vektopay/oas-utils':
         specifier: workspace:*
         version: link:../oas-utils
-      '@scalar/openapi-parser':
+      '@vektopay/openapi-parser':
         specifier: workspace:*
         version: link:../openapi-parser
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
-      '@scalar/openapi-upgrader':
+      '@vektopay/openapi-upgrader':
         specifier: workspace:*
         version: link:../openapi-upgrader
       hono:
         specifier: catalog:*
         version: 4.11.7
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -2010,19 +2017,19 @@ importers:
       '@hono/node-server':
         specifier: catalog:*
         version: 1.19.7(hono@4.11.7)
-      '@scalar/hono-api-reference':
+      '@vektopay/hono-api-reference':
         specifier: workspace:*
         version: link:../../../integrations/hono
-      '@scalar/mock-server':
+      '@vektopay/mock-server':
         specifier: workspace:*
         version: link:..
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../../build-tooling
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../../build-tooling
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -2032,40 +2039,37 @@ importers:
       '@hono/node-server':
         specifier: catalog:*
         version: 1.19.7(hono@4.11.7)
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../../build-tooling
-      '@scalar/hono-api-reference':
-        specifier: workspace:*
-        version: link:../../../integrations/hono
-      '@scalar/mock-server':
-        specifier: workspace:*
-        version: link:..
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../../build-tooling
+      '@vektopay/hono-api-reference':
+        specifier: workspace:*
+        version: link:../../../integrations/hono
+      '@vektopay/mock-server':
+        specifier: workspace:*
+        version: link:..
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
 
   packages/nextjs-openapi:
     dependencies:
-      '@scalar/nextjs-api-reference':
+      '@vektopay/nextjs-api-reference':
         specifier: workspace:*
         version: link:../../integrations/nextjs
-      '@scalar/ts-to-openapi':
+      '@vektopay/ts-to-openapi':
         specifier: workspace:*
         version: link:../ts-to-openapi
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
       fast-glob:
         specifier: ^3.3.3
         version: 3.3.3
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
@@ -2075,6 +2079,9 @@ importers:
       '@types/react-dom':
         specifier: catalog:*
         version: 19.2.3(@types/react@19.2.7)
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       next:
         specifier: catalog:*
         version: 15.5.10(@opentelemetry/api@1.9.0)(@playwright/test@1.56.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -2084,25 +2091,25 @@ importers:
 
   packages/oas-utils:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/json-magic':
+      '@vektopay/json-magic':
         specifier: workspace:*
         version: link:../json-magic
-      '@scalar/object-utils':
+      '@vektopay/object-utils':
         specifier: workspace:*
         version: link:../object-utils
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
-      '@scalar/themes':
+      '@vektopay/themes':
         specifier: workspace:*
         version: link:../themes
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
-      '@scalar/workspace-store':
+      '@vektopay/workspace-store':
         specifier: workspace:*
         version: link:../workspace-store
       flatted:
@@ -2118,15 +2125,15 @@ importers:
         specifier: catalog:*
         version: 4.3.5
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
-      '@scalar/openapi-parser':
-        specifier: workspace:*
-        version: link:../openapi-parser
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
+      '@vektopay/openapi-parser':
+        specifier: workspace:*
+        version: link:../openapi-parser
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -2139,7 +2146,7 @@ importers:
 
   packages/object-utils:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
       flatted:
@@ -2152,7 +2159,7 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       vite:
@@ -2161,16 +2168,16 @@ importers:
 
   packages/openapi-parser:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/json-magic':
+      '@vektopay/json-magic':
         specifier: workspace:*
         version: link:../json-magic
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
-      '@scalar/openapi-upgrader':
+      '@vektopay/openapi-upgrader':
         specifier: workspace:*
         version: link:../openapi-upgrader
       ajv:
@@ -2195,15 +2202,15 @@ importers:
       '@apidevtools/swagger-parser':
         specifier: 10.1.0
         version: 10.1.0(openapi-types@12.1.3)
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
-      '@scalar/types':
-        specifier: workspace:*
-        version: link:../types
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
+      '@vektopay/types':
+        specifier: workspace:*
+        version: link:../types
       just-diff:
         specifier: ^6.0.2
         version: 6.0.2
@@ -2213,25 +2220,25 @@ importers:
 
   packages/openapi-to-markdown:
     dependencies:
-      '@scalar/components':
+      '@vektopay/components':
         specifier: workspace:*
         version: link:../components
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/oas-utils':
+      '@vektopay/oas-utils':
         specifier: workspace:*
         version: link:../oas-utils
-      '@scalar/openapi-parser':
+      '@vektopay/openapi-parser':
         specifier: workspace:*
         version: link:../openapi-parser
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
-      '@scalar/openapi-upgrader':
+      '@vektopay/openapi-upgrader':
         specifier: workspace:*
         version: link:../openapi-upgrader
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
       html-minifier-terser:
@@ -2262,15 +2269,15 @@ importers:
       '@hono/node-server':
         specifier: catalog:*
         version: 1.19.7(hono@4.11.7)
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
-      '@scalar/galaxy':
-        specifier: workspace:*
-        version: link:../galaxy
       '@types/html-minifier-terser':
         specifier: ^7.0.2
         version: 7.0.2
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
+      '@vektopay/galaxy':
+        specifier: workspace:*
+        version: link:../galaxy
       '@vitejs/plugin-vue':
         specifier: catalog:*
         version: 6.0.3(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue@3.5.26(typescript@5.9.3))
@@ -2293,20 +2300,20 @@ importers:
         specifier: catalog:*
         version: 4.3.5
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
 
   packages/openapi-upgrader:
     dependencies:
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
       vite:
@@ -2315,19 +2322,19 @@ importers:
 
   packages/postman-to-openapi:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/openapi-types':
+      '@vektopay/openapi-types':
         specifier: workspace:*
         version: link:../openapi-types
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -2340,23 +2347,23 @@ importers:
       '@headlessui/vue':
         specifier: catalog:*
         version: 1.7.23(vue@3.5.26(typescript@5.9.3))
-      '@scalar/components':
+      '@vektopay/components':
         specifier: workspace:*
         version: link:../components
-      '@scalar/oas-utils':
+      '@vektopay/oas-utils':
         specifier: workspace:*
         version: link:../oas-utils
       vue:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
-      '@scalar/use-codemirror':
+      '@vektopay/use-codemirror':
         specifier: workspace:*
         version: link:../use-codemirror
       '@vitejs/plugin-vue':
@@ -2381,15 +2388,15 @@ importers:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/react':
         specifier: catalog:*
         version: 19.2.7
       '@types/react-dom':
         specifier: catalog:*
         version: 19.2.3(@types/react@19.2.7)
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       '@vitejs/plugin-react':
         specifier: catalog:*
         version: 5.0.4(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -2405,31 +2412,28 @@ importers:
 
   packages/sidebar:
     dependencies:
-      '@scalar/components':
+      '@vektopay/components':
         specifier: workspace:*
         version: link:../components
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
-      '@scalar/icons':
+      '@vektopay/icons':
         specifier: workspace:*
         version: link:../icons
-      '@scalar/themes':
+      '@vektopay/themes':
         specifier: workspace:*
         version: link:../themes
-      '@scalar/use-hooks':
+      '@vektopay/use-hooks':
         specifier: workspace:*
         version: link:../use-hooks
-      '@scalar/workspace-store':
+      '@vektopay/workspace-store':
         specifier: workspace:*
         version: link:../workspace-store
       vue:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@tailwindcss/vite':
         specifier: catalog:*
         version: 4.1.18(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))
@@ -2439,6 +2443,9 @@ importers:
       '@types/node':
         specifier: ^22.19.3
         version: 22.19.3
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       '@vitejs/plugin-vue':
         specifier: catalog:*
         version: 6.0.3(vite@7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0))(vue@3.5.26(typescript@5.9.3))
@@ -2460,7 +2467,7 @@ importers:
 
   packages/snippetz:
     dependencies:
-      '@scalar/types':
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
       js-base64:
@@ -2470,12 +2477,12 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/stringify-object':
         specifier: ^4.0.5
         version: 4.0.5
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -2486,7 +2493,7 @@ importers:
         specifier: catalog:*
         version: 5.1.6
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       tailwindcss:
@@ -2502,7 +2509,7 @@ importers:
         specifier: ^12.1.3
         version: 12.1.3
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       fast-glob:
@@ -2517,7 +2524,7 @@ importers:
 
   packages/types:
     dependencies:
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
       nanoid:
@@ -2530,12 +2537,12 @@ importers:
         specifier: catalog:*
         version: 4.3.5
     devDependencies:
-      '@scalar/build-tooling':
-        specifier: workspace:*
-        version: link:../build-tooling
       '@types/har-format':
         specifier: ^1.2.16
         version: 1.2.16
+      '@vektopay/build-tooling':
+        specifier: workspace:*
+        version: link:../build-tooling
       vite:
         specifier: catalog:*
         version: 7.3.1(@types/node@22.19.3)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.31.2)(tsx@4.19.1)(yaml@2.8.0)
@@ -2584,17 +2591,17 @@ importers:
       '@replit/codemirror-css-color-picker':
         specifier: ^6.3.0
         version: 6.3.0(@codemirror/language@6.10.7)(@codemirror/state@6.5.0)(@codemirror/view@6.35.3)
-      '@scalar/components':
+      '@vektopay/components':
         specifier: workspace:*
         version: link:../components
       vue:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
-      '@scalar/themes':
+      '@vektopay/themes':
         specifier: workspace:*
         version: link:../themes
       '@vitejs/plugin-vue':
@@ -2609,7 +2616,7 @@ importers:
 
   packages/use-hooks:
     dependencies:
-      '@scalar/use-toasts':
+      '@vektopay/use-toasts':
         specifier: workspace:*
         version: link:../use-toasts
       '@vueuse/core':
@@ -2628,7 +2635,7 @@ importers:
         specifier: catalog:*
         version: 4.3.5
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       '@vue/test-utils':
@@ -2650,7 +2657,7 @@ importers:
         specifier: ^1.0.3
         version: 1.1.2
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       '@vitejs/plugin-vue':
@@ -2674,7 +2681,7 @@ importers:
       '@hono/node-server':
         specifier: catalog:*
         version: 1.19.7(hono@4.11.7)
-      '@scalar/helpers':
+      '@vektopay/helpers':
         specifier: workspace:*
         version: link:../helpers
       hono:
@@ -2684,7 +2691,7 @@ importers:
         specifier: catalog:*
         version: 3.7.8
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       vite:
@@ -2693,31 +2700,34 @@ importers:
 
   packages/workspace-store:
     dependencies:
-      '@scalar/code-highlight':
-        specifier: workspace:*
-        version: link:../code-highlight
-      '@scalar/helpers':
-        specifier: workspace:*
-        version: link:../helpers
-      '@scalar/json-magic':
-        specifier: workspace:*
-        version: link:../json-magic
-      '@scalar/object-utils':
-        specifier: workspace:*
-        version: link:../object-utils
-      '@scalar/openapi-upgrader':
-        specifier: workspace:*
-        version: link:../openapi-upgrader
-      '@scalar/snippetz':
-        specifier: workspace:*
-        version: link:../snippetz
-      '@scalar/themes':
-        specifier: workspace:*
-        version: link:../themes
       '@scalar/typebox':
         specifier: catalog:*
         version: 0.1.3
-      '@scalar/types':
+      '@vektopay/code-highlight':
+        specifier: workspace:*
+        version: link:../code-highlight
+      '@vektopay/helpers':
+        specifier: workspace:*
+        version: link:../helpers
+      '@vektopay/json-magic':
+        specifier: workspace:*
+        version: link:../json-magic
+      '@vektopay/object-utils':
+        specifier: workspace:*
+        version: link:../object-utils
+      '@vektopay/openapi-upgrader':
+        specifier: workspace:*
+        version: link:../openapi-upgrader
+      '@vektopay/snippetz':
+        specifier: workspace:*
+        version: link:../snippetz
+      '@vektopay/themes':
+        specifier: workspace:*
+        version: link:../themes
+      '@vektopay/typebox':
+        specifier: npm:@scalar/typebox@0.1.3
+        version: '@scalar/typebox@0.1.3'
+      '@vektopay/types':
         specifier: workspace:*
         version: link:../types
       github-slugger:
@@ -2736,7 +2746,7 @@ importers:
       '@google-cloud/storage':
         specifier: catalog:*
         version: 7.16.0(encoding@0.1.13)
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../build-tooling
       fake-indexeddb:
@@ -2761,7 +2771,7 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^4.20260120.0
         version: 4.20260120.0
-      '@scalar/api-client':
+      '@vektopay/api-client':
         specifier: workspace:*
         version: link:../../packages/api-client
       '@vitejs/plugin-vue':
@@ -2779,7 +2789,7 @@ importers:
 
   projects/proxy-scalar-com:
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../packages/build-tooling
       vite:
@@ -2794,21 +2804,21 @@ importers:
       '@electron-toolkit/utils':
         specifier: ^4.0.0
         version: 4.0.0(electron@40.0.0)
-      '@scalar/api-client':
-        specifier: workspace:*
-        version: link:../../packages/api-client
-      '@scalar/components':
-        specifier: workspace:*
-        version: link:../../packages/components
-      '@scalar/import':
-        specifier: workspace:*
-        version: link:../../packages/import
-      '@scalar/themes':
-        specifier: workspace:*
-        version: link:../../packages/themes
       '@todesktop/runtime':
         specifier: ^2.1.3
         version: 2.1.3
+      '@vektopay/api-client':
+        specifier: workspace:*
+        version: link:../../packages/api-client
+      '@vektopay/components':
+        specifier: workspace:*
+        version: link:../../packages/components
+      '@vektopay/import':
+        specifier: workspace:*
+        version: link:../../packages/import
+      '@vektopay/themes':
+        specifier: workspace:*
+        version: link:../../packages/themes
       electron-window-state:
         specifier: ^5.0.3
         version: 5.0.3
@@ -2847,6 +2857,36 @@ importers:
         specifier: catalog:*
         version: 3.5.26(typescript@5.9.3)
 
+  projects/vektopay-api:
+    dependencies:
+      '@ai-sdk/google':
+        specifier: catalog:*
+        version: 0.0.29(zod@4.3.5)
+      '@ai-sdk/openai':
+        specifier: catalog:*
+        version: 0.0.36(zod@4.3.5)
+      '@vektopay/openapi-types':
+        specifier: workspace:*
+        version: link:../../packages/openapi-types
+      ai:
+        specifier: catalog:*
+        version: 6.0.33(zod@4.3.5)
+      archiver:
+        specifier: ^7.0.1
+        version: 7.0.1
+      hono:
+        specifier: catalog:*
+        version: 4.11.7
+      nanoid:
+        specifier: catalog:*
+        version: 5.1.6
+      pg:
+        specifier: ^8.11.5
+        version: 8.17.2
+      zod:
+        specifier: catalog:*
+        version: 4.3.5
+
   tooling/changelog-generator:
     dependencies:
       '@changesets/get-github-info':
@@ -2856,7 +2896,7 @@ importers:
         specifier: ^6.1.0
         version: 6.1.0
     devDependencies:
-      '@scalar/build-tooling':
+      '@vektopay/build-tooling':
         specifier: workspace:*
         version: link:../../packages/build-tooling
       vite:
@@ -2911,11 +2951,49 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
+  '@ai-sdk/google@0.0.29':
+    resolution: {integrity: sha512-qrXxqx1dZheSefstWxdhEDephj8WdcwlflE7HTVtgOGe+NAQ6JAP/czWL9Os8DzFbpw0EutmIe+bqWUF0cEXAg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+
+  '@ai-sdk/openai@0.0.36':
+    resolution: {integrity: sha512-6IcvR35UMuuQEQPkVjzUtqDAuz6vy+PMCEL0PAS2ufHXdPPm81OTKVetqjgOPjebsikhVP0soK1pKPEe2cztAQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+
+  '@ai-sdk/provider-utils@1.0.2':
+    resolution: {integrity: sha512-57f6O4OFVNEpI8Z8o+K40tIB3YQiTw+VCql/qrAO9Utq7Ti1o6+X9tvm177DlZJL7ft0Rwzvgy48S9YhrEKgmA==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
+  '@ai-sdk/provider-utils@1.0.4':
+    resolution: {integrity: sha512-2TldHn54+HrvVHMCos9lrSMcDIp3cgnpphpYT/95RXcIzcGwAFM5MioDWnsrki3noplU5pVld6ylD3Vu/Xt3Vw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
   '@ai-sdk/provider-utils@4.0.5':
     resolution: {integrity: sha512-Ow/X/SEkeExTTc1x+nYLB9ZHK2WUId8+9TlkamAx7Tl9vxU+cKzWx2dwjgMHeCN6twrgwkLrrtqckQeO4mxgVA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
+
+  '@ai-sdk/provider@0.0.12':
+    resolution: {integrity: sha512-oOwPQD8i2Ynpn22cur4sk26FW3mSy6t6/X/K1Ay2yGBKYiSpRyLfObhOrZEGsXDx+3euKy4nEZ193R36NM+tpQ==}
+    engines: {node: '>=18'}
+
+  '@ai-sdk/provider@0.0.13':
+    resolution: {integrity: sha512-RBstpG/3RqVBBJgTvjZpou/+1fNQMDIwB9enqQPXqr0MoCrJHscLD2Zsfr6cKM5HFfY1D4KhdSPTycCDebVGlQ==}
+    engines: {node: '>=18'}
 
   '@ai-sdk/provider@3.0.2':
     resolution: {integrity: sha512-HrEmNt/BH/hkQ7zpi2o6N3k1ZR1QTb7z85WYhYygiTxOQuaml4CMtHCWRbric5WPU+RNsYI7r1EpyVQMKO1pYw==}
@@ -11024,6 +11102,10 @@ packages:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
     engines: {node: '>=0.8.x'}
 
+  eventsource-parser@1.1.2:
+    resolution: {integrity: sha512-v0eOBUbiaFojBu2s2NPBfYUoRR9GjcDNvCXVaqEf5vVfpIAh9f8RCo4vXTP8c63QRKCFwoLpMpTdPwwhEKVgzA==}
+    engines: {node: '>=14.18'}
+
   eventsource-parser@3.0.6:
     resolution: {integrity: sha512-Vo1ab+QXPzZ4tCa8SwIHJFaSzy4R6SHf7BY79rFBDf0idraZWAkYrDjDj8uWaSm3S2TK+hJ7/t1CEmZ7jXw+pg==}
     engines: {node: '>=18.0.0'}
@@ -13733,6 +13815,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  nanoid@3.3.6:
+    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
   nanoid@5.1.6:
     resolution: {integrity: sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==}
     engines: {node: ^18 || >=20}
@@ -14392,9 +14479,23 @@ packages:
   periscopic@3.1.0:
     resolution: {integrity: sha512-vKiQ8RRtkl9P+r/+oefh25C3fhybptkHKCZSPlcXiJux2tJF55GnEj3BVn4A5gKfq9NWWXXrxkHBwVPUfH0opw==}
 
+  pg-cloudflare@1.3.0:
+    resolution: {integrity: sha512-6lswVVSztmHiRtD6I8hw4qP/nDm1EJbKMRhf3HCYaqud7frGysPv7FYJ5noZQdhQtN2xJnimfMtvQq21pdbzyQ==}
+
+  pg-connection-string@2.10.1:
+    resolution: {integrity: sha512-iNzslsoeSH2/gmDDKiyMqF64DATUCWj3YJ0wP14kqcsf2TUklwimd+66yYojKwZCA7h2yRNLGug71hCBA2a4sw==}
+
   pg-int8@1.0.1:
     resolution: {integrity: sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==}
     engines: {node: '>=4.0.0'}
+
+  pg-pool@3.11.0:
+    resolution: {integrity: sha512-MJYfvHwtGp870aeusDh+hg9apvOe2zmpZJpyt+BMtzUWlVqbhFmMK6bOBXLBUPd7iRtIF9fZplDc7KrPN3PN7w==}
+    peerDependencies:
+      pg: '>=8.0'
+
+  pg-protocol@1.11.0:
+    resolution: {integrity: sha512-pfsxk2M9M3BuGgDOfuy37VNRRX3jmKgMjcvAcWqNDpZSf4cUmv8HSOl5ViRQFsfARFn0KuUQTgLxVMbNq5NW3g==}
 
   pg-protocol@1.7.0:
     resolution: {integrity: sha512-hTK/mE36i8fDDhgDFjy6xNOG+LCorxLG3WO17tku+ij6sVHXh1jQUJ8hYAnRhNla4QVD2H8er/FOjc/+EgC6yQ==}
@@ -14402,6 +14503,18 @@ packages:
   pg-types@2.2.0:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
     engines: {node: '>=4'}
+
+  pg@8.17.2:
+    resolution: {integrity: sha512-vjbKdiBJRqzcYw1fNU5KuHyYvdJ1qpcQg1CeBrHFqV1pWgHeVR6j/+kX0E1AAXfyuLUGY1ICrN2ELKA/z2HWzw==}
+    engines: {node: '>= 16.0.0'}
+    peerDependencies:
+      pg-native: '>=3.0.1'
+    peerDependenciesMeta:
+      pg-native:
+        optional: true
+
+  pgpass@1.0.5:
+    resolution: {integrity: sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -18296,12 +18409,50 @@ snapshots:
       '@vercel/oidc': 3.1.0
       zod: 4.3.5
 
+  '@ai-sdk/google@0.0.29(zod@4.3.5)':
+    dependencies:
+      '@ai-sdk/provider': 0.0.13
+      '@ai-sdk/provider-utils': 1.0.4(zod@4.3.5)
+      zod: 4.3.5
+
+  '@ai-sdk/openai@0.0.36(zod@4.3.5)':
+    dependencies:
+      '@ai-sdk/provider': 0.0.12
+      '@ai-sdk/provider-utils': 1.0.2(zod@4.3.5)
+      zod: 4.3.5
+
+  '@ai-sdk/provider-utils@1.0.2(zod@4.3.5)':
+    dependencies:
+      '@ai-sdk/provider': 0.0.12
+      eventsource-parser: 1.1.2
+      nanoid: 3.3.6
+      secure-json-parse: 2.7.0
+    optionalDependencies:
+      zod: 4.3.5
+
+  '@ai-sdk/provider-utils@1.0.4(zod@4.3.5)':
+    dependencies:
+      '@ai-sdk/provider': 0.0.13
+      eventsource-parser: 1.1.2
+      nanoid: 3.3.6
+      secure-json-parse: 2.7.0
+    optionalDependencies:
+      zod: 4.3.5
+
   '@ai-sdk/provider-utils@4.0.5(zod@4.3.5)':
     dependencies:
       '@ai-sdk/provider': 3.0.2
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.0.6
       zod: 4.3.5
+
+  '@ai-sdk/provider@0.0.12':
+    dependencies:
+      json-schema: 0.4.0
+
+  '@ai-sdk/provider@0.0.13':
+    dependencies:
+      json-schema: 0.4.0
 
   '@ai-sdk/provider@3.0.2':
     dependencies:
@@ -28268,6 +28419,8 @@ snapshots:
 
   events@3.3.0: {}
 
+  eventsource-parser@1.1.2: {}
+
   eventsource-parser@3.0.6: {}
 
   eventsource@3.0.7:
@@ -31909,6 +32062,8 @@ snapshots:
 
   nanoid@3.3.11: {}
 
+  nanoid@3.3.6: {}
+
   nanoid@5.1.6: {}
 
   nanotar@0.2.0: {}
@@ -32925,7 +33080,18 @@ snapshots:
       estree-walker: 3.0.3
       is-reference: 3.0.3
 
+  pg-cloudflare@1.3.0:
+    optional: true
+
+  pg-connection-string@2.10.1: {}
+
   pg-int8@1.0.1: {}
+
+  pg-pool@3.11.0(pg@8.17.2):
+    dependencies:
+      pg: 8.17.2
+
+  pg-protocol@1.11.0: {}
 
   pg-protocol@1.7.0: {}
 
@@ -32936,6 +33102,20 @@ snapshots:
       postgres-bytea: 1.0.0
       postgres-date: 1.0.7
       postgres-interval: 1.2.0
+
+  pg@8.17.2:
+    dependencies:
+      pg-connection-string: 2.10.1
+      pg-pool: 3.11.0(pg@8.17.2)
+      pg-protocol: 1.11.0
+      pg-types: 2.2.0
+      pgpass: 1.0.5
+    optionalDependencies:
+      pg-cloudflare: 1.3.0
+
+  pgpass@1.0.5:
+    dependencies:
+      split2: 4.2.0
 
   picocolors@1.1.1: {}
 

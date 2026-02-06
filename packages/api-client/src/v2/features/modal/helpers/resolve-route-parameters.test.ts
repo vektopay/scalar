@@ -1,10 +1,10 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
 import { describe, expect, it } from 'vitest'
 
 import 'fake-indexeddb/auto'
 
-import type { OpenApiDocument } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { OpenApiDocument } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import {
   resolveDocumentSlug,

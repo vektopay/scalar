@@ -25,13 +25,13 @@
   },
   "type": "module",
   "dependencies": {
-    "@scalar/galaxy": "workspace:*",
+    "@vektopay/galaxy": "workspace:*",
     "random-words": "^2.0.1",
     "react": "catalog:*",
     "react-dom": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/api-reference-react": "workspace:*",
+    "@vektopay/api-reference-react": "workspace:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
     "@typescript-eslint/parser": "catalog:*",

@@ -3,7 +3,7 @@ import {
   ScalarDropdown,
   ScalarDropdownItem,
   ScalarIcon,
-} from '@scalar/components'
+} from '@vektopay/components'
 
 import SideNavLink from './SideNavLink.vue'
 </script>

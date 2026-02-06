@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/api-reference-react",
+  "name": "@vektopay/api-reference-react",
   "description": "The react client only integration for api references",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -49,11 +49,11 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/api-reference": "workspace:*",
-    "@scalar/types": "workspace:*"
+    "@vektopay/api-reference": "workspace:*",
+    "@vektopay/types": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
     "@vitejs/plugin-react": "catalog:*",
@@ -65,5 +65,8 @@
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

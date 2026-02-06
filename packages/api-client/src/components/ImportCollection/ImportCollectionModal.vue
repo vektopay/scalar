@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ScalarIcon, ScalarModal, useModal } from '@scalar/components'
-import { isLocalUrl } from '@scalar/oas-utils/helpers'
-import { normalize } from '@scalar/openapi-parser'
-import type { OpenAPI } from '@scalar/openapi-types'
+import { ScalarIcon, ScalarModal, useModal } from '@vektopay/components'
+import { isLocalUrl } from '@vektopay/oas-utils/helpers'
+import { normalize } from '@vektopay/openapi-parser'
+import type { OpenAPI } from '@vektopay/openapi-types'
 import {
   getThemeStyles,
   themeIds,
   type IntegrationThemeId,
-} from '@scalar/themes'
-import { useColorMode } from '@scalar/use-hooks/useColorMode'
+} from '@vektopay/themes'
+import { useColorMode } from '@vektopay/use-hooks/useColorMode'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

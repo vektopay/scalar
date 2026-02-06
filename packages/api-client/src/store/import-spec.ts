@@ -1,8 +1,8 @@
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { createHash, fetchDocument } from '@scalar/oas-utils/helpers'
-import { type ImportSpecToWorkspaceArgs, importSpecToWorkspace } from '@scalar/oas-utils/transforms'
-import type { OpenAPIV3, OpenAPIV3_1 } from '@scalar/openapi-types'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { createHash, fetchDocument } from '@vektopay/oas-utils/helpers'
+import { type ImportSpecToWorkspaceArgs, importSpecToWorkspace } from '@vektopay/oas-utils/transforms'
+import type { OpenAPIV3, OpenAPIV3_1 } from '@vektopay/openapi-types'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 import { toRaw } from 'vue'
 
 import { type ErrorResponse, normalizeError } from '@/libs'

@@ -1,5 +1,5 @@
-import { isObject } from '@scalar/helpers/object/is-object'
-import type { OpenAPI } from '@scalar/openapi-types'
+import { isObject } from '@vektopay/helpers/object/is-object'
+import type { OpenAPI } from '@vektopay/openapi-types'
 
 import { ERRORS } from '@/configuration'
 import type { AnyObject, ErrorObject, Filesystem, FilesystemEntry, ThrowOnErrorOption } from '@/types/index'

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { getSelectedServer } from '@scalar/api-client/v2/features/operation'
-import { getActiveEnvironment, getServers } from '@scalar/api-client/v2/helpers'
-import { type WorkspaceDocument } from '@scalar/workspace-store/schemas/workspace'
+import { getSelectedServer } from '@vektopay/api-client/v2/features/operation'
+import { getActiveEnvironment, getServers } from '@vektopay/api-client/v2/helpers'
+import { type WorkspaceDocument } from '@vektopay/workspace-store/schemas/workspace'
 import { computed } from 'vue'
 
 import ServerSelector from '@/components/ServerSelector.vue'

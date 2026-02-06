@@ -1,4 +1,4 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
 import { describe, expect, it } from 'vitest'
 
 import { loadDocumentFromSource } from './load-document-from-source'

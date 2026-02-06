@@ -1,5 +1,5 @@
-import { createApiClientApp } from '@scalar/api-client/layouts/App'
-import '@scalar/api-client/style.css'
+import { createApiClientApp } from '@vektopay/api-client/layouts/App'
+import '@vektopay/api-client/style.css'
 
 import type { IpcRendererEvent } from 'electron'
 import { load, trackEvent, trackPageview } from 'fathom-client'

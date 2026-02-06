@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "astro": "catalog:*",
-    "@scalar/astro": "workspace:*"
+    "@vektopay/astro": "workspace:*"
   }
 }

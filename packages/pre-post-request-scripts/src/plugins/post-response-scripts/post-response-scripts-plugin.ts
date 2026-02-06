@@ -1,4 +1,4 @@
-import type { ApiClientPlugin } from '@scalar/types/api-reference'
+import type { ApiClientPlugin } from '@vektopay/types/api-reference'
 import { ref } from 'vue'
 
 import { type TestResult, executePostResponseScript } from '../../libs/execute-scripts'

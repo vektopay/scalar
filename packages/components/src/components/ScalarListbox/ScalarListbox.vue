@@ -5,7 +5,7 @@ import {
   ListboxLabel,
   ListboxOptions,
 } from '@headlessui/vue'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 import {
   ScalarFloating,

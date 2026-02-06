@@ -1,6 +1,6 @@
-import { replaceEnvVariables } from '@scalar/helpers/regex/replace-variables'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import type { RequestBodyObject } from '@scalar/workspace-store/schemas/v3.1/strict/request-body'
+import { replaceEnvVariables } from '@vektopay/helpers/regex/replace-variables'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import type { RequestBodyObject } from '@vektopay/workspace-store/schemas/v3.1/strict/request-body'
 
 import { getExampleFromBody } from '@/v2/blocks/request-block/helpers/get-request-body-example'
 

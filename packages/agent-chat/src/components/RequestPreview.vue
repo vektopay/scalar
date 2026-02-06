@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarCodeBlock } from '@scalar/components'
-import { ScalarIconCaretDown, ScalarIconCaretRight } from '@scalar/icons'
+import { ScalarCodeBlock } from '@vektopay/components'
+import { ScalarIconCaretDown, ScalarIconCaretRight } from '@vektopay/icons'
 import { type DeepPartial } from 'ai'
 import { computed, ref } from 'vue'
 

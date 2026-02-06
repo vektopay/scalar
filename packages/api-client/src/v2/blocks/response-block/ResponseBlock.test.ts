@@ -1,5 +1,5 @@
-import type { ResponseInstance } from '@scalar/oas-utils/entities/spec'
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { ResponseInstance } from '@vektopay/oas-utils/entities/spec'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 import { defineComponent, markRaw } from 'vue'

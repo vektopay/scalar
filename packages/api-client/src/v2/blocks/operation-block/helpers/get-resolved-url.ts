@@ -1,7 +1,7 @@
-import { replaceVariables } from '@scalar/helpers/regex/replace-variables'
-import { mergeUrls } from '@scalar/helpers/url/merge-urls'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/server'
+import { replaceVariables } from '@vektopay/helpers/regex/replace-variables'
+import { mergeUrls } from '@vektopay/helpers/url/merge-urls'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/server'
 
 import { getEnvironmentVariables } from '@/v2/blocks/operation-block/helpers/get-environment-variables'
 import { getServerUrl } from '@/v2/blocks/operation-block/helpers/get-server-url'

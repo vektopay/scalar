@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIconInfo, ScalarIconX } from '@scalar/icons'
+import { ScalarIconInfo, ScalarIconX } from '@vektopay/icons'
 import { ref } from 'vue'
 
 import { useState } from '@/state/state'
@@ -8,19 +8,12 @@ const isDismissed = ref(false)
 const { dashboardUrl, mode, uploadedTmpDocumentUrl } = useState()
 
 function handleLearnMore() {
-  const path = 'https://scalar.com/products/agent/getting-started'
-  window.open(path, '_blank')
-  if (mode === 'full') {
-    window.location.replace(dashboardUrl)
-  }
+  const target =
+    mode === 'preview' && uploadedTmpDocumentUrl.value
+      ? `${dashboardUrl}/register?flow=oss-agent&docUrl=${uploadedTmpDocumentUrl.value}`
+      : dashboardUrl
 
-  if (mode === 'preview') {
-    window.location.replace(
-      uploadedTmpDocumentUrl.value
-        ? `${dashboardUrl}/register?flow=oss-agent&docUrl=${uploadedTmpDocumentUrl.value}`
-        : dashboardUrl,
-    )
-  }
+  window.location.replace(target)
 }
 
 function dismiss() {

@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/use-toasts",
+  "name": "@vektopay/use-toasts",
   "description": "display toasts in Vue",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -51,11 +51,14 @@
     "vue-sonner": "^1.0.3"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "@vue/test-utils": "catalog:*",
     "vite": "catalog:*",
     "vite-plugin-css-injected-by-js": "^3.4.0",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

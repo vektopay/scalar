@@ -1,13 +1,13 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { objectKeys } from '@scalar/helpers/object/object-keys'
-import { replaceEnvVariables } from '@scalar/helpers/regex/replace-variables'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { objectKeys } from '@vektopay/helpers/object/object-keys'
+import { replaceEnvVariables } from '@vektopay/helpers/regex/replace-variables'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import {
   type XScalarCookie,
   xScalarCookieSchema,
-} from '@scalar/workspace-store/schemas/extensions/general/x-scalar-cookies'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import type { SecurityRequirementObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/extensions/general/x-scalar-cookies'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import type { SecurityRequirementObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { encode } from 'js-base64'
 
 import type { MergedSecuritySchemes } from '@/v2/blocks/scalar-auth-selector-block/helpers/merge-security'

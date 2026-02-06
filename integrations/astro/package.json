@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/astro",
+  "name": "@vektopay/astro",
   "description": "Scalar API Reference Component for Astro",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -48,12 +48,15 @@
     "documentation": "https://scalar.com/products/api-references/integrations/astro"
   },
   "dependencies": {
-    "@scalar/core": "workspace:*"
+    "@vektopay/core": "workspace:*"
   },
   "devDependencies": {
     "astro": "^4.0.0 || ^5.0.0"
   },
   "peerDependencies": {
     "astro": "^4.0.0 || ^5.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

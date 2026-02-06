@@ -1,4 +1,4 @@
-import { ScalarButton } from '@scalar/components'
+import { ScalarButton } from '@vektopay/components'
 import { flushPromises, mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'

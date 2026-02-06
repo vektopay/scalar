@@ -1,7 +1,7 @@
-import { json2xml } from '@scalar/helpers/file/json2xml'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import type { RequestBodyObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { json2xml } from '@vektopay/helpers/file/json2xml'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import type { RequestBodyObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { getExampleFromSchema } from '@v2/blocks/operation-code-sample/helpers/get-example-from-schema'
 import type { Param, PostData } from 'har-format'
 

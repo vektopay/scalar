@@ -1,4 +1,4 @@
-import type { UnknownObject } from '@scalar/types/utils'
+import type { UnknownObject } from '@vektopay/types/utils'
 
 /**
  * Recursively migrate XML object properties from 3.1 to 3.2 format

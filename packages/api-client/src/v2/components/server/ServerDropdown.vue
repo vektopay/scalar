@@ -3,10 +3,10 @@ import {
   ScalarButton,
   ScalarFloatingBackdrop,
   ScalarPopover,
-} from '@scalar/components'
-import { ScalarIconPencilSimple, ScalarIconPlus } from '@scalar/icons'
-import type { ApiReferenceEvents } from '@scalar/workspace-store/events'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/components'
+import { ScalarIconPencilSimple, ScalarIconPlus } from '@vektopay/icons'
+import type { ApiReferenceEvents } from '@vektopay/workspace-store/events'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import type { ClientLayout } from '@/hooks'

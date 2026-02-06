@@ -3,7 +3,7 @@ import { serveExample } from '@test/utils/serve-example'
 
 import { sources } from '../utils/sources'
 
-const cdn = 'https://cdn.jsdelivr.net/npm/@scalar/api-reference' as const
+const cdn = 'https://cdn.vektopay.com/@vektopay/api-reference' as const
 
 /**
  * Wait for the ARIA snapshot (e.g. the dom structure) to stabilize

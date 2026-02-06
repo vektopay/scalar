@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /** The license information for the exposed API. */
 export const LicenseObjectSchemaDefinition = Type.Object({

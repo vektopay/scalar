@@ -1,4 +1,4 @@
-import { isLocalUrl } from '@scalar/helpers/url/is-local-url'
+import { isLocalUrl } from '@vektopay/helpers/url/is-local-url'
 import type { ComputedRef, Ref } from 'vue'
 import { type InjectionKey, computed, inject, ref } from 'vue'
 

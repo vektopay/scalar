@@ -28,7 +28,7 @@ describe('getContentOfScriptTag', () => {
         </style>
       </head>
       <body>
-        <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+        <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
         <script id="api-reference" type="application/json" data-configuration="foo<br>bar">console.log("Hello, world!");</script>
       </body>
     </html>`

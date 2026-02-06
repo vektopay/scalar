@@ -1,16 +1,16 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
 import '@/style.css'
 
 import { createApiClientModal } from '@/v2/features/modal/helpers/create-api-client-modal'
 
 const workspaceStore = createWorkspaceStore({
   meta: {
-    'x-scalar-active-proxy': 'https://proxy.scalar.com',
+    'x-scalar-active-proxy': 'https://proxy.vektopay.com',
   },
 })
 await workspaceStore.addDocument({
   name: 'default',
-  url: 'https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.json',
+  url: 'https://cdn.vektopay.com/@vektopay/galaxy/dist/latest.json',
 })
 
 const { open } = createApiClientModal({

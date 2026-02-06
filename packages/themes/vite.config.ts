@@ -1,4 +1,4 @@
-import { createViteBuildOptions } from '@scalar/build-tooling/vite'
+import { createViteBuildOptions } from '@vektopay/build-tooling/vite'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({

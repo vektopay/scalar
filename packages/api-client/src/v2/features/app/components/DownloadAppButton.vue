@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIconDownloadSimple } from '@scalar/icons'
+import { ScalarIconDownloadSimple } from '@vektopay/icons'
 </script>
 <template>
   <a

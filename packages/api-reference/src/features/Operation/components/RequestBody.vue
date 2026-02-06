@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ScalarMarkdown } from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { RequestBodyObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ScalarMarkdown } from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { RequestBodyObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref } from 'vue'
 
 import { Schema } from '@/components/Content/Schema'

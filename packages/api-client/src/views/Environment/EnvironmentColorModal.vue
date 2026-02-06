@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarModal, type ModalState } from '@scalar/components'
+import { ScalarModal, type ModalState } from '@vektopay/components'
 import { ref } from 'vue'
 
 import SidebarListElementForm from '@/components/Sidebar/Actions/SidebarListElementForm.vue'

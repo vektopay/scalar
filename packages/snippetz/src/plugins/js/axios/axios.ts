@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { axios } from '@/httpsnippet-lite/targets/javascript/axios/client'
 import { convertWithHttpSnippetLite } from '@/utils/convertWithHttpSnippetLite'

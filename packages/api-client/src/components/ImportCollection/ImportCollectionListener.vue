@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { Collection } from '@scalar/oas-utils/entities/spec'
-import { useToasts } from '@scalar/use-toasts'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
+import { useToasts } from '@vektopay/use-toasts'
 import { nextTick, ref } from 'vue'
 import { useRouter } from 'vue-router'
 

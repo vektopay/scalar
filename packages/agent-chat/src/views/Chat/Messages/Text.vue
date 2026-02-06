@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarMarkdown } from '@scalar/components'
+import { ScalarMarkdown } from '@vektopay/components'
 import { type TextUIPart } from 'ai'
 import { type Ref } from 'vue'
 

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { ExamplePicker } from '@scalar/api-client/v2/blocks/operation-code-sample'
+import { ExamplePicker } from '@vektopay/api-client/v2/blocks/operation-code-sample'
 import {
   ScalarCard,
   ScalarCardFooter,
   ScalarCardSection,
   ScalarCodeBlock,
-} from '@scalar/components'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/components'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref } from 'vue'
 
 const { schema } = defineProps<{ schema: SchemaObject }>()

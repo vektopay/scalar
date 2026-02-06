@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { computed } from 'vue'
 
 import { getMediaTypeConfig } from '@/views/Request/consts'

@@ -1,4 +1,4 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'

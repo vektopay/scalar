@@ -1,4 +1,4 @@
-import { type Operation, operationSchema } from '@scalar/oas-utils/entities/spec'
+import { type Operation, operationSchema } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, test } from 'vitest'
 
 import { getRequestUidByPathMethod } from './get-request-uid-by-path-method'

@@ -1,4 +1,4 @@
-import { requestExampleSchema } from '@scalar/oas-utils/entities/spec'
+import { requestExampleSchema } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { createFetchBody } from './create-fetch-body'

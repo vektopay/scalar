@@ -20,7 +20,7 @@ describe.skip('createApiClientModal', () => {
     await createApiClientModal({
       el: element,
       configuration: {
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
       },
     })
 

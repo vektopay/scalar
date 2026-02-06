@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarModal } from '@scalar/components'
+import { ScalarButton, ScalarModal } from '@vektopay/components'
 
 defineProps<{
   state: { open: boolean; show: () => void; hide: () => void }

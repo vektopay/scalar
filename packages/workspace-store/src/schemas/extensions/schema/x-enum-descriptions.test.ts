@@ -1,4 +1,4 @@
-import { Value } from '@scalar/typebox/value'
+import { Value } from '@vektopay/typebox/value'
 import { describe, expect, it } from 'vitest'
 
 import { XEnumDescriptionsSchema } from './x-enum-descriptions'

@@ -1,5 +1,5 @@
-import type { XCodeSample } from '@scalar/openapi-types/schemas/extensions'
-import { AVAILABLE_CLIENTS } from '@scalar/snippetz'
+import type { XCodeSample } from '@vektopay/openapi-types/schemas/extensions'
+import { AVAILABLE_CLIENTS } from '@vektopay/snippetz'
 import { describe, expect, it } from 'vitest'
 
 import { generateClientOptions, generateCustomId } from './generate-client-options'

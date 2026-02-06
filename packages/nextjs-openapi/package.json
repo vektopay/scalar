@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/nextjs-openapi",
+  "name": "@vektopay/nextjs-openapi",
   "description": "Automatically generate an OpenAPI schema from a Nextjs API",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -41,17 +41,20 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/nextjs-api-reference": "workspace:*",
-    "@scalar/ts-to-openapi": "workspace:*",
-    "@scalar/types": "workspace:*",
+    "@vektopay/nextjs-api-reference": "workspace:*",
+    "@vektopay/ts-to-openapi": "workspace:*",
+    "@vektopay/types": "workspace:*",
     "fast-glob": "^3.3.3"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/node": "catalog:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
     "next": "catalog:*",
     "openapi-types": "^12.1.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

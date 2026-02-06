@@ -1,4 +1,4 @@
-import type { HarResponse } from '@scalar/snippetz'
+import type { HarResponse } from '@vektopay/snippetz'
 import { assert, describe, expect, it } from 'vitest'
 
 import { harToFetchResponse } from './har-to-fetch-response'

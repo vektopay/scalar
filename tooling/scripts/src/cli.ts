@@ -13,7 +13,7 @@ import { version } from '../package.json'
 const program = new Command()
 
 program
-  .name('@scalar-internal/build-scripts')
+  .name('@vektopay/build-scripts')
   .description('Internal CLI to quickly run repository scripts')
   .version(version)
 

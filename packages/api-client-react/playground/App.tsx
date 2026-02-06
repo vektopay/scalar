@@ -1,4 +1,4 @@
-import type { OpenClientPayload } from '@scalar/api-client/libs'
+import type { OpenClientPayload } from '@vektopay/api-client/libs'
 
 import { useApiClientModal } from '../src/ApiClientModalProvider'
 import '../src/style.css'

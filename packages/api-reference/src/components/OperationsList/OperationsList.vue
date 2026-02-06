@@ -3,9 +3,9 @@ import {
   ScalarCard,
   ScalarCardHeader,
   ScalarCardSection,
-} from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { TraversedTag } from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { TraversedTag } from '@vektopay/workspace-store/schemas/navigation'
 import { computed } from 'vue'
 
 import ScreenReader from '@/components/ScreenReader.vue'

@@ -17,7 +17,7 @@ Add the key to your API reference configuration:
 Scalar.createApiReference('#app', {
   sources: [
     {
-      url: 'https://registry.scalar.com/@your-namespace/apis/your-api/latest?format=json',
+      url: 'https://registry.vektopay.com/@your-namespace/apis/your-api/latest?format=json',
       agent: {
         key: 'your-agent-scalar-key',
       },

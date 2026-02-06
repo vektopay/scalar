@@ -1,10 +1,9 @@
 <script lang="ts" setup>
-import { ScalarButton, useLoadingState } from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { ScalarButton, useLoadingState } from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import { nextTick } from 'vue'
 
-import { DASHBOARD_REGISTER_URL } from '@/consts/urls'
 import { uploadTempDocument } from '@/helpers/upload-temp-document'
 
 const { sdks = [], workspace } = defineProps<{
@@ -17,24 +16,23 @@ const tempDocUrl = defineModel<string>('url')
 const { toast } = useToasts()
 const loader = useLoadingState()
 
-/** Open the registration link in a new tab */
-function openRegisterLink(docUrl: string) {
-  const url = new URL(DASHBOARD_REGISTER_URL)
-  url.searchParams.set('url', docUrl)
-  sdks.forEach((sdk) => url.searchParams.append('sdk', sdk))
-
-  window.open(url.toString(), '_blank')
-}
-
-/** Generate and open the registration link */
-async function generateRegisterLink() {
-  if (loader.isLoading || !workspace) {
-    return
+async function generateSdkArchive(docUrl: string) {
+  const response = await fetch(`${docUrl}?sdks=${sdks.join(',')}`)
+  if (!response.ok) {
+    throw new Error('Failed to generate SDKs')
   }
 
-  // If we have already have a temporary document URL, use it
-  if (tempDocUrl.value) {
-    openRegisterLink(tempDocUrl.value)
+  const blob = await response.blob()
+  const link = document.createElement('a')
+  link.href = URL.createObjectURL(blob)
+  link.download = 'sdks.zip'
+  link.click()
+  URL.revokeObjectURL(link.href)
+}
+
+/** Generate and download the SDK archive */
+async function generateRegisterLink() {
+  if (loader.isLoading || !workspace) {
     return
   }
 
@@ -49,9 +47,12 @@ async function generateRegisterLink() {
   }
 
   try {
-    tempDocUrl.value = await uploadTempDocument(document)
+    if (!tempDocUrl.value) {
+      tempDocUrl.value = await uploadTempDocument(document)
+    }
+
     await loader.validate()
-    openRegisterLink(tempDocUrl.value)
+    await generateSdkArchive(tempDocUrl.value)
 
     await nextTick()
 

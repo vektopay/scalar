@@ -67,7 +67,7 @@ Create `index.html` in the `wwwroot/scalar` directory with:
 <body>
     <div id="app"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
     <script src="./scalar.config.js"></script>
 </body>
 </html>
@@ -98,7 +98,7 @@ http://localhost:<port>/scalar/index.html
 To use a specific version instead of the latest, specify the version in your HTML:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.28.23"></script>
+<script src="https://cdn.vektopay.com/@vektopay/api-reference@1.28.23"></script>
 ```
 
 ## Troubleshooting

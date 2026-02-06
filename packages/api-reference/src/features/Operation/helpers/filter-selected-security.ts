@@ -1,15 +1,15 @@
-import { getSecuritySchemes } from '@scalar/api-client/v2/blocks/operation-block'
+import { getSecuritySchemes } from '@vektopay/api-client/v2/blocks/operation-block'
 import type {
   MergedSecuritySchemes,
   SecuritySchemeObjectSecret,
-} from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import { getSelectedSecurity } from '@scalar/api-client/v2/features/operation'
-import type { SelectedSecurity } from '@scalar/workspace-store/entities/auth'
+} from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import { getSelectedSecurity } from '@vektopay/api-client/v2/features/operation'
+import type { SelectedSecurity } from '@vektopay/workspace-store/entities/auth'
 import type {
   OpenApiDocument,
   OperationObject,
   SecurityRequirementObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /** Builds a quick cache key from the sorted object keys */
 const getKey = (requirement: SecurityRequirementObject) => Object.keys(requirement).sort().join(',')

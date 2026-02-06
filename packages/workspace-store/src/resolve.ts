@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import { type RefNode, getResolvedRef } from '@/helpers/get-resolved-ref'
 import { compose } from '@/schemas/compose'

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { getHttpMethodInfo } from '@scalar/helpers/http/http-info'
-import { ScalarIconWebhooksLogo } from '@scalar/icons'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { getHttpMethodInfo } from '@vektopay/helpers/http/http-info'
+import { ScalarIconWebhooksLogo } from '@vektopay/icons'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import type {
   TraversedEntry,
   TraversedOperation,
   TraversedWebhook,
-} from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/workspace-store/schemas/navigation'
 import { computed } from 'vue'
 
 import { HttpMethod } from '@/components/HttpMethod'

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarTooltip } from '@scalar/components'
-import { ScalarIconTrash } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { RequestExampleParameter } from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+import { ScalarButton, ScalarIcon, ScalarTooltip } from '@vektopay/components'
+import { ScalarIconTrash } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { RequestExampleParameter } from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { RouterLink, type RouteLocationRaw } from 'vue-router'
 
 import CodeInput from '@/components/CodeInput/CodeInput.vue'

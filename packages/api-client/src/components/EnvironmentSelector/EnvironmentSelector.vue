@@ -6,8 +6,8 @@ import {
   ScalarDropdownItem,
   ScalarIcon,
   ScalarListboxCheckbox,
-} from '@scalar/components'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/components'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
 import { computed, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarModal, type ModalState } from '@scalar/components'
+import { ScalarButton, ScalarModal, type ModalState } from '@vektopay/components'
 
 const { state, name = 'unknown' } = defineProps<{
   state: ModalState

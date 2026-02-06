@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/pre-post-request-scripts",
+  "name": "@vektopay/pre-post-request-scripts",
   "description": "Execute pre-request and post-response scripts in the Scalar API Client",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -81,14 +81,14 @@
   "dependencies": {
     "@codemirror/lang-javascript": "^6.2.4",
     "@headlessui/vue": "catalog:*",
-    "@scalar/components": "workspace:*",
-    "@scalar/oas-utils": "workspace:*",
+    "@vektopay/components": "workspace:*",
+    "@vektopay/oas-utils": "workspace:*",
     "vue": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/types": "workspace:*",
-    "@scalar/use-codemirror": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/types": "workspace:*",
+    "@vektopay/use-codemirror": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "@vue/test-utils": "catalog:*",
     "vite": "catalog:*"

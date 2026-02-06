@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarListbox } from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
+import { ScalarButton, ScalarIcon, ScalarListbox } from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
 import { computed, ref } from 'vue'
 
 import { useWorkspace } from '@/store'

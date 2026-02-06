@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarToggle } from '@scalar/components'
+import { ScalarToggle } from '@vektopay/components'
 
 import { useActiveEntities } from '@/store/active-entities'
 import { useWorkspace } from '@/store/store'

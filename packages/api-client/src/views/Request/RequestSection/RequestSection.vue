@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { ScalarErrorBoundary } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { SelectedSecuritySchemeUids } from '@scalar/oas-utils/entities/shared'
+import { ScalarErrorBoundary } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { SelectedSecuritySchemeUids } from '@vektopay/oas-utils/entities/shared'
 import type {
   Collection,
   Operation,
   RequestExample,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { canMethodHaveBody, isDefined, REGEX } from '@scalar/oas-utils/helpers'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { canMethodHaveBody, isDefined, REGEX } from '@vektopay/oas-utils/helpers'
 import { computed, ref, useId, watch } from 'vue'
 
 import SectionFilter from '@/components/SectionFilter.vue'

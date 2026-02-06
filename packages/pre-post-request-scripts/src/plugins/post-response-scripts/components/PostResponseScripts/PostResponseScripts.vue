@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Operation } from '@scalar/oas-utils/entities/spec'
+import type { Operation } from '@vektopay/oas-utils/entities/spec'
 import { computed } from 'vue'
 
 import { ViewLayoutCollapse } from '@/components/ViewLayout'

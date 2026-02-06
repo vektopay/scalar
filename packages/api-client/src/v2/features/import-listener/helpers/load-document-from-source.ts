@@ -1,6 +1,6 @@
-import { normalize } from '@scalar/openapi-parser'
-import type { UnknownObject } from '@scalar/types/utils'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { normalize } from '@vektopay/openapi-parser'
+import type { UnknownObject } from '@vektopay/types/utils'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 
 import { isUrl } from '@/v2/helpers/is-url'
 

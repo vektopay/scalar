@@ -1,4 +1,4 @@
-import type { Collection, Operation } from '@scalar/oas-utils/entities/spec'
+import type { Collection, Operation } from '@vektopay/oas-utils/entities/spec'
 
 /**
  * Checks if the user gets the getting started state displayed

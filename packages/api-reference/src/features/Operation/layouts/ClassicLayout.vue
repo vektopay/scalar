@@ -1,27 +1,27 @@
 <script setup lang="ts">
-import { OperationCodeSample } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import type { SecuritySchemeObjectSecret } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
+import { OperationCodeSample } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import type { SecuritySchemeObjectSecret } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
 import {
   ScalarErrorBoundary,
   ScalarIconButton,
   ScalarMarkdown,
-} from '@scalar/components'
+} from '@vektopay/components'
 import {
   ScalarIconCopy,
   ScalarIconPlay,
   ScalarIconWebhooksLogo,
-} from '@scalar/icons'
+} from '@vektopay/icons'
 import {
   getOperationStability,
   getOperationStabilityColor,
   isOperationDeprecated,
-} from '@scalar/oas-utils/helpers'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+} from '@vektopay/oas-utils/helpers'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   OperationObject,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import { Anchor } from '@/components/Anchor'

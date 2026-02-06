@@ -1,4 +1,4 @@
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
 
 type EntryType = 'operation' | 'heading' | 'tag'
 

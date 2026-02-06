@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { createApiReference } from '../../../src/index'
 
-import '@scalar/api-reference/style.css'
+import '@vektopay/api-reference/style.css'
 
-import type { ApiReferenceConfigurationWithSource } from '@scalar/types/api-reference'
+import type { ApiReferenceConfigurationWithSource } from '@vektopay/types/api-reference'
 import { onMounted, reactive, ref } from 'vue'
 
 import DebugBar from './components/DebugBar.vue'

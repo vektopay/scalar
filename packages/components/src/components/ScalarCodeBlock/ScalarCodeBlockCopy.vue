@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarIconCheck, ScalarIconCopy } from '@scalar/icons'
-import { cva, cx } from '@scalar/use-hooks/useBindCx'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
+import { ScalarIconCheck, ScalarIconCopy } from '@vektopay/icons'
+import { cva, cx } from '@vektopay/use-hooks/useBindCx'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
 import { ref } from 'vue'
 
 import { ScalarButton } from '../ScalarButton'

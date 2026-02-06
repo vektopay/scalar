@@ -1,4 +1,4 @@
-import type { HarRequest as NpmHarRequest, FormDataParam as Param, PostDataCommon } from '@scalar/types/snippetz'
+import type { HarRequest as NpmHarRequest, FormDataParam as Param, PostDataCommon } from '@vektopay/types/snippetz'
 
 import type { ReducedHelperObject } from '@/httpsnippet-lite/helpers/reducer'
 import type { ExtendedURL } from '@/httpsnippet-lite/helpers/url'

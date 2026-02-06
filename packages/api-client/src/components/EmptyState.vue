@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarHotkey } from '@scalar/components'
+import { ScalarHotkey } from '@vektopay/components'
 
 import Keycap from '@/assets/keycap.ascii?raw'
 

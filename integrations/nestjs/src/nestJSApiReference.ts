@@ -1,6 +1,6 @@
 import type { ServerResponse } from 'node:http'
 
-import { getHtmlDocument } from '@scalar/core/libs/html-rendering'
+import { getHtmlDocument } from '@vektopay/core/libs/html-rendering'
 import type { Request, Response } from 'express'
 import type { FastifyRequest } from 'fastify'
 

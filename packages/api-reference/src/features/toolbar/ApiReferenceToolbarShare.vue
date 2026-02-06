@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { ScalarFormSection } from '@scalar/components'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { ScalarFormSection } from '@vektopay/components'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 
 import ApiReferenceToolbarPopover from '@/features/toolbar/ApiReferenceToolbarPopover.vue'
 import ApiReferenceToolbarShareRegister from '@/features/toolbar/ApiReferenceToolbarShareRegister.vue'
@@ -18,7 +18,7 @@ const { workspace } = defineProps<{
       <ApiReferenceToolbarShareTemporary :workspace />
     </ScalarFormSection>
     <ScalarFormSection>
-      <template #label>Cloud Hosting</template>
+      <template #label>SDKs</template>
       <ApiReferenceToolbarShareRegister :workspace />
     </ScalarFormSection>
   </ApiReferenceToolbarPopover>

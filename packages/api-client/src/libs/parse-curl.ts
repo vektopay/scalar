@@ -1,4 +1,4 @@
-import type { RequestMethod } from '@scalar/oas-utils/entities/spec'
+import type { RequestMethod } from '@vektopay/oas-utils/entities/spec'
 import { encode } from 'js-base64'
 import { parse as parseShellCommand } from 'shell-quote'
 

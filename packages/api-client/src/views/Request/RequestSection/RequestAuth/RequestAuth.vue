@@ -7,22 +7,22 @@ import {
   useModal,
   type Icon,
   type ScalarButton as ScalarButtonType,
-} from '@scalar/components'
+} from '@vektopay/components'
 import {
   CLIENT_LS_KEYS,
   safeLocalStorage,
-} from '@scalar/helpers/object/local-storage'
-import { ScalarIconCaretDown, ScalarIconTrash } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { SelectedSecuritySchemeUids } from '@scalar/oas-utils/entities/shared'
+} from '@vektopay/helpers/object/local-storage'
+import { ScalarIconCaretDown, ScalarIconTrash } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { SelectedSecuritySchemeUids } from '@vektopay/oas-utils/entities/shared'
 import type {
   Collection,
   Operation,
   SecurityScheme,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { isDefined } from '@scalar/oas-utils/helpers'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { isDefined } from '@vektopay/oas-utils/helpers'
 import { computed, ref, useId } from 'vue'
 
 import ViewLayoutCollapse from '@/components/ViewLayout/ViewLayoutCollapse.vue'

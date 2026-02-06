@@ -1,4 +1,4 @@
-import type { OpenAPI, OpenAPIV3, OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPI, OpenAPIV3, OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 /**
  * Extract path from URL

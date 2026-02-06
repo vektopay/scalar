@@ -1,5 +1,5 @@
-import { type ClientOptionGroup, DEFAULT_CLIENT } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import { type ClientOptionGroup, DEFAULT_CLIENT } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 

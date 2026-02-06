@@ -1,7 +1,7 @@
-import { ApiReference } from '@scalar/nextjs-api-reference'
+import { ApiReference } from '@vektopay/nextjs-api-reference'
 
 const config = {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
 }
 
 export const GET = ApiReference(config)

@@ -3,7 +3,7 @@ import z from 'zod'
 import { apiClientPluginSchema } from './api-client-plugin'
 
 export const OLD_PROXY_URL = 'https://api.scalar.com/request-proxy'
-export const NEW_PROXY_URL = 'https://proxy.scalar.com'
+export const NEW_PROXY_URL = 'https://proxy.vektopay.com'
 
 /** Shared configuration for the Api Reference and Api Client */
 export const baseConfigurationSchema = z.object({

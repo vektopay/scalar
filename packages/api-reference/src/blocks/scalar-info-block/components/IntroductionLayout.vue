@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { Heading } from '@scalar/types/legacy'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { Heading } from '@vektopay/types/legacy'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import type {
   ExternalDocumentationObject,
   InfoObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import {
   Section,

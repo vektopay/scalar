@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 
-import { build } from '@scalar/build-tooling/esbuild'
+import { build } from '@vektopay/build-tooling/esbuild'
 
 async function convertSchema(version: string) {
   const js = await fs.readFile(`src/schemas/v${version}/schema.json`, 'utf-8')

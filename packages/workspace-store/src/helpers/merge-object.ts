@@ -1,4 +1,4 @@
-import { getRaw } from '@scalar/json-magic/magic-proxy'
+import { getRaw } from '@vektopay/json-magic/magic-proxy'
 
 import type { UnknownObject } from '@/helpers/general'
 

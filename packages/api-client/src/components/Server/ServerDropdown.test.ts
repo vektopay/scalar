@@ -1,5 +1,5 @@
 import { PopoverPanel } from '@headlessui/vue'
-import { collectionSchema, requestSchema, serverSchema } from '@scalar/oas-utils/entities/spec'
+import { collectionSchema, requestSchema, serverSchema } from '@vektopay/oas-utils/entities/spec'
 import { mockUseLayout } from '@test/vitest.setup'
 import { mount } from '@vue/test-utils'
 import { type Mock, afterEach, beforeEach, describe, expect, it, vi } from 'vitest'

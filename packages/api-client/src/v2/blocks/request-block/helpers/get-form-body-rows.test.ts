@@ -1,4 +1,4 @@
-import type { ExampleObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { ExampleObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { describe, expect, it } from 'vitest'
 
 import { getFormBodyRows } from './get-form-body-rows'

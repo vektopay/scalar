@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 export const XScalarActiveEnvironmentSchema = Type.Object({
   'x-scalar-active-environment': Type.Optional(Type.String()),

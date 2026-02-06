@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { nsurlsession } from '@/httpsnippet-lite/targets/swift/nsurlsession/client'
 import { convertWithHttpSnippetLite } from '@/utils/convertWithHttpSnippetLite'

@@ -1,4 +1,4 @@
-import type { HarRequest } from '@scalar/types/snippetz'
+import type { HarRequest } from '@vektopay/types/snippetz'
 
 import type { SnippetRequest } from '@/httpsnippet-lite/helpers/snippet-request'
 

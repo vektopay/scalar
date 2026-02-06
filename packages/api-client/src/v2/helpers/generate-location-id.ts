@@ -1,5 +1,5 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
 
 /**
  * Generates a unique string ID for an API location, based on the document, path, method, and example.

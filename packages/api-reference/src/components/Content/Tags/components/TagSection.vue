@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarMarkdown } from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { TraversedTag } from '@scalar/workspace-store/schemas/navigation'
+import { ScalarMarkdown } from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { TraversedTag } from '@vektopay/workspace-store/schemas/navigation'
 
 import { Anchor } from '@/components/Anchor'
 import { OperationsList } from '@/components/OperationsList'

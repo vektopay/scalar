@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/import",
+  "name": "@vektopay/import",
   "description": "Import any file, URL or content to get an OpenAPI document",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -44,11 +44,14 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
     "yaml": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

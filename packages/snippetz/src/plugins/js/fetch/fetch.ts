@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { createSearchParams } from '@/libs/http'
 import { Raw, objectToString } from '@/libs/javascript'

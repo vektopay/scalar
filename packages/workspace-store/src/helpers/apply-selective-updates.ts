@@ -1,4 +1,4 @@
-import { type Difference, apply, diff } from '@scalar/json-magic/diff'
+import { type Difference, apply, diff } from '@vektopay/json-magic/diff'
 
 import { type UnknownObject, split } from '@/helpers/general'
 

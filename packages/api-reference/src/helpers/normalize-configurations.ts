@@ -1,11 +1,11 @@
-import { parseJsonOrYaml } from '@scalar/oas-utils/helpers'
+import { parseJsonOrYaml } from '@vektopay/oas-utils/helpers'
 import {
   type AnyApiReferenceConfiguration,
   type ApiReferenceConfigurationRaw,
   type ApiReferenceConfigurationWithSource,
   apiReferenceConfigurationWithSourceSchema,
   isConfigurationWithSources,
-} from '@scalar/types/api-reference'
+} from '@vektopay/types/api-reference'
 import GithubSlugger from 'github-slugger'
 
 /** Processed API Reference Configuration

@@ -27,7 +27,7 @@ import '@scalar/api-client/style.css'
 createApiClientWeb(
   document.getElementById('app'),
   {
-    proxyUrl: 'https://proxy.scalar.com',
+    proxyUrl: 'https://proxy.vektopay.com',
     // Load the plugin
     plugins: [
       postResponseScriptsPlugin()

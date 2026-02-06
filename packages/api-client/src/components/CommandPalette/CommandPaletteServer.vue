@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarListbox } from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
-import { emitCustomEvent } from '@scalar/workspace-store/events'
+import { ScalarButton, ScalarIcon, ScalarListbox } from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
+import { emitCustomEvent } from '@vektopay/workspace-store/events'
 import { computed, ref, useTemplateRef } from 'vue'
 import { useRouter } from 'vue-router'
 

@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'node:url'
 
-import { alias, createViteBuildOptions } from '@scalar/build-tooling/vite'
+import { alias, createViteBuildOptions } from '@vektopay/build-tooling/vite'
 import vue from '@vitejs/plugin-vue'
 import svgLoader from 'vite-svg-loader'
 import { type Plugin, defineConfig } from 'vitest/config'

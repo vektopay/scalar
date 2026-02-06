@@ -4,8 +4,8 @@ import {
   ScalarModal,
   ScalarTextInput,
   type ModalState,
-} from '@scalar/components'
-import { ScalarIconCaretDown, ScalarIconCaretRight } from '@scalar/icons'
+} from '@vektopay/components'
+import { ScalarIconCaretDown, ScalarIconCaretRight } from '@vektopay/icons'
 
 import { useState } from '@/state/state'
 import DocSettings from '@/views/Settings/DocSettings.vue'
@@ -70,7 +70,7 @@ function selectDocument(name: string) {
       <ScalarTextInput
         id="proxyUrl"
         v-model="proxyUrl"
-        placeholder="https://proxy.scalar.com" />
+        placeholder="https://proxy.vektopay.com" />
     </div>
   </ScalarModal>
 </template>

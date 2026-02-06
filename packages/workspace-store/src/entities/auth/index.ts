@@ -1,4 +1,4 @@
-import { preventPollution } from '@scalar/helpers/object/prevent-pollution'
+import { preventPollution } from '@vektopay/helpers/object/prevent-pollution'
 import { reactive } from 'vue'
 
 import {

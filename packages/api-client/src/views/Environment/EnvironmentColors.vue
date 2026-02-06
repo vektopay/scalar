@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { computed, nextTick, ref, watch } from 'vue'
 
 const props = withDefaults(

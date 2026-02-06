@@ -8,7 +8,7 @@ import { serverSchema } from '@/entities/spec/server'
 import { tagSchema } from '@/entities/spec/spec-objects'
 import { workspaceSchema } from '@/entities/workspace/workspace'
 import { DATA_VERSION } from '@/migrations/data-version'
-import { securitySchemeSchema } from '@scalar/types/entities'
+import { securitySchemeSchema } from '@vektopay/types/entities'
 import { createTypeAlias, printNode, zodToTs } from 'zod-to-ts'
 
 console.warn('Make sure the generate types file is updated for the current version')

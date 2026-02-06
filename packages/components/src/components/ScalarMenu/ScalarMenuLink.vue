@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ScalarIconComponent } from '@scalar/icons/types'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 import { DropdownMenu } from 'radix-vue/namespaced'
 import type { Component } from 'vue'
 

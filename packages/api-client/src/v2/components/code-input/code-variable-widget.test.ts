@@ -1,5 +1,5 @@
-import { EditorState, EditorView } from '@scalar/use-codemirror'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { EditorState, EditorView } from '@vektopay/use-codemirror'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 import { pillPlugin } from './code-variable-widget'

@@ -2,7 +2,7 @@
 import {
   addScalarClassesToHeadless,
   ScalarTeleportRoot,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
 import {
   nextTick,

@@ -4,19 +4,19 @@ import type {
   XScalarSecretHTTP,
   XScalarSecretRedirectUri,
   XScalarSecretToken,
-} from '@scalar/workspace-store/schemas/extensions/security'
+} from '@vektopay/workspace-store/schemas/extensions/security'
 import type {
   OAuthFlowAuthorizationCode,
   OAuthFlowClientCredentials,
   OAuthFlowImplicit,
   OAuthFlowPassword,
-} from '@scalar/workspace-store/schemas/v3.1/strict/oauth-flow'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/oauth-flow'
 import type {
   ApiKeyObject,
   HttpObject,
   OAuth2Object,
   OpenIdConnectObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 type OAuthFlowCommonSecret = XScalarSecretClientId & XScalarSecretToken
 

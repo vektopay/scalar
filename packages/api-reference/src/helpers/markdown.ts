@@ -1,5 +1,5 @@
-import { getHeadings } from '@scalar/code-highlight/markdown'
-import type { Heading } from '@scalar/types/legacy'
+import { getHeadings } from '@vektopay/code-highlight/markdown'
+import type { Heading } from '@vektopay/types/legacy'
 import GithubSlugger from 'github-slugger'
 
 const withSlugs = (headings: Heading[], slugger: GithubSlugger): Heading[] =>

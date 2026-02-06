@@ -7,7 +7,7 @@ import {
   ScalarIcon,
   useModal,
   type ScalarListboxOption,
-} from '@scalar/components'
+} from '@vektopay/components'
 
 import { CreateWorkspaceModal } from '@/v2/features/app'
 

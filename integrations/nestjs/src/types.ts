@@ -1,4 +1,4 @@
-import type { HtmlRenderingConfiguration } from '@scalar/core/libs/html-rendering'
+import type { HtmlRenderingConfiguration } from '@vektopay/core/libs/html-rendering'
 
 export type ApiReferenceOptions = Partial<HtmlRenderingConfiguration>
 

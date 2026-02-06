@@ -1,5 +1,5 @@
-import { bundle } from '@scalar/json-magic/bundle'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import { bundle } from '@vektopay/json-magic/bundle'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 import type { UnknownObject } from '@/types'
 import { mergeObjects } from '@/utils/join/merge-objects'

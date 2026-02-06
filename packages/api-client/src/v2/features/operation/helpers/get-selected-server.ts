@@ -1,5 +1,5 @@
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas/workspace'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas/workspace'
 
 /**
  * Get the selected server for a document,

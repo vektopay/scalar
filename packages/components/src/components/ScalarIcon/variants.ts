@@ -1,4 +1,4 @@
-import { cva } from '@scalar/use-hooks/useBindCx'
+import { cva } from '@vektopay/use-hooks/useBindCx'
 
 /**
  * Variants for the ScalarIcon component

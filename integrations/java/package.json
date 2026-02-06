@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/java-integration",
+  "name": "@vektopay/java-integration",
   "description": "Scalar API Reference Java integrations for Spring Boot",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -38,9 +38,9 @@
     }
   },
   "dependencies": {
-    "@scalar/api-reference": "workspace:*"
+    "@vektopay/api-reference": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/snippetz": "workspace:*"
+    "@vektopay/snippetz": "workspace:*"
   }
 }

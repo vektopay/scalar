@@ -1,6 +1,6 @@
-import type { Static } from '@scalar/typebox'
-import { Type } from '@scalar/typebox'
-import { Value } from '@scalar/typebox/value'
+import type { Static } from '@vektopay/typebox'
+import { Type } from '@vektopay/typebox'
+import { Value } from '@vektopay/typebox/value'
 import type { RequiredDeep } from 'type-fest'
 import { describe, expect, it } from 'vitest'
 

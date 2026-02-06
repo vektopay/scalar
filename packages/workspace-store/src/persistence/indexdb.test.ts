@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 import { beforeEach, describe, expect, it } from 'vitest'
 import 'fake-indexeddb/auto'
 

@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import galaxy from '@scalar/galaxy/latest.json' with { type: 'json' }
+import galaxy from '@vektopay/galaxy/latest.json' with { type: 'json' }
 import { serveExample } from '@test/utils/serve-example'
 
 test.describe('hiddenClients', () => {

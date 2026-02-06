@@ -6,7 +6,7 @@ import {
   ScalarDropdownDivider,
   ScalarDropdownItem,
   ScalarIcon,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { computed, nextTick, ref, watch } from 'vue'
 
 const props = withDefaults(

@@ -1,13 +1,13 @@
-import { serverSchema } from '@scalar/oas-utils/entities/spec'
-import { apiReferenceConfigurationSchema } from '@scalar/types/api-reference'
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import { serverSchema } from '@vektopay/oas-utils/entities/spec'
+import { apiReferenceConfigurationSchema } from '@vektopay/types/api-reference'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import type {
   TraversedEntry,
   TraversedOperation,
   TraversedTag,
   TraversedWebhook,
-} from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/workspace-store/schemas/navigation'
 import type { ComponentProps } from '@test/utils/types'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'

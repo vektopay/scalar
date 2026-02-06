@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/types",
+  "name": "@vektopay/types",
   "description": "Types to work with Scalar packages",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -67,14 +67,17 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
     "nanoid": "catalog:*",
     "type-fest": "catalog:*",
     "zod": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/har-format": "^1.2.16",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

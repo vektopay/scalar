@@ -1,4 +1,4 @@
-import type { RequestExampleParameter } from '@scalar/oas-utils/entities/spec'
+import type { RequestExampleParameter } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { hasEmptyRequiredParameter, hasItemProperties, parameterIsInvalid } from './request'

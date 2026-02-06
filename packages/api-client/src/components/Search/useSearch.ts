@@ -1,5 +1,5 @@
-import type { Request } from '@scalar/oas-utils/entities/spec'
-import { isDefined, shouldIgnoreEntity } from '@scalar/oas-utils/helpers'
+import type { Request } from '@vektopay/oas-utils/entities/spec'
+import { isDefined, shouldIgnoreEntity } from '@vektopay/oas-utils/helpers'
 import Fuse, { type FuseResult } from 'fuse.js'
 import { computed, nextTick, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'

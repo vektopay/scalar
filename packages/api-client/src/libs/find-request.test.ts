@@ -1,4 +1,4 @@
-import { operationSchema } from '@scalar/oas-utils/entities/spec'
+import { operationSchema } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { parseCurlCommand } from '@/libs/parse-curl'

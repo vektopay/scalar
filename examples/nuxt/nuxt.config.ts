@@ -1,18 +1,18 @@
 import { type NuxtConfig, defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  modules: ['@scalar/nuxt'],
+  modules: ['@vektopay/nuxt'],
   telemetry: false,
   scalar: {
     configurations: [
       {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
         pathRouting: {
           basePath: '/yaml',
         },
       },
       {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
         pathRouting: {
           basePath: '/json',
         },

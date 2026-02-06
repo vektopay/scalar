@@ -104,7 +104,7 @@ Migration is straightforward. In most cases, you can swap out Swagger UI for Sca
   </head>
   <body>
     <div id="app"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
     <script>
       Scalar.createApiReference('#app', {
         url: '/openapi.json',

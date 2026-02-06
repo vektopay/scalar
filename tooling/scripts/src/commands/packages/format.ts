@@ -54,7 +54,7 @@ async function formatJson(json: string) {
 /** While we strive to make everything ESM, we just accept that some packages aren't ESM. */
 const NO_MODULE_PACKAGES = [
   'scalar-app',
-  '@scalar/docusaurus',
+  '@vektopay/docusaurus',
   '@scalar-examples/docusaurus',
   '@scalar-examples/nestjs-api-reference-express',
   '@scalar-examples/nestjs-api-reference-fastify',
@@ -118,8 +118,8 @@ async function formatPackage(filepath: string) {
   if (data.type !== 'module' && !NO_MODULE_PACKAGES.includes(data.name)) {
     as.redBright(`Package ${data.name} must be an ECMAScript module with "type": "module"`)
   }
-  if (!data.name.startsWith('@scalar/') && !data.name.startsWith('@scalar-examples/')) {
-    as.yellow(`Package ${data.name} is not in the @scalar/* or @scalar-examples/* scope.`)
+  if (!data.name.startsWith('@vektopay/') && !data.name.startsWith('@scalar-examples/')) {
+    as.yellow(`Package ${data.name} is not in the @vektopay/* or @scalar-examples/* scope.`)
   }
 
   // Ensure all peers are installed as dev dependencies to handle turbo order

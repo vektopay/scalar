@@ -20,7 +20,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@scalar/api-reference-react": "workspace:*",
+    "@vektopay/api-reference-react": "workspace:*",
     "react": "catalog:*",
     "react-dom": "catalog:*"
   },

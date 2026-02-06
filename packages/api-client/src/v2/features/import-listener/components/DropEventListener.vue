@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const emit = defineEmits<{

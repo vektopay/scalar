@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/use-hooks",
+  "name": "@vektopay/use-hooks",
   "description": "Utility hooks for Scalar",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -50,7 +50,7 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/use-toasts": "workspace:*",
+    "@vektopay/use-toasts": "workspace:*",
     "@vueuse/core": "catalog:*",
     "cva": "1.0.0-beta.2",
     "tailwind-merge": "3.4.0",
@@ -58,9 +58,12 @@
     "zod": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@vue/test-utils": "catalog:*",
     "jsdom": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

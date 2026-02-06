@@ -14,7 +14,7 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 import type { Component } from 'vue'
 
 const { is = 'button' } = defineProps<{

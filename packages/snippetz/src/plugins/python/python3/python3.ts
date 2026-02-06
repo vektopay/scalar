@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { python3 } from '@/httpsnippet-lite/targets/python/python3/client'
 import { convertWithHttpSnippetLite } from '@/utils/convertWithHttpSnippetLite'

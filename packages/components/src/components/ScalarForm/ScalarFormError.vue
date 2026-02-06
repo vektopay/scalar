@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIconWarning, ScalarIconWarningCircle } from '@scalar/icons'
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import { ScalarIconWarning, ScalarIconWarningCircle } from '@vektopay/icons'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 import { type Component, computed } from 'vue'
 
 const { variant = 'error', icon } = defineProps<{

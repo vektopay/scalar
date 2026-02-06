@@ -5,8 +5,8 @@ import {
   ScalarIcon,
   ScalarToggleInput,
   type Icon as LegacyIcon,
-} from '@scalar/components'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+} from '@vektopay/components'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import { ref } from 'vue'
 
 import ApiReferenceToolbarBlurb from '@/features/toolbar/ApiReferenceToolbarBlurb.vue'
@@ -69,12 +69,7 @@ const selectedLanguages = ref<LanguageKey[]>([])
         :sdks="selectedLanguages"
         :workspace="workspace" />
       <ApiReferenceToolbarBlurb>
-        Generating SDKs is a paid feature starting at $100/mo, learn more in our
-        <a
-          href="https://scalar.com/products/sdks/getting-started"
-          target="_blank">
-          guides</a
-        >.
+        SDKs are generated on-demand and delivered as a zip archive.
       </ApiReferenceToolbarBlurb>
     </ScalarFormSection>
   </ApiReferenceToolbarPopover>

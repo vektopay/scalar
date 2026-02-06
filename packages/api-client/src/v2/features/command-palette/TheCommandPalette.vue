@@ -25,14 +25,14 @@ export default {}
 
 <script setup lang="ts">
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
-import { ScalarIconCaretLeft, ScalarIconMagnifyingGlass } from '@scalar/icons'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { ScalarIconCaretLeft, ScalarIconMagnifyingGlass } from '@vektopay/icons'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import type {
   CommandPaletteAction,
   CommandPalettePayload,
   KeyboardEventPayload,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
+} from '@vektopay/workspace-store/events'
 import {
   computed,
   nextTick,

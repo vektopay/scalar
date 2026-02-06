@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SelectedSecuritySchemeUids } from '@scalar/oas-utils/entities/shared'
+import type { SelectedSecuritySchemeUids } from '@vektopay/oas-utils/entities/shared'
 import { computed } from 'vue'
 
 import EmptyState from '@/components/EmptyState.vue'

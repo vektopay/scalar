@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { getHttpMethodInfo } from '@scalar/helpers/http/http-info'
-import { ScalarIconWebhooksLogo } from '@scalar/icons'
+import { getHttpMethodInfo } from '@vektopay/helpers/http/http-info'
+import { ScalarIconWebhooksLogo } from '@vektopay/icons'
 
 import HttpMethod from './HttpMethod.vue'
 

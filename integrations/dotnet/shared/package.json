@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/dotnet-shared",
+  "name": "@vektopay/dotnet-shared",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
   "homepage": "https://github.com/scalar/scalar",
@@ -22,7 +22,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/snippetz": "workspace:*"
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/snippetz": "workspace:*"
   }
 }

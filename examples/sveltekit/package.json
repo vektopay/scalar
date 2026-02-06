@@ -24,7 +24,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@scalar/sveltekit": "workspace:*"
+    "@vektopay/sveltekit": "workspace:*"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^4.0.0",

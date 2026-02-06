@@ -574,7 +574,7 @@
 
 ### Patch Changes
 
-- 5f022b5: feat: use registry.scalar.com URLs as example
+- 5f022b5: feat: use registry.vektopay.com URLs as example
 - Updated dependencies [172e397]
 - Updated dependencies [5f022b5]
 - Updated dependencies [6a88108]

@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/vue3-vite'
 import ScalarCodeBlock from './ScalarCodeBlock.vue'
 import ScalarCodeBlockCopy from './ScalarCodeBlockCopy.vue'
 
-const contentJs = `import { ApiClientReact } from '@scalar/api-client-react'
+const contentJs = `import { ApiClientReact } from '@vektopay/api-client-react'
 import React, { useState } from 'react'
 
 export const Wrapper = () => {

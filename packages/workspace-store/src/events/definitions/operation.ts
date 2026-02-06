@@ -1,4 +1,4 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
 
 import type { OperationObject, ParameterObject } from '@/schemas/v3.1/strict/openapi-document'
 

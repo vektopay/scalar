@@ -1,4 +1,4 @@
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import type { EventBus } from '@/libs/event-bus'
@@ -6,7 +6,7 @@ import type { EventBus } from '@/libs/event-bus'
 import { getModifiers, handleHotKeyDown, isInput } from './hot-keys'
 
 // Mock isMacOS
-vi.mock('@scalar/helpers/general/is-mac-os', () => ({
+vi.mock('@vektopay/helpers/general/is-mac-os', () => ({
   isMacOS: vi.fn().mockReturnValue(false),
 }))
 

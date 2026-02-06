@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarPopover } from '@scalar/components'
-import { ScalarIconInfo, ScalarIconWarning } from '@scalar/icons'
-import type { RequestExampleParameter } from '@scalar/oas-utils/entities/spec'
+import { ScalarPopover } from '@vektopay/components'
+import { ScalarIconInfo, ScalarIconWarning } from '@vektopay/icons'
+import type { RequestExampleParameter } from '@vektopay/oas-utils/entities/spec'
 import { computed } from 'vue'
 
 import { parameterIsInvalid } from '../libs/request'

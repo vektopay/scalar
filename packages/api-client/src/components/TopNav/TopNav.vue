@@ -7,10 +7,10 @@ import {
   ScalarHotkey,
   ScalarIcon,
   type Icon,
-} from '@scalar/components'
-import { LibraryIcon } from '@scalar/icons/library'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
+} from '@vektopay/components'
+import { LibraryIcon } from '@vektopay/icons/library'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
 import { computed, onBeforeUnmount, onMounted, reactive, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarToggle } from '@scalar/components'
+import { ScalarToggle } from '@vektopay/components'
 import { computed } from 'vue'
 
 import { AuthSelector } from '@/v2/blocks/scalar-auth-selector-block'

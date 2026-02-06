@@ -29,12 +29,12 @@ import {
   ScalarIcon,
   ScalarTooltip,
   useLoadingState,
-} from '@scalar/components'
-import { normalize } from '@scalar/openapi-parser'
-import type { UnknownObject } from '@scalar/types/utils'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { generateUniqueValue } from '@scalar/workspace-store/helpers/generate-unique-value'
+} from '@vektopay/components'
+import { normalize } from '@vektopay/openapi-parser'
+import type { UnknownObject } from '@vektopay/types/utils'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { generateUniqueValue } from '@vektopay/workspace-store/helpers/generate-unique-value'
 import { computed, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

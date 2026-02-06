@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { LibraryIcon } from '@scalar/icons/library'
+import { LibraryIcon } from '@vektopay/icons/library'
 import { computed } from 'vue'
 import { RouterLink, useRouter, type RouteLocationNamedRaw } from 'vue-router'
 

@@ -1,4 +1,4 @@
-import type { Static } from '@scalar/typebox'
+import type { Static } from '@vektopay/typebox'
 import type { RequiredDeep } from 'type-fest'
 import { describe, expect, it } from 'vitest'
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { createMagicProxy } from '@scalar/json-magic/magic-proxy'
+import { createMagicProxy } from '@vektopay/json-magic/magic-proxy'
 
 import { getRequestBodyFromOperation } from './get-request-body-from-operation'
 

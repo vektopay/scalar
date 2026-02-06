@@ -1,5 +1,5 @@
-import type { ClientOption, ClientOptionGroup } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import type { AvailableClients } from '@scalar/snippetz'
+import type { ClientOption, ClientOptionGroup } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import type { AvailableClients } from '@vektopay/snippetz'
 
 /** Hard coded list of default featured clients */
 const FEATURED_CLIENTS = [

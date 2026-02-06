@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { ScalarIcon } from '@scalar/components'
-import { makeUrlAbsolute } from '@scalar/oas-utils/helpers'
+import { ScalarIcon } from '@vektopay/components'
+import { makeUrlAbsolute } from '@vektopay/oas-utils/helpers'
 import { computed } from 'vue'
 
 const {

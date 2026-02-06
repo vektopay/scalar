@@ -101,7 +101,7 @@ scalar document lint ./openapi.yaml
 And use Rules from the Scalar Registry:
 
 ```bash
-scalar document lint ./openapi.yaml --rule https://registry.scalar.com/@your-team/rules/your-rule
+scalar document lint ./openapi.yaml --rule https://registry.vektopay.com/@your-team/rules/your-rule
 ```
 
 ## Team Management

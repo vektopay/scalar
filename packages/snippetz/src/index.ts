@@ -10,6 +10,6 @@ export {
   type PluginConfiguration,
   type Target,
   type TargetId,
-} from '@scalar/types/snippetz'
+} from '@vektopay/types/snippetz'
 
 export { snippetz } from './snippetz'

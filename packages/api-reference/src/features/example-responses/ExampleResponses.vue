@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import { getExample } from '@scalar/api-client/v2/blocks/operation-block'
+import { getExample } from '@vektopay/api-client/v2/blocks/operation-block'
 import {
   ExamplePicker,
   getResolvedRefDeep,
-} from '@scalar/api-client/v2/blocks/operation-code-sample'
+} from '@vektopay/api-client/v2/blocks/operation-code-sample'
 import {
   ScalarCard,
   ScalarCardFooter,
@@ -11,17 +11,17 @@ import {
   ScalarCodeBlock,
   ScalarIcon,
   ScalarMarkdown,
-} from '@scalar/components'
+} from '@vektopay/components'
 import {
   getObjectKeys,
   normalizeMimeTypeObject,
-} from '@scalar/oas-utils/helpers'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+} from '@vektopay/oas-utils/helpers'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   MediaTypeObject,
   ResponsesObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref, toValue, useId, watch } from 'vue'
 
 import ScreenReader from '@/components/ScreenReader.vue'

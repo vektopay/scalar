@@ -1,4 +1,4 @@
-import { createMagicProxy, getRaw } from '@scalar/json-magic/magic-proxy'
+import { createMagicProxy, getRaw } from '@vektopay/json-magic/magic-proxy'
 import { describe, expect, it, vi } from 'vitest'
 
 import { type Dereference, getResolvedRef } from './get-resolved-ref'

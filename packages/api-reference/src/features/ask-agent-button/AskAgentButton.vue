@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIconArrowUp, ScalarIconSparkle } from '@scalar/icons'
+import { ScalarIconArrowUp, ScalarIconSparkle } from '@vektopay/icons'
 import { ref } from 'vue'
 
 import { useAgentContext } from '@/hooks/use-agent'

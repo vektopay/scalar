@@ -29,7 +29,7 @@
     // Used by `ci.yml` `npm-publish` job
     "@changesets/cli",
     // Used by `.changeset/config.json`
-    "@scalar-internal/changelog-generator",
+    "@vektopay/changelog-generator",
 
     // Required on root to have proper format with prettier
     "tailwindcss",

@@ -1619,7 +1619,7 @@ No need to include it in published packages
 - 66b18fc: feat: update the references to handle $refs from the magic proxy
 - 6eb7c4f: fix: search does not match when the query has a single character word
 - 4e06829: fix: horizontal scrollbars in a VS Code webview
-- 5f022b5: feat: use registry.scalar.com URLs as example
+- 5f022b5: feat: use registry.vektopay.com URLs as example
 - 2b89e6f: feat: x-badges
 - 6a88108: feat: add option to expandAllResponses and expandAllModelSections
 - c838a3f: chore: added measurements to workspace store

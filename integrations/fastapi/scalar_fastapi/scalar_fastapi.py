@@ -241,13 +241,13 @@ def get_scalar_api_reference(
             It is normally set to a CDN URL.
             """
         ),
-    ] = "https://cdn.jsdelivr.net/npm/@scalar/api-reference",
+    ] = "https://cdn.vektopay.com/@vektopay/api-reference",
     scalar_proxy_url: Annotated[
         str,
         Doc(
             """
             The URL to use to set the Scalar Proxy.
-            It is normally set to a Scalar API URL (https://proxy.scalar.com), but default is empty
+            It is normally set to a Scalar API URL (https://proxy.vektopay.com), but default is empty
             """
         ),
     ] = "",

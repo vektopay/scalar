@@ -35,7 +35,7 @@ pub fn get_mime_type(path: &str) -> String {
 /// Render Scalar HTML with embedded configuration and optional JS bundle URL
 pub fn render_scalar(config_json: &str, js_bundle_url: Option<&str>) -> String {
     let html_template = include_str!("../ui/index.html");
-    let js_url = js_bundle_url.unwrap_or("https://cdn.jsdelivr.net/npm/@scalar/api-reference");
+    let js_url = js_bundle_url.unwrap_or("https://cdn.vektopay.com/@vektopay/api-reference");
     html_template
         .replace("__CONFIGURATION__", config_json)
         .replace("__JS_BUNDLE_URL__", js_url)
@@ -363,7 +363,7 @@ mod tests {
         let html2 = scalar_html(&config, None);
         assert!(html2.contains("/openapi.json"));
         assert!(html2.contains("purple"));
-        assert!(html2.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html2.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
         assert!(html2.contains("<html"));
         assert!(html2.contains("</html>"));
     }
@@ -382,7 +382,7 @@ mod tests {
         let html2 = scalar_html_from_json(config_json, None).unwrap();
         assert!(html2.contains("/api.json"));
         assert!(html2.contains("purple"));
-        assert!(html2.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html2.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
     }
 
     #[test]
@@ -396,14 +396,14 @@ mod tests {
         let html1 = scalar_html_default(&config);
         assert!(html1.contains("/test.json"));
         assert!(html1.contains("kepler"));
-        assert!(html1.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html1.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
 
         // Test scalar_html_from_json_default
         let config_json = r#"{"url": "/test2.json", "theme": "purple"}"#;
         let html2 = scalar_html_from_json_default(config_json).unwrap();
         assert!(html2.contains("/test2.json"));
         assert!(html2.contains("purple"));
-        assert!(html2.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html2.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
     }
 
     #[test]
@@ -456,7 +456,7 @@ mod tests {
         let result = scalar_html_from_json(empty_json, None);
         assert!(result.is_ok());
         let html = result.unwrap();
-        assert!(html.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
     }
 
     #[test]
@@ -464,7 +464,7 @@ mod tests {
         // Test empty config
         let empty_config = json!({});
         let html = scalar_html(&empty_config, None);
-        assert!(html.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
 
         // Test config with special characters
         let special_config = json!({
@@ -510,7 +510,7 @@ mod axum_tests {
         let html = response.0;
         assert!(html.contains("/openapi.json"));
         assert!(html.contains("purple"));
-        assert!(html.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
     }
 
     #[test]
@@ -529,7 +529,7 @@ mod axum_tests {
         let html = response.0;
         assert!(html.contains("/api.json"));
         assert!(html.contains("purple"));
-        assert!(html.contains("https://cdn.jsdelivr.net/npm/@scalar/api-reference"));
+        assert!(html.contains("https://cdn.vektopay.com/@vektopay/api-reference"));
 
         // Test invalid JSON
         let invalid_json = r#"{"url": "/api.json", "theme": "purple""#;

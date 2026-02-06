@@ -1,4 +1,4 @@
-import { AVAILABLE_CLIENTS } from '@scalar/types/snippetz'
+import { AVAILABLE_CLIENTS } from '@vektopay/types/snippetz'
 import { describe, expect, it } from 'vitest'
 
 import { mapHiddenClientsConfig } from './map-hidden-clients-config'

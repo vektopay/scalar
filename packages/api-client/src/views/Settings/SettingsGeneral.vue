@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { cva, cx, ScalarButton, ScalarIcon } from '@scalar/components'
+import { cva, cx, ScalarButton, ScalarIcon } from '@vektopay/components'
 import {
   themeLabels,
   type IntegrationThemeId,
   type ThemeId,
-} from '@scalar/themes'
+} from '@vektopay/themes'
 
 import IntegrationLogo from '@/components/ImportCollection/IntegrationLogo.vue'
 import { useWorkspace } from '@/store'
@@ -16,7 +16,7 @@ import SettingsSection from './components/SettingsSection.vue'
 const { activeWorkspace } = useActiveEntities()
 const { proxyUrl, workspaceMutators } = useWorkspace()
 
-const DEFAULT_PROXY_URL = 'https://proxy.scalar.com'
+const DEFAULT_PROXY_URL = 'https://proxy.vektopay.com'
 
 const themeIds: Exclude<ThemeId, IntegrationThemeId>[] = [
   'default',
@@ -129,7 +129,7 @@ const setProxy = (newProxy: string | undefined) =>
                   size="xs"
                   thickness="3.5" />
               </div>
-              Use proxy.scalar.com (default)
+              Use proxy.vektopay.com (default)
             </ScalarButton>
 
             <!-- Custom proxy (only if configured) -->

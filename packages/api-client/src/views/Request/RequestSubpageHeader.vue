@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarIcon } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import type {
   Collection,
   Operation,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { useRouter } from 'vue-router'
 
 import { OpenApiClientButton } from '@/components'

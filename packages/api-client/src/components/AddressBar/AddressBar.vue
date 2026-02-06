@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { REQUEST_METHODS } from '@scalar/helpers/http/http-info'
-import { ScalarIconPlay } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarButton } from '@vektopay/components'
+import { REQUEST_METHODS } from '@vektopay/helpers/http/http-info'
+import { ScalarIconPlay } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import type {
   Collection,
   Operation,
   RequestMethod,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { ref, useId, watch } from 'vue'
 
 import CodeInput from '@/components/CodeInput/CodeInput.vue'

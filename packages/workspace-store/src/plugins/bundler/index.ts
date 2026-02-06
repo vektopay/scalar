@@ -4,7 +4,7 @@
  * such as adding lifecycle hooks or custom processing logic.
  */
 
-import type { LifecyclePlugin } from '@scalar/json-magic/bundle'
+import type { LifecyclePlugin } from '@vektopay/json-magic/bundle'
 
 import { isLocalRef } from '@/helpers/general'
 import { getResolvedRef } from '@/plugins/bundler/helpers'

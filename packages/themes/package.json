@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/themes",
+  "name": "@vektopay/themes",
   "description": "the default CSS variables for all Scalar packages",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -50,8 +50,11 @@
     "nanoid": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "tailwindcss": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

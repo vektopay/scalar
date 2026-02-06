@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/helpers",
+  "name": "@vektopay/helpers",
   "description": "A collection of dependency free helpers",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -96,9 +96,12 @@
     "CHANGELOG.md"
   ],
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "jsdom": "catalog:*",
     "vite": "catalog:*",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

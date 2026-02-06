@@ -1,8 +1,8 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { AvailableClient, ClientId, TargetId } from '@scalar/snippetz'
-import type { XScalarCookie } from '@scalar/workspace-store/schemas/extensions/general/x-scalar-cookies'
-import type { XCodeSample } from '@scalar/workspace-store/schemas/extensions/operation'
-import type { OperationObject, ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { AvailableClient, ClientId, TargetId } from '@vektopay/snippetz'
+import type { XScalarCookie } from '@vektopay/workspace-store/schemas/extensions/general/x-scalar-cookies'
+import type { XCodeSample } from '@vektopay/workspace-store/schemas/extensions/operation'
+import type { OperationObject, ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { operationToHar } from '@/v2/blocks/operation-code-sample/helpers/operation-to-har/operation-to-har'
 import type { SecuritySchemeObjectSecret } from '@/v2/blocks/scalar-auth-selector-block/helpers/secret-types'

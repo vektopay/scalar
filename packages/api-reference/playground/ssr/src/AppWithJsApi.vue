@@ -14,7 +14,7 @@ onMounted(() => {
   }
 
   createApiReference(containerRef.value, {
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
   })
 })
 </script>

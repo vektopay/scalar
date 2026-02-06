@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/icons",
+  "name": "@vektopay/icons",
   "description": "Scalar Icons",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -55,7 +55,7 @@
     "vue": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "@vue/test-utils": "catalog:*",
     "jsdom": "catalog:*",
@@ -63,5 +63,8 @@
     "vite": "catalog:*",
     "vite-svg-loader": "catalog:*",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/postman-to-openapi",
+  "name": "@vektopay/postman-to-openapi",
   "description": "Converts Postman collections to OpenAPI documents",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -47,12 +47,15 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
-    "@scalar/openapi-types": "workspace:*"
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/node": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

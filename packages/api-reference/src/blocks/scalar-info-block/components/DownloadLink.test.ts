@@ -1,5 +1,5 @@
-import { apiReferenceConfigurationWithSourceSchema } from '@scalar/types/api-reference'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { apiReferenceConfigurationWithSourceSchema } from '@vektopay/types/api-reference'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { computed } from 'vue'

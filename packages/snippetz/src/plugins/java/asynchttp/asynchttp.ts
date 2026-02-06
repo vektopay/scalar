@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { asynchttp } from '@/httpsnippet-lite/targets/java/asynchttp/client'
 import { convertWithHttpSnippetLite } from '@/utils/convertWithHttpSnippetLite'

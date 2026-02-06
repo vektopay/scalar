@@ -1,6 +1,6 @@
-import { environmentSchema } from '@scalar/oas-utils/entities/environment'
-import { type Collection, collectionSchema, requestSchema, serverSchema } from '@scalar/oas-utils/entities/spec'
-import { workspaceSchema } from '@scalar/oas-utils/entities/workspace'
+import { environmentSchema } from '@vektopay/oas-utils/entities/environment'
+import { type Collection, collectionSchema, requestSchema, serverSchema } from '@vektopay/oas-utils/entities/spec'
+import { workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
 import type { VueWrapper } from '@vue/test-utils'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
@@ -118,7 +118,7 @@ describe('RequestAuth.vue', () => {
       layout: 'client',
       workspace: workspaceSchema.parse({
         uid: 'test-workspace',
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
       }),
     }) as const
 

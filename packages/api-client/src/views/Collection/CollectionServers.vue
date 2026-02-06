@@ -5,9 +5,9 @@ import {
   ScalarMarkdown,
   ScalarModal,
   useModal,
-} from '@scalar/components'
-import { ScalarIconTrash } from '@scalar/icons'
-import type { Server } from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/components'
+import { ScalarIconTrash } from '@vektopay/icons'
+import type { Server } from '@vektopay/oas-utils/entities/spec'
 import { computed, ref } from 'vue'
 
 import DeleteSidebarListElement from '@/components/Sidebar/Actions/DeleteSidebarListElement.vue'

@@ -1,4 +1,4 @@
-import { analyticsFactory } from '@scalar/analytics-client'
+import { analyticsFactory } from '@vektopay/analytics-client'
 
 export const analytics = analyticsFactory(
   'https://api.scalar.com',

@@ -1,11 +1,11 @@
 export const sources = [
   {
     title: 'Scalar Galaxy',
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
   },
   {
     title: 'Scalar Galaxy (YAML)',
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
   },
   {
     title: 'Stripe',
@@ -41,6 +41,7 @@ export const sources = [
   },
   {
     title: 'Specification Extensions',
+    default: true,
     content: JSON.stringify({
       'x-custom-extension': '#/x-custom-extension',
       'openapi': '3.1.0',

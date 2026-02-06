@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'node:url'
 
-import { findEntryPoints } from '@scalar/build-tooling'
-import { ViteWatchWorkspace, alias, createViteBuildOptions } from '@scalar/build-tooling/vite'
+import { findEntryPoints } from '@vektopay/build-tooling'
+import { ViteWatchWorkspace, alias, createViteBuildOptions } from '@vektopay/build-tooling/vite'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import svgLoader from 'vite-svg-loader'
@@ -20,7 +20,7 @@ export default defineConfig({
     dedupe: ['vue'],
   },
   optimizeDeps: {
-    exclude: ['@scalar/*'],
+    exclude: ['@vektopay/*'],
   },
   server: {
     port: 5065,

@@ -75,7 +75,7 @@ describe('formatter helpers', () => {
   })
 
   it('formats dependency header and change', () => {
-    expect(formatDependencyHeader('@scalar/api-reference', '1.2.3')).toBe('- **@scalar/api-reference@1.2.3**')
+    expect(formatDependencyHeader('@vektopay/api-reference', '1.2.3')).toBe('- **@vektopay/api-reference@1.2.3**')
 
     const githubInfo: GitHubInfo = {
       pull: 10,

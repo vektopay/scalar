@@ -1,20 +1,20 @@
 <script setup lang="ts">
-import { ScalarMarkdownSummary } from '@scalar/components'
+import { ScalarMarkdownSummary } from '@vektopay/components'
 import type {
   SecretsApiKey,
   SecretsHttp,
-} from '@scalar/workspace-store/entities/auth'
+} from '@vektopay/workspace-store/entities/auth'
 import type {
   ApiReferenceEvents,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import type {
   ApiKeyObject,
   SecurityRequirementObject,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { capitalize, computed, ref } from 'vue'
 
 import type { MergedSecuritySchemes } from '@/v2/blocks/scalar-auth-selector-block'

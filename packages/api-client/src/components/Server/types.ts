@@ -1,4 +1,4 @@
-import type { OpenAPIV3, OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3, OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 type ServerVariable = OpenAPIV3.ServerVariableObject | OpenAPIV3_1.ServerVariableObject
 

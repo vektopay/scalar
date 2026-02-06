@@ -1,6 +1,6 @@
 import { Storage } from '@google-cloud/storage'
-import { Type } from '@scalar/typebox'
-import { Value } from '@scalar/typebox/value'
+import { Type } from '@vektopay/typebox'
+import { Value } from '@vektopay/typebox/value'
 import { describe, expect, it } from 'vitest'
 
 import { compose } from '@/schemas/compose'

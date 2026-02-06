@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarTextInput } from '@scalar/components'
+import { ScalarTextInput } from '@vektopay/components'
 import { ref } from 'vue'
 
 import SidebarListElementForm from '@/components/Sidebar/Actions/SidebarListElementForm.vue'

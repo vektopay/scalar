@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 export const XScalarSelectedServerSchema = Type.Object({
   'x-scalar-selected-server': Type.Optional(Type.String()),

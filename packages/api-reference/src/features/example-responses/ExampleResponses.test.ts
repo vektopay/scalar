@@ -1,5 +1,5 @@
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import { SchemaObjectSchema } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import { SchemaObjectSchema } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 
@@ -7,7 +7,7 @@ import ExampleResponses from './ExampleResponses.vue'
 
 const mockCopyToClipboard = vi.fn()
 
-vi.mock('@scalar/use-hooks/useClipboard', () => ({
+vi.mock('@vektopay/use-hooks/useClipboard', () => ({
   useClipboard: vi.fn(() => ({
     copyToClipboard: mockCopyToClipboard,
   })),

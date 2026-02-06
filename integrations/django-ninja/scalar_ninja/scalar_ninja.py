@@ -117,13 +117,13 @@ class ScalarConfig(BaseModel):
     )
 
     scalar_js_url: str = Field(
-        default="https://cdn.jsdelivr.net/npm/@scalar/api-reference",
+        default="https://cdn.vektopay.com/@vektopay/api-reference",
         description="The URL to use to load the Scalar JavaScript. It is normally set to a CDN URL.",
     )
 
     scalar_proxy_url: str = Field(
         default="",
-        description="The URL to use to set the Scalar Proxy. It is normally set to a Scalar API URL (https://proxy.scalar.com).",
+        description="The URL to use to set the Scalar Proxy. It is normally set to a Scalar API URL (https://proxy.vektopay.com).",
     )
 
     scalar_favicon_url: str = Field(

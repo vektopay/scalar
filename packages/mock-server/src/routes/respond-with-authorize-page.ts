@@ -97,7 +97,7 @@ function generateAuthorizationHtml(redirectUrl: string, deniedUrl: string, title
       </div>
 
       <p class="text-xs text-gray-400 mt-5 text-center">
-        This authorization page is provided by @scalar/mock-server
+        This authorization page is provided by @vektopay/mock-server
       </p>
 
     </div>

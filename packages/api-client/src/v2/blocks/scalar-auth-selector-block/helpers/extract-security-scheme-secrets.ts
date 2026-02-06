@@ -1,12 +1,12 @@
-import { objectEntries } from '@scalar/helpers/object/object-entries'
-import type { AuthStore, SecretsAuth } from '@scalar/workspace-store/entities/auth'
+import { objectEntries } from '@vektopay/helpers/object/object-entries'
+import type { AuthStore, SecretsAuth } from '@vektopay/workspace-store/entities/auth'
 import type {
   OAuthFlowAuthorizationCode,
   OAuthFlowClientCredentials,
   OAuthFlowImplicit,
   OAuthFlowPassword,
-} from '@scalar/workspace-store/schemas/v3.1/strict/oauth-flow'
-import type { SecuritySchemeObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/oauth-flow'
+import type { SecuritySchemeObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import type {
   ApiKeyObjectSecret,

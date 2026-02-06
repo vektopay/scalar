@@ -3,11 +3,11 @@ import { TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/vue'
 import {
   DEFAULT_CLIENT,
   type ClientOptionGroup,
-} from '@scalar/api-client/v2/blocks/operation-code-sample'
-import { ScalarCodeBlock, ScalarMarkdown } from '@scalar/components'
-import type { AvailableClient } from '@scalar/snippetz'
-import { type WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { XScalarSdkInstallation } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-sdk-installation'
+} from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import { ScalarCodeBlock, ScalarMarkdown } from '@vektopay/components'
+import type { AvailableClient } from '@vektopay/snippetz'
+import { type WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { XScalarSdkInstallation } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-sdk-installation'
 import { computed, useId, useTemplateRef } from 'vue'
 
 import {

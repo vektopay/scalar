@@ -1,10 +1,10 @@
 import fs from 'node:fs/promises'
 import { cwd } from 'node:process'
 
-import type { LoaderPlugin } from '@scalar/json-magic/bundle'
-import { fetchUrls, readFiles } from '@scalar/json-magic/bundle/plugins/node'
-import { escapeJsonPointer } from '@scalar/json-magic/helpers/escape-json-pointer'
-import { upgrade } from '@scalar/openapi-upgrader'
+import type { LoaderPlugin } from '@vektopay/json-magic/bundle'
+import { fetchUrls, readFiles } from '@vektopay/json-magic/bundle/plugins/node'
+import { escapeJsonPointer } from '@vektopay/json-magic/helpers/escape-json-pointer'
+import { upgrade } from '@vektopay/openapi-upgrader'
 
 import { keyOf } from '@/helpers/general'
 import { createNavigation } from '@/navigation'

@@ -5,7 +5,7 @@ import {
   requestExampleSchema,
   requestSchema,
   serverSchema,
-} from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/oas-utils/entities/spec'
 import type z from 'zod'
 
 export const PROXY_PORT = 5051

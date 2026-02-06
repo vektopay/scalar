@@ -3,7 +3,7 @@ import {
   requestSchema,
   securitySchemeSchema,
   serverSchema,
-} from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/oas-utils/entities/spec'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { createSidebarState } from '@/hooks/useSidebar'
@@ -96,7 +96,7 @@ describe('createApiClient', () => {
   const defaultWorkspaceOptions = {
     useLocalStorage: true,
     showSidebar: true,
-    proxyUrl: 'https://proxy.scalar.com',
+    proxyUrl: 'https://proxy.vektopay.com',
     theme: 'alternate',
     hideClientButton: false,
     _integration: 'vue',
@@ -245,7 +245,7 @@ describe('createApiClient', () => {
         showSidebar: false,
         hideClientButton: true,
         theme: 'default',
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
         _integration: 'vue',
       }),
       requests: {

@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { xhr } from '@/httpsnippet-lite/targets/javascript/xhr/client'
 import { convertWithHttpSnippetLite } from '@/utils/convertWithHttpSnippetLite'

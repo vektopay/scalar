@@ -1,9 +1,9 @@
 'use client'
 
-import { ApiClientModalProvider } from '@scalar/api-client-react'
-import type { OpenClientPayload } from '@scalar/api-client-react'
+import { ApiClientModalProvider } from '@vektopay/api-client-react'
+import type { OpenClientPayload } from '@vektopay/api-client-react'
 
-import '@scalar/api-client-react/style.css'
+import '@vektopay/api-client-react/style.css'
 import type { PropsWithChildren } from 'react'
 
 export const ClientWrapper = ({
@@ -14,7 +14,7 @@ export const ClientWrapper = ({
     <ApiClientModalProvider
       initialRequest={initialRequest}
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
       }}>
       {children}
     </ApiClientModalProvider>

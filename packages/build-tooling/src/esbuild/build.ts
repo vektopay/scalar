@@ -53,7 +53,7 @@ function browserBuildOptions({ allowJs = false }: { allowJs?: boolean }): esbuil
  * The `entries` parameter is either a subset of entry points to build, or `'auto'`
  * to find all index.ts files in the project.
  *
- * @scalar/build-tooling type building should be run after to generate types and handle path aliases
+ * @vektopay/build-tooling type building should be run after to generate types and handle path aliases
  *
  * If post-build actions are needed (such as copying files), use the `onSuccess` callback.
  */
@@ -122,13 +122,13 @@ export async function build({
       .finally(async () => {
         const packageName = path.basename(process.cwd())
         const end = performance.now()
-        console.log(as.blue(`@scalar/${packageName}: Build completed in ${(end - start).toFixed(2)}ms`))
+        console.log(as.blue(`@vektopay/${packageName}: Build completed in ${(end - start).toFixed(2)}ms`))
 
         if (onSuccess) {
           await onSuccess()
           console.log(
             as.blue(
-              `@scalar/${packageName}: Additional build tasks completed in ${(performance.now() - end).toFixed(2)}ms`,
+              `@vektopay/${packageName}: Additional build tasks completed in ${(performance.now() - end).toFixed(2)}ms`,
             ),
           )
         }

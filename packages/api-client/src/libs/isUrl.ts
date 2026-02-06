@@ -1,4 +1,4 @@
-import { isValidUrl } from '@scalar/oas-utils/helpers'
+import { isValidUrl } from '@vektopay/oas-utils/helpers'
 
 /** Checks whether the given string is an URL */
 export function isUrl(input: string | null) {

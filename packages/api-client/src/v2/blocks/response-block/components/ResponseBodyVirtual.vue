@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarVirtualText } from '@scalar/components'
-import { formatJsonOrYamlString } from '@scalar/oas-utils/helpers'
+import { ScalarVirtualText } from '@vektopay/components'
+import { formatJsonOrYamlString } from '@vektopay/oas-utils/helpers'
 import { computed } from 'vue'
 
 import { processResponseBody } from '@/v2/blocks/response-block/helpers/process-response-body'

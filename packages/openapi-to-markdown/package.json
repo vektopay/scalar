@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/openapi-to-markdown",
+  "name": "@vektopay/openapi-to-markdown",
   "description": "Create plain Markdown from OpenAPI documents (for LLMs)",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -54,13 +54,13 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/components": "workspace:*",
-    "@scalar/helpers": "workspace:*",
-    "@scalar/oas-utils": "workspace:*",
-    "@scalar/openapi-parser": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
-    "@scalar/openapi-upgrader": "workspace:*",
-    "@scalar/types": "workspace:*",
+    "@vektopay/components": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/oas-utils": "workspace:*",
+    "@vektopay/openapi-parser": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
+    "@vektopay/openapi-upgrader": "workspace:*",
+    "@vektopay/types": "workspace:*",
     "html-minifier-terser": "^7.2.0",
     "rehype-parse": "^9.0.1",
     "rehype-remark": "^10.0.1",
@@ -72,8 +72,8 @@
   },
   "devDependencies": {
     "@hono/node-server": "catalog:*",
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/galaxy": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/galaxy": "workspace:*",
     "@types/html-minifier-terser": "^7.0.2",
     "@vitejs/plugin-vue": "catalog:*",
     "@vue/test-utils": "catalog:*",
@@ -81,5 +81,8 @@
     "vite": "catalog:*",
     "vitest": "catalog:*",
     "vue": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

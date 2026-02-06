@@ -1,4 +1,4 @@
-import type { RequestExample, RequestPayload } from '@scalar/oas-utils/entities/spec'
+import type { RequestExample, RequestPayload } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { createFetchQueryParams } from './create-fetch-query-params'

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { ScalarIconTrash } from '@scalar/icons'
+import { ScalarButton } from '@vektopay/components'
+import { ScalarIconTrash } from '@vektopay/icons'
 import type {
   CollectionType,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { computed } from 'vue'
 
 import { CodeInput } from '@/v2/components/code-input'

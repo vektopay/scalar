@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { ScalarIconButton, ScalarLoading } from '@scalar/components'
+import { ScalarIconButton, ScalarLoading } from '@vektopay/components'
 import {
   ScalarIconArrowUp,
   ScalarIconCheck,
   ScalarIconLockSimple,
   ScalarIconPlus,
   ScalarIconX,
-} from '@scalar/icons'
+} from '@vektopay/icons'
 import { computed, useTemplateRef, watch } from 'vue'
 
 import ActionsDropdown from '@/components/ActionsDropdown.vue'

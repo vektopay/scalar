@@ -2,7 +2,7 @@
 import {
   ScalarCheckboxRadioGroup,
   type ScalarCheckboxOption,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { computed } from 'vue'
 
 const ModernOption = { label: 'Modern', value: 'modern' } as const

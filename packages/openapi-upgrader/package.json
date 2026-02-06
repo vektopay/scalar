@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/openapi-upgrader",
+  "name": "@vektopay/openapi-upgrader",
   "description": "Upgrade OpenAPI documents to the latest and greatest version",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -77,11 +77,14 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@scalar/openapi-types": "workspace:*"
+    "@vektopay/openapi-types": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/types": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/types": "workspace:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

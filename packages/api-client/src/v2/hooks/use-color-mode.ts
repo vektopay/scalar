@@ -1,5 +1,5 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { ColorMode } from '@scalar/workspace-store/schemas/workspace'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { ColorMode } from '@vektopay/workspace-store/schemas/workspace'
 import { type MaybeRefOrGetter, computed, onMounted, onUnmounted, ref, toValue, watch } from 'vue'
 
 /**

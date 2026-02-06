@@ -30,7 +30,7 @@ async def scalar_html():
         # Your OpenAPI document
         openapi_url=app.openapi_url,
         # Avoid CORS issues (optional)
-        scalar_proxy_url="https://proxy.scalar.com",
+        scalar_proxy_url="https://proxy.vektopay.com",
     )
 ```
 
@@ -150,7 +150,7 @@ DocumentDownloadType.NONE    # Hide download button
 
 ### Advanced
 
-- `scalar_js_url` (default `"https://cdn.jsdelivr.net/npm/@scalar/api-reference"`)
+- `scalar_js_url` (default `"https://cdn.vektopay.com/@vektopay/api-reference"`)
 - `scalar_proxy_url` (default `None`)
 - `integration` (default `None`)
 - `theme` (default `Theme.DEFAULT`)

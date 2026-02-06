@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/openapi-parser",
+  "name": "@vektopay/openapi-parser",
   "description": "modern OpenAPI parser written in TypeScript",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -57,10 +57,10 @@
   ],
   "sideEffects": false,
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
-    "@scalar/json-magic": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
-    "@scalar/openapi-upgrader": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/json-magic": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
+    "@vektopay/openapi-upgrader": "workspace:*",
     "ajv": "^8.17.1",
     "ajv-draft-04": "^1.0.0",
     "ajv-formats": "^3.0.1",
@@ -70,10 +70,13 @@
   },
   "devDependencies": {
     "@apidevtools/swagger-parser": "10.1.0",
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/types": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/types": "workspace:*",
     "@types/node": "catalog:*",
     "just-diff": "^6.0.2",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ScalarErrorBoundary } from '@scalar/components'
+import { ScalarErrorBoundary } from '@vektopay/components'
 import type {
   Collection,
   Operation,
   ResponseInstance,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { computed, ref, useId } from 'vue'
 
 import SectionFilter from '@/components/SectionFilter.vue'

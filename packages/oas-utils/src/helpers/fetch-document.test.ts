@@ -16,7 +16,7 @@ beforeAll(async () => {
   } catch (_error) {
     throw new Error(`
 
-[sendRequest.test.ts] Looks like you're not running @scalar/proxy-server on <http://127.0.0.1:${PROXY_PORT}>, but it's required for this test file.
+[sendRequest.test.ts] Looks like you're not running @vektopay/proxy-server on <http://127.0.0.1:${PROXY_PORT}>, but it's required for this test file.
 
 Try to run it like this:
 
@@ -32,16 +32,16 @@ afterEach(() => {
 
 describe('fetchDocument', () => {
   it('fetches specifications (without a proxy)', async () => {
-    const spec = await fetchDocument('https://registry.scalar.com/@scalar/apis/galaxy?format=yaml')
+    const spec = await fetchDocument('https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml')
 
     expect(typeof spec).toEqual('string')
     expect(spec.length).toBeGreaterThan(100)
   })
 
-  it('fetches specifications (through proxy.scalar.com)', async () => {
+  it('fetches specifications (through proxy.vektopay.com)', async () => {
     const spec = await fetchDocument(
-      'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
-      'https://proxy.scalar.com',
+      'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
+      'https://proxy.vektopay.com',
     )
 
     expect(typeof spec).toEqual('string')
@@ -50,7 +50,7 @@ describe('fetchDocument', () => {
 
   it(`fetches specifications (through 127.0.0.1:${PROXY_PORT})`, async () => {
     const spec = await fetchDocument(
-      'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+      'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
       `http://127.0.0.1:${PROXY_PORT}`,
     )
 

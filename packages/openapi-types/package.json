@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/openapi-types",
+  "name": "@vektopay/openapi-types",
   "description": "Modern OpenAPI types",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -66,6 +66,9 @@
     "zod": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*"
+    "@vektopay/build-tooling": "workspace:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

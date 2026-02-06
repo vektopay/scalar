@@ -1,4 +1,4 @@
-import type { HarResponse } from '@scalar/snippetz'
+import type { HarResponse } from '@vektopay/snippetz'
 
 type FetchResponseToHarProps = {
   /** The Fetch API Response object to convert */

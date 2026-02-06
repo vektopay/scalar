@@ -1,5 +1,5 @@
-import { themeIds } from '@scalar/themes'
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+import { themeIds } from '@vektopay/themes'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 import { z } from 'zod'
 
 import { HOTKEY_EVENT_NAMES, KEYDOWN_KEYS } from '../hotkeys/hotkeys'

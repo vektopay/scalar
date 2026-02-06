@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 const XCodeSampleSchema = Type.Object({
   lang: Type.Optional(Type.String()),

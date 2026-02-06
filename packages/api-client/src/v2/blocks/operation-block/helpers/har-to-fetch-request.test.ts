@@ -1,4 +1,4 @@
-import type { HarRequest } from '@scalar/snippetz'
+import type { HarRequest } from '@vektopay/snippetz'
 import { describe, expect, it } from 'vitest'
 
 import { harToFetchRequest } from './har-to-fetch-request'

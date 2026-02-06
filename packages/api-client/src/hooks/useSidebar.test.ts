@@ -4,7 +4,7 @@ import { inject } from 'vue'
 import { createSidebarState, useSidebar } from './useSidebar'
 
 // Mock the useBreakpoints hook
-vi.mock('@scalar/use-hooks/useBreakpoints', () => ({
+vi.mock('@vektopay/use-hooks/useBreakpoints', () => ({
   useBreakpoints: vi.fn(),
 }))
 // const mockUseBreakpoints = useBreakpoints as Mock

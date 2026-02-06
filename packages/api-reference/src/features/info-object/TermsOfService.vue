@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIconScroll } from '@scalar/icons'
-import { type OpenAPIV3_1 } from '@scalar/openapi-types'
+import { ScalarIconScroll } from '@vektopay/icons'
+import { type OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 defineProps<{
   value?: OpenAPIV3_1.InfoObject['termsOfService']

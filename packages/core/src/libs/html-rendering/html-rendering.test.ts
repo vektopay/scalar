@@ -2,7 +2,7 @@ import {
   type ApiReferenceConfigurationWithSource,
   apiReferenceConfigurationWithSourceSchema,
   htmlRenderingConfigurationSchema,
-} from '@scalar/types/api-reference'
+} from '@vektopay/types/api-reference'
 import { describe, expect, it } from 'vitest'
 
 import { getConfiguration, getHtmlDocument, getScriptTags } from './html-rendering'
@@ -14,7 +14,7 @@ describe('html-rendering', () => {
       expect(html).toContain('<!doctype html>')
       expect(html).toContain('<title>Scalar API Reference</title>')
       expect(html).toContain('body { color: red }')
-      expect(html).toContain('https://cdn.jsdelivr.net/npm/@scalar/api-reference')
+      expect(html).toContain('https://cdn.vektopay.com/@vektopay/api-reference')
       expect(html).toContain('<div id="app"></div>')
       expect(html).toContain("Scalar.createApiReference('#app'")
     })
@@ -100,10 +100,10 @@ describe('html-rendering', () => {
     it('returns script tags with default CDN', () => {
       const tags = getScriptTags(
         apiReferenceConfigurationWithSourceSchema.parse({}),
-        'https://cdn.jsdelivr.net/npm/@scalar/api-reference',
+        'https://cdn.vektopay.com/@vektopay/api-reference',
       )
       expect(tags).toContain('<!-- Load the Script -->')
-      expect(tags).toContain('<script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>')
+      expect(tags).toContain('<script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>')
       expect(tags).toContain("Scalar.createApiReference('#app'")
     })
 
@@ -276,7 +276,7 @@ describe('html-rendering', () => {
   describe('getCdnUrl', () => {
     it('returns default CDN URL when not provided', () => {
       const { cdn } = htmlRenderingConfigurationSchema.parse({})
-      expect(cdn).toBe('https://cdn.jsdelivr.net/npm/@scalar/api-reference')
+      expect(cdn).toBe('https://cdn.vektopay.com/@vektopay/api-reference')
     })
 
     it('returns custom CDN URL when provided', () => {

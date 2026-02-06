@@ -1,6 +1,6 @@
 import { createHtmlFromOpenApi, createMarkdownFromOpenApi } from '@/create-markdown-from-openapi'
 import { serve } from '@hono/node-server'
-import content from '@scalar/galaxy/latest.yaml?raw'
+import content from '@vektopay/galaxy/latest.yaml?raw'
 import { Hono } from 'hono'
 import { logger } from 'hono/logger'
 

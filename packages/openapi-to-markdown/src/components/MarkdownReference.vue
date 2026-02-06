@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ScalarMarkdown } from '@scalar/components'
-import { getExampleFromSchema } from '@scalar/oas-utils/spec-getters'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import { ScalarMarkdown } from '@vektopay/components'
+import { getExampleFromSchema } from '@vektopay/oas-utils/spec-getters'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 
-// import { snippetz, type HarRequest } from '@scalar/snippetz'
+// import { snippetz, type HarRequest } from '@vektopay/snippetz'
 
 import Schema from './Schema.vue'
 import XmlOrJson from './XmlOrJson.vue'

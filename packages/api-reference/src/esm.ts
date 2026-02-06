@@ -1,5 +1,5 @@
-import { objectReplace } from '@scalar/helpers/object/object-replace'
-import type { ApiReferenceConfiguration, SourceConfiguration } from '@scalar/types/api-reference'
+import { objectReplace } from '@vektopay/helpers/object/object-replace'
+import type { ApiReferenceConfiguration, SourceConfiguration } from '@vektopay/types/api-reference'
 import { createHead } from '@unhead/vue'
 import { createApp, reactive } from 'vue'
 
@@ -8,7 +8,7 @@ import ApiReference from './components/ApiReference.vue'
 /**
  * Initialize Scalar References
  *
- * @deprecated please import { createApiReference } from '@scalar/api-reference' instead
+ * @deprecated please import { createApiReference } from '@vektopay/api-reference' instead
  */
 export function createScalarReferences(
   /** Element to mount the references to */
@@ -22,7 +22,7 @@ export function createScalarReferences(
   mountOnInitialize = true,
 ) {
   console.warn(
-    `createScalarReferences is deprecated. Please import { createApiReference } from '@scalar/api-reference' instead.`,
+    `createScalarReferences is deprecated. Please import { createApiReference } from '@vektopay/api-reference' instead.`,
   )
   const configuration = reactive(initialConfig)
   const app = createApp(ApiReference, { configuration })

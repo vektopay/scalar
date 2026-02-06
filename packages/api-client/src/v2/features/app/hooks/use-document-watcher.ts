@@ -1,5 +1,5 @@
-import type { Difference } from '@scalar/json-magic/diff'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import type { Difference } from '@vektopay/json-magic/diff'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 import { type MaybeRefOrGetter, computed, onBeforeUnmount, toValue, watch } from 'vue'
 
 /**
@@ -109,7 +109,7 @@ const resolveConflicts = (conflicts: Array<[Difference<unknown>[], Difference<un
  * @example
  * ```ts
  * import { useDocumentWatcher } from '@/hooks/use-document-watcher'
- * import { useScalarWorkspaceStore } from '@scalar/workspace-store'
+ * import { useScalarWorkspaceStore } from '@vektopay/workspace-store'
  *
  * const store = useScalarWorkspaceStore()
  * useDocumentWatcher({ documentName: 'myApi', store })

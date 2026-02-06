@@ -1,4 +1,4 @@
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { handleHotkeys } from '@/v2/helpers/handle-hotkeys'

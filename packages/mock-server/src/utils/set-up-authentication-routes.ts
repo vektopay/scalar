@@ -1,4 +1,4 @@
-import type { OpenAPI, OpenAPIV3, OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPI, OpenAPIV3, OpenAPIV3_1 } from '@vektopay/openapi-types'
 import type { Hono } from 'hono'
 
 import { respondWithAuthorizePage } from '@/routes/respond-with-authorize-page'

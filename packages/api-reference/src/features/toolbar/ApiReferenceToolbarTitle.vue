@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { ScalarIconButton } from '@scalar/components'
-import { ScalarIconCopy, ScalarIconInfo } from '@scalar/icons'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
+import { ScalarIconButton } from '@vektopay/components'
+import { ScalarIconCopy, ScalarIconInfo } from '@vektopay/icons'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
 
 import ApiReferenceToolbarPopover from '@/features/toolbar/ApiReferenceToolbarPopover.vue'
 
@@ -24,8 +24,7 @@ const { copyToClipboard } = useClipboard()
     <div class="-m-2 flex flex-col gap-2 leading-relaxed">
       <div>
         The developer tools allow you to customize the appearance and behavior
-        of your documentation. You can also share your documentation using the
-        Scalar Registry.
+        of your documentation.
       </div>
       <div>
         To disable the toolbar, set

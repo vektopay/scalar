@@ -1,8 +1,8 @@
 'use client'
 
-import type { ApiClient } from '@scalar/api-client/layouts/Modal'
-import type { OpenClientPayload } from '@scalar/api-client/libs'
-import type { ApiClientConfiguration } from '@scalar/types/api-reference'
+import type { ApiClient } from '@vektopay/api-client/layouts/Modal'
+import type { OpenClientPayload } from '@vektopay/api-client/libs'
+import type { ApiClientConfiguration } from '@vektopay/types/api-reference'
 import type { PropsWithChildren } from 'react'
 import { createContext, useContext, useEffect, useRef, useSyncExternalStore } from 'react'
 
@@ -43,7 +43,7 @@ export const ApiClientModalProvider = ({ children, initialRequest, configuration
   useEffect(() => {
     const loadApiClientJs = async () => {
       isLoading = true
-      const { createApiClientModal } = await import('@scalar/api-client/layouts/Modal')
+      const { createApiClientModal } = await import('@vektopay/api-client/layouts/Modal')
       clientStore.setCreateClient(createApiClientModal)
     }
     if (!isLoading) {

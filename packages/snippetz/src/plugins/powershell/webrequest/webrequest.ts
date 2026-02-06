@@ -1,4 +1,4 @@
-import type { Plugin } from '@scalar/types/snippetz'
+import type { Plugin } from '@vektopay/types/snippetz'
 
 import { webrequest } from '@/httpsnippet-lite/targets/powershell/webrequest/client'
 import { convertWithHttpSnippetLite } from '@/utils/convertWithHttpSnippetLite'

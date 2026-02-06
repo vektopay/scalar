@@ -4,16 +4,16 @@ import {
   ScalarMarkdown,
   ScalarMarkdownSummary,
   ScalarWrappingText,
-} from '@scalar/components'
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { ScalarIconCaretRight } from '@scalar/icons'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+} from '@vektopay/components'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { ScalarIconCaretRight } from '@vektopay/icons'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   ParameterObject,
   ResponseObject,
   SchemaObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, ref } from 'vue'
 
 import SchemaProperty from '@/components/Content/Schema/SchemaProperty.vue'

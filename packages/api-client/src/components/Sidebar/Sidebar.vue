@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBreakpoints } from '@scalar/use-hooks/useBreakpoints'
+import { useBreakpoints } from '@vektopay/use-hooks/useBreakpoints'
 import { ref } from 'vue'
 
 import { useLayout } from '@/hooks/useLayout'

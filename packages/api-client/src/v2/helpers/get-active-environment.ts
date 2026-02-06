@@ -1,10 +1,10 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
 import {
   type XScalarEnvironment,
   xScalarEnvironmentSchema,
-} from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
+} from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
 
 export const getActiveEnvironment = (
   workspace: WorkspaceStore | null,

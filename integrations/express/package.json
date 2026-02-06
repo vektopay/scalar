@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/express-api-reference",
+  "name": "@vektopay/express-api-reference",
   "description": "Express middleware to serve beautiful, interactive API documentation from OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -59,10 +59,10 @@
     "documentation": "https://scalar.com/products/api-references/integrations/express"
   },
   "dependencies": {
-    "@scalar/core": "workspace:*"
+    "@vektopay/core": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/express": "catalog:*",
     "@types/supertest": "catalog:*",
     "@types/swagger-jsdoc": "^6.0.3",
@@ -71,5 +71,8 @@
     "swagger-jsdoc": "^6.2.8",
     "vite": "catalog:*",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

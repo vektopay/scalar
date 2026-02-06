@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/nextjs-api-reference",
+  "name": "@vektopay/nextjs-api-reference",
   "description": "Next.js API route handler to serve beautiful, interactive API documentation from OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -60,10 +60,10 @@
     "documentation": "https://scalar.com/products/api-references/integrations/nextjs"
   },
   "dependencies": {
-    "@scalar/core": "workspace:*"
+    "@vektopay/core": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/node": "catalog:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
@@ -78,5 +78,8 @@
   "peerDependencies": {
     "next": "^15.0.0 || ^16.0.0",
     "react": "^19.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

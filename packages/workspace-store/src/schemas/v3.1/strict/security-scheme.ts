@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import { compose } from '@/schemas/compose'
 import { type XDefaultScopes, XDefaultScopesSchema } from '@/schemas/extensions/security/x-default-scopes'

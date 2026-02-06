@@ -46,7 +46,7 @@ describe('single reference', () => {
     )
   })
 
-  bench('@scalar/openapi-parser', () => {
+  bench('@vektopay/openapi-parser', () => {
     // Action!
     const { schema } = resolveNew(specification)
 

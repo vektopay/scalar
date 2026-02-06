@@ -1,5 +1,5 @@
 import type { CallToolResult } from '@modelcontextprotocol/sdk/types.js'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 export const GET_OPENAPI_SPECS_SUMMARY_TOOL_NAME = 'get-openapi-specs-summary' as const
 

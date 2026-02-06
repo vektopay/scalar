@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cva, ScalarIcon, useBindCx, type Icon } from '@scalar/components'
+import { cva, ScalarIcon, useBindCx, type Icon } from '@vektopay/components'
 import { computed } from 'vue'
 
 import type { TestResult } from '@/libs/execute-scripts'

@@ -1,5 +1,5 @@
-import { CLIENT_LS_KEYS } from '@scalar/helpers/object/local-storage'
-import { securitySchemeSchema } from '@scalar/types/entities'
+import { CLIENT_LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import { securitySchemeSchema } from '@vektopay/types/entities'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 import type { WorkspaceStore } from '@/store/store'

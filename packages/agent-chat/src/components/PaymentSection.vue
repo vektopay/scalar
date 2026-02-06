@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ScalarIconInfo } from '@scalar/icons'
+import { ScalarIconInfo } from '@vektopay/icons'
 
 import { useState } from '@/state/state'
 

@@ -1,12 +1,12 @@
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { TraversedOperation, TraversedWebhook } from '@scalar/workspace-store/schemas/navigation'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { TraversedOperation, TraversedWebhook } from '@vektopay/workspace-store/schemas/navigation'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'
 
 import OperationsListItem from './OperationsListItem.vue'
 
-vi.mock('@scalar/oas-utils/helpers', () => ({
+vi.mock('@vektopay/oas-utils/helpers', () => ({
   isOperationDeprecated: vi.fn(),
 }))
 
@@ -106,7 +106,7 @@ describe('OperationsListItem', () => {
 
   describe('deprecation', () => {
     it('applies deprecated class when operation is deprecated', async () => {
-      const { isOperationDeprecated } = await import('@scalar/oas-utils/helpers')
+      const { isOperationDeprecated } = await import('@vektopay/oas-utils/helpers')
       vi.mocked(isOperationDeprecated).mockReturnValue(true)
 
       const operation = createMockOperation({ isDeprecated: true })
@@ -119,7 +119,7 @@ describe('OperationsListItem', () => {
     })
 
     it('does not apply deprecated class when operation is not deprecated', async () => {
-      const { isOperationDeprecated } = await import('@scalar/oas-utils/helpers')
+      const { isOperationDeprecated } = await import('@vektopay/oas-utils/helpers')
       vi.mocked(isOperationDeprecated).mockReturnValue(false)
 
       const operation = createMockOperation()
@@ -132,7 +132,7 @@ describe('OperationsListItem', () => {
     })
 
     it('does not apply deprecated class for webhooks', async () => {
-      const { isOperationDeprecated } = await import('@scalar/oas-utils/helpers')
+      const { isOperationDeprecated } = await import('@vektopay/oas-utils/helpers')
       vi.mocked(isOperationDeprecated).mockReturnValue(true)
 
       const webhook = createMockWebhook()

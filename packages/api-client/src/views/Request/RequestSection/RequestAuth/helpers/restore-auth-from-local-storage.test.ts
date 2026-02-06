@@ -1,13 +1,13 @@
-import { CLIENT_LS_KEYS } from '@scalar/helpers/object/local-storage'
-import type { Collection, SecurityScheme } from '@scalar/oas-utils/entities/spec'
+import { CLIENT_LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import type { Collection, SecurityScheme } from '@vektopay/oas-utils/entities/spec'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 import type { WorkspaceStore } from '@/store/store'
 
 import { restoreAuthFromLocalStorage } from './restore-auth-from-local-storage'
 
-vi.mock('@scalar/helpers/object/local-storage', async () => {
-  const actual = await vi.importActual('@scalar/helpers/object/local-storage')
+vi.mock('@vektopay/helpers/object/local-storage', async () => {
+  const actual = await vi.importActual('@vektopay/helpers/object/local-storage')
   return {
     ...actual,
     safeLocalStorage: vi.fn(),
@@ -32,7 +32,7 @@ describe('restoreAuthFromLocalStorage', () => {
     } as const
 
     // Mock safeLocalStorage to return our mock
-    const { safeLocalStorage } = await import('@scalar/helpers/object/local-storage')
+    const { safeLocalStorage } = await import('@vektopay/helpers/object/local-storage')
 
     vi.mocked(safeLocalStorage).mockReturnValue(mockLocalStorage as unknown as Storage)
 

@@ -1,11 +1,11 @@
-import { useModal } from '@scalar/components'
+import { useModal } from '@vektopay/components'
 import { describe, expect, it, vi } from 'vitest'
 import { nextTick, ref } from 'vue'
 
 import type { CommandPaletteAction, CommandPaletteRoute } from './use-command-palette-state'
 import { useCommandPaletteState } from './use-command-palette-state'
 
-vi.mock('@scalar/components', () => ({
+vi.mock('@vektopay/components', () => ({
   useModal: vi.fn(),
 }))
 

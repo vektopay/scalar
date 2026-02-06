@@ -1,12 +1,12 @@
-import { ApiReferenceReact } from '@scalar/api-reference-react'
+import { ApiReferenceReact } from '@vektopay/api-reference-react'
 import React from 'react'
-import '@scalar/api-reference-react/style.css'
+import '@vektopay/api-reference-react/style.css'
 
 const App = () => {
   return (
     <ApiReferenceReact
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
       }}
     />
   )

@@ -1,4 +1,4 @@
-import { safeLocalStorage } from '@scalar/helpers/object/local-storage'
+import { safeLocalStorage } from '@vektopay/helpers/object/local-storage'
 
 const CURRENT_PATH_KEY = 'scalar.currentPath' as const
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { themeLabels, type ThemeId } from '@scalar/themes'
+import { ScalarButton } from '@vektopay/components'
+import { themeLabels, type ThemeId } from '@vektopay/themes'
 
 defineProps<{
   theme: ThemeId
@@ -28,7 +28,7 @@ const themeIds: ThemeId[] = [
 
 async function fetchExampleSpecification() {
   const response = await fetch(
-    'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+    'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
   )
 
   emits('updateContent', await response.text())

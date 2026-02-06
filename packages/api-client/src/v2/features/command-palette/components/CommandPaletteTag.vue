@@ -22,9 +22,9 @@ export default {
 </script>
 
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarListbox } from '@scalar/components'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { ScalarButton, ScalarIcon, ScalarListbox } from '@vektopay/components'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { computed, ref } from 'vue'
 
 import CommandActionForm from './CommandActionForm.vue'

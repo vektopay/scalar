@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import type { PathMethodHistory } from '@/entities/history/schema'
 import { createIndexDbConnection } from '@/persistence/indexdb'

@@ -16,7 +16,7 @@ describe('get-fetch', () => {
 
   it('returns default fetch with proxy when no custom fetch is provided', async () => {
     const config = {
-      proxyUrl: 'https://proxy.scalar.com',
+      proxyUrl: 'https://proxy.vektopay.com',
     }
 
     const result = getFetch(config)
@@ -35,14 +35,14 @@ describe('get-fetch', () => {
 
     // Verify fetch was called with the proxied URL
     expect(mockFetch).toHaveBeenCalledWith(
-      'https://proxy.scalar.com/?scalar_url=https%3A%2F%2Fapi.example.com%2Fdata',
+      'https://proxy.vektopay.com/?scalar_url=https%3A%2F%2Fapi.example.com%2Fdata',
       testInit,
     )
   })
 
   it('handles URL objects by converting them to strings before proxying', async () => {
     const config = {
-      proxyUrl: 'https://proxy.scalar.com',
+      proxyUrl: 'https://proxy.vektopay.com',
     }
 
     const result = getFetch(config)
@@ -56,7 +56,7 @@ describe('get-fetch', () => {
 
     // Verify the URL object was converted to string and proxied
     expect(mockFetch).toHaveBeenCalledWith(
-      'https://proxy.scalar.com/?scalar_url=https%3A%2F%2Fapi.example.com%2Fdata',
+      'https://proxy.vektopay.com/?scalar_url=https%3A%2F%2Fapi.example.com%2Fdata',
       undefined,
     )
   })

@@ -57,12 +57,14 @@ export const traverseSchemas = ({
   tagsMap,
   generateId,
   documentId,
+  includeInternal = false,
 }: {
   document: OpenApiDocument
   /** Map of tagNames and their entries */
   tagsMap: TagsMap
   generateId: TraverseSpecOptions['generateId']
   documentId: string
+  includeInternal?: boolean
 }): TraversedSchema[] => {
   const schemas = document.components?.schemas ?? {}
   const untagged: TraversedSchema[] = []
@@ -71,7 +73,7 @@ export const traverseSchemas = ({
   for (const name in schemas) {
     const schema = getResolvedRef(schemas[name])
 
-    if (schema?.['x-internal'] || schema?.['x-scalar-ignore'] || !Object.hasOwn(schemas, name)) {
+    if ((!includeInternal && schema?.['x-internal']) || schema?.['x-scalar-ignore'] || !Object.hasOwn(schemas, name)) {
       continue
     }
 

@@ -1,5 +1,5 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import type { UnknownObject } from '@scalar/types/utils'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import type { UnknownObject } from '@vektopay/types/utils'
 
 import { traverse } from '@/helpers/traverse'
 

@@ -3,7 +3,7 @@ import {
   ScalarButton,
   ScalarLoading,
   useLoadingState,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { ref } from 'vue'
 
 import { useWorkspace } from '@/store'

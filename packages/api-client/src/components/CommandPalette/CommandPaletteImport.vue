@@ -5,8 +5,8 @@ import {
   ScalarIcon,
   ScalarTooltip,
   useLoadingState,
-} from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
+} from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
 import { computed, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

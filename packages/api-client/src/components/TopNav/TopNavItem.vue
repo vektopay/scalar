@@ -9,9 +9,9 @@ import {
   ScalarIcon,
   ScalarTooltip,
   type Icon,
-} from '@scalar/components'
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
-import { LibraryIcon } from '@scalar/icons/library'
+} from '@vektopay/components'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
+import { LibraryIcon } from '@vektopay/icons/library'
 
 defineProps<{
   hotkey?: string

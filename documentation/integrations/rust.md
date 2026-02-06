@@ -84,7 +84,7 @@ The library supports two ways to load the Scalar JavaScript bundle:
 By default, the library uses the CDN-hosted version of Scalar:
 
 ```rust
-// Uses https://cdn.jsdelivr.net/npm/@scalar/api-reference
+// Uses https://cdn.vektopay.com/@vektopay/api-reference
 let html = scalar_html(&configuration, None);
 ```
 

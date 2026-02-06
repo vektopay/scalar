@@ -1,4 +1,4 @@
-import type { AvailableClients } from '@scalar/types/snippetz'
+import type { AvailableClients } from '@vektopay/types/snippetz'
 
 /** Event definitions for the workspace/document meta */
 export type MetaEvents = {

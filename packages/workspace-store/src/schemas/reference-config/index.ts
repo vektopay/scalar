@@ -1,5 +1,5 @@
-import { type TArray, type TLiteral, Type } from '@scalar/typebox'
-import { AVAILABLE_CLIENTS, type AvailableClient, type AvailableClients } from '@scalar/types/snippetz'
+import { type TArray, type TLiteral, Type } from '@vektopay/typebox'
+import { AVAILABLE_CLIENTS, type AvailableClient, type AvailableClients } from '@vektopay/types/snippetz'
 import type { RequiredDeep } from 'type-fest'
 
 import { type Appearance, AppearanceSchema, defaultAppearance } from './appearance'

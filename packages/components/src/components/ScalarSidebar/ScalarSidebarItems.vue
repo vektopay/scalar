@@ -15,7 +15,7 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 import type { Component } from 'vue'
 
 import { useSidebarNestedItems } from './useSidebarNestedItems'

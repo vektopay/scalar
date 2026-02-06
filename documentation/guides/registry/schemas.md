@@ -93,7 +93,7 @@ After defining your JSON Schema, click "Publish" to make it available in the reg
 
 The registry path follows this format:
 ```
-registry.scalar.com/@your-team/schemas/your-schema-name@version
+registry.vektopay.com/@your-team/schemas/your-schema-name@version
 ```
 
 ## Reference Schemas in Your APIs
@@ -119,7 +119,7 @@ For schemas in other namespaces or public schemas, use the full registry URL:
 components:
   schemas:
     User:
-      $ref: 'https://registry.scalar.com/@other-namespace/schemas/user@1.0.0'
+      $ref: 'https://registry.vektopay.com/@other-namespace/schemas/user@1.0.0'
 ```
 
 ### Example: Using a Schema in an OpenAPI Document

@@ -1556,7 +1556,7 @@ No need to include it in published packages
 ### Patch Changes
 
 - 172e397: feat(components): add hotkey component and tooltip support
-- 5f022b5: feat: use registry.scalar.com URLs as example
+- 5f022b5: feat: use registry.vektopay.com URLs as example
 - 0804cfc: eat(components): Add ScalarMarkdown summary component
 - Updated dependencies [bbef120]
 - Updated dependencies [a1429ca]
@@ -4085,7 +4085,7 @@ No need to include it in published packages
 - b500de2: fix: data table cell overflow issue
 - 294fde8: feat: adds keyboard navigation within environment variable dropdown
 - 0706bc4: fix(api-client): move sidenav to bottom on mobile
-- 86a3a82: fix: API client always uses proxy.scalar.com
+- 86a3a82: fix: API client always uses proxy.vektopay.com
 - 48afb7c: fix: removes stopped propagation on enter key in code input
 
 ## 2.1.31

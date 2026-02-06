@@ -2,14 +2,14 @@ import path from 'node:path'
 
 import type { LoadContext, Plugin } from '@docusaurus/types'
 import { normalizeUrl } from '@docusaurus/utils'
-import type { AnyApiReferenceConfiguration } from '@scalar/types'
+import type { AnyApiReferenceConfiguration } from '@vektopay/types'
 
 export type ScalarOptions = {
   label?: string
   route?: string
   /**
    * If you wish to pin a specific CDN version instead of the latest (default)
-   * @example https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.28.11
+   * @example https://cdn.vektopay.com/@vektopay/api-reference@1.28.11
    */
   cdn?: string
   showNavLink?: boolean
@@ -40,7 +40,7 @@ const ScalarDocusaurus = (
   const { baseUrl } = context.siteConfig
 
   return {
-    name: '@scalar/docusaurus',
+    name: '@vektopay/docusaurus',
 
     /**
      * Load the Standalone API Reference script
@@ -52,7 +52,7 @@ const ScalarDocusaurus = (
           {
             tagName: 'script',
             attributes: {
-              src: options.cdn ?? 'https://cdn.jsdelivr.net/npm/@scalar/api-reference',
+              src: options.cdn ?? 'https://cdn.vektopay.com/@vektopay/api-reference',
             },
           },
         ],

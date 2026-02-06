@@ -1,4 +1,4 @@
-import type { XScalarCookie } from '@scalar/workspace-store/schemas/extensions/general/x-scalar-cookies'
+import type { XScalarCookie } from '@vektopay/workspace-store/schemas/extensions/general/x-scalar-cookies'
 
 import { matchesDomain } from '@/libs/send-request/set-request-cookies'
 

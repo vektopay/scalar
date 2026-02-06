@@ -1,36 +1,36 @@
 <script setup lang="ts">
 import { provideUseId } from '@headlessui/vue'
-import { OpenApiClientButton } from '@scalar/api-client/components'
+import { OpenApiClientButton } from '@vektopay/api-client/components'
 import {
   createApiClientModal,
   type ApiClientModal,
-} from '@scalar/api-client/v2/features/modal'
-import { getActiveEnvironment } from '@scalar/api-client/v2/helpers'
+} from '@vektopay/api-client/v2/features/modal'
+import { getActiveEnvironment } from '@vektopay/api-client/v2/helpers'
 import {
   addScalarClassesToHeadless,
   ScalarColorModeToggleButton,
   ScalarColorModeToggleIcon,
   ScalarSidebarFooter,
-} from '@scalar/components'
-import { redirectToProxy } from '@scalar/helpers/url/redirect-to-proxy'
-import { createSidebarState, ScalarSidebar } from '@scalar/sidebar'
-import { getThemeStyles, hasObtrusiveScrollbars } from '@scalar/themes'
+} from '@vektopay/components'
+import { redirectToProxy } from '@vektopay/helpers/url/redirect-to-proxy'
+import { createSidebarState, ScalarSidebar } from '@vektopay/sidebar'
+import { getThemeStyles, hasObtrusiveScrollbars } from '@vektopay/themes'
 import {
   apiReferenceConfigurationSchema,
   type AnyApiReferenceConfiguration,
   type ApiReferenceConfiguration,
   type ApiReferenceConfigurationRaw,
-} from '@scalar/types/api-reference'
-import { useBreakpoints } from '@scalar/use-hooks/useBreakpoints'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
-import { useColorMode } from '@scalar/use-hooks/useColorMode'
-import { ScalarToasts } from '@scalar/use-toasts'
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
+} from '@vektopay/types/api-reference'
+import { useBreakpoints } from '@vektopay/use-hooks/useBreakpoints'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
+import { useColorMode } from '@vektopay/use-hooks/useColorMode'
+import { ScalarToasts } from '@vektopay/use-toasts'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import type {
   TraversedEntry,
   TraversedTag,
-} from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/workspace-store/schemas/navigation'
 import diff from 'microdiff'
 import {
   computed,
@@ -45,14 +45,10 @@ import {
   watch,
 } from 'vue'
 
+import { isLocalUrl } from '@vektopay/helpers/url/is-local-url'
+import '@vektopay/agent-chat/style.css'
+
 import { AgentScalarButton, AgentScalarDrawer } from '@/components/AgentScalar'
-import { AGENT_CONTEXT_SYMBOL, useAgent } from '@/hooks/use-agent'
-
-import '@scalar/agent-chat/style.css'
-
-import { isLocalUrl } from '@scalar/helpers/url/is-local-url'
-import { useScrollLock } from '@vueuse/core'
-
 import ClassicHeader from '@/components/ClassicHeader.vue'
 import Content from '@/components/Content/Content.vue'
 import MobileHeader from '@/components/MobileHeader.vue'
@@ -78,6 +74,9 @@ import {
   type NormalizedConfiguration,
 } from '@/helpers/normalize-configurations'
 import { useIntersection } from '@/hooks/use-intersection'
+import { useScrollLock } from '@/hooks/use-scroll-lock'
+import { AGENT_CONTEXT_SYMBOL, useAgent } from '@/hooks/use-agent'
+import { useAuthGate } from '@/hooks/use-auth-gate'
 import { createPluginManager, PLUGIN_MANAGER_SYMBOL } from '@/plugins'
 import { persistencePlugin } from '@/plugins/persistance-plugin'
 
@@ -228,6 +227,26 @@ const mergedConfig = computed<ApiReferenceConfigurationRaw>(() => ({
   // Any overrides from the localhost toolbar
   ...configurationOverrides.value,
 }))
+
+const authGate = useAuthGate()
+const includeInternal = computed(() => authGate.isAuthenticated.value)
+
+const agent = useAgent({
+  agentEnabled: computed(() => !mergedConfig.value.agent?.disabled),
+})
+
+provide(AGENT_CONTEXT_SYMBOL, agent)
+
+const bodyScrollLocked = useScrollLock(() =>
+  typeof document === 'undefined' ? null : document.body,
+)
+
+watch(
+  () => agent.showAgent.value,
+  (value) => {
+    bodyScrollLocked.value = value
+  },
+)
 
 /** Convenience break out var to determine which routing mode we are using */
 const basePath = computed(() => mergedConfig.value.pathRouting?.basePath)
@@ -480,6 +499,11 @@ const changeSelectedDocument = async (
 
   const isFirstLoad = !workspaceStore.workspace.documents[slug]
 
+  const navigationOptions = {
+    ...config,
+    includeInternal: includeInternal.value,
+  }
+
   // If the document is not in the store, we asynchronously load it
   if (isFirstLoad) {
     await workspaceStore.addDocument(
@@ -493,7 +517,7 @@ const changeSelectedDocument = async (
             name: slug,
             document: normalized.source.content ?? {},
           },
-      config,
+      navigationOptions,
     )
   }
 
@@ -551,7 +575,10 @@ watch(
             url: updated.source.url,
             fetch: updated.config.fetch,
           },
-          updated.config,
+          {
+            ...updated.config,
+            includeInternal: includeInternal.value,
+          },
         )
 
         return
@@ -579,7 +606,10 @@ watch(
             name: updated.slug,
             document: updated.source.content,
           },
-          updated.config,
+          {
+            ...updated.config,
+            includeInternal: includeInternal.value,
+          },
         )
       }
     }
@@ -611,6 +641,8 @@ onServerPrefetch(() => changeSelectedDocument(activeSlug.value))
 onBeforeMount(async () => {
   loadClientFromStorage(workspaceStore)
 
+  await authGate.refresh()
+
   await changeSelectedDocument(
     activeSlug.value,
     getIdFromUrl(
@@ -621,36 +653,67 @@ onBeforeMount(async () => {
   )
 })
 
+onMounted(() => {
+  if (typeof window === 'undefined') {
+    return
+  }
+
+  const handleVisibility = () => {
+    if (document.visibilityState === 'visible') {
+      void authGate.refresh()
+    }
+  }
+
+  const handleFocus = () => {
+    void authGate.refresh()
+  }
+
+  document.addEventListener('visibilitychange', handleVisibility)
+  window.addEventListener('focus', handleFocus)
+
+  const intervalId = window.setInterval(() => {
+    void authGate.refresh()
+  }, 30000)
+
+  onBeforeUnmount(() => {
+    document.removeEventListener('visibilitychange', handleVisibility)
+    window.removeEventListener('focus', handleFocus)
+    window.clearInterval(intervalId)
+  })
+})
+
+watch(
+  () => includeInternal.value,
+  async () => {
+    const configs = Object.values(configList.value)
+    for (const entry of configs) {
+      if (!workspaceStore.workspace.documents[entry.slug]) {
+        continue
+      }
+
+      await workspaceStore.addDocument(
+        entry.source.url
+          ? {
+              name: entry.slug,
+              url: entry.source.url,
+              fetch: entry.config.fetch,
+            }
+          : {
+              name: entry.slug,
+              document: entry.source.content ?? {},
+            },
+        {
+          ...entry.config,
+          includeInternal: includeInternal.value,
+        },
+      )
+    }
+  },
+)
+
 const documentUrl = computed(() => {
   return configList.value[activeSlug.value]?.source?.url
 })
-
-// --------------------------------------------------------------------------- */
-// Agent Scalar
-
-/**
- * Determines if Agent Scalar should be enabled based on the configuration and the current URL
- *
- * - If the agent is disabled in the configuration, it should not be enabled
- * - If the current URL is a local URL, it should be enabled
- * - If the agent key is set, it should be enabled
- */
-const agent = useAgent({
-  agentEnabled: computed(() => {
-    const currentConfiguration = configList.value[activeSlug.value]
-
-    if (currentConfiguration?.agent?.disabled) {
-      return false
-    }
-
-    if (typeof window !== 'undefined' && isLocalUrl(window.location.href)) {
-      return true
-    }
-
-    return Boolean(configList.value[activeSlug.value]?.agent?.key)
-  }),
-})
-provide(AGENT_CONTEXT_SYMBOL, agent)
 
 // --------------------------------------------------------------------------- */
 // Api Client Modal
@@ -724,6 +787,9 @@ eventBus.on('ui:download:document', async ({ format }) => {
  *        Open all parents and scroll to the operation
  */
 const handleSelectItem = (id: string, caller?: 'sidebar') => {
+  if (agent.showAgent.value) {
+    agent.closeAgent()
+  }
   const item = sidebarState.getEntryById(id)
 
   if (
@@ -754,9 +820,6 @@ const handleSelectItem = (id: string, caller?: 'sidebar') => {
     }
   }
 
-  if (agent.showAgent.value) {
-    agent.closeAgent()
-  }
 }
 eventBus.on('select:nav-item', ({ id }) => handleSelectItem(id))
 eventBus.on('scroll-to:nav-item', ({ id }) => handleSelectItem(id))
@@ -828,9 +891,6 @@ const colorMode = computed(() => {
   return mode
 })
 
-const bodyScrollLocked = useScrollLock(document.body)
-
-watch(agent.showAgent, () => (bodyScrollLocked.value = agent.showAgent.value))
 </script>
 
 <template>
@@ -855,13 +915,6 @@ watch(agent.showAgent, () => (bodyScrollLocked.value = agent.showAgent.value))
         },
         $attrs.class,
       ]">
-      <!-- Agent Scalar -->
-      <AgentScalarDrawer
-        v-if="agent.agentEnabled.value"
-        :agentScalarConfiguration="configList[activeSlug]?.agent"
-        :eventBus
-        :workspaceStore />
-
       <!-- Mobile Header and Sidebar when in modern layout -->
 
       <MobileHeader
@@ -912,7 +965,6 @@ watch(agent.showAgent, () => (bodyScrollLocked.value = agent.showAgent.value))
                   :hideModels="mergedConfig.hideModels"
                   :searchHotKey="mergedConfig.searchHotKey" />
 
-                <AgentScalarButton v-if="agent.agentEnabled.value" />
               </div>
               <!-- Sidebar Start -->
               <slot
@@ -924,15 +976,16 @@ watch(agent.showAgent, () => (bodyScrollLocked.value = agent.showAgent.value))
                 name="sidebar-end"
                 v-bind="slotProps">
                 <!-- We default the sidebar footer to the standard scalar elements -->
-                <ScalarSidebarFooter class="darklight-reference">
-                  <OpenApiClientButton
-                    v-if="!mergedConfig.hideClientButton"
-                    buttonSource="sidebar"
-                    :integration="mergedConfig._integration"
-                    :isDevelopment="isDevelopment"
-                    :url="documentUrl" />
-                  <!-- Override the dark mode toggle slot to hide it -->
-                  <template #toggle>
+              <ScalarSidebarFooter class="darklight-reference">
+                <OpenApiClientButton
+                  v-if="!mergedConfig.hideClientButton"
+                  buttonSource="sidebar"
+                  :integration="mergedConfig._integration"
+                  :isDevelopment="isDevelopment"
+                  :url="documentUrl" />
+                <AgentScalarButton v-if="agent.agentEnabled.value" />
+                <!-- Override the dark mode toggle slot to hide it -->
+                <template #toggle>
                     <ScalarColorModeToggleButton
                       v-if="
                         !mergedConfig.hideDarkModeToggle &&
@@ -1038,6 +1091,11 @@ watch(agent.showAgent, () => (bodyScrollLocked.value = agent.showAgent.value))
       </div>
       <!-- Client Modal mount point -->
       <div ref="modal" />
+      <AgentScalarDrawer
+        v-if="agent.agentEnabled.value"
+        :agentScalarConfiguration="mergedConfig.agent"
+        :eventBus="eventBus"
+        :workspaceStore="workspaceStore" />
     </div>
     <ScalarToasts />
   </div>

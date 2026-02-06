@@ -1,5 +1,5 @@
-import { consoleErrorSpy, resetConsoleSpies } from '@scalar/helpers/testing/console-spies'
-import { getRaw } from '@scalar/json-magic/magic-proxy'
+import { consoleErrorSpy, resetConsoleSpies } from '@vektopay/helpers/testing/console-spies'
+import { getRaw } from '@vektopay/json-magic/magic-proxy'
 import fastify, { type FastifyInstance } from 'fastify'
 import { assert, beforeEach, describe, expect, it, vi } from 'vitest'
 

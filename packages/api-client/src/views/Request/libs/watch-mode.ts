@@ -10,10 +10,10 @@ import {
   securitySchemeSchema,
   serverSchema,
   tagSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { isHttpMethod, schemaModel } from '@scalar/oas-utils/helpers'
-import { type Path, type PathValue, getNestedValue } from '@scalar/object-utils/nested'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+} from '@vektopay/oas-utils/entities/spec'
+import { isHttpMethod, schemaModel } from '@vektopay/oas-utils/helpers'
+import { type Path, type PathValue, getNestedValue } from '@vektopay/object-utils/nested'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 import microdiff, { type Difference } from 'microdiff'
 import { type ZodSchema, z } from 'zod'
 

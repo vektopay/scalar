@@ -1,6 +1,6 @@
-import { CLIENT_LS_KEYS, safeLocalStorage } from '@scalar/helpers/object/local-storage'
-import type { SecurityScheme } from '@scalar/oas-utils/entities/spec'
-import type { Path, PathValue } from '@scalar/object-utils/nested'
+import { CLIENT_LS_KEYS, safeLocalStorage } from '@vektopay/helpers/object/local-storage'
+import type { SecurityScheme } from '@vektopay/oas-utils/entities/spec'
+import type { Path, PathValue } from '@vektopay/object-utils/nested'
 
 import type { WorkspaceStore } from '@/store/store'
 

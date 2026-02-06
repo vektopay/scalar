@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/docusaurus",
+  "name": "@vektopay/docusaurus",
   "description": "Docusaurus plugin to embed beautiful, interactive API documentation from OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -58,7 +58,7 @@
     }
   },
   "dependencies": {
-    "@scalar/types": "workspace:*"
+    "@vektopay/types": "workspace:*"
   },
   "devDependencies": {
     "@docusaurus/core": "^3.9.2",
@@ -67,7 +67,7 @@
     "@docusaurus/types": "^3.9.2",
     "@docusaurus/utils": "^3.9.2",
     "@mdx-js/react": "^3.1.1",
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
     "clsx": "^2.1.1",
@@ -82,5 +82,8 @@
   "peerDependencies": {
     "@docusaurus/utils": "^3.9.2",
     "react": "^18.0.0 || ^19.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

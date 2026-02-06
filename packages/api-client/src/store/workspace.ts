@@ -1,7 +1,7 @@
-import { LS_KEYS } from '@scalar/helpers/object/local-storage'
-import { collectionSchema, requestExampleSchema } from '@scalar/oas-utils/entities/spec'
-import { type Workspace, workspaceSchema } from '@scalar/oas-utils/entities/workspace'
-import { mutationFactory } from '@scalar/object-utils/mutator-record'
+import { LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import { collectionSchema, requestExampleSchema } from '@vektopay/oas-utils/entities/spec'
+import { type Workspace, workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
+import { mutationFactory } from '@vektopay/object-utils/mutator-record'
 import { reactive } from 'vue'
 
 import type { StoreContext } from '@/store/store-context'

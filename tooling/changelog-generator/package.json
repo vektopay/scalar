@@ -1,5 +1,5 @@
 {
-  "name": "@scalar-internal/changelog-generator",
+  "name": "@vektopay/changelog-generator",
   "version": "1.0.0",
   "description": "Custom changelog generator for Scalar packages",
   "type": "module",
@@ -26,7 +26,7 @@
     "@changesets/types": "^6.1.0"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "vite": "catalog:*"
   },
   "private": true,

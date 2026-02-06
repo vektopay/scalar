@@ -81,20 +81,20 @@ describe('apiReference middleware (express)', () => {
     expect(res.status).toBe(200)
     expect(res.type).toBe('text/html')
     expect(res.text).toContain('<title>Scalar API Reference</title>')
-    expect(res.text).toContain('https://cdn.jsdelivr.net/npm/@scalar/api-reference')
+    expect(res.text).toContain('https://cdn.vektopay.com/@vektopay/api-reference')
   })
 
   it('keeps the URL in the configuration', async () => {
     app.use(
       '/reference',
       apiReference({
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
       }),
     )
 
     const res = await request(app.getHttpServer()).get('/reference')
 
-    expect(res.text).toContain('https://registry.scalar.com/@scalar/apis/galaxy?format=json')
+    expect(res.text).toContain('https://registry.vektopay.com/@vektopay/apis/galaxy?format=json')
   })
 
   it('handles content as function', async () => {

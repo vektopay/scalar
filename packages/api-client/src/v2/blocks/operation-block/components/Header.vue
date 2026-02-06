@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ScalarIcon } from '@vektopay/components'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { OpenApiClientButton } from '@/components'
 import type { ClientLayout } from '@/hooks'

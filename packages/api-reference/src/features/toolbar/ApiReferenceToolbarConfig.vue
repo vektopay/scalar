@@ -3,10 +3,10 @@ import {
   ScalarCodeBlock,
   ScalarFormField,
   ScalarFormSection,
-} from '@scalar/components'
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
-import { type ThemeId } from '@scalar/themes'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+} from '@vektopay/components'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
+import { type ThemeId } from '@vektopay/themes'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 import { computed } from 'vue'
 
 import ApiReferenceToolbarConfigLayout from '@/features/toolbar/ApiReferenceToolbarConfigLayout.vue'

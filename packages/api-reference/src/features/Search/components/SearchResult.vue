@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ScalarSearchResultItem } from '@scalar/components'
+import { ScalarSearchResultItem } from '@vektopay/components'
 import {
   ScalarIconBracketsCurly,
   ScalarIconTag,
   ScalarIconTerminalWindow,
   ScalarIconTextAlignLeft,
-} from '@scalar/icons'
-import type { ScalarIconComponent } from '@scalar/icons/types'
-import { HttpMethod } from '@scalar/sidebar'
+} from '@vektopay/icons'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
+import { HttpMethod } from '@vektopay/sidebar'
 import type { FuseResult } from 'fuse.js'
 
 import type { EntryType, FuseData } from '@/features/Search/types'

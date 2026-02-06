@@ -59,8 +59,8 @@ import { createApiClientApp } from '@/App'
 
 // Initialize
 await createApiClientApp(document.getElementById('scalar-client'), {
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
-  proxyUrl: 'https://proxy.scalar.com',
+  url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
+  proxyUrl: 'https://proxy.vektopay.com',
 })
 ```
 
@@ -76,8 +76,8 @@ import { createApiClientApp } from '@/App'
 const { open } = await createApiClientApp(
   document.getElementById('scalar-client'),
   {
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
-    proxyUrl: 'https://proxy.scalar.com',
+    url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
+    proxyUrl: 'https://proxy.vektopay.com',
   },
 )
 

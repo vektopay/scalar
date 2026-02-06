@@ -1,5 +1,5 @@
 <script lang="ts">
-import type { Collection } from '@scalar/oas-utils/entities/spec'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
 
 import { importCurlCommand } from '@/libs/importers/curl'
 import { PathId } from '@/routes'
@@ -47,7 +47,7 @@ export type CommandPaletteEvent = {
 
 <script setup lang="ts">
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
-import { ScalarIcon, useModal } from '@scalar/components'
+import { ScalarIcon, useModal } from '@vektopay/components'
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 

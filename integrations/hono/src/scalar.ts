@@ -1,4 +1,4 @@
-import { getHtmlDocument } from '@scalar/core/libs/html-rendering'
+import { getHtmlDocument } from '@vektopay/core/libs/html-rendering'
 import type { Context, Env, MiddlewareHandler } from 'hono'
 
 import type { ApiReferenceConfiguration } from './types'

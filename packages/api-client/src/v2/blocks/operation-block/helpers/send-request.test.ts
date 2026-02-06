@@ -1,4 +1,4 @@
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import type { ClientPlugin } from '@/v2/helpers/plugins'

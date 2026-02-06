@@ -51,7 +51,7 @@ class ScalarWebFluxActuatorEndpointTest {
         @DisplayName("should return HTML with default configuration")
         void shouldReturnHtmlWithDefaultConfiguration() {
             // Given
-            when(properties.getUrl()).thenReturn("https://registry.scalar.com/@scalar/apis/galaxy?format=json");
+            when(properties.getUrl()).thenReturn("https://registry.vektopay.com/@scalar/apis/galaxy?format=json");
             when(properties.getPageTitle()).thenReturn("Scalar API Reference");
             when(properties.getPath()).thenReturn("/scalar");
 

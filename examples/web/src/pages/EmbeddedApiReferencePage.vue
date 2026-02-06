@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ApiReference } from '@scalar/api-reference'
-import content from '@scalar/galaxy/latest.yaml?raw'
-import { apiReferenceConfigurationWithSourceSchema } from '@scalar/types/api-reference'
+import { ApiReference } from '@vektopay/api-reference'
+import content from '@vektopay/galaxy/latest.yaml?raw'
+import { apiReferenceConfigurationWithSourceSchema } from '@vektopay/types/api-reference'
 import { reactive } from 'vue'
 
 import SlotPlaceholder from '../components/SlotPlaceholder.vue'

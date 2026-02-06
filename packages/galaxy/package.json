@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/galaxy",
+  "name": "@vektopay/galaxy",
   "description": "OpenAPI example specification in YAML and JSON",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -55,8 +55,11 @@
     "CHANGELOG.md"
   ],
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/openapi-parser": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/openapi-parser": "workspace:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

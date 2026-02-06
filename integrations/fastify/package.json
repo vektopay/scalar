@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/fastify-api-reference",
+  "name": "@vektopay/fastify-api-reference",
   "description": "A Fastify plugin to render beautiful, interactive API documentation from OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -66,9 +66,9 @@
     "documentation": "https://scalar.com/products/api-references/integrations/fastify"
   },
   "dependencies": {
-    "@scalar/core": "workspace:*",
-    "@scalar/openapi-parser": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
+    "@vektopay/core": "workspace:*",
+    "@vektopay/openapi-parser": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
     "fastify-plugin": "catalog:*",
     "github-slugger": "^2.0.0"
   },
@@ -76,11 +76,14 @@
     "@fastify/basic-auth": "catalog:*",
     "@fastify/http-proxy": "catalog:*",
     "@fastify/swagger": "catalog:*",
-    "@scalar/api-reference": "workspace:*",
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/api-reference": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "fastify": "^4.0.0",
     "vite": "catalog:*",
     "vitest": "catalog:*",
     "yaml": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

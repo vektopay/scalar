@@ -1,4 +1,4 @@
-import { cva } from '@scalar/use-hooks/useBindCx'
+import { cva } from '@vektopay/use-hooks/useBindCx'
 import { type MaybeRef, type Ref, computed, ref, toValue } from 'vue'
 
 /**

@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 
-import { build } from '@scalar/build-tooling/esbuild'
+import { build } from '@vektopay/build-tooling/esbuild'
 
 await build({
   entries: 'auto',

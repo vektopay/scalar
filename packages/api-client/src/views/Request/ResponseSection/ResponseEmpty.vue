@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarHotkey } from '@scalar/components'
-import type { Collection, Operation } from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+import { ScalarHotkey } from '@vektopay/components'
+import type { Collection, Operation } from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { nextTick, onBeforeUnmount, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 

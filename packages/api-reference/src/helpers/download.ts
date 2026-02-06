@@ -1,6 +1,6 @@
-import { isJsonString } from '@scalar/oas-utils/helpers'
-import { isDefined } from '@scalar/oas-utils/helpers'
-import { normalize, toJson, toYaml } from '@scalar/openapi-parser'
+import { isJsonString } from '@vektopay/oas-utils/helpers'
+import { isDefined } from '@vektopay/oas-utils/helpers'
+import { normalize, toJson, toYaml } from '@vektopay/openapi-parser'
 
 /**
  * Format content based on desired format and current content type

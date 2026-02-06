@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 import type { PartialDeep } from 'type-fest'
 
 import { compose } from '@/schemas/compose'

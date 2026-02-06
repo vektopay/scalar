@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarTooltip } from '@scalar/components'
+import { ScalarButton, ScalarTooltip } from '@vektopay/components'
 import type {
   ApiReferenceEvents,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { computed } from 'vue'
 
 import { CollapsibleSection } from '@/v2/components/layout'

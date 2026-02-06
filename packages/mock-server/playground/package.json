@@ -43,9 +43,9 @@
   "module": "./dist/index.js",
   "devDependencies": {
     "@hono/node-server": "catalog:*",
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/hono-api-reference": "workspace:*",
-    "@scalar/mock-server": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/hono-api-reference": "workspace:*",
+    "@vektopay/mock-server": "workspace:*",
     "vite": "catalog:*",
     "@types/node": "catalog:*"
   },

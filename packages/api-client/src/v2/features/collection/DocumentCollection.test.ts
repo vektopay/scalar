@@ -1,5 +1,5 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas/workspace'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas/workspace'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 import { createRouter, createWebHistory } from 'vue-router'

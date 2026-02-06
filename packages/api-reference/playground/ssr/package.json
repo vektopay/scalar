@@ -12,7 +12,7 @@
     "check": "vue-tsc"
   },
   "dependencies": {
-    "@scalar/api-reference": "workspace:*",
+    "@vektopay/api-reference": "workspace:*",
     "compression": "^1.8.0",
     "hono": "catalog:*",
     "@hono/node-server": "catalog:*",

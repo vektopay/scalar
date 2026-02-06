@@ -1,6 +1,6 @@
 import './style.css'
 
-export { compose, cva, cx, tw, useBindCx } from '@scalar/use-hooks/useBindCx'
+export { compose, cva, cx, tw, useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 /** biome-ignore-start lint/performance/noReExportAll: re-exports indexes */
 export * from './components/ScalarButton'

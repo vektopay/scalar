@@ -1,5 +1,5 @@
-import { xScalarEnvironmentSchema } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
+import { xScalarEnvironmentSchema } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

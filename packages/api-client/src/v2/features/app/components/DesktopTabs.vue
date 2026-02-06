@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { Tab } from '@scalar/workspace-store/schemas/extensions/workspace/x-scalar-tabs'
+import { ScalarIcon } from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { Tab } from '@vektopay/workspace-store/schemas/extensions/workspace/x-scalar-tabs'
 import { computed } from 'vue'
 
 import DesktopTab from '@/v2/features/app/components/DesktopTab.vue'

@@ -1,11 +1,11 @@
-import { generateHash } from '@scalar/helpers/string/generate-hash'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import { generateHash } from '@vektopay/helpers/string/generate-hash'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   ComponentsObject,
   OpenApiDocument,
   SecurityRequirementObject,
   SecuritySchemeObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { authOptions } from '@/v2/blocks/scalar-auth-selector-block/helpers/auth-options'
 

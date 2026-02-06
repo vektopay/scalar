@@ -1,4 +1,4 @@
-import { normalize, toYaml } from '@scalar/openapi-parser'
+import { normalize, toYaml } from '@vektopay/openapi-parser'
 import type { Context } from 'hono'
 
 /**

@@ -1,12 +1,12 @@
 import { writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
-import type { Target } from '@scalar/snippetz'
-import { clients } from '@scalar/snippetz/clients'
+import type { Target } from '@vektopay/snippetz'
+import { clients } from '@vektopay/snippetz/clients'
 
 /**
  * Generator script to create Java enums from TypeScript clients configuration.
- * This script directly imports the clients array from @scalar/snippetz,
+ * This script directly imports the clients array from @vektopay/snippetz,
  * ensuring the Java enums stay in perfect sync with the TypeScript source of truth.
  */
 

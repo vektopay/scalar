@@ -3,7 +3,7 @@ import {
   requestExampleSchema,
   securitySchemeSchema,
   serverSchema,
-} from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { getHarRequest } from './get-har-request'

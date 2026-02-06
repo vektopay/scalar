@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/aspire",
+  "name": "@vektopay/aspire",
   "description": "Automatically discover and create a unified, interactive API Reference for all your .NET Aspire services from their OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -25,11 +25,11 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@scalar/api-reference": "workspace:*",
-    "@scalar/dotnet-shared": "workspace:*"
+    "@vektopay/api-reference": "workspace:*",
+    "@vektopay/dotnet-shared": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*"
+    "@vektopay/build-tooling": "workspace:*"
   },
   "readme": {
     "title": "Scalar API Reference for Aspire",

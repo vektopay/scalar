@@ -1,7 +1,7 @@
 import { URL, fileURLToPath } from 'node:url'
 
-import { findEntryPoints } from '@scalar/build-tooling'
-import { createViteBuildOptions } from '@scalar/build-tooling/vite'
+import { findEntryPoints } from '@vektopay/build-tooling'
+import { createViteBuildOptions } from '@vektopay/build-tooling/vite'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vitest/config'

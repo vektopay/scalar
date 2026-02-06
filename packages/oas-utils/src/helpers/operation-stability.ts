@@ -1,4 +1,4 @@
-import { XScalarStabilityValues } from '@scalar/openapi-types/schemas/extensions'
+import { XScalarStabilityValues } from '@vektopay/openapi-types/schemas/extensions'
 
 type OperationStability = {
   deprecated?: boolean

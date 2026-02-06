@@ -1,5 +1,5 @@
-import { isClient } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import { isClient } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 
 import { authStorage, clientStorage } from '@/helpers/storage'
 

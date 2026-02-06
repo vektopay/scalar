@@ -2,17 +2,17 @@
 import {
   AuthSelector,
   mergeSecurity,
-} from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
+} from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
 import {
   getSecurityRequirements,
   getSelectedSecurity,
-} from '@scalar/api-client/v2/features/operation'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { AuthStore } from '@scalar/workspace-store/entities/auth'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas/workspace'
+} from '@vektopay/api-client/v2/features/operation'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { AuthStore } from '@vektopay/workspace-store/entities/auth'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas/workspace'
 import { useFocusWithin } from '@vueuse/core'
 import { computed, shallowRef, watch } from 'vue'
 

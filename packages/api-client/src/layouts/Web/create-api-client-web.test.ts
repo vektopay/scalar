@@ -17,7 +17,7 @@ describe('createApiClientWeb', () => {
     expect(element.innerHTML).not.toContain('App Navigation')
 
     await createApiClientWeb(element, {
-      proxyUrl: 'https://proxy.scalar.com',
+      proxyUrl: 'https://proxy.vektopay.com',
     })
     expect(element.innerHTML).toContain('App Navigation')
 

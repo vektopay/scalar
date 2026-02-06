@@ -1,5 +1,5 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { ParameterObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { ParameterObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { describe, expect, it } from 'vitest'
 
 import { combineParams } from './combine-params'

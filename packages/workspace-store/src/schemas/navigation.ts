@@ -1,5 +1,5 @@
-import { HTTP_METHODS, type HttpMethod } from '@scalar/helpers/http/http-methods'
-import { type TLiteral, Type } from '@scalar/typebox'
+import { HTTP_METHODS, type HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { type TLiteral, Type } from '@vektopay/typebox'
 
 import { compose } from '@/schemas/compose'
 import type { InfoObject } from '@/schemas/v3.1/strict/info'

@@ -1,7 +1,7 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import { isArraySchema } from '@scalar/workspace-store/schemas/v3.1/strict/type-guards'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import { isArraySchema } from '@vektopay/workspace-store/schemas/v3.1/strict/type-guards'
 
 import { type CompositionKeyword, compositions } from './schema-composition'
 import { shouldRenderArrayItemComposition } from './should-render-array-item-composition'

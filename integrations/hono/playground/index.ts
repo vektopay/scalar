@@ -1,6 +1,6 @@
 import { serve } from '@hono/node-server'
 import { OpenAPIHono, createRoute, z } from '@hono/zod-openapi'
-import { createMarkdownFromOpenApi } from '@scalar/openapi-to-markdown'
+import { createMarkdownFromOpenApi } from '@vektopay/openapi-to-markdown'
 import { cors } from 'hono/cors'
 
 import { Scalar } from '../src/index'
@@ -171,7 +171,7 @@ app.doc('/doc', {
   info: {
     title: 'Example',
     description:
-      'The `@scalar/hono-api-reference` middleware renders a beautiful API reference based on your OpenAPI specification.',
+      'The `@vektopay/hono-api-reference` middleware renders a beautiful API reference based on your OpenAPI specification.',
     version: 'v1',
   },
 })
@@ -190,7 +190,7 @@ app.get(
       },
       {
         title: 'Scalar Galaxy',
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
       },
     ],
     pageTitle: 'Hono API Reference Demo',

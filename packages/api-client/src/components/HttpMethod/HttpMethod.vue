@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { cva, cx, ScalarListbox } from '@scalar/components'
+import { cva, cx, ScalarListbox } from '@vektopay/components'
 import {
   getHttpMethodInfo,
   REQUEST_METHODS,
-} from '@scalar/helpers/http/http-info'
-import type { RequestMethod } from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/helpers/http/http-info'
+import type { RequestMethod } from '@vektopay/oas-utils/entities/spec'
 import { computed } from 'vue'
 
 const props = withDefaults(

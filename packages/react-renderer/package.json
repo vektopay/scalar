@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/react-renderer",
+  "name": "@vektopay/react-renderer",
   "description": "Render React components in Vue",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -58,7 +58,7 @@
     "vue": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/react": "catalog:*",
     "@types/react-dom": "catalog:*",
     "@vitejs/plugin-react": "catalog:*",
@@ -73,5 +73,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "vue": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

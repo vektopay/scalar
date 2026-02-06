@@ -1,4 +1,4 @@
-import type { ApiReferencePlugin } from '@scalar/types/api-reference'
+import type { ApiReferencePlugin } from '@vektopay/types/api-reference'
 import { describe, expect, it } from 'vitest'
 
 import { createPluginManager } from './plugin-manager'

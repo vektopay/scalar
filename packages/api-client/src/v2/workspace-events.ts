@@ -1,6 +1,6 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { ApiReferenceEvents, CollectionType, WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { generateClientMutators } from '@scalar/workspace-store/mutators'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { ApiReferenceEvents, CollectionType, WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { generateClientMutators } from '@vektopay/workspace-store/mutators'
 import { type Ref, computed } from 'vue'
 
 type Hook<T extends keyof ApiReferenceEvents> = Partial<{

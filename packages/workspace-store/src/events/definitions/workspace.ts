@@ -1,5 +1,5 @@
-import type { ThemeId } from '@scalar/themes'
-import type { AvailableClient } from '@scalar/types/snippetz'
+import type { ThemeId } from '@vektopay/themes'
+import type { AvailableClient } from '@vektopay/types/snippetz'
 
 import type { ColorMode } from '@/schemas/workspace'
 

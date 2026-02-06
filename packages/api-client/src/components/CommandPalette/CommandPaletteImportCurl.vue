@@ -4,13 +4,13 @@ import {
   ScalarIcon,
   ScalarListbox,
   type ScalarComboboxOption,
-} from '@scalar/components'
+} from '@vektopay/components'
 import type {
   RequestMethod,
   RequestPayload,
-} from '@scalar/oas-utils/entities/spec'
-import { REGEX } from '@scalar/oas-utils/helpers'
-import { emitCustomEvent } from '@scalar/workspace-store/events'
+} from '@vektopay/oas-utils/entities/spec'
+import { REGEX } from '@vektopay/oas-utils/helpers'
+import { emitCustomEvent } from '@vektopay/workspace-store/events'
 import { computed, ref, useTemplateRef } from 'vue'
 import { useRouter } from 'vue-router'
 

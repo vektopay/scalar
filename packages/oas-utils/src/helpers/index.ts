@@ -1,97 +1,97 @@
 export {
-  /** @deprecated Please use isDefined from \@scalar/helpers/array/is-defined instead */
+  /** @deprecated Please use isDefined from \@vektopay/helpers/array/is-defined instead */
   isDefined,
-} from '@scalar/helpers/array/is-defined'
+} from '@vektopay/helpers/array/is-defined'
 export {
-  /** @deprecated Please use json2xml from \@scalar/helpers/file/json2xml instead */
+  /** @deprecated Please use json2xml from \@vektopay/helpers/file/json2xml instead */
   json2xml,
-} from '@scalar/helpers/file/json2xml'
+} from '@vektopay/helpers/file/json2xml'
 export {
-  /** @deprecated Please use canMethodHaveBody from \@scalar/helpers/http/can-method-have-body instead */
+  /** @deprecated Please use canMethodHaveBody from \@vektopay/helpers/http/can-method-have-body instead */
   canMethodHaveBody,
-} from '@scalar/helpers/http/can-method-have-body'
+} from '@vektopay/helpers/http/can-method-have-body'
 export {
-  /** @deprecated Please use REQUEST_METHODS from \@scalar/helpers/http/http-methods instead */
+  /** @deprecated Please use REQUEST_METHODS from \@vektopay/helpers/http/http-methods instead */
   REQUEST_METHODS,
-  /** @deprecated Please use getHttpMethodInfo from \@scalar/helpers/http/http-info instead */
+  /** @deprecated Please use getHttpMethodInfo from \@vektopay/helpers/http/http-info instead */
   getHttpMethodInfo,
-} from '@scalar/helpers/http/http-info'
+} from '@vektopay/helpers/http/http-info'
 export {
-  /** @deprecated Please use HttpStatusCode from \@scalar/helpers/http/http-status-codes instead */
+  /** @deprecated Please use HttpStatusCode from \@vektopay/helpers/http/http-status-codes instead */
   type HttpStatusCode,
-  /** @deprecated Please use HttpStatusCodes from \@scalar/helpers/http/http-status-codes instead */
+  /** @deprecated Please use HttpStatusCodes from \@vektopay/helpers/http/http-status-codes instead */
   type HttpStatusCodes,
-  /** @deprecated Please use httpStatusCodes from \@scalar/helpers/http/http-status-codes instead */
+  /** @deprecated Please use httpStatusCodes from \@vektopay/helpers/http/http-status-codes instead */
   httpStatusCodes,
-} from '@scalar/helpers/http/http-status-codes'
+} from '@vektopay/helpers/http/http-status-codes'
 export {
-  /** @deprecated Please use isHttpMethod from \@scalar/helpers/http/is-http-method instead */
+  /** @deprecated Please use isHttpMethod from \@vektopay/helpers/http/is-http-method instead */
   isHttpMethod,
-} from '@scalar/helpers/http/is-http-method'
+} from '@vektopay/helpers/http/is-http-method'
 export {
-  /** @deprecated Please use objectKeys from \@scalar/helpers/object/object-keys instead */
+  /** @deprecated Please use objectKeys from \@vektopay/helpers/object/object-keys instead */
   objectKeys as getObjectKeys,
-} from '@scalar/helpers/object/object-keys'
+} from '@vektopay/helpers/object/object-keys'
 export {
-  /** @deprecated Please use findVariables from \@scalar/helpers/regex/find-variables instead */
+  /** @deprecated Please use findVariables from \@vektopay/helpers/regex/find-variables instead */
   findVariables,
-} from '@scalar/helpers/regex/find-variables'
+} from '@vektopay/helpers/regex/find-variables'
 export {
-  /** @deprecated Please use REGEX from \@scalar/helpers/regex/regex-helpers instead */
+  /** @deprecated Please use REGEX from \@vektopay/helpers/regex/regex-helpers instead */
   REGEX,
-} from '@scalar/helpers/regex/regex-helpers'
+} from '@vektopay/helpers/regex/regex-helpers'
 export {
-  /** @deprecated Please use replaceVariables from \@scalar/helpers/regex/replace-variables instead */
+  /** @deprecated Please use replaceVariables from \@vektopay/helpers/regex/replace-variables instead */
   replaceVariables,
-} from '@scalar/helpers/regex/replace-variables'
+} from '@vektopay/helpers/regex/replace-variables'
 export {
-  /** @deprecated Please use camelToTitleWords from \@scalar/helpers/string/camel-to-title instead */
+  /** @deprecated Please use camelToTitleWords from \@vektopay/helpers/string/camel-to-title instead */
   camelToTitleWords,
-} from '@scalar/helpers/string/camel-to-title'
+} from '@vektopay/helpers/string/camel-to-title'
 export {
-  /** @deprecated Please use capitalize from \@scalar/helpers/string/capitalize instead */
+  /** @deprecated Please use capitalize from \@vektopay/helpers/string/capitalize instead */
   capitalize,
-} from '@scalar/helpers/string/capitalize'
+} from '@vektopay/helpers/string/capitalize'
 /**
- * @deprecated These helpers are being phased out. Please import directly from @scalar/helpers instead.
- * For example: import { createHash } from '\@scalar/helpers/string/create-hash'
+ * @deprecated These helpers are being phased out. Please import directly from @vektopay/helpers instead.
+ * For example: import { createHash } from '\@vektopay/helpers/string/create-hash'
  */
 export {
-  /** @deprecated Please use createHash from \@scalar/helpers/string/create-hash instead */
+  /** @deprecated Please use createHash from \@vektopay/helpers/string/create-hash instead */
   createHash,
-} from '@scalar/helpers/string/create-hash'
+} from '@vektopay/helpers/string/create-hash'
 export {
-  /** @deprecated Please use iterateTitle from \@scalar/helpers/string/iterate-title instead */
+  /** @deprecated Please use iterateTitle from \@vektopay/helpers/string/iterate-title instead */
   iterateTitle,
-} from '@scalar/helpers/string/iterate-title'
+} from '@vektopay/helpers/string/iterate-title'
 export {
-  /** @deprecated Please use ensureProtocol from \@scalar/helpers/url/ensure-protocol instead */
+  /** @deprecated Please use ensureProtocol from \@vektopay/helpers/url/ensure-protocol instead */
   ensureProtocol,
-} from '@scalar/helpers/url/ensure-protocol'
+} from '@vektopay/helpers/url/ensure-protocol'
 export {
-  /** @deprecated Please use isLocalUrl from \@scalar/helpers/url/is-local-url instead */
+  /** @deprecated Please use isLocalUrl from \@vektopay/helpers/url/is-local-url instead */
   isLocalUrl,
-} from '@scalar/helpers/url/is-local-url'
+} from '@vektopay/helpers/url/is-local-url'
 export {
-  /** @deprecated Please use isRelativePath from \@scalar/helpers/url/is-relative-path instead */
+  /** @deprecated Please use isRelativePath from \@vektopay/helpers/url/is-relative-path instead */
   isRelativePath,
-} from '@scalar/helpers/url/is-relative-path'
+} from '@vektopay/helpers/url/is-relative-path'
 export {
-  /** @deprecated Please use isValidUrl from \@scalar/helpers/url/is-valid-url instead */
+  /** @deprecated Please use isValidUrl from \@vektopay/helpers/url/is-valid-url instead */
   isValidUrl,
-} from '@scalar/helpers/url/is-valid-url'
+} from '@vektopay/helpers/url/is-valid-url'
 export {
-  /** @deprecated Please use makeUrlAbsolute from \@scalar/helpers/url/make-url-absolute instead */
+  /** @deprecated Please use makeUrlAbsolute from \@vektopay/helpers/url/make-url-absolute instead */
   makeUrlAbsolute,
-} from '@scalar/helpers/url/make-url-absolute'
+} from '@vektopay/helpers/url/make-url-absolute'
 export {
-  /** @deprecated Please use combineUrlAndPath from \@scalar/helpers/url/merge-urls instead */
+  /** @deprecated Please use combineUrlAndPath from \@vektopay/helpers/url/merge-urls instead */
   combineUrlAndPath,
-  /** @deprecated Please use mergeSearchParams from \@scalar/helpers/url/merge-urls instead */
+  /** @deprecated Please use mergeSearchParams from \@vektopay/helpers/url/merge-urls instead */
   mergeSearchParams,
-  /** @deprecated Please use mergeUrls from \@scalar/helpers/url/merge-urls instead */
+  /** @deprecated Please use mergeUrls from \@vektopay/helpers/url/merge-urls instead */
   mergeUrls,
-} from '@scalar/helpers/url/merge-urls'
+} from '@vektopay/helpers/url/merge-urls'
 
 export { fetchDocument } from './fetch-document'
 export { type FetchWithProxyFallbackOptions, fetchWithProxyFallback } from './fetch-with-proxy-fallback'

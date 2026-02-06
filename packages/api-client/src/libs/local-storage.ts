@@ -1,5 +1,5 @@
-import { cookieSchema } from '@scalar/oas-utils/entities/cookie'
-import { environmentSchema } from '@scalar/oas-utils/entities/environment'
+import { cookieSchema } from '@vektopay/oas-utils/entities/cookie'
+import { environmentSchema } from '@vektopay/oas-utils/entities/environment'
 import {
   collectionSchema,
   requestExampleSchema,
@@ -7,10 +7,10 @@ import {
   securitySchemeSchema,
   serverSchema,
   tagSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { workspaceSchema } from '@scalar/oas-utils/entities/workspace'
-import { schemaModel } from '@scalar/oas-utils/helpers'
-import { DATA_VERSION, DATA_VERSION_LS_LEY, migrator } from '@scalar/oas-utils/migrations'
+} from '@vektopay/oas-utils/entities/spec'
+import { workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
+import { schemaModel } from '@vektopay/oas-utils/helpers'
+import { DATA_VERSION, DATA_VERSION_LS_LEY, migrator } from '@vektopay/oas-utils/migrations'
 import type { ZodSchema } from 'zod'
 
 import type { WorkspaceStore } from '@/store'

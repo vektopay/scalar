@@ -1,6 +1,6 @@
-import { collectionSchema, serverSchema } from '@scalar/oas-utils/entities/spec'
-import { workspaceSchema } from '@scalar/oas-utils/entities/workspace'
-import { mutationFactory } from '@scalar/object-utils/mutator-record'
+import { collectionSchema, serverSchema } from '@vektopay/oas-utils/entities/spec'
+import { workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
+import { mutationFactory } from '@vektopay/object-utils/mutator-record'
 import { describe, expect, it, vi } from 'vitest'
 import { reactive } from 'vue'
 

@@ -4,7 +4,7 @@ import {
   ScalarModal,
   ScalarSearchInput,
   type ModalState,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { computed } from 'vue'
 
 import { useSearch } from '@/hooks/use-search'

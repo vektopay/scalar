@@ -1,6 +1,6 @@
-import { omitUndefinedValues } from '@scalar/helpers/object/omit-undefined-values'
-import { XScalarSdkInstallationSchema } from '@scalar/openapi-types/schemas/extensions'
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+import { omitUndefinedValues } from '@vektopay/helpers/object/omit-undefined-values'
+import { XScalarSdkInstallationSchema } from '@vektopay/openapi-types/schemas/extensions'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 import { z } from 'zod'
 
 /**

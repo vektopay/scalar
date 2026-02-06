@@ -1,7 +1,7 @@
-import { AVAILABLE_CLIENTS } from '@scalar/types/snippetz'
-import type { AuthMeta, WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
+import { AVAILABLE_CLIENTS } from '@vektopay/types/snippetz'
+import type { AuthMeta, WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
@@ -20,7 +20,7 @@ vi.mock('./helpers/send-request')
  * Mock the toast composable to capture toast calls in tests.
  */
 const mockToast = vi.fn()
-vi.mock('@scalar/use-toasts', () => ({
+vi.mock('@vektopay/use-toasts', () => ({
   useToasts: () => ({
     toast: mockToast,
   }),

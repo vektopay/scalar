@@ -1,5 +1,5 @@
-import { ApiReferenceReact } from '@scalar/api-reference-react'
-import ScalarGalaxy from '@scalar/galaxy/3.1.json'
+import { ApiReferenceReact } from '@vektopay/api-reference-react'
+import ScalarGalaxy from '@vektopay/galaxy/3.1.json'
 import { generate } from 'random-words'
 import React, { useEffect, useState } from 'react'
 

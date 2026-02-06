@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarListbox } from '@scalar/components'
-import { ScalarIconCaretDown } from '@scalar/icons'
+import { ScalarListbox } from '@vektopay/components'
+import { ScalarIconCaretDown } from '@vektopay/icons'
 import { computed } from 'vue'
 
 const props = defineProps<{

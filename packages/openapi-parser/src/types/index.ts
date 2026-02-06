@@ -1,4 +1,4 @@
-import type { OpenAPI } from '@scalar/openapi-types'
+import type { OpenAPI } from '@vektopay/openapi-types'
 
 import type { ERRORS, OpenApiVersion } from '@/configuration'
 

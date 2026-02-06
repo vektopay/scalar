@@ -1,4 +1,4 @@
-import { environmentSchema } from '@scalar/oas-utils/entities/environment'
+import { environmentSchema } from '@vektopay/oas-utils/entities/environment'
 import { nanoid } from 'nanoid'
 import { describe, expect, it } from 'vitest'
 

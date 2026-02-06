@@ -15,7 +15,7 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 import type { Component } from 'vue'
 
 import { useFormGroupInput } from './useFormGroups'

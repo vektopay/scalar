@@ -29,6 +29,9 @@ export type TraverseSpecOptions = {
   /** Whether to hide model schemas from the navigation */
   hideModels: boolean
 
+  /** Whether to include entities marked with x-internal */
+  includeInternal?: boolean
+
   generateId: IdGenerator
 }
 

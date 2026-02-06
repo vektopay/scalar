@@ -171,7 +171,7 @@ app.MapScalarApiReference(options =>
     options.WithOpenApiRoutePattern("https://api.example.com/openapi/{documentName}.json");
 
     // Static external URL (no placeholder)
-    options.WithOpenApiRoutePattern("https://registry.scalar.com/@scalar/apis/galaxy?format=json");
+    options.WithOpenApiRoutePattern("https://registry.vektopay.com/@scalar/apis/galaxy?format=json");
 });
 ```
 
@@ -198,7 +198,7 @@ app.MapScalarApiReference(options => options.AddDocument("v1",
 
 // External OpenAPI document
 app.MapScalarApiReference(options => options.AddDocument("galaxy",
-    "Galaxy API", "https://registry.scalar.com/@scalar/apis/galaxy?format=json"));
+    "Galaxy API", "https://registry.vektopay.com/@scalar/apis/galaxy?format=json"));
 ```
 
 #### Add Multiple Documents
@@ -221,7 +221,7 @@ var documents = new[]
 {
     new ScalarDocument("v1", "Production API", "api/v1/openapi.json"),
     new ScalarDocument("v2-beta", "Beta API", "api/v2-beta/openapi.json", true),
-    new ScalarDocument("galaxy", "Galaxy API", "https://registry.scalar.com/@scalar/apis/galaxy?format=json")
+    new ScalarDocument("galaxy", "Galaxy API", "https://registry.vektopay.com/@scalar/apis/galaxy?format=json")
 };
 app.MapScalarApiReference(options => options.AddDocuments(documents));
 ```
@@ -448,7 +448,7 @@ Scalar uses local assets by default. To load assets from a different location:
 ```csharp
 app.MapScalarApiReference(options =>
 {
-    options.WithBundleUrl("https://cdn.jsdelivr.net/npm/@scalar/api-reference");
+    options.WithBundleUrl("https://cdn.vektopay.com/@vektopay/api-reference");
 });
 ```
 

@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import { useModal, type ScalarListboxOption } from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
+import { useModal, type ScalarListboxOption } from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
 import {
   createWorkspaceStore,
   type WorkspaceStore,
-} from '@scalar/workspace-store/client'
-import type { InMemoryWorkspace } from '@scalar/workspace-store/schemas/inmemory-workspace'
+} from '@vektopay/workspace-store/client'
+import type { InMemoryWorkspace } from '@vektopay/workspace-store/schemas/inmemory-workspace'
 import { onMounted, ref } from 'vue'
 
 import { getUrlQueryParameter } from '@/v2/features/import-listener/helpers/get-url-query-parameter'

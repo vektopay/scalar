@@ -1,4 +1,4 @@
-import { objectEntries } from '@scalar/helpers/object/object-entries'
+import { objectEntries } from '@vektopay/helpers/object/object-entries'
 import type { Request as HarRequest } from 'har-format'
 
 export type {

@@ -1,4 +1,4 @@
-import { type AuthMeta, type WorkspaceEventBus, createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import { type AuthMeta, type WorkspaceEventBus, createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { mount } from '@vue/test-utils'
 import { assert, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'

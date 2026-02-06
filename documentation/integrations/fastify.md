@@ -343,7 +343,7 @@ await fastify.register(ScalarApiReference, {
     // On your domain:
     url: '/openapi.json',
     // Or somewhere else:
-    // url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+    // url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
   },
 })
 ```

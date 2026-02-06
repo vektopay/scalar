@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/workspace-store",
+  "name": "@vektopay/workspace-store",
   "description": "Store interface for openapi documents",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -139,15 +139,16 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/code-highlight": "workspace:*",
-    "@scalar/helpers": "workspace:*",
-    "@scalar/json-magic": "workspace:*",
-    "@scalar/object-utils": "workspace:*",
-    "@scalar/openapi-upgrader": "workspace:*",
-    "@scalar/snippetz": "workspace:*",
-    "@scalar/themes": "workspace:*",
     "@scalar/typebox": "catalog:*",
-    "@scalar/types": "workspace:*",
+    "@vektopay/code-highlight": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/json-magic": "workspace:*",
+    "@vektopay/object-utils": "workspace:*",
+    "@vektopay/openapi-upgrader": "workspace:*",
+    "@vektopay/snippetz": "workspace:*",
+    "@vektopay/themes": "workspace:*",
+    "@vektopay/typebox": "catalog:*",
+    "@vektopay/types": "workspace:*",
     "github-slugger": "^2.0.0",
     "type-fest": "catalog:*",
     "vue": "catalog:*",
@@ -155,10 +156,13 @@
   },
   "devDependencies": {
     "@google-cloud/storage": "catalog:*",
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "fake-indexeddb": "catalog:*",
     "fastify": "catalog:*",
     "vite": "catalog:*",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

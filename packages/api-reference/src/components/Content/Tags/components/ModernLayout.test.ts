@@ -1,5 +1,5 @@
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { TraversedTag } from '@scalar/workspace-store/schemas/navigation'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { TraversedTag } from '@vektopay/workspace-store/schemas/navigation'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { computed } from 'vue'

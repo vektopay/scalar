@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIcon, ScalarModal, useModal } from '@scalar/components'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
+import { ScalarIcon, ScalarModal, useModal } from '@vektopay/components'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
 import { ref } from 'vue'
 
 import DeleteSidebarListElement from '@/components/Sidebar/Actions/DeleteSidebarListElement.vue'

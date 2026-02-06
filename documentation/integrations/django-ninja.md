@@ -141,7 +141,7 @@ When using multiple sources, each `OpenAPISource` can be configured with:
 
 ### Advanced
 
-- `scalar_js_url` (default `"https://cdn.jsdelivr.net/npm/@scalar/api-reference"`)
+- `scalar_js_url` (default `"https://cdn.vektopay.com/@vektopay/api-reference"`)
 - `scalar_proxy_url` (default `None`)
 - `scalar_favicon_url` (default `"https://django-ninja.dev/img/favicon.png"`)
 - `integration` (default `None`)

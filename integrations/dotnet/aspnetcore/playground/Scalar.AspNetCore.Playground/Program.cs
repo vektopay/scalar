@@ -26,7 +26,7 @@ app.MapOpenApi();
 Action<ScalarOptions> configureOptions = options =>
     options
         .WithJavaScriptConfiguration("./scalar/config.js")
-        .WithBundleUrl("https://cdn.jsdelivr.net/npm/@scalar/api-reference")
+        .WithBundleUrl("https://cdn.vektopay.com/@vektopay/api-reference")
         .AddApiKeyAuthentication(AuthConstants.ApiKeyScheme, scheme => scheme.Value = "my-api-key")
         .AddPreferredSecuritySchemes(AuthConstants.ApiKeyScheme)
         .WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient);

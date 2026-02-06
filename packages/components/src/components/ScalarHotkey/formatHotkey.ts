@@ -1,4 +1,4 @@
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
 
 import { HOTKEY_LABELS, MODIFIER_KEY_SYMBOLS, MODIFIER_KEY_SYMBOLS_MACOS } from './constants'
 import type { HotKeyModifier } from './types'

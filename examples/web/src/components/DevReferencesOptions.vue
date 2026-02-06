@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { themeIds } from '@scalar/themes'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+import { themeIds } from '@vektopay/themes'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 import { computed } from 'vue'
 
 const props = defineProps<{

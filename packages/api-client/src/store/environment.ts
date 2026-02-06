@@ -1,6 +1,6 @@
-import { LS_KEYS } from '@scalar/helpers/object/local-storage'
-import { type Environment, environmentSchema } from '@scalar/oas-utils/entities/environment'
-import { mutationFactory } from '@scalar/object-utils/mutator-record'
+import { LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import { type Environment, environmentSchema } from '@vektopay/oas-utils/entities/environment'
+import { mutationFactory } from '@vektopay/object-utils/mutator-record'
 import { reactive } from 'vue'
 
 import type { StoreContext } from '@/store/store-context'

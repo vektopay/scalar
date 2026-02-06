@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 export const XScalarSetOperationSecuritySchema = Type.Object({
   'x-scalar-set-operation-security': Type.Optional(Type.Boolean({ default: false })),

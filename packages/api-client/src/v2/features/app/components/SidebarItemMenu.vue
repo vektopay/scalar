@@ -4,11 +4,11 @@ import {
   ScalarDropdownDivider,
   ScalarDropdownItem,
   ScalarIcon,
-} from '@scalar/components'
-import type { SidebarState } from '@scalar/sidebar'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getParentEntry } from '@scalar/workspace-store/navigation'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/components'
+import type { SidebarState } from '@vektopay/sidebar'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getParentEntry } from '@vektopay/workspace-store/navigation'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
 import { nextTick, ref, watch } from 'vue'
 
 const { item, eventBus, sidebarState, target } = defineProps<{

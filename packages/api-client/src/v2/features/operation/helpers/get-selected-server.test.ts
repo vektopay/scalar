@@ -1,4 +1,4 @@
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas/workspace'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas/workspace'
 import { describe, expect, it } from 'vitest'
 
 import { getSelectedServer } from './get-selected-server'

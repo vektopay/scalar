@@ -15,7 +15,7 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { ScalarIconCheck } from '@scalar/icons'
+import { ScalarIconCheck } from '@vektopay/icons'
 
 import type { ScalarCheckboxType } from './types'
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RadioGroup, RadioGroupLabel, RadioGroupOption } from '@headlessui/vue'
-import { ScalarPopover } from '@scalar/components'
-import { LibraryIcon, libraryIcons } from '@scalar/icons/library'
+import { ScalarPopover } from '@vektopay/components'
+import { LibraryIcon, libraryIcons } from '@vektopay/icons/library'
 import { computed } from 'vue'
 
 const props = defineProps<{

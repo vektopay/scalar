@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarMarkdown } from '@scalar/components'
-import { ScalarIconPencil } from '@scalar/icons'
+import { ScalarButton, ScalarMarkdown } from '@vektopay/components'
+import { ScalarIconPencil } from '@vektopay/icons'
 import {
   computed,
   nextTick,

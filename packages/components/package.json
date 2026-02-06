@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/components",
+  "name": "@vektopay/components",
   "description": "Scalars component library",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -51,12 +51,12 @@
     "@floating-ui/utils": "catalog:*",
     "@floating-ui/vue": "catalog:*",
     "@headlessui/vue": "catalog:*",
-    "@scalar/code-highlight": "workspace:*",
-    "@scalar/helpers": "workspace:*",
-    "@scalar/icons": "workspace:*",
-    "@scalar/oas-utils": "workspace:*",
-    "@scalar/themes": "workspace:*",
-    "@scalar/use-hooks": "workspace:*",
+    "@vektopay/code-highlight": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/icons": "workspace:*",
+    "@vektopay/oas-utils": "workspace:*",
+    "@vektopay/themes": "workspace:*",
+    "@vektopay/use-hooks": "workspace:*",
     "@vueuse/core": "catalog:*",
     "cva": "1.0.0-beta.4",
     "nanoid": "catalog:*",
@@ -68,7 +68,7 @@
   "devDependencies": {
     "@headlessui/tailwindcss": "catalog:*",
     "@playwright/test": "catalog:*",
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@storybook/addon-docs": "10.1.11",
     "@storybook/addon-links": "10.1.11",
     "@storybook/vue3-vite": "10.1.11",
@@ -85,5 +85,8 @@
     "vite": "catalog:*",
     "vite-svg-loader": "catalog:*",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

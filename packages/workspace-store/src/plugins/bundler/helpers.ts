@@ -1,4 +1,4 @@
-import { getSegmentsFromPath } from '@scalar/json-magic/helpers/get-segments-from-path'
+import { getSegmentsFromPath } from '@vektopay/json-magic/helpers/get-segments-from-path'
 
 import type { UnknownObject } from '@/helpers/general'
 import { getValueByPath } from '@/helpers/json-path-utils'

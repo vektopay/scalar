@@ -1,5 +1,5 @@
-import { path } from '@scalar/helpers/node/path'
-import { isObject } from '@scalar/helpers/object/is-object'
+import { path } from '@vektopay/helpers/node/path'
+import { isObject } from '@vektopay/helpers/object/is-object'
 
 import { convertToLocalRef } from '@/helpers/convert-to-local-ref'
 import { getId, getSchemas } from '@/helpers/get-schemas'

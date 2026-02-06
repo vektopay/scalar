@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { cva, cx, ScalarButton, ScalarIcon } from '@scalar/components'
-import { useColorMode } from '@scalar/use-hooks/useColorMode'
+import { cva, cx, ScalarButton, ScalarIcon } from '@vektopay/components'
+import { useColorMode } from '@vektopay/use-hooks/useColorMode'
 
 const { colorMode, setColorMode } = useColorMode()
 

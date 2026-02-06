@@ -5,13 +5,13 @@ import {
   ScalarFloatingBackdrop,
   ScalarIcon,
   ScalarPopover,
-} from '@scalar/components'
+} from '@vektopay/components'
 import type {
   Collection,
   Request as Operation,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import { emitCustomEvent } from '@scalar/workspace-store/events'
+} from '@vektopay/oas-utils/entities/spec'
+import { emitCustomEvent } from '@vektopay/workspace-store/events'
 import { computed, useTemplateRef, watch } from 'vue'
 
 import { useLayout } from '@/hooks/useLayout'

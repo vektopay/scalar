@@ -6,7 +6,7 @@ import {
   ScalarDropdownDivider,
   ScalarDropdownItem,
   ScalarIcon,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { computed, nextTick, ref, watch } from 'vue'
 
 import type { CodeInputModelValue } from '@/v2/components/code-input/CodeInput.vue'

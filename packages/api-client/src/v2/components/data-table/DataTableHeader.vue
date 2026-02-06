@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBindCx } from '@scalar/components'
+import { useBindCx } from '@vektopay/components'
 
 import DataTableCell from './DataTableCell.vue'
 

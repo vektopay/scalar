@@ -1,5 +1,5 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { Tab } from '@scalar/workspace-store/schemas/extensions/workspace'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { Tab } from '@vektopay/workspace-store/schemas/extensions/workspace'
 
 import type { GetEntryByLocation } from '@/v2/features/app/app-state'
 

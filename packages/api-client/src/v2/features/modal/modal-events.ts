@@ -1,6 +1,6 @@
-import type { ModalState } from '@scalar/components'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { ModalState } from '@vektopay/components'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { type Ref, ref } from 'vue'
 
 import type { UseModalSidebarReturn } from '@/v2/features/modal/hooks/use-modal-sidebar'

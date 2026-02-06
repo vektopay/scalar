@@ -1,5 +1,5 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { InMemoryWorkspace } from '@scalar/workspace-store/schemas/inmemory-workspace'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { InMemoryWorkspace } from '@vektopay/workspace-store/schemas/inmemory-workspace'
 
 import { generateUniqueSlug } from '@/v2/features/import-listener/helpers/generate-unique-slug'
 

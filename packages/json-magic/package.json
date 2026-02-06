@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/json-magic",
+  "name": "@vektopay/json-magic",
   "description": "A collection of utilities for working with JSON objects, including diffing, conflict resolution, bundling and more.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -73,12 +73,15 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
     "yaml": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "fastify": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

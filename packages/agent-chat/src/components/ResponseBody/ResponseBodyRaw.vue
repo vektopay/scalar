@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ScalarCodeBlock } from '@scalar/components'
+import { ScalarCodeBlock } from '@vektopay/components'
 
 const props = defineProps<{
   content: any

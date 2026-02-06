@@ -1,7 +1,7 @@
-import type { OpenAPI, OpenAPIV3_1 } from '@scalar/openapi-types'
-import { isDereferenced } from '@scalar/openapi-types/helpers'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { OperationObject, ParameterObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { OpenAPI, OpenAPIV3_1 } from '@vektopay/openapi-types'
+import { isDereferenced } from '@vektopay/openapi-types/helpers'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { OperationObject, ParameterObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /**
  * Formats a property object into a string.

@@ -1,4 +1,4 @@
-import { getHeadings } from '@scalar/code-highlight/markdown'
+import { getHeadings } from '@vektopay/code-highlight/markdown'
 import GithubSlugger from 'github-slugger'
 
 import type { Heading } from '@/navigation/types'

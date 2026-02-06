@@ -8,8 +8,8 @@ import {
   ScalarListboxCheckbox,
   ScalarModal,
   useModal,
-} from '@scalar/components'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+} from '@vektopay/components'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 

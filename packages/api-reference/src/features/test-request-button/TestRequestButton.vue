@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { ScalarIconPlay } from '@scalar/icons'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { ScalarIconPlay } from '@vektopay/icons'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 import ScreenReader from '@/components/ScreenReader.vue'
 

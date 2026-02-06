@@ -25,9 +25,9 @@
   },
   "type": "module",
   "dependencies": {
-    "@scalar/api-client-react": "workspace:*",
-    "@scalar/api-reference-react": "workspace:*",
-    "@scalar/nextjs-api-reference": "workspace:*",
+    "@vektopay/api-client-react": "workspace:*",
+    "@vektopay/api-reference-react": "workspace:*",
+    "@vektopay/nextjs-api-reference": "workspace:*",
     "next": "catalog:*",
     "react": "catalog:*",
     "react-dom": "catalog:*"

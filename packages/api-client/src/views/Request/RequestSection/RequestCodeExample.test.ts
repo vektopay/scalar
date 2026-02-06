@@ -4,9 +4,9 @@ import {
   requestExampleSchema,
   securitySchemeSchema,
   serverSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { workspaceSchema } from '@scalar/oas-utils/entities/workspace'
-import type { ClientId, TargetId } from '@scalar/snippetz'
+} from '@vektopay/oas-utils/entities/spec'
+import { workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
+import type { ClientId, TargetId } from '@vektopay/snippetz'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
@@ -20,7 +20,7 @@ vi.mock('@/store', () => ({
 }))
 
 // Mock the snippetz library
-vi.mock('@scalar/snippetz', () => ({
+vi.mock('@vektopay/snippetz', () => ({
   snippetz: () => ({
     clients: () => [
       {

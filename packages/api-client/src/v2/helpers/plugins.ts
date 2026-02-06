@@ -1,4 +1,4 @@
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
 import type { Component } from 'vue'
 
 /** A type representing the hooks that a client plugin can define */

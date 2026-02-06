@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/nestjs-api-reference",
+  "name": "@vektopay/nestjs-api-reference",
   "description": "NestJS module to serve beautiful, interactive API documentation from OpenAPI/Swagger documents.",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -64,7 +64,7 @@
     "documentation": "https://scalar.com/products/api-references/integrations/nestjs"
   },
   "dependencies": {
-    "@scalar/core": "workspace:*"
+    "@vektopay/core": "workspace:*"
   },
   "devDependencies": {
     "@nestjs/common": "catalog:*",
@@ -79,5 +79,8 @@
     "supertest": "catalog:*",
     "tsup": "^8.3.5",
     "vitest": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

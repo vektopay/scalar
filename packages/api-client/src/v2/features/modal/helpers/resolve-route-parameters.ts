@@ -1,8 +1,8 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { isHttpMethod } from '@scalar/helpers/http/is-http-method'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import { getOperationEntries } from '@scalar/workspace-store/navigation'
-import type { TraversedEntry, TraversedExample } from '@scalar/workspace-store/schemas/navigation'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { isHttpMethod } from '@vektopay/helpers/http/is-http-method'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import { getOperationEntries } from '@vektopay/workspace-store/navigation'
+import type { TraversedEntry, TraversedExample } from '@vektopay/workspace-store/schemas/navigation'
 
 /** Payload for routing and opening the API client modal. */
 export type RoutePayload = {

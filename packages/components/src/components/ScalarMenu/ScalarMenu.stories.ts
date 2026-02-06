@@ -1,4 +1,4 @@
-import { ScalarIconGear, ScalarIconSignOut } from '@scalar/icons'
+import { ScalarIconGear, ScalarIconSignOut } from '@vektopay/icons'
 import type { Meta, StoryObj } from '@storybook/vue3-vite'
 import { ref } from 'vue'
 

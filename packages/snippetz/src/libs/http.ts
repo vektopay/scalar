@@ -1,4 +1,4 @@
-import type { HarRequest } from '@scalar/types/snippetz'
+import type { HarRequest } from '@vektopay/types/snippetz'
 
 /**
  * Normalizes the request object with defaults

@@ -1,17 +1,17 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { isHttpMethod } from '@scalar/helpers/http/is-http-method'
-import { keysOf } from '@scalar/object-utils/arrays'
-import { type LoadResult, dereference, load, upgrade } from '@scalar/openapi-parser'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
-import type { SecuritySchemeOauth2 } from '@scalar/types/entities'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { isHttpMethod } from '@vektopay/helpers/http/is-http-method'
+import { keysOf } from '@vektopay/object-utils/arrays'
+import { type LoadResult, dereference, load, upgrade } from '@vektopay/openapi-parser'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
+import type { SecuritySchemeOauth2 } from '@vektopay/types/entities'
 import {
   type Oauth2FlowPayload,
   type SecurityScheme,
   type SecuritySchemePayload,
   securitySchemeSchema,
-} from '@scalar/types/entities'
-import type { UnknownObject } from '@scalar/types/utils'
+} from '@vektopay/types/entities'
+import type { UnknownObject } from '@vektopay/types/utils'
 import type { Entries } from 'type-fest'
 
 import type { SelectedSecuritySchemeUids } from '@/entities/shared/utility'
@@ -29,7 +29,7 @@ const dereferenceDocument = async (
   { shouldLoad = true }: { shouldLoad?: boolean } = {},
 ) => {
   if (document === null || (typeof document === 'string' && document.trim() === '')) {
-    console.warn('[@scalar/oas-utils] Empty OpenAPI document provided.')
+    console.warn('[@vektopay/oas-utils] Empty OpenAPI document provided.')
 
     return {
       schema: {} as OpenAPIV3_1.Document,
@@ -86,7 +86,7 @@ export const parseSchema = async (
       })
 
   if (!schema) {
-    console.warn('[@scalar/oas-utils] OpenAPI Parser Warning: Schema is undefined')
+    console.warn('[@vektopay/oas-utils] OpenAPI Parser Warning: Schema is undefined')
   }
 
   return {
@@ -398,7 +398,7 @@ export async function importSpecToWorkspace(
 
       // Remove any examples from the request payload as they conflict with our examples property and are not valid
       if (requestPayload.examples) {
-        console.warn('[@scalar/api-client] operation.examples is not a valid openapi property')
+        console.warn('[@vektopay/api-client] operation.examples is not a valid openapi property')
         delete requestPayload.examples
       }
 

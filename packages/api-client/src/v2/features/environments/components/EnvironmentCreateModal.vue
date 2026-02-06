@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ScalarModal, type ModalState } from '@scalar/components'
+import { ScalarModal, type ModalState } from '@vektopay/components'
 import type {
   CollectionType,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironments } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironments } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { computed, ref, watch } from 'vue'
 
 import CommandActionForm from '@/components/CommandPalette/CommandActionForm.vue'

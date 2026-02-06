@@ -1,4 +1,4 @@
-import json from '@scalar/galaxy/3.1.json'
+import json from '@vektopay/galaxy/3.1.json'
 import {
   type Request,
   type SecurityScheme,
@@ -10,8 +10,8 @@ import {
   securitySchemeSchema,
   serverSchema,
   tagSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { parseSchema } from '@scalar/oas-utils/transforms'
+} from '@vektopay/oas-utils/entities/spec'
+import { parseSchema } from '@vektopay/oas-utils/transforms'
 import microdiff, { type Difference } from 'microdiff'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { z } from 'zod'

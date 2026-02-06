@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarButton, useBindCx } from '@scalar/components'
-import { ScalarIconHash } from '@scalar/icons'
+import { ScalarButton, useBindCx } from '@vektopay/components'
+import { ScalarIconHash } from '@vektopay/icons'
 import { useId } from 'vue'
 
 import ScreenReader from '../ScreenReader.vue'

@@ -1,4 +1,4 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 

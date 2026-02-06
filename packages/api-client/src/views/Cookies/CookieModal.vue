@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarModal, type ModalState } from '@scalar/components'
-import { useToasts } from '@scalar/use-toasts'
+import { ScalarModal, type ModalState } from '@vektopay/components'
+import { useToasts } from '@vektopay/use-toasts'
 import { ref, watch } from 'vue'
 
 import CommandActionForm from '@/components/CommandPalette/CommandActionForm.vue'

@@ -1,8 +1,8 @@
-import type { HttpMethod as HttpMethodType } from '@scalar/helpers/http/http-methods'
-import type { AvailableClient } from '@scalar/types/snippetz'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import type { OperationObject, ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import { SchemaObjectSchema } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { HttpMethod as HttpMethodType } from '@vektopay/helpers/http/http-methods'
+import type { AvailableClient } from '@vektopay/types/snippetz'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import type { OperationObject, ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import { SchemaObjectSchema } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'
@@ -15,14 +15,14 @@ import RequestExample from './OperationCodeSample.vue'
 
 // Mock the useClipboard hook
 const mockCopyToClipboard = vi.fn().mockResolvedValue(undefined)
-vi.mock('@scalar/use-hooks/useClipboard', () => ({
+vi.mock('@vektopay/use-hooks/useClipboard', () => ({
   useClipboard: () => ({
     copyToClipboard: mockCopyToClipboard,
   }),
 }))
 
 // Mock the useToasts hook
-vi.mock('@scalar/use-toasts', () => ({
+vi.mock('@vektopay/use-toasts', () => ({
   useToasts: () => ({
     toast: vi.fn(),
     initializeToasts: vi.fn(),

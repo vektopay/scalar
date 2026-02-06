@@ -1,7 +1,7 @@
-import { createSidebarState } from '@scalar/sidebar'
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
-import type { OpenApiDocument } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { createSidebarState } from '@vektopay/sidebar'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
+import type { OpenApiDocument } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { assert, beforeEach, describe, expect, it } from 'vitest'
 import { computed, ref } from 'vue'
 

@@ -1,11 +1,11 @@
-import { redirectToProxy } from '@scalar/helpers/url/redirect-to-proxy'
+import { redirectToProxy } from '@vektopay/helpers/url/redirect-to-proxy'
 
 import { formatJsonOrYamlString } from './parse'
 
 // Doesn't work
 const OLD_PROXY_URL = 'https://api.scalar.com/request-proxy'
 // Does work
-const NEW_PROXY_URL = 'https://proxy.scalar.com'
+const NEW_PROXY_URL = 'https://proxy.vektopay.com'
 
 /**
  * Fetches an OpenAPI/Swagger document from a given URL

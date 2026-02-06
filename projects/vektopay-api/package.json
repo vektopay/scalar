@@ -1,0 +1,22 @@
+{
+  "name": "@vektopay/vektopay-api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "start": "bun src/server.ts",
+    "db:init": "bun src/server.ts --init-db"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "catalog:*",
+    "@ai-sdk/openai": "catalog:*",
+    "@vektopay/openapi-types": "workspace:*",
+    "ai": "catalog:*",
+    "archiver": "^7.0.1",
+    "hono": "catalog:*",
+    "nanoid": "catalog:*",
+    "pg": "^8.11.5",
+    "zod": "catalog:*"
+  }
+}

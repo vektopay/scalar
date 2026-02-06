@@ -48,7 +48,7 @@ app.use(
 
 ### Custom CDN
 
-You can use a custom CDN, default is `https://cdn.jsdelivr.net/npm/@scalar/api-reference`.
+You can use a custom CDN, default is `https://cdn.vektopay.com/@vektopay/api-reference`.
 
 ```ts
 import { apiReference } from '@scalar/express-api-reference'
@@ -56,7 +56,7 @@ import { apiReference } from '@scalar/express-api-reference'
 app.use(
   '/reference',
   apiReference({
-    cdn: 'https://cdn.jsdelivr.net/npm/@scalar/api-reference',
+    cdn: 'https://cdn.vektopay.com/@vektopay/api-reference',
     url: '/openapi.json',
   }),
 )

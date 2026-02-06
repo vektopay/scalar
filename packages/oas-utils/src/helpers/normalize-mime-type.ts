@@ -1,4 +1,4 @@
-import type { ContentType } from '@scalar/types/legacy'
+import type { ContentType } from '@vektopay/types/legacy'
 
 /**
  * Normalizes a MIME type to a standard format.

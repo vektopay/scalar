@@ -1,15 +1,15 @@
 export {
-  /** @deprecated Please import from @scalar/json-magic/helpers/escape-json-pointer instead */
+  /** @deprecated Please import from @vektopay/json-magic/helpers/escape-json-pointer instead */
   escapeJsonPointer,
-} from '@scalar/json-magic/helpers/escape-json-pointer'
+} from '@vektopay/json-magic/helpers/escape-json-pointer'
 export {
-  /** @deprecated Please import from @scalar/openapi-upgrader/2.0-to-3.0 instead */
+  /** @deprecated Please import from @vektopay/openapi-upgrader/2.0-to-3.0 instead */
   upgradeFromTwoToThree,
-} from '@scalar/openapi-upgrader/2.0-to-3.0'
+} from '@vektopay/openapi-upgrader/2.0-to-3.0'
 export {
-  /** @deprecated Please import from @scalar/openapi-upgrader/3.0-to-3.1 instead */
+  /** @deprecated Please import from @vektopay/openapi-upgrader/3.0-to-3.1 instead */
   upgradeFromThreeToThreeOne,
-} from '@scalar/openapi-upgrader/3.0-to-3.1'
+} from '@vektopay/openapi-upgrader/3.0-to-3.1'
 
 export type { AnyObject, ErrorObject, Filesystem, LoadResult } from './types'
 export { type DereferenceOptions, dereference } from './utils/dereference'

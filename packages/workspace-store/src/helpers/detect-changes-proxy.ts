@@ -1,4 +1,4 @@
-import { isObject } from '@scalar/helpers/object/is-object'
+import { isObject } from '@vektopay/helpers/object/is-object'
 
 const isDetectChangesProxy = Symbol('isDetectChangesProxy')
 const detectChangesProxyTarget = Symbol('detectChangesProxyTarget')

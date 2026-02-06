@@ -8,7 +8,7 @@ run.addCommand(
   new Command('test-servers').description('Run the test servers').action(async () => {
     const { result } = concurrently([
       {
-        command: 'CI=1 pnpm --filter @scalar/void-server dev',
+        command: 'CI=1 pnpm --filter @vektopay/void-server dev',
         name: 'void-server',
         prefixColor: 'blue',
       },

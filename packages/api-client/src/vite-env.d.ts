@@ -1,4 +1,4 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
 
 import type { useAppState } from './v2/features/app/app-state'
 

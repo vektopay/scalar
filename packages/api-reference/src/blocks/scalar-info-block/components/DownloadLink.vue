@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
-import { type WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
+import { type WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 import Badge from '@/components/Badge/Badge.vue'
 

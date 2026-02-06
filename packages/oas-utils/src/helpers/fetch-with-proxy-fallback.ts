@@ -1,4 +1,4 @@
-import { redirectToProxy, shouldUseProxy } from '@scalar/helpers/url/redirect-to-proxy'
+import { redirectToProxy, shouldUseProxy } from '@vektopay/helpers/url/redirect-to-proxy'
 
 export type FetchWithProxyFallbackOptions = {
   proxyUrl: string | undefined

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { useModal } from '@scalar/components'
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { useModal } from '@vektopay/components'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import type {
   Collection,
   SecurityScheme,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { computed, ref, watch } from 'vue'
 
 import { DataTable } from '@/components/DataTable'

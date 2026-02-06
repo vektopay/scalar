@@ -1,9 +1,9 @@
 /**
  * Simple demo page for all Scalar code highlighting functions
  */
-import { presets } from '@scalar/themes'
+import { presets } from '@vektopay/themes'
 
-import '@scalar/themes/style.css'
+import '@vektopay/themes/style.css'
 
 import { syntaxHighlight } from '../src/code'
 // @ts-expect-error vite not looking for raw types

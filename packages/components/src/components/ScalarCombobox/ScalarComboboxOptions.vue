@@ -3,7 +3,7 @@
   setup
   lang="ts"
   generic="O extends Option = Option, G extends OptionGroup<O> = OptionGroup<O>">
-import { ScalarIconMagnifyingGlass, ScalarIconPlus } from '@scalar/icons'
+import { ScalarIconMagnifyingGlass, ScalarIconPlus } from '@vektopay/icons'
 import { computed, onMounted, ref, useId, watch } from 'vue'
 
 import { ScalarListboxCheckbox } from '../ScalarListbox'

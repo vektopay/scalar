@@ -1,11 +1,11 @@
-import { LS_KEYS } from '@scalar/helpers/object/local-storage'
-import type { SecurityScheme } from '@scalar/oas-utils/entities/spec'
-import { type Workspace, workspaceSchema } from '@scalar/oas-utils/entities/workspace'
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
-import { DATA_VERSION, DATA_VERSION_LS_LEY } from '@scalar/oas-utils/migrations'
-import type { Path, PathValue } from '@scalar/object-utils/nested'
-import type { OpenAPI } from '@scalar/openapi-types'
-import { type ApiClientConfiguration, apiClientConfigurationSchema } from '@scalar/types/api-reference'
+import { LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import type { SecurityScheme } from '@vektopay/oas-utils/entities/spec'
+import { type Workspace, workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
+import { DATA_VERSION, DATA_VERSION_LS_LEY } from '@vektopay/oas-utils/migrations'
+import type { Path, PathValue } from '@vektopay/object-utils/nested'
+import type { OpenAPI } from '@vektopay/openapi-types'
+import { type ApiClientConfiguration, apiClientConfigurationSchema } from '@vektopay/types/api-reference'
 import { type Component, createApp, ref, watch } from 'vue'
 import type { Router } from 'vue-router'
 
@@ -213,7 +213,7 @@ export const createApiClient = ({
   const mount = (mountingEl = el) => {
     if (!mountingEl) {
       console.error(
-        '[@scalar/api-client-modal] Could not create the API client.',
+        '[@vektopay/api-client-modal] Could not create the API client.',
         'Invalid HTML element provided.',
         'Read more: https://github.com/scalar/scalar/tree/main/packages/api-client',
       )
@@ -242,7 +242,7 @@ export const createApiClient = ({
         },
       })
     } else {
-      console.warn('[@scalar/api-client] Could not find request for path and method', payload)
+      console.warn('[@vektopay/api-client] Could not find request for path and method', payload)
     }
   }
 
@@ -300,7 +300,7 @@ export const createApiClient = ({
           await importSpecFile(newConfig.content, activeWorkspace.value?.uid ?? 'default', config)
         } else {
           console.error(
-            '[@scalar/api-client-modal] Could not create the API client.',
+            '[@vektopay/api-client-modal] Could not create the API client.',
             'Please provide an OpenAPI document: { url: "…" }',
             'Read more: https://github.com/scalar/scalar/tree/main/packages/api-client',
           )

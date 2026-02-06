@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ScalarMarkdownSummary } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarMarkdownSummary } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import type {
   Collection,
   SecurityScheme,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import type { Path, PathValue } from '@scalar/object-utils/nested'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import type { Path, PathValue } from '@vektopay/object-utils/nested'
 import { capitalize, computed, onMounted, ref } from 'vue'
 
 import { DataTableCell, DataTableRow } from '@/components/DataTable'

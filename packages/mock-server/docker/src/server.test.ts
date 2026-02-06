@@ -8,13 +8,13 @@ vi.mock('@hono/node-server', () => ({
   serve: vi.fn(),
 }))
 
-// Mock @scalar/mock-server
-vi.mock('@scalar/mock-server', () => ({
+// Mock @vektopay/mock-server
+vi.mock('@vektopay/mock-server', () => ({
   createMockServer: vi.fn(),
 }))
 
-// Mock @scalar/hono-api-reference
-vi.mock('@scalar/hono-api-reference', () => ({
+// Mock @vektopay/hono-api-reference
+vi.mock('@vektopay/hono-api-reference', () => ({
   Scalar: vi.fn(),
 }))
 
@@ -32,8 +32,8 @@ describe('startMockServer', () => {
 
     // Import mocked modules
     const { serve } = await import('@hono/node-server')
-    const { createMockServer } = await import('@scalar/mock-server')
-    const { Scalar } = await import('@scalar/hono-api-reference')
+    const { createMockServer } = await import('@vektopay/mock-server')
+    const { Scalar } = await import('@vektopay/hono-api-reference')
 
     mockServe = vi.mocked(serve)
     mockCreateMockServer = vi.mocked(createMockServer)

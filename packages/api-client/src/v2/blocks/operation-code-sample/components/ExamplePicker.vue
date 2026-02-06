@@ -3,9 +3,9 @@ import {
   ScalarButton,
   ScalarListbox,
   type ScalarListboxOption,
-} from '@scalar/components'
-import { ScalarIconCaretDown } from '@scalar/icons'
-import type { MediaTypeObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/components'
+import { ScalarIconCaretDown } from '@vektopay/icons'
+import type { MediaTypeObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 const { examples = {} } = defineProps<{

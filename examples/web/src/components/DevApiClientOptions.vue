@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { themeIds, type ThemeId } from '@scalar/themes'
+import { themeIds, type ThemeId } from '@vektopay/themes'
 import { computed } from 'vue'
 
 type ApiClientConfig = {

@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { shouldIgnoreEntity } from '@scalar/oas-utils/helpers'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import { shouldIgnoreEntity } from '@vektopay/oas-utils/helpers'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import type {
   ParameterObject,
   ReferenceType,
   RequestBodyObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import type { OperationProps } from '@/features/Operation/Operation.vue'

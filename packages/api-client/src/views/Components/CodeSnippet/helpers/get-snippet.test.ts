@@ -6,8 +6,8 @@ import {
   requestExampleSchema,
   securitySchemeSchema,
   serverSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { AVAILABLE_CLIENTS, type ClientId, type TargetId } from '@scalar/snippetz'
+} from '@vektopay/oas-utils/entities/spec'
+import { AVAILABLE_CLIENTS, type ClientId, type TargetId } from '@vektopay/snippetz'
 import { describe, expect, it } from 'vitest'
 
 import { getHarRequest } from '@/views/Components/CodeSnippet/helpers/get-har-request'
@@ -63,7 +63,7 @@ describe('getSnippet', () => {
     expect(result).toEqual('curl https://example.com/users')
   })
 
-  it('generates a basic node/undici example (@scalar/snippetz)', () => {
+  it('generates a basic node/undici example (@vektopay/snippetz)', () => {
     const [error, result] = getSnippet(
       'node',
       'undici',

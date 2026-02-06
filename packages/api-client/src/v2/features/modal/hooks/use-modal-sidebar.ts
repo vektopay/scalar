@@ -1,8 +1,8 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { createSidebarState, generateReverseIndex, getChildEntry } from '@scalar/sidebar'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import { getParentEntry } from '@scalar/workspace-store/navigation'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { createSidebarState, generateReverseIndex, getChildEntry } from '@vektopay/sidebar'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import { getParentEntry } from '@vektopay/workspace-store/navigation'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
 import { type ComputedRef, computed, toValue, watch } from 'vue'
 
 import type { RoutePayload } from '@/v2/features/modal/helpers/resolve-route-parameters'

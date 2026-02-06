@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarMarkdown } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+import { ScalarButton, ScalarIcon, ScalarMarkdown } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { nextTick, ref, watch } from 'vue'
 
 import CodeInput from '@/components/CodeInput/CodeInput.vue'

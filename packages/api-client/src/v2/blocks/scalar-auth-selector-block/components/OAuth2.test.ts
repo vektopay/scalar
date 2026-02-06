@@ -1,5 +1,5 @@
-import { createWorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { OAuthFlowsObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { createWorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { OAuthFlowsObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'

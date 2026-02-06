@@ -17,7 +17,7 @@ export {
   securityOauthSchema,
   securityOpenIdSchema,
   securitySchemeSchema,
-} from '@scalar/types/entities'
+} from '@vektopay/types/entities'
 
 export { type Collection, type CollectionPayload, collectionSchema } from './collection'
 export {

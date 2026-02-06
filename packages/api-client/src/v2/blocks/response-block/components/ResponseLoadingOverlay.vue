@@ -3,8 +3,8 @@ import {
   ScalarButton,
   ScalarLoading,
   useLoadingState,
-} from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+} from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const { eventBus } = defineProps<{

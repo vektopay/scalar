@@ -1,4 +1,4 @@
-import type { ApiReferenceConfigurationWithSource, HtmlRenderingConfiguration } from '@scalar/types/api-reference'
+import type { ApiReferenceConfigurationWithSource, HtmlRenderingConfiguration } from '@vektopay/types/api-reference'
 
 // Re-export the type for convenience
 export type { HtmlRenderingConfiguration }
@@ -88,7 +88,7 @@ const serializeArrayWithFunctions = (arr: unknown[]): string => {
 }
 
 /**
- * The script tags to load the @scalar/api-reference package from the CDN.
+ * The script tags to load the @vektopay/api-reference package from the CDN.
  */
 export function getScriptTags(configuration: Partial<ApiReferenceConfigurationWithSource>, cdn?: string) {
   const restConfig = { ...configuration }
@@ -117,7 +117,7 @@ export function getScriptTags(configuration: Partial<ApiReferenceConfigurationWi
 
   return `
     <!-- Load the Script -->
-    <script src="${cdn ?? 'https://cdn.jsdelivr.net/npm/@scalar/api-reference'}"></script>
+    <script src="${cdn ?? 'https://cdn.vektopay.com/@vektopay/api-reference'}"></script>
 
     <!-- Initialize the Scalar API Reference -->
     <script type="text/javascript">
@@ -126,7 +126,7 @@ export function getScriptTags(configuration: Partial<ApiReferenceConfigurationWi
 }
 
 /**
- * The configuration to pass to the @scalar/api-reference package.
+ * The configuration to pass to the @vektopay/api-reference package.
  */
 export const getConfiguration = (
   givenConfiguration: Partial<ApiReferenceConfigurationWithSource>,

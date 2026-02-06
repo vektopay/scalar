@@ -1,6 +1,6 @@
-import { redirectToProxy } from '@scalar/helpers/url/redirect-to-proxy'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { UrlDoc } from '@scalar/workspace-store/client'
+import { redirectToProxy } from '@vektopay/helpers/url/redirect-to-proxy'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { UrlDoc } from '@vektopay/workspace-store/client'
 
 /**
  * Get the fetch function from the configuration

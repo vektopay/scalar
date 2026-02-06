@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { LibraryIcon } from '@scalar/icons/library'
+import { ScalarButton } from '@vektopay/components'
+import { LibraryIcon } from '@vektopay/icons/library'
 import { computed } from 'vue'
 
 import LabelInput from '@/components/Form/LabelInput.vue'

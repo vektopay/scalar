@@ -86,7 +86,7 @@ Scalar.createApiReference('#app', {
     {
       title: 'Scalar Galaxy', // optional, would fallback to 'API #1'
       slug: 'scalar-galaxy', // optional, would be auto-generated from the title or the index
-      url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+      url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
     },
     // API #2
     {
@@ -107,7 +107,7 @@ Scalar.createApiReference('#app', {
   sources: [
     // API #1
     {
-      url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+      url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
     },
     // API #2
     {
@@ -131,7 +131,7 @@ Scalar.createApiReference('#app', [
   {
     title: 'Scalar Galaxy', // optional, would fallback to 'API #1'
     slug: 'scalar-galaxy', // optional, would be auto-generated from the title or the index
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+    url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
     customCss: `body { background-color: #BADA55}`
   },
   // Configuration #2
@@ -152,7 +152,7 @@ By default, the first one in the list will be the default configuration. You can
 ```js
 Scalar.createApiReference('#app', [
   {
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+    url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
   },
   {
     url: 'https://example.com/openapi.json',
@@ -177,7 +177,7 @@ Scalar.createApiReference('#app', [
     sources: [
       // API #1
       {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
       },
       // API #2
       {
@@ -227,7 +227,7 @@ Related: [How to get an Agent Scalar key](guides/agent/key.md)
 Scalar.createApiReference('#app', {
   sources: [
     {
-      url: 'https://registry.scalar.com/@your-namespace/apis/your-api/latest?format=json',
+      url: 'https://registry.vektopay.com/@your-namespace/apis/your-api/latest?format=json',
       agent: {
         key: 'put-your-agent-scalar-key-here',
       },
@@ -914,7 +914,7 @@ You can use our hosted proxy:
 
 ```js
 {
-  proxyUrl: 'https://proxy.scalar.com'
+  proxyUrl: 'https://proxy.vektopay.com'
 }
 ```
 

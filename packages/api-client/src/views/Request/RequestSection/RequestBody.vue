@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarListbox } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarButton, ScalarIcon, ScalarListbox } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import {
   requestExampleParametersSchema,
   type Operation,
   type RequestExample,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { canMethodHaveBody } from '@scalar/oas-utils/helpers'
-import type { CodeMirrorLanguage } from '@scalar/use-codemirror'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { canMethodHaveBody } from '@vektopay/oas-utils/helpers'
+import type { CodeMirrorLanguage } from '@vektopay/use-codemirror'
 import type { Entries } from 'type-fest'
 import { computed, nextTick, ref, watch } from 'vue'
 

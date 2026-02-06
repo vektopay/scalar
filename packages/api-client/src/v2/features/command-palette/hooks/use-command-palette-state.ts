@@ -1,4 +1,4 @@
-import { useModal } from '@scalar/components'
+import { useModal } from '@vektopay/components'
 import {
   ScalarIconArrowSquareIn,
   ScalarIconArrowUpRight,
@@ -8,9 +8,9 @@ import {
   ScalarIconPackage,
   ScalarIconPuzzlePiece,
   ScalarIconSlidersHorizontal,
-} from '@scalar/icons'
-import type { ScalarIconComponent } from '@scalar/icons/types'
-import type { CommandPalettePayload } from '@scalar/workspace-store/events'
+} from '@vektopay/icons'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
+import type { CommandPalettePayload } from '@vektopay/workspace-store/events'
 import Fuse from 'fuse.js'
 import {
   type Component,

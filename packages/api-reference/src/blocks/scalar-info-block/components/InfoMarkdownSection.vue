@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarMarkdown } from '@scalar/components'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { ScalarMarkdown } from '@vektopay/components'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { useTemplateRef } from 'vue'
 
 import { useIntersection } from '@/hooks/use-intersection'

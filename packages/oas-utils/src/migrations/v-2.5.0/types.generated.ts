@@ -6,7 +6,7 @@ import type { Request } from '@/entities/spec/requests'
 import type { Server } from '@/entities/spec/server'
 import type { Tag } from '@/entities/spec/spec-objects'
 import type { Workspace } from '@/entities/workspace/workspace'
-import type { SecurityScheme } from '@scalar/types/entities'
+import type { SecurityScheme } from '@vektopay/types/entities'
 
 export type v_2_5_0 = {
   Cookie: Cookie

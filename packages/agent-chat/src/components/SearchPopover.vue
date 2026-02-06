@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarPopover, ScalarTextInput } from '@scalar/components'
-import { ScalarIconMagnifyingGlass } from '@scalar/icons'
+import { ScalarPopover, ScalarTextInput } from '@vektopay/components'
+import { ScalarIconMagnifyingGlass } from '@vektopay/icons'
 import { computed } from 'vue'
 
 import { useSearch } from '@/hooks/use-search'

@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 export const XScalarIconSchema = Type.Object({
   'x-scalar-icon': Type.Optional(Type.String()),

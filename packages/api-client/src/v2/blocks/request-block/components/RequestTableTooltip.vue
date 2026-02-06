@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarMarkdown, ScalarPopover } from '@scalar/components'
-import { ScalarIconInfo, ScalarIconWarning } from '@scalar/icons'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ScalarMarkdown, ScalarPopover } from '@vektopay/components'
+import { ScalarIconInfo, ScalarIconWarning } from '@vektopay/icons'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import { validateParameter } from '@/v2/blocks/request-block/helpers/validate-parameter'

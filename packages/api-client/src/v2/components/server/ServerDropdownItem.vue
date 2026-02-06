@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarListboxCheckbox, ScalarMarkdown } from '@scalar/components'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ScalarListboxCheckbox, ScalarMarkdown } from '@vektopay/components'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, useId } from 'vue'
 
 import ServerVariablesForm from '@/components/Server/ServerVariablesForm.vue'

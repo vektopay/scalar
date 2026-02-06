@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+import { ScalarIcon } from '@vektopay/components'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 import { computed } from 'vue'
 
 const props = defineProps<{
@@ -33,7 +33,7 @@ const availableIntegrationIcons: Exclude<
   'svelte',
 ]
 
-/** Icon for the @scalar/api-reference integration the user is coming from */
+/** Icon for the @vektopay/api-reference integration the user is coming from */
 const integrationIcon = computed(() => {
   const defaultIcon = 'Openapi' as const
   const integration = props.integration?.toLocaleLowerCase()

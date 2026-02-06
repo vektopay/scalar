@@ -8,7 +8,7 @@ export default {}
 </script>
 
 <script setup lang="ts">
-import type { ScalarListboxOption } from '@scalar/components'
+import type { ScalarListboxOption } from '@vektopay/components'
 
 import { SidebarMenu } from '@/v2/components/sidebar'
 

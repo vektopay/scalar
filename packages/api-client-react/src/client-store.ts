@@ -1,4 +1,4 @@
-import type { ApiClient, createApiClientModal } from '@scalar/api-client/layouts/Modal'
+import type { ApiClient, createApiClientModal } from '@vektopay/api-client/layouts/Modal'
 
 // These are required for the vue bundler version
 globalThis.__VUE_OPTIONS_API__ = true

@@ -1,4 +1,4 @@
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { onBeforeUnmount, onMounted } from 'vue'
 
 import { handleHotkeys } from '@/v2/helpers/handle-hotkeys'

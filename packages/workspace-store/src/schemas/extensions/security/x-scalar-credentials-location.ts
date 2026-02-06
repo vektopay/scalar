@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /**
  * An OpenAPI extension to specify where OAuth2 credentials should be sent

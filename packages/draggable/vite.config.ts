@@ -1,5 +1,5 @@
-import { findEntryPoints } from '@scalar/build-tooling'
-import { alias, createViteBuildOptions } from '@scalar/build-tooling/vite'
+import { findEntryPoints } from '@vektopay/build-tooling'
+import { alias, createViteBuildOptions } from '@vektopay/build-tooling/vite'
 import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
 

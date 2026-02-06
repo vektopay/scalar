@@ -1,5 +1,5 @@
-import type { DraggingItem, HoveredItem } from '@scalar/draggable'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
+import type { DraggingItem, HoveredItem } from '@vektopay/draggable'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
 
 import type { ActiveEntitiesStore } from '@/store/active-entities'
 

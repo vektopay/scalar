@@ -1,7 +1,7 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { objectKeys } from '@scalar/helpers/object/object-keys'
-import { keysOf } from '@scalar/object-utils/arrays'
-import { type ENTITY_BRANDS, nanoidSchema } from '@scalar/types/utils'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { objectKeys } from '@vektopay/helpers/object/object-keys'
+import { keysOf } from '@vektopay/object-utils/arrays'
+import { type ENTITY_BRANDS, nanoidSchema } from '@vektopay/types/utils'
 import { z } from 'zod'
 
 import { schemaModel } from '@/helpers/schema-model'

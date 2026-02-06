@@ -1,4 +1,4 @@
-import { createMagicProxy } from '@scalar/json-magic/magic-proxy'
+import { createMagicProxy } from '@vektopay/json-magic/magic-proxy'
 import { describe, expect, it } from 'vitest'
 
 import { getResolvedRefDeep } from './get-resolved-ref-deep'

@@ -1,4 +1,4 @@
-import * as icons from '@scalar/icons'
+import * as icons from '@vektopay/icons'
 import type { Meta, StoryObj } from '@storybook/vue3-vite'
 
 const meta = {

@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/mock-server",
+  "name": "@vektopay/mock-server",
   "description": "A powerful Node.js mock server that automatically generates realistic API responses from your OpenAPI/Swagger documents",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -62,17 +62,20 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.2.0",
-    "@scalar/helpers": "workspace:*",
-    "@scalar/json-magic": "workspace:*",
-    "@scalar/oas-utils": "workspace:*",
-    "@scalar/openapi-parser": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
-    "@scalar/openapi-upgrader": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/json-magic": "workspace:*",
+    "@vektopay/oas-utils": "workspace:*",
+    "@vektopay/openapi-parser": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
+    "@vektopay/openapi-upgrader": "workspace:*",
     "hono": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@types/node": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

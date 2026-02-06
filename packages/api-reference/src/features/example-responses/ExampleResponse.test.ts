@@ -1,10 +1,10 @@
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import type { ExampleObject, MediaTypeObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import type { ExampleObject, MediaTypeObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import {
   ExampleObjectSchema,
   MediaTypeObjectSchema,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 

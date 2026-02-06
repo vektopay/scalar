@@ -3,8 +3,8 @@ import {
   ScalarSidebarItem,
   ScalarSidebarItem as ScalarSidebarItemComponent,
   ScalarSidebarSection,
-} from '@scalar/components'
-import { LibraryIcon } from '@scalar/icons/library'
+} from '@vektopay/components'
+import { LibraryIcon } from '@vektopay/icons/library'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 

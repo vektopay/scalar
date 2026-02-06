@@ -13,9 +13,9 @@ export default {
 </script>
 
 <script setup lang="ts">
-import { ScalarButton, ScalarFormError } from '@scalar/components'
-import { ScalarIconArrowLeft, ScalarIconFloppyDisk } from '@scalar/icons'
-import { LibraryIcon } from '@scalar/icons/library'
+import { ScalarButton, ScalarFormError } from '@vektopay/components'
+import { ScalarIconArrowLeft, ScalarIconFloppyDisk } from '@vektopay/icons'
+import { LibraryIcon } from '@vektopay/icons/library'
 import { computed } from 'vue'
 import { RouterView } from 'vue-router'
 

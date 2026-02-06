@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIconMagnifyingGlass, ScalarIconX } from '@scalar/icons'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { ScalarIconMagnifyingGlass, ScalarIconX } from '@vektopay/icons'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 import { onMounted, ref } from 'vue'
 
 import { ScalarIconButton } from '../ScalarIconButton'

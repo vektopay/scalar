@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ScalarButton, useModal } from '@scalar/components'
-import { ScalarIconPlus } from '@scalar/icons'
+import { ScalarButton, useModal } from '@vektopay/components'
+import { ScalarIconPlus } from '@vektopay/icons'
 import type {
   CollectionType,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironments } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironments } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
 import { ref } from 'vue'
 
 import EnvironmentCreateModal from '@/v2/features/environments/components/EnvironmentCreateModal.vue'

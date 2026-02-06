@@ -162,7 +162,7 @@ class TestScalarConfig:
         assert config.content is None
         assert config.sources is None
         assert (
-            config.scalar_js_url == "https://cdn.jsdelivr.net/npm/@scalar/api-reference"
+            config.scalar_js_url == "https://cdn.vektopay.com/@vektopay/api-reference"
         )
         assert config.scalar_proxy_url == ""
         assert config.scalar_favicon_url == "https://django-ninja.dev/img/favicon.png"
@@ -599,7 +599,7 @@ class TestEdgeCases:
         config = ScalarConfig(
             openapi_url="",
             title="",
-            scalar_js_url="https://cdn.jsdelivr.net/npm/@scalar/api-reference",
+            scalar_js_url="https://cdn.vektopay.com/@vektopay/api-reference",
             scalar_proxy_url="",
             scalar_favicon_url="",
         )

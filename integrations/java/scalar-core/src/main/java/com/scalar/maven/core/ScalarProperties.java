@@ -38,7 +38,7 @@ public class ScalarProperties {
      * The URL of the OpenAPI specification to display in the API Reference.
      * Defaults to a sample specification from the Scalar Galaxy CDN.
      */
-    private String url = "https://registry.scalar.com/@scalar/apis/galaxy?format=json";
+    private String url = "https://registry.vektopay.com/@scalar/apis/galaxy?format=json";
 
     /**
      * List of OpenAPI Reference sources, allowing to set multiple OpenAPI

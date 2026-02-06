@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarLoading, useLoadingState } from '@scalar/components'
-import { ScalarIconCheck, ScalarIconXCircle } from '@scalar/icons'
+import { ScalarLoading, useLoadingState } from '@vektopay/components'
+import { ScalarIconCheck, ScalarIconXCircle } from '@vektopay/icons'
 
 import { type UploadTmpDocumentState } from '@/hooks/use-upload-tmp-document'
 

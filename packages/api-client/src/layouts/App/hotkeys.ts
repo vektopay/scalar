@@ -1,4 +1,4 @@
-import type { HotKeyConfig } from '@scalar/oas-utils/entities/workspace'
+import type { HotKeyConfig } from '@vektopay/oas-utils/entities/workspace'
 
 /**
  * Default set of keybindings for the client app

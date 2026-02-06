@@ -8,10 +8,10 @@ export default {}
 </script>
 
 <script setup lang="ts">
-import { ScalarTeleportRoot, useModal } from '@scalar/components'
-import { getThemeStyles } from '@scalar/themes'
-import { ScalarToasts } from '@scalar/use-toasts'
-import { extensions } from '@scalar/workspace-store/schemas/extensions'
+import { ScalarTeleportRoot, useModal } from '@vektopay/components'
+import { getThemeStyles } from '@vektopay/themes'
+import { ScalarToasts } from '@vektopay/use-toasts'
+import { extensions } from '@vektopay/workspace-store/schemas/extensions'
 import { computed } from 'vue'
 import { RouterView } from 'vue-router'
 

@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import type { HeaderObject } from '@/schemas/v3.1/strict/header'
 import type { MediaTypeObject } from '@/schemas/v3.1/strict/media-type'

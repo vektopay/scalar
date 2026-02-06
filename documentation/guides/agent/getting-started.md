@@ -28,7 +28,7 @@ Agent Scalar requires a key for production. Without a key, the button and chat i
 Scalar.createApiReference('#app', {
   sources: [
     {
-      url: 'https://registry.scalar.com/@your-namespace/apis/your-api/latest?format=json',
+      url: 'https://registry.vektopay.com/@your-namespace/apis/your-api/latest?format=json',
       agent: {
         key: 'your-agent-scalar-key',
       },
@@ -68,13 +68,13 @@ When using multiple sources, configure Agent Scalar per source:
 Scalar.createApiReference('#app', {
   sources: [
     {
-      url: 'https://registry.scalar.com/@your-namespace/apis/first-api/latest?format=json',
+      url: 'https://registry.vektopay.com/@your-namespace/apis/first-api/latest?format=json',
       agent: {
         key: 'key-for-first-api',
       },
     },
     {
-      url: 'https://registry.scalar.com/@your-namespace/apis/second-api/latest?format=json',
+      url: 'https://registry.vektopay.com/@your-namespace/apis/second-api/latest?format=json',
       agent: {
         key: 'key-for-second-api',
       },

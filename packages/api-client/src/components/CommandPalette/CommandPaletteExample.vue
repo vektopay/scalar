@@ -4,10 +4,10 @@ import {
   ScalarDropdown,
   ScalarDropdownItem,
   ScalarIcon,
-} from '@scalar/components'
-import type { Request } from '@scalar/oas-utils/entities/spec'
-import { isDefined } from '@scalar/oas-utils/helpers'
-import { useToasts } from '@scalar/use-toasts'
+} from '@vektopay/components'
+import type { Request } from '@vektopay/oas-utils/entities/spec'
+import { isDefined } from '@vektopay/oas-utils/helpers'
+import { useToasts } from '@vektopay/use-toasts'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 

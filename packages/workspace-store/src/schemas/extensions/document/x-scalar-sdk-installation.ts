@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 export const XScalarSdkInstallationSchema = Type.Object({
   'x-scalar-sdk-installation': Type.Optional(

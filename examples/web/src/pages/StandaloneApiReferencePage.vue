@@ -1,23 +1,23 @@
 <script setup lang="ts">
-import { ApiReference } from '@scalar/api-reference'
-import type { AnyApiReferenceConfiguration } from '@scalar/types/api-reference'
+import { ApiReference } from '@vektopay/api-reference'
+import type { AnyApiReferenceConfiguration } from '@vektopay/types/api-reference'
 
 const configuration: AnyApiReferenceConfiguration = {
   sources: [
     {
       title: 'Scalar Galaxy',
       slug: 'scalar-galaxy',
-      url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+      url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
     },
     {
       title: 'Scalar Galaxy (Classic Layout)',
-      url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+      url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
       // @ts-expect-error TODO: types are wrong here
       layout: 'classic',
     },
     {
       title: 'Scalar Galaxy (Path Routing)',
-      url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+      url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
       pathRouting: { basePath: '/path-routing' },
     },
     {

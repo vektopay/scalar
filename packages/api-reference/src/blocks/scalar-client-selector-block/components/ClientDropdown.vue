@@ -5,11 +5,11 @@ import {
   type ClientOption,
   type ClientOptionGroup,
   type CustomClientOption,
-} from '@scalar/api-client/v2/blocks/operation-code-sample'
-import { ScalarCombobox, ScalarIcon } from '@scalar/components'
-import { freezeElement } from '@scalar/helpers/dom/freeze-element'
-import type { AvailableClients, TargetId } from '@scalar/types/snippetz'
-import { type WorkspaceEventBus } from '@scalar/workspace-store/events'
+} from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import { ScalarCombobox, ScalarIcon } from '@vektopay/components'
+import { freezeElement } from '@vektopay/helpers/dom/freeze-element'
+import type { AvailableClients, TargetId } from '@vektopay/types/snippetz'
+import { type WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { computed, ref } from 'vue'
 
 import { isFeaturedClient } from '@/blocks/scalar-client-selector-block/helpers/featured-clients'

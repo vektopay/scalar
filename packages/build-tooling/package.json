@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/build-tooling",
+  "name": "@vektopay/build-tooling",
   "description": "Build tooling and helpers",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -74,5 +74,8 @@
   },
   "peerDependencies": {
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

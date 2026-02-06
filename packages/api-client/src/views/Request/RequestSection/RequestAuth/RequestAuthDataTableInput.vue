@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { useId } from 'vue'
 
 import DataTableInput from '@/components/DataTable/DataTableInput.vue'

@@ -35,7 +35,7 @@ If you would like to add your own OpenAPI document you can do so with the follow
 export default defineNuxtConfig({
   modules: ['@scalar/nuxt'],
   scalar: {
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+    url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
   },
 })
 ```
@@ -52,13 +52,13 @@ export default defineNuxtConfig({
     metaData: {
       title: 'API Documentation by Scalar',
     },
-    proxyUrl: 'https://proxy.scalar.com',
+    proxyUrl: 'https://proxy.vektopay.com',
     searchHotKey: 'k',
     showSidebar: true,
     pathRouting: {
       basePath: '/scalar',
     },
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+    url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
   },
 })
 ```
@@ -74,16 +74,16 @@ export default defineNuxtConfig({
     metaData: {
       title: 'API Documentation by Scalar',
     },
-    proxyUrl: 'https://proxy.scalar.com',
+    proxyUrl: 'https://proxy.vektopay.com',
     configurations: [
       {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
         pathRouting: {
           basePath: '/yaml',
         },
       },
       {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
         pathRouting: {
           basePath: '/json',
         },

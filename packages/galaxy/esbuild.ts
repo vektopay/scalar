@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 
-import { build } from '@scalar/build-tooling/esbuild'
-import { normalize, toJson } from '@scalar/openapi-parser'
+import { build } from '@vektopay/build-tooling/esbuild'
+import { normalize, toJson } from '@vektopay/openapi-parser'
 
 await build({
   entries: ['./src/index.ts'],

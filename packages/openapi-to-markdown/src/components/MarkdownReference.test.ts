@@ -1,12 +1,12 @@
 // @vitest-environment jsdom
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 import { mount } from '@vue/test-utils'
 
 import { describe, expect, it, vi } from 'vitest'
 import MarkdownReference from './MarkdownReference.vue'
 
 // Mock the ScalarMarkdown component
-vi.mock('@scalar/components', () => ({
+vi.mock('@vektopay/components', () => ({
   ScalarMarkdown: {
     name: 'ScalarMarkdown',
     props: ['value'],

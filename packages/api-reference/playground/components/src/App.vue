@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import '@scalar/themes/style.css'
-import '@scalar/components/style.css'
+import '@vektopay/themes/style.css'
+import '@vektopay/components/style.css'
 import '../../../dist/style.css'
 
-import { ScalarErrorBoundary } from '@scalar/components'
+import { ScalarErrorBoundary } from '@vektopay/components'
 import { computed, type Component } from 'vue'
 
 // This will be populated by the file search in agent mode

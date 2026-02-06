@@ -1,6 +1,6 @@
-import { environmentSchema } from '@scalar/oas-utils/entities/environment'
-import { workspaceSchema } from '@scalar/oas-utils/entities/workspace'
-import { useCodeMirror } from '@scalar/use-codemirror'
+import { environmentSchema } from '@vektopay/oas-utils/entities/environment'
+import { workspaceSchema } from '@vektopay/oas-utils/entities/workspace'
+import { useCodeMirror } from '@vektopay/use-codemirror'
 import { enableConsoleError, enableConsoleWarn } from '@test/vitest.setup'
 import { type VueWrapper, mount } from '@vue/test-utils'
 import { nanoid } from 'nanoid'
@@ -10,7 +10,7 @@ import { ref, toValue } from 'vue'
 import CodeInput from './CodeInput.vue'
 
 // Mock dependencies
-vi.mock('@scalar/use-codemirror', async (importOriginal) => {
+vi.mock('@vektopay/use-codemirror', async (importOriginal) => {
   const actual = await importOriginal<typeof useCodeMirror>()
   return {
     ...actual,
@@ -27,7 +27,7 @@ vi.mock('@scalar/use-codemirror', async (importOriginal) => {
   }
 })
 
-vi.mock('@scalar/use-hooks/useClipboard', () => ({
+vi.mock('@vektopay/use-hooks/useClipboard', () => ({
   useClipboard: vi.fn(() => ({
     copy: vi.fn(),
     copyToClipboard: vi.fn(),

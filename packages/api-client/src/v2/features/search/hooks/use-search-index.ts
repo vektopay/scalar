@@ -1,5 +1,5 @@
-import type { Item } from '@scalar/sidebar'
-import type { OpenApiDocument } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { Item } from '@vektopay/sidebar'
+import type { OpenApiDocument } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { type MaybeRefOrGetter, computed, ref, toValue } from 'vue'
 
 import { createFuseInstance } from '../helpers/create-fuse-instance'

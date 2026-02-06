@@ -3,7 +3,7 @@ import {
   ScalarIconCaretRight,
   ScalarIconPlus,
   ScalarIconUserSwitch,
-} from '@scalar/icons'
+} from '@vektopay/icons'
 import { DropdownMenu } from 'radix-vue/namespaced'
 import { computed } from 'vue'
 

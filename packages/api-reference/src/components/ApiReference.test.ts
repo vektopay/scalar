@@ -5,7 +5,7 @@ import { createSSRApp, h } from 'vue'
 
 import ApiReference from '@/components/ApiReference.vue'
 
-vi.mock(import('@scalar/use-hooks/useBreakpoints'), (importOriginal) => ({
+vi.mock(import('@vektopay/use-hooks/useBreakpoints'), (importOriginal) => ({
   ...importOriginal(),
   useBreakpoints: () => ({
     mediaQueries: {

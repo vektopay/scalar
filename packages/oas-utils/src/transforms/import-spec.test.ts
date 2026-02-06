@@ -1,5 +1,5 @@
 /** @vitest-environment jsdom */
-import type { SecurityScheme, SecuritySchemeOauth2 } from '@scalar/types/entities'
+import type { SecurityScheme, SecuritySchemeOauth2 } from '@vektopay/types/entities'
 import circular from '@test/fixtures/basic-circular-spec.json' with { type: 'json' }
 import modifiedPetStoreExample from '@test/fixtures/petstore-tls.json' with { type: 'json' }
 import { afterEach, describe, expect, it, vi } from 'vitest'

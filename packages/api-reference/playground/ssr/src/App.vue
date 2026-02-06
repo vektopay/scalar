@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ApiReference } from '@scalar/api-reference'
+import { ApiReference } from '@vektopay/api-reference'
 </script>
 
 <template>
   <ApiReference
     :configuration="{
-      url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+      url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
     }" />
 </template>

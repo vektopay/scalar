@@ -24,15 +24,15 @@ The quickest way to start is a HTML page, that loads our JavaScript:
     <div id="app"></div>
 
     <!-- Load the Script -->
-    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+    <script src="https://cdn.vektopay.com/@vektopay/api-reference"></script>
 
     <!-- Initialize the Scalar API Reference -->
     <script>
       Scalar.createApiReference('#app', {
         // The URL of the OpenAPI/Swagger document
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
         // Avoid CORS issues
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
       })
     </script>
   </body>

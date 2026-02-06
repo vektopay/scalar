@@ -1,4 +1,4 @@
-import type { RequestExample } from '@scalar/oas-utils/entities/spec'
+import type { RequestExample } from '@vektopay/oas-utils/entities/spec'
 
 import { replaceTemplateVariables } from '@/libs/string-template'
 

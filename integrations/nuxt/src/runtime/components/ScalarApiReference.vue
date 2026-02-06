@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { ApiReference } from '@scalar/api-reference'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
-import { useColorMode } from '@scalar/use-hooks/useColorMode'
+import { ApiReference } from '@vektopay/api-reference'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
+import { useColorMode } from '@vektopay/use-hooks/useColorMode'
 import {
   useAsyncData,
   useFetch,

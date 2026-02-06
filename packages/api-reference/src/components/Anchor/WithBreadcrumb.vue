@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIconLink } from '@scalar/icons'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { ScalarIconLink } from '@vektopay/icons'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 const { breadcrumb } = defineProps<{
   breadcrumb?: string[]

@@ -1,5 +1,5 @@
-import { objectEntries } from '@scalar/helpers/object/object-entries'
-import type { ExampleObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { objectEntries } from '@vektopay/helpers/object/object-entries'
+import type { ExampleObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 /** Build the table rows for the form data */
 export const getFormBodyRows = (example: ExampleObject | undefined | null, contentType: string) => {

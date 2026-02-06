@@ -1,4 +1,4 @@
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
 
 /**
  * Options for the schema component tree

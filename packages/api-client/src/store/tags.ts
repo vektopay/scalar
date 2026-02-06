@@ -1,7 +1,7 @@
-import { LS_KEYS } from '@scalar/helpers/object/local-storage'
-import { type Collection, type Tag, type TagPayload, tagSchema } from '@scalar/oas-utils/entities/spec'
-import { schemaModel } from '@scalar/oas-utils/helpers'
-import { mutationFactory } from '@scalar/object-utils/mutator-record'
+import { LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import { type Collection, type Tag, type TagPayload, tagSchema } from '@vektopay/oas-utils/entities/spec'
+import { schemaModel } from '@vektopay/oas-utils/helpers'
+import { mutationFactory } from '@vektopay/object-utils/mutator-record'
 import { reactive } from 'vue'
 
 import type { StoreContext } from '@/store/store-context'

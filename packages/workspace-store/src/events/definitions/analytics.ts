@@ -1,4 +1,4 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
 
 /** Event definitions for analytics/callbacks/hooks */
 export type AnalyticsEvents = {

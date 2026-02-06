@@ -13,7 +13,7 @@ Run the Docker container with your OpenAPI configuration:
 ```bash
 docker run \
   -p 8080:8080 \
-  -e API_REFERENCE_CONFIG='{"sources":[{"url": "https://registry.scalar.com/@scalar/apis/galaxy?format=json"}],"theme": "purple"}' \
+  -e API_REFERENCE_CONFIG='{"sources":[{"url": "https://registry.vektopay.com/@scalar/apis/galaxy?format=json"}],"theme": "purple"}' \
   scalarapi/api-reference:latest
 ```
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarVirtualText } from '@scalar/components'
-import { formatJsonOrYamlString } from '@scalar/oas-utils/helpers'
+import { ScalarVirtualText } from '@vektopay/components'
+import { formatJsonOrYamlString } from '@vektopay/oas-utils/helpers'
 import { computed, toRef } from 'vue'
 
 import ViewLayoutCollapse from '@/components/ViewLayout/ViewLayoutCollapse.vue'

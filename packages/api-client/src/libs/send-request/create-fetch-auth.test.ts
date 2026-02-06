@@ -1,5 +1,5 @@
-import type { SelectedSecuritySchemeUids } from '@scalar/oas-utils/entities/shared'
-import { requestExampleSchema, securitySchemeSchema } from '@scalar/oas-utils/entities/spec'
+import type { SelectedSecuritySchemeUids } from '@vektopay/oas-utils/entities/shared'
+import { requestExampleSchema, securitySchemeSchema } from '@vektopay/oas-utils/entities/spec'
 import { VOID_URL, createRequestPayload } from '@test/helpers'
 import { describe, expect, it } from 'vitest'
 

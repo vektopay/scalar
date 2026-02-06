@@ -3,7 +3,7 @@ import {
   ScalarCard,
   ScalarCardHeader,
   ScalarCardSection,
-} from '@scalar/components'
+} from '@vektopay/components'
 import { RouterLink } from 'vue-router'
 
 defineProps<{

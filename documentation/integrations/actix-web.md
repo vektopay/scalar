@@ -26,7 +26,7 @@ async fn main() -> std::io::Result<()> {
     let configuration = json!({
         // URL to your OpenAPI document
         // Learn more about the configuration: https://scalar.com/products/api-references/configuration
-        "url": "https://registry.scalar.com/@scalar/apis/galaxy?format=json",
+        "url": "https://registry.vektopay.com/@scalar/apis/galaxy?format=json",
     });
 
     println!("Server running on http://localhost:8080/scalar");

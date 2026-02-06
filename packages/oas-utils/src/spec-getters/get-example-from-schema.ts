@@ -1,8 +1,8 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { getRaw } from '@scalar/json-magic/magic-proxy'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { unpackOverridesProxy } from '@scalar/workspace-store/helpers/overrides-proxy'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { getRaw } from '@vektopay/json-magic/magic-proxy'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { unpackOverridesProxy } from '@vektopay/workspace-store/helpers/overrides-proxy'
 
 /** Maximum recursion depth to prevent infinite loops in circular references */
 const MAX_LEVELS_DEEP = 10
@@ -459,7 +459,7 @@ const getUnionPrimitiveValue = (
  * @param name - The name of the property being processed.
  * @returns An example value for the given schema.
  *
- * @deprecated Use the one from `@scalar/api-client/v2/blocks/operation-code-sample` instead.
+ * @deprecated Use the one from `@vektopay/api-client/v2/blocks/operation-code-sample` instead.
  */
 export const getExampleFromSchema = (
   schema: OpenAPIV3_1.SchemaObject,

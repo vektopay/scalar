@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/core",
+  "name": "@vektopay/core",
   "description": "Shared libraries for our packages",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -36,10 +36,13 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/types": "workspace:*"
+    "@vektopay/types": "workspace:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

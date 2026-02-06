@@ -1,5 +1,5 @@
-import { LS_KEYS } from '@scalar/helpers/object/local-storage'
-import { iterateTitle } from '@scalar/helpers/string/iterate-title'
+import { LS_KEYS } from '@vektopay/helpers/object/local-storage'
+import { iterateTitle } from '@vektopay/helpers/string/iterate-title'
 import {
   type Collection,
   type Request,
@@ -7,9 +7,9 @@ import {
   type Tag,
   createExampleFromRequest,
   requestSchema,
-} from '@scalar/oas-utils/entities/spec'
-import { schemaModel } from '@scalar/oas-utils/helpers'
-import { mutationFactory } from '@scalar/object-utils/mutator-record'
+} from '@vektopay/oas-utils/entities/spec'
+import { schemaModel } from '@vektopay/oas-utils/helpers'
+import { mutationFactory } from '@vektopay/object-utils/mutator-record'
 import { reactive } from 'vue'
 
 import type { extendedTagDataFactory } from '@/store/tags'

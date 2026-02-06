@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import { type DocumentAuth, DocumentAuthSchema } from '@/entities/auth/schema'
 import { type DocumentHistory, DocumentHistorySchema } from '@/entities/history/schema'

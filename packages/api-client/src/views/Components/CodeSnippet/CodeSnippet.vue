@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ScalarCodeBlock } from '@scalar/components'
+import { ScalarCodeBlock } from '@vektopay/components'
 import type {
   Operation,
   RequestExample,
   SecurityScheme,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import { isDefined } from '@scalar/oas-utils/helpers'
-import type { ClientId, TargetId } from '@scalar/snippetz'
+} from '@vektopay/oas-utils/entities/spec'
+import { isDefined } from '@vektopay/oas-utils/helpers'
+import type { ClientId, TargetId } from '@vektopay/snippetz'
 import { encode } from 'js-base64'
 import { computed } from 'vue'
 

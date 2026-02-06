@@ -1,4 +1,4 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
 import { assert, describe, expect, it } from 'vitest'
 
 import type { TagsMap } from '@/navigation/types'

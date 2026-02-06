@@ -62,7 +62,7 @@ export default defineConfig({
     },
     lib: {
       entry: ['src/standalone.ts'],
-      name: '@scalar/api-reference',
+      name: '@vektopay/api-reference',
       formats: ['umd'],
     },
     rollupOptions: {

@@ -14,7 +14,7 @@ export type ModuleOptions = {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@scalar/nuxt',
+    name: '@vektopay/nuxt',
     configKey: 'scalar',
   },
   // Default configuration options of the Nuxt module
@@ -61,19 +61,19 @@ export default defineNuxtModule<ModuleOptions>({
     _nuxt.options.vite.optimizeDeps ||= {}
     _nuxt.options.vite.optimizeDeps.include ||= []
     _nuxt.options.vite.optimizeDeps.include.push(
-      '@scalar/nuxt > @scalar/api-reference',
-      '@scalar/nuxt > jsonpointer',
-      '@scalar/nuxt > ajv-draft-04',
-      '@scalar/nuxt > ajv-formats',
-      '@scalar/nuxt > ajv',
-      '@scalar/nuxt > ajv-draft-04 > ajv',
-      '@scalar/nuxt > ajv-formats > ajv',
-      '@scalar/nuxt > whatwg-mimetype',
-      '@scalar/nuxt > @scalar/openapi-parser',
-      '@scalar/nuxt > debug',
-      '@scalar/nuxt > extend',
-      '@scalar/nuxt > highlightjs-curl',
-      '@scalar/nuxt > highlight.js/lib/core',
+      '@vektopay/nuxt > @vektopay/api-reference',
+      '@vektopay/nuxt > jsonpointer',
+      '@vektopay/nuxt > ajv-draft-04',
+      '@vektopay/nuxt > ajv-formats',
+      '@vektopay/nuxt > ajv',
+      '@vektopay/nuxt > ajv-draft-04 > ajv',
+      '@vektopay/nuxt > ajv-formats > ajv',
+      '@vektopay/nuxt > whatwg-mimetype',
+      '@vektopay/nuxt > @vektopay/openapi-parser',
+      '@vektopay/nuxt > debug',
+      '@vektopay/nuxt > extend',
+      '@vektopay/nuxt > highlightjs-curl',
+      '@vektopay/nuxt > highlight.js/lib/core',
     )
 
     // Ensure proper handling of CommonJS modules

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { ApiReferenceEvents } from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { ExampleObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { ApiReferenceEvents } from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { ExampleObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { ref, watch } from 'vue'
 
 import { useFileDialog } from '@/hooks'

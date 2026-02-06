@@ -1,4 +1,4 @@
-import type { SecurityScheme } from '@scalar/types/entities'
+import type { SecurityScheme } from '@vektopay/types/entities'
 
 /** Pass in a security scheme and it will return true if it has a token or value depending on the scheme type */
 export const hasToken = (scheme: SecurityScheme): Boolean => {

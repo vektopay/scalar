@@ -10,8 +10,8 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { ScalarIconUploadSimple } from '@scalar/icons'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { ScalarIconUploadSimple } from '@vektopay/icons'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 import type {
   FileUploadInputEmits,

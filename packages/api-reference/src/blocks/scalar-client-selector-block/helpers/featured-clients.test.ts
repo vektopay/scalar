@@ -1,5 +1,5 @@
-import type { ClientOptionGroup } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import type { AvailableClients } from '@scalar/snippetz'
+import type { ClientOptionGroup } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import type { AvailableClients } from '@vektopay/snippetz'
 import { describe, expect, it } from 'vitest'
 
 import { getFeaturedClients, isFeaturedClient } from './featured-clients'

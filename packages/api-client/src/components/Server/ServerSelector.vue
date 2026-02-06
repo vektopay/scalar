@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarListbox } from '@scalar/components'
-import { ScalarIconCaretDown } from '@scalar/icons'
-import type { Collection, Server } from '@scalar/oas-utils/entities/spec'
+import { ScalarButton, ScalarListbox } from '@vektopay/components'
+import { ScalarIconCaretDown } from '@vektopay/icons'
+import type { Collection, Server } from '@vektopay/oas-utils/entities/spec'
 import { computed, watch } from 'vue'
 
 import { useWorkspace } from '@/store/store'

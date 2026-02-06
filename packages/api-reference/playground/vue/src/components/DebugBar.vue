@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ThemeId } from '@scalar/themes'
-import type { ApiReferenceConfigurationWithMultipleSources } from '@scalar/types/api-reference'
+import type { ThemeId } from '@vektopay/themes'
+import type { ApiReferenceConfigurationWithMultipleSources } from '@vektopay/types/api-reference'
 
 import { sources } from '../content/sources'
 

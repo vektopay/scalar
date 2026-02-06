@@ -1,5 +1,5 @@
-import { createWorkspaceStore } from '@scalar/workspace-store/client'
-import type { Auth } from '@scalar/workspace-store/entities/auth'
+import { createWorkspaceStore } from '@vektopay/workspace-store/client'
+import type { Auth } from '@vektopay/workspace-store/entities/auth'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { loadAuthFromStorage, loadClientFromStorage } from '@/helpers/load-from-perssistance'

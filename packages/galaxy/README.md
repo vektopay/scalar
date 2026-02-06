@@ -19,22 +19,22 @@ npm install @scalar/galaxy
 
 | Version | Format  | URL                                                         |
 | ------- | ------- | ----------------------------------------------------------- |
-| Latest  | Preview | https://registry.scalar.com/@scalar/apis/galaxy             |
-| Latest  | JSON    | https://registry.scalar.com/@scalar/apis/galaxy?format=json |
-| Latest  | YAML    | https://registry.scalar.com/@scalar/apis/galaxy?format=yaml |
+| Latest  | Preview | https://registry.vektopay.com/@scalar/apis/galaxy             |
+| Latest  | JSON    | https://registry.vektopay.com/@scalar/apis/galaxy?format=json |
+| Latest  | YAML    | https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml |
 
 ### CDN
 
 | Version         | Format | URL                                                                   |
 | --------------- | ------ | --------------------------------------------------------------------- |
-| OpenAPI Latest  | JSON   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.json          |
-| OpenAPI Latest  | YAML   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml          |
-| OpenAPI 3.1     | JSON   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/3.1.json             |
-| OpenAPI 3.1     | YAML   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/3.1.yaml             |
-| AsyncAPI Latest | JSON   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/asyncapi/latest.json |
-| AsyncAPI Latest | YAML   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/asyncapi/latest.yaml |
-| AsyncAPI 3.0    | JSON   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/asyncapi/3.0.json    |
-| AsyncAPI 3.0    | YAML   | https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/asyncapi/3.0.yaml    |
+| OpenAPI Latest  | JSON   | https://cdn.vektopay.com/@vektopay/galaxy/dist/latest.json          |
+| OpenAPI Latest  | YAML   | https://cdn.vektopay.com/@vektopay/galaxy/dist/latest.yaml          |
+| OpenAPI 3.1     | JSON   | https://cdn.vektopay.com/@vektopay/galaxy/dist/3.1.json             |
+| OpenAPI 3.1     | YAML   | https://cdn.vektopay.com/@vektopay/galaxy/dist/3.1.yaml             |
+| AsyncAPI Latest | JSON   | https://cdn.vektopay.com/@vektopay/galaxy/dist/asyncapi/latest.json |
+| AsyncAPI Latest | YAML   | https://cdn.vektopay.com/@vektopay/galaxy/dist/asyncapi/latest.yaml |
+| AsyncAPI 3.0    | JSON   | https://cdn.vektopay.com/@vektopay/galaxy/dist/asyncapi/3.0.json    |
+| AsyncAPI 3.0    | YAML   | https://cdn.vektopay.com/@vektopay/galaxy/dist/asyncapi/3.0.yaml    |
 
 ### Import as object
 

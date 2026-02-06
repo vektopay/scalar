@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarTooltip } from '@scalar/components'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarButton, ScalarTooltip } from '@vektopay/components'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import {
   requestExampleParametersSchema,
   type RequestExample,
-} from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+} from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { computed, nextTick, onMounted, ref, watch } from 'vue'
 import type { RouteLocationRaw } from 'vue-router'
 

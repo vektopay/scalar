@@ -1,11 +1,11 @@
-import type { TraversedOperation, TraversedTag, TraversedWebhook } from '@scalar/workspace-store/schemas/navigation'
+import type { TraversedOperation, TraversedTag, TraversedWebhook } from '@vektopay/workspace-store/schemas/navigation'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 
 import OperationsList from './OperationsList.vue'
 
 // Mock Scalar components
-vi.mock('@scalar/components', () => ({
+vi.mock('@vektopay/components', () => ({
   ScalarCard: {
     name: 'ScalarCard',
     template: '<div class="scalar-card"><slot /></div>',

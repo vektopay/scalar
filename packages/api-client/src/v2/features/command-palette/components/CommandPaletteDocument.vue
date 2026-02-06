@@ -18,10 +18,10 @@ export default {}
 </script>
 
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { LibraryIcon } from '@scalar/icons/library'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { ScalarButton } from '@vektopay/components'
+import { LibraryIcon } from '@vektopay/icons/library'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 

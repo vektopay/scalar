@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarTeleport } from '@scalar/components'
-import { ScalarIconGlobe, ScalarIconPlus } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+import { ScalarButton, ScalarTeleport } from '@vektopay/components'
+import { ScalarIconGlobe, ScalarIconPlus } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import { onClickOutside } from '@vueuse/core'
 import Fuse from 'fuse.js'
 import { computed, onMounted, ref, type CSSProperties } from 'vue'

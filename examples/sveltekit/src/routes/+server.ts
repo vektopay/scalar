@@ -1,9 +1,9 @@
-import { ScalarApiReference } from '@scalar/sveltekit'
+import { ScalarApiReference } from '@vektopay/sveltekit'
 
 import type { RequestHandler } from './$types'
 
 const handler = ScalarApiReference({
-  url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+  url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
 })
 
 export const GET: RequestHandler = () => {

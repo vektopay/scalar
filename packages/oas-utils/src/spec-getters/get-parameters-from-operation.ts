@@ -1,4 +1,4 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
 
 import type { Operation } from '@/entities/spec'
 import { getExampleFromSchema } from './get-example-from-schema'

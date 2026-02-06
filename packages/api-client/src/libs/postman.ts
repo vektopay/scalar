@@ -1,4 +1,4 @@
-import { convert } from '@scalar/postman-to-openapi'
+import { convert } from '@vektopay/postman-to-openapi'
 
 /** Checks if the given content is a Postman collection */
 export function isPostmanCollection(content: string): boolean {

@@ -25,7 +25,7 @@ plugins: [
       route: '/scalar',
       showNavLink: true, // optional, default is true
       configuration: {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=yaml',
       },
     } as ScalarOptions,
   ],
@@ -54,7 +54,7 @@ plugins: [
       route: '/scalar',
       showNavLink: true, // optional, default is true
       configuration: {
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+        url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
       },
     } as ScalarOptions,
   ],
@@ -92,7 +92,7 @@ plugins: [
           {
             // This title will appear in the top left corner of your new API reference page.
             title: 'Scalar Galaxy API',
-            url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+            url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
           },
           {
             title: 'Petstore',
@@ -195,7 +195,7 @@ const config = {
         route: '/scalar',
         configuration: {
           // Put the URL to your OpenAPI document here:
-          url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+          url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
         },
       },
     ],
@@ -226,7 +226,7 @@ const config: Config = {
         route: '/scalar',
         configuration: {
           // Put the URL to your OpenAPI document here:
-          url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+          url: 'https://registry.vektopay.com/@scalar/apis/galaxy?format=json',
         },
       } as ScalarOptions,
     ],

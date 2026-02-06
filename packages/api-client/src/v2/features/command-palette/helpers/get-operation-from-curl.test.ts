@@ -1,4 +1,4 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
 import { assert, describe, expect, it } from 'vitest'
 
 import { getOperationFromCurl } from './get-operation-from-curl'

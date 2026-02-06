@@ -58,9 +58,9 @@ import { ScalarComponent } from '@scalar/astro'
 
 ### Custom CDN
 
-You can use a custom CDN, the default is `https://cdn.jsdelivr.net/npm/@scalar/api-reference`.
+You can use a custom CDN, the default is `https://cdn.vektopay.com/@vektopay/api-reference`.
 
-You can also pin the CDN to a specific version by specifying it in the CDN string like `https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.25.28`
+You can also pin the CDN to a specific version by specifying it in the CDN string like `https://cdn.vektopay.com/@vektopay/api-reference@1.25.28`
 
 You can find a list of available CDN versions [here](https://www.jsdelivr.com/package/npm/@scalar/api-reference?tab=files).
 
@@ -72,7 +72,7 @@ import { ScalarComponent } from '@scalar/astro'
 <ScalarComponent configuration={{
   url: '/openapi.json',
   pageTitle: 'Awesome API',
-  cdn: 'https://cdn.jsdelivr.net/npm/@scalar/api-reference@latest',
+  cdn: 'https://cdn.vektopay.com/@vektopay/api-reference@latest',
 }} />
 ```
 
@@ -87,6 +87,6 @@ import { ScalarComponent } from '@scalar/astro'
 
 <ScalarComponent configuration={{
   url: '/openapi.json',
-  proxyUrl: 'https://proxy.scalar.com',
+  proxyUrl: 'https://proxy.vektopay.com',
 }} />
 ```

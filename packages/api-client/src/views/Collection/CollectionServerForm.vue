@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Server } from '@scalar/oas-utils/entities/spec'
-import { REGEX } from '@scalar/oas-utils/helpers'
+import type { Server } from '@vektopay/oas-utils/entities/spec'
+import { REGEX } from '@vektopay/oas-utils/helpers'
 import { computed, watch } from 'vue'
 
 import Form from '@/components/Form/Form.vue'

@@ -1,5 +1,5 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import { type ApiReferenceEvents, createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import { type ApiReferenceEvents, createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { enableConsoleError, enableConsoleWarn } from '@test/vitest.setup'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'

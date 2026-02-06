@@ -190,7 +190,7 @@
 
 ### Patch Changes
 
-- 5f022b5: feat: use registry.scalar.com URLs as example
+- 5f022b5: feat: use registry.vektopay.com URLs as example
 - Updated dependencies [5f022b5]
   - @scalar/core@0.3.13
 

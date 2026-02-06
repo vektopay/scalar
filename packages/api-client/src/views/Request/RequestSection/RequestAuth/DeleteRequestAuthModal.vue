@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarModal } from '@scalar/components'
-import type { SecurityScheme } from '@scalar/oas-utils/entities/spec'
+import { ScalarButton, ScalarModal } from '@vektopay/components'
+import type { SecurityScheme } from '@vektopay/oas-utils/entities/spec'
 
 import { useWorkspace } from '@/store/store'
 

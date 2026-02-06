@@ -1,6 +1,6 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { combineUrlAndPath } from '@scalar/helpers/url/merge-urls'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { combineUrlAndPath } from '@vektopay/helpers/url/merge-urls'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { type Server, serverSchema } from '@/entities/spec/server'
 

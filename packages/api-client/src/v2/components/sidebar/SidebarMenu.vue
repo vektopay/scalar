@@ -7,8 +7,8 @@ import {
   ScalarMenuSupport,
   ScalarMenuWorkspacePicker,
   type ScalarListboxOption,
-} from '@scalar/components'
-import { ScalarIconGear } from '@scalar/icons'
+} from '@vektopay/components'
+import { ScalarIconGear } from '@vektopay/icons'
 import { RouterLink } from 'vue-router'
 
 const { activeWorkspace, workspaces } = defineProps<{

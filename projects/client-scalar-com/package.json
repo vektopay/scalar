@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260120.0",
-    "@scalar/api-client": "workspace:*",
+    "@vektopay/api-client": "workspace:*",
     "@vitejs/plugin-vue": "catalog:*",
     "vite": "catalog:*",
     "vitest": "catalog:*",

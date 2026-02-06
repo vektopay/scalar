@@ -1,10 +1,10 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import { convert } from '@scalar/postman-to-openapi'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import { convert } from '@vektopay/postman-to-openapi'
 import { describe, expect, it, vi } from 'vitest'
 
 import { getOpenApiFromPostman } from './get-openapi-from-postman'
 
-vi.mock('@scalar/postman-to-openapi', () => ({
+vi.mock('@vektopay/postman-to-openapi', () => ({
   convert: vi.fn(),
 }))
 

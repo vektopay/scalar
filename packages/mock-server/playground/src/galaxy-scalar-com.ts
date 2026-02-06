@@ -1,21 +1,21 @@
 import { readFile } from 'node:fs/promises'
 
 import { serve } from '@hono/node-server'
-import { Scalar } from '@scalar/hono-api-reference'
-import { createMockServer } from '@scalar/mock-server'
+import { Scalar } from '@vektopay/hono-api-reference'
+import { createMockServer } from '@vektopay/mock-server'
 import type { Hono } from 'hono'
 
 /**
  * Read the OpenAPI document from the filesystem.
  *
- * We do not want to import from the package, to avoid a circular dependency as @scalar/galaxy uses @scalar/mock-server
+ * We do not want to import from the package, to avoid a circular dependency as @vektopay/galaxy uses @vektopay/mock-server
  * for its playground.
  */
 export async function loadDocument(): Promise<string> {
   try {
     return await readFile(new URL('../../../galaxy/src/documents/3.1.yaml', import.meta.url), 'utf8')
   } catch {
-    console.error('[@scalar/mock-server] Missing @scalar/galaxy. Please build it and try again.')
+    console.error('[@vektopay/mock-server] Missing @vektopay/galaxy. Please build it and try again.')
     return ''
   }
 }
@@ -58,7 +58,7 @@ export function configureApiReference(app: Hono, port: number, useLocalJsBundle:
         },
       ],
       theme: 'default',
-      proxyUrl: 'https://proxy.scalar.com',
+      proxyUrl: 'https://proxy.vektopay.com',
       baseServerURL: `http://localhost:${port}`,
       persistAuth: true,
     }),

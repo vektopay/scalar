@@ -1,4 +1,4 @@
-import type { AnyApiReferenceConfiguration, CreateApiReference } from '@scalar/types'
+import type { AnyApiReferenceConfiguration, CreateApiReference } from '@vektopay/types'
 import Layout from '@theme/Layout'
 import React, { useEffect, useRef } from 'react'
 

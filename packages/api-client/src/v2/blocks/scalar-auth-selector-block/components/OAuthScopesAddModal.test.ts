@@ -1,4 +1,4 @@
-import { useModal } from '@scalar/components'
+import { useModal } from '@vektopay/components'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'
@@ -9,7 +9,7 @@ import OAuthScopesAddModal from './OAuthScopesAddModal.vue'
  * Mock the toast composable to capture toast calls in tests.
  */
 const mockToast = vi.fn()
-vi.mock('@scalar/use-toasts', () => ({
+vi.mock('@vektopay/use-toasts', () => ({
   useToasts: () => ({
     toast: mockToast,
   }),

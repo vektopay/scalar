@@ -44,8 +44,8 @@ const result = await resolve(
 
 | Input                                                                  | Output                                                                    | Description                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.json           | Same as input                                                             | Returns JSON URLs as-is                                              |
-| https://cdn.jsdelivr.net/npm/@scalar/galaxy/dist/latest.yaml or \*.yml | Same as input                                                             | Returns YAML URLs as-is                                              |
+| https://cdn.vektopay.com/@vektopay/galaxy/dist/latest.json           | Same as input                                                             | Returns JSON URLs as-is                                              |
+| https://cdn.vektopay.com/@vektopay/galaxy/dist/latest.yaml or \*.yml | Same as input                                                             | Returns YAML URLs as-is                                              |
 | https://sandbox.scalar.com/p/dlw8v                                     | https://sandbox.scalar.com/files/dlw8v/openapi.yaml                       | Resolves sandbox URLs to specific file paths                         |
 | https://github.com/owner/repo/blob/main/openapi.yaml                   | https://raw.githubusercontent.com/owner/repo/refs/heads/main/openapi.yaml | Transforms GitHub URLs to raw file URLs                              |
 | HTML with data-url attribute                                           | URL from data-url attribute                                               | Extracts URL from HTML script tag with data-url attribute            |

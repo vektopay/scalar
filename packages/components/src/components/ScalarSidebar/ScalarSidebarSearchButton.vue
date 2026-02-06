@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIconMagnifyingGlass } from '@scalar/icons'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { ScalarIconMagnifyingGlass } from '@vektopay/icons'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 defineOptions({ inheritAttrs: false })
 const { cx } = useBindCx()

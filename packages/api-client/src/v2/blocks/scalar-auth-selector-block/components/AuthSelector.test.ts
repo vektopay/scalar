@@ -1,4 +1,4 @@
-import { type WorkspaceEventBus, createWorkspaceEventBus } from '@scalar/workspace-store/events'
+import { type WorkspaceEventBus, createWorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 import { nextTick } from 'vue'

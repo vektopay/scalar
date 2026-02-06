@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/object-utils",
+  "name": "@vektopay/object-utils",
   "description": "Object manipulation utilities",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -68,13 +68,16 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
     "flatted": "catalog:*",
     "just-clone": "^6.2.0",
     "ts-deepmerge": "^7.0.3"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

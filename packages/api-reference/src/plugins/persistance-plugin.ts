@@ -1,5 +1,5 @@
-import { debounce } from '@scalar/helpers/general/debounce'
-import type { WorkspacePlugin } from '@scalar/workspace-store/workspace-plugin'
+import { debounce } from '@vektopay/helpers/general/debounce'
+import type { WorkspacePlugin } from '@vektopay/workspace-store/workspace-plugin'
 
 import { authStorage, clientStorage } from '@/helpers/storage'
 

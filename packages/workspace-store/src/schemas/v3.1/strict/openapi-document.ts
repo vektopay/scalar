@@ -1,4 +1,4 @@
-import { type TSchema, Type } from '@scalar/typebox'
+import { type TSchema, Type } from '@vektopay/typebox'
 
 import { compose } from '@/schemas/compose'
 import { extensions } from '@/schemas/extensions'

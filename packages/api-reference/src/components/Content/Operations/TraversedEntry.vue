@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { ClientOptionGroup } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import type { MergedSecuritySchemes } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { AuthStore } from '@scalar/workspace-store/entities/auth'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
+import type { ClientOptionGroup } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import type { MergedSecuritySchemes } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { AuthStore } from '@vektopay/workspace-store/entities/auth'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
 import type {
   TraversedEntry,
   TraversedModels,
@@ -14,8 +14,8 @@ import type {
   TraversedSchema,
   TraversedTag,
   TraversedWebhook,
-} from '@scalar/workspace-store/schemas/navigation'
-import type { ServerObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/navigation'
+import type { ServerObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import Model from '@/components/Content/Models/Model.vue'
 import ModelTag from '@/components/Content/Models/ModelTag.vue'

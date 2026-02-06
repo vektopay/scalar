@@ -4,9 +4,9 @@ import {
   ScalarCodeBlock,
   ScalarCombobox,
   ScalarErrorBoundary,
-} from '@scalar/components'
-import { ScalarIconCaretDown } from '@scalar/icons'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+} from '@vektopay/components'
+import { ScalarIconCaretDown } from '@vektopay/icons'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { computed, ref, watch } from 'vue'
 
 import {

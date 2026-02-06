@@ -211,7 +211,7 @@ class TestDjangoNinjaIntegration:
 
         # Check that the Scalar script is included
         assert (
-            'src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"' in html_content
+            'src="https://cdn.vektopay.com/@vektopay/api-reference"' in html_content
         )
 
     def test_scalar_configuration_script(self, api, request_factory):

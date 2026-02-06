@@ -1,4 +1,4 @@
-import { findVariables } from '@scalar/helpers/regex/find-variables'
+import { findVariables } from '@vektopay/helpers/regex/find-variables'
 
 import type { ServerEvents } from '@/events/definitions/server'
 import { coerceValue } from '@/schemas/typebox-coerce'

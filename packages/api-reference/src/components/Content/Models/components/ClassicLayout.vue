@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 import { Anchor } from '@/components/Anchor'
 import { SectionAccordion, SectionHeaderTag } from '@/components/Section'

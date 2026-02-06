@@ -1,5 +1,5 @@
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { shallowMount } from '@vue/test-utils'
 import { describe, expect, it, vi } from 'vitest'
 

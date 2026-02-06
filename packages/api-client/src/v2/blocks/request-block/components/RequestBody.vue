@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ScalarButton, ScalarIcon, ScalarListbox } from '@scalar/components'
-import type { ApiReferenceEvents } from '@scalar/workspace-store/events'
-import { unpackProxyObject } from '@scalar/workspace-store/helpers/unpack-proxy'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { RequestBodyObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { ScalarButton, ScalarIcon, ScalarListbox } from '@vektopay/components'
+import type { ApiReferenceEvents } from '@vektopay/workspace-store/events'
+import { unpackProxyObject } from '@vektopay/workspace-store/helpers/unpack-proxy'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { RequestBodyObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import type { Entries } from 'type-fest'
 import { computed, watch } from 'vue'
 

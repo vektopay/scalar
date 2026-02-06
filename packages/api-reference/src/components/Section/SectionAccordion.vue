@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ScalarIconCaretRight } from '@scalar/icons'
+import { ScalarIconCaretRight } from '@vektopay/icons'
 import { useElementHover } from '@vueuse/core'
 import { ref } from 'vue'
 

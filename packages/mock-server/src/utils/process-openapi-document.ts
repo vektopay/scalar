@@ -1,11 +1,11 @@
-import { bundle } from '@scalar/json-magic/bundle'
-import { parseJson } from '@scalar/json-magic/bundle/plugins/node'
-import { parseYaml } from '@scalar/json-magic/bundle/plugins/node'
-import { readFiles } from '@scalar/json-magic/bundle/plugins/node'
-import { fetchUrls } from '@scalar/json-magic/bundle/plugins/node'
-import { dereference } from '@scalar/openapi-parser'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import { upgrade } from '@scalar/openapi-upgrader'
+import { bundle } from '@vektopay/json-magic/bundle'
+import { parseJson } from '@vektopay/json-magic/bundle/plugins/node'
+import { parseYaml } from '@vektopay/json-magic/bundle/plugins/node'
+import { readFiles } from '@vektopay/json-magic/bundle/plugins/node'
+import { fetchUrls } from '@vektopay/json-magic/bundle/plugins/node'
+import { dereference } from '@vektopay/openapi-parser'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import { upgrade } from '@vektopay/openapi-upgrader'
 
 /**
  * Processes an OpenAPI document by bundling external references, upgrading to OpenAPI 3.1,

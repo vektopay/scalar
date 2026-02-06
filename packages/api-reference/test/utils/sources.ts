@@ -1,5 +1,5 @@
-import galaxy from '@scalar/galaxy/latest.json' with { type: 'json' }
-import type { AnyApiReferenceConfiguration } from '@scalar/types/api-reference'
+import galaxy from '@vektopay/galaxy/latest.json' with { type: 'json' }
+import type { AnyApiReferenceConfiguration } from '@vektopay/types/api-reference'
 
 /** All of the sources */
 export type Sources = typeof sources
@@ -24,7 +24,7 @@ export const sources = [
   {
     title: 'Scalar Galaxy Registry',
     slug: 'scalar-galaxy-registry',
-    url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=json',
+    url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=json',
   },
   {
     title: 'Stripe',
@@ -59,6 +59,7 @@ export const sources = [
   {
     title: 'Hello World (string)',
     slug: 'hello-world-string',
+    default: true,
     content: JSON.stringify({
       openapi: '3.0.0',
       info: {

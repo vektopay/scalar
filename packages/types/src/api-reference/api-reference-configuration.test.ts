@@ -214,7 +214,7 @@ describe('api-reference-configuration', () => {
       }
 
       const migratedConfig = apiReferenceConfigurationWithSourceSchema.parse(config)
-      expect(migratedConfig.proxyUrl).toBe('https://proxy.scalar.com')
+      expect(migratedConfig.proxyUrl).toBe('https://proxy.vektopay.com')
 
       // @ts-expect-error proxy is not in the type
       expect(migratedConfig.proxy).toBeUndefined()

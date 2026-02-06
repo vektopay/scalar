@@ -3,8 +3,8 @@ import {
   ScalarIconArrowUpRight,
   ScalarIconBook,
   ScalarIconHouse,
-} from '@scalar/icons'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+} from '@vektopay/icons'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 import ScalarMenuProduct from './ScalarMenuProduct.vue'
 

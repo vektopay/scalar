@@ -354,7 +354,7 @@
 
 - d4adeba: fix: ensure upgrader doesn't lose schema properties
 - 66b18fc: feat: update the references to handle $refs from the magic proxy
-- 5f022b5: feat: use registry.scalar.com URLs as example
+- 5f022b5: feat: use registry.vektopay.com URLs as example
 - Updated dependencies [b93e1fe]
 - Updated dependencies [0fcd446]
 - Updated dependencies [c4bf497]

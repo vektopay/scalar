@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { resolve } from '@scalar/workspace-store/resolve'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { resolve } from '@vektopay/workspace-store/resolve'
 import type {
   DiscriminatorObject,
   SchemaObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed } from 'vue'
 
 import { isTypeObject } from '@/components/Content/Schema/helpers/is-type-object'

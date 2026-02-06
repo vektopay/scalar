@@ -1,4 +1,4 @@
-import { sortByOrder } from '@scalar/object-utils/arrays'
+import { sortByOrder } from '@vektopay/object-utils/arrays'
 
 import { unpackProxyObject } from '@/helpers/unpack-proxy'
 import { getXKeysFromObject } from '@/navigation/helpers/get-x-keys'
@@ -8,7 +8,7 @@ import type { OpenApiDocument, TagObject } from '@/schemas/v3.1/strict/openapi-d
 
 import { getTag } from './get-tag'
 
-type Options = Pick<TraverseSpecOptions, 'tagsSorter' | 'operationsSorter' | 'generateId'>
+type Options = Pick<TraverseSpecOptions, 'tagsSorter' | 'operationsSorter' | 'generateId' | 'includeInternal'>
 
 /** Creates a traversed tag entry from an OpenAPI tag object.
  *
@@ -77,7 +77,7 @@ const createTagEntry = ({
 const getSortedTagEntries = ({
   _keys,
   tagsMap,
-  options: { tagsSorter, operationsSorter, generateId },
+  options: { tagsSorter, operationsSorter, generateId, includeInternal },
   documentId,
   sortOrder,
 }: {
@@ -98,7 +98,7 @@ const getSortedTagEntries = ({
     const { tag, entries } = getTag({ tagsMap, name: key, documentId, generateId })
 
     // Skip if the tag is internal or scalar-ignore
-    if (tag['x-internal'] || tag['x-scalar-ignore']) {
+    if ((!includeInternal && tag['x-internal']) || tag['x-scalar-ignore']) {
       return []
     }
 

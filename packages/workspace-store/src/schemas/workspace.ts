@@ -1,6 +1,6 @@
-import { type ThemeId, themeIds } from '@scalar/themes'
-import { Type } from '@scalar/typebox'
-import { AVAILABLE_CLIENTS, type AvailableClients } from '@scalar/types/snippetz'
+import { type ThemeId, themeIds } from '@vektopay/themes'
+import { Type } from '@vektopay/typebox'
+import { AVAILABLE_CLIENTS, type AvailableClients } from '@vektopay/types/snippetz'
 
 import { compose } from '@/schemas/compose'
 import { extensions } from '@/schemas/extensions'

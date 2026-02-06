@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { Operation, RequestExample } from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import { REGEX } from '@scalar/oas-utils/helpers'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { Operation, RequestExample } from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import { REGEX } from '@vektopay/oas-utils/helpers'
 import { computed, watch } from 'vue'
 
 import ViewLayoutCollapse from '@/components/ViewLayout/ViewLayoutCollapse.vue'

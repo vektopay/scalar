@@ -4,10 +4,10 @@ import {
   ScalarIcon,
   ScalarModal,
   useModal,
-} from '@scalar/components'
-import { Draggable } from '@scalar/draggable'
-import { ScalarIconTrash } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
+} from '@vektopay/components'
+import { Draggable } from '@vektopay/draggable'
+import { ScalarIconTrash } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
 import { computed, ref } from 'vue'
 
 import DeleteSidebarListElement from '@/components/Sidebar/Actions/DeleteSidebarListElement.vue'
@@ -321,5 +321,5 @@ const handleDragEnd = (
 </template>
 
 <style>
-@import '@scalar/draggable/style.css';
+@import '@vektopay/draggable/style.css';
 </style>

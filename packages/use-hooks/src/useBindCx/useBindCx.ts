@@ -15,7 +15,7 @@ type ClassValue = CXOptions[number]
  *
  * @example
  * <script setup>
- * import { useBindCx, cva } from '@scalar/components'
+ * import { useBindCx, cva } from '@vektopay/components'
  *
  * defineProps<{ active?: boolean }>()
  *

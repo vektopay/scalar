@@ -1,15 +1,15 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { httpStatusCodes } from '@scalar/helpers/http/http-status-codes'
-import { mergeUrls } from '@scalar/helpers/url/merge-urls'
-import { redirectToProxy, shouldUseProxy } from '@scalar/helpers/url/redirect-to-proxy'
-import type { Cookie } from '@scalar/oas-utils/entities/cookie'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { httpStatusCodes } from '@vektopay/helpers/http/http-status-codes'
+import { mergeUrls } from '@vektopay/helpers/url/merge-urls'
+import { redirectToProxy, shouldUseProxy } from '@vektopay/helpers/url/redirect-to-proxy'
+import type { Cookie } from '@vektopay/oas-utils/entities/cookie'
 import type {
   Operation,
   RequestExample,
   ResponseInstance,
   SecurityScheme,
   Server,
-} from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/oas-utils/entities/spec'
 
 import { isElectron } from '@/libs/electron'
 import { ERRORS, type ErrorResponse, normalizeError } from '@/libs/errors'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBindCx } from '@scalar/components'
+import { useBindCx } from '@vektopay/components'
 
 import type { ClientLayout } from '@/hooks/useLayout'
 

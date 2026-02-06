@@ -1,14 +1,14 @@
-import { mergeSecurity } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import { getSelectedServer } from '@scalar/api-client/v2/features/operation'
-import { getServers } from '@scalar/api-client/v2/helpers'
-import { REFERENCE_LS_KEYS, safeLocalStorage } from '@scalar/helpers/object/local-storage'
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { AuthStore } from '@scalar/workspace-store/entities/auth'
-import { type Auth, AuthSchema } from '@scalar/workspace-store/entities/auth'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { mergeSecurity } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import { getSelectedServer } from '@vektopay/api-client/v2/features/operation'
+import { getServers } from '@vektopay/api-client/v2/helpers'
+import { REFERENCE_LS_KEYS, safeLocalStorage } from '@vektopay/helpers/object/local-storage'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { AuthStore } from '@vektopay/workspace-store/entities/auth'
+import { type Auth, AuthSchema } from '@vektopay/workspace-store/entities/auth'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 export function getOperations(doc: Partial<OpenAPIV3_1.Document>) {
   return Object.values(doc.paths ?? {}).flatMap((path) => Object.values(path ?? {})) as OperationObject[]
@@ -111,7 +111,7 @@ export function makeScalarProxyUrl(url: string) {
 
     const params = new URLSearchParams({ scalar_url: url })
 
-    const proxyUrl = new URL(`https://proxy.scalar.com/?${params}`)
+    const proxyUrl = new URL(`https://proxy.vektopay.com/?${params}`)
 
     /**
      * For now we use our proxy only by default. We do not

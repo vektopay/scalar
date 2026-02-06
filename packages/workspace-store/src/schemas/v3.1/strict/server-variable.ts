@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /** An object representing a Server Variable for server URL template substitution. */
 export const ServerVariableObjectSchemaDefinition = Type.Object({

@@ -1,4 +1,4 @@
-import { type ClientId, type TargetId, snippetz } from '@scalar/snippetz'
+import { type ClientId, type TargetId, snippetz } from '@vektopay/snippetz'
 import type { Request as HarRequest } from 'har-format'
 
 import type { ErrorResponse } from '@/libs/errors'

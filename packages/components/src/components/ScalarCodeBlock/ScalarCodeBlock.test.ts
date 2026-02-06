@@ -1,4 +1,4 @@
-import { prettyPrintJson } from '@scalar/oas-utils/helpers'
+import { prettyPrintJson } from '@vektopay/oas-utils/helpers'
 import { type VueWrapper, flushPromises, mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
@@ -6,7 +6,7 @@ import ScalarCodeBlock from './ScalarCodeBlock.vue'
 
 const mockCopyToClipboard = vi.fn()
 
-vi.mock('@scalar/use-hooks/useClipboard', () => ({
+vi.mock('@vektopay/use-hooks/useClipboard', () => ({
   useClipboard: vi.fn(() => ({
     copyToClipboard: mockCopyToClipboard,
   })),

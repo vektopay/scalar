@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Icon } from '@scalar/components'
+import type { Icon } from '@vektopay/components'
 import { RouterLink, type RouteLocationRaw } from 'vue-router'
 
 import SideNavLink from '@/components/SideNav/SideNavLink.vue'

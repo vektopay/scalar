@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/oas-utils",
+  "name": "@vektopay/oas-utils",
   "description": "Open API spec and Yaml handling utilities",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -94,25 +94,28 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@scalar/helpers": "workspace:*",
-    "@scalar/json-magic": "workspace:*",
-    "@scalar/object-utils": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
-    "@scalar/themes": "workspace:*",
-    "@scalar/types": "workspace:*",
-    "@scalar/workspace-store": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/json-magic": "workspace:*",
+    "@vektopay/object-utils": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
+    "@vektopay/themes": "workspace:*",
+    "@vektopay/types": "workspace:*",
+    "@vektopay/workspace-store": "workspace:*",
     "flatted": "catalog:*",
     "type-fest": "catalog:*",
     "yaml": "catalog:*",
     "zod": "catalog:*"
   },
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
-    "@scalar/openapi-parser": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
+    "@vektopay/openapi-parser": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
     "@types/node": "catalog:*",
     "vite": "catalog:*",
     "vitest": "catalog:*",
     "zod-to-ts": "github:amritk/zod-to-ts#build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

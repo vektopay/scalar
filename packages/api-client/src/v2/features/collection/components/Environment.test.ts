@@ -1,7 +1,7 @@
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceDocument } from '@scalar/workspace-store/schemas'
-import { xScalarEnvironmentsSchema } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import { coerceValue } from '@scalar/workspace-store/schemas/typebox-coerce'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceDocument } from '@vektopay/workspace-store/schemas'
+import { xScalarEnvironmentsSchema } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import { coerceValue } from '@vektopay/workspace-store/schemas/typebox-coerce'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 

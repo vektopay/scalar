@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 /** Allows referencing an external resource for extended documentation. */
 export const ExternalDocumentationObjectSchemaDefinition = Type.Object({

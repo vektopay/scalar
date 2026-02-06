@@ -4,9 +4,9 @@ import {
   ScalarFloating,
   ScalarFloatingBackdrop,
   ScalarIcon,
-} from '@scalar/components'
-import type { HttpMethod as HttpMethodType } from '@scalar/helpers/http/http-methods'
-import { httpStatusCodes } from '@scalar/oas-utils/helpers'
+} from '@vektopay/components'
+import type { HttpMethod as HttpMethodType } from '@vektopay/helpers/http/http-methods'
+import { httpStatusCodes } from '@vektopay/oas-utils/helpers'
 
 import { HttpMethod } from '@/components/HttpMethod'
 import { formatMs } from '@/libs/formatters'

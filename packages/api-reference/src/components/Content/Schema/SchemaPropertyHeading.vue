@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import {
   isArraySchema,
   isNumberSchema,
   isStringSchema,
-} from '@scalar/workspace-store/schemas/v3.1/strict/type-guards'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/type-guards'
 import { computed, toRef } from 'vue'
 
 import { Badge } from '@/components/Badge'

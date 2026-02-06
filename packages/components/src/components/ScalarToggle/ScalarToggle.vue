@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cva, cx } from '@scalar/use-hooks/useBindCx'
+import { cva, cx } from '@vektopay/use-hooks/useBindCx'
 
 const props = defineProps<{
   disabled?: boolean

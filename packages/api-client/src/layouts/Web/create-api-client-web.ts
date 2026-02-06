@@ -1,4 +1,4 @@
-import type { ApiClientConfiguration } from '@scalar/types/api-reference'
+import type { ApiClientConfiguration } from '@vektopay/types/api-reference'
 import { createRouter, createWebHistory } from 'vue-router'
 
 import { analytics } from '@/analytics'

@@ -1,5 +1,5 @@
-import type { HttpMethod } from '@scalar/helpers/http/http-methods'
-import type { AvailableClients } from '@scalar/snippetz'
+import type { HttpMethod } from '@vektopay/helpers/http/http-methods'
+import type { AvailableClients } from '@vektopay/snippetz'
 import type { Simplify } from 'type-fest'
 
 import type { ServerObject } from '@/schemas/v3.1/strict/openapi-document'

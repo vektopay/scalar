@@ -1,5 +1,5 @@
-import type { ScalarComboboxOption, ScalarComboboxOptionGroup } from '@scalar/components'
-import type { AvailableClients, ClientId, TargetId } from '@scalar/snippetz'
+import type { ScalarComboboxOption, ScalarComboboxOptionGroup } from '@vektopay/components'
+import type { AvailableClients, ClientId, TargetId } from '@vektopay/snippetz'
 
 /**
  * Represents a client option in the request example block.

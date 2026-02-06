@@ -1,4 +1,4 @@
-import type { HarRequest, PluginConfiguration } from '@scalar/types/snippetz'
+import type { HarRequest, PluginConfiguration } from '@vektopay/types/snippetz'
 
 const LENGTH_CONSIDERED_AS_SHORT = 40
 

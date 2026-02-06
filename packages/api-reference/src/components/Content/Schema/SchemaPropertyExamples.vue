@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIcon } from '@scalar/components'
-import { useClipboard } from '@scalar/use-hooks/useClipboard'
+import { ScalarIcon } from '@vektopay/components'
+import { useClipboard } from '@vektopay/use-hooks/useClipboard'
 
 import { formatExample } from './helpers/format-example'
 

@@ -1,5 +1,5 @@
-import { type Cookie, cookieSchema } from '@scalar/oas-utils/entities/cookie'
-import { requestExampleSchema } from '@scalar/oas-utils/entities/spec'
+import { type Cookie, cookieSchema } from '@vektopay/oas-utils/entities/cookie'
+import { requestExampleSchema } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { getCookieHeader, matchesDomain, setRequestCookies } from './set-request-cookies'

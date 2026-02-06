@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import type { OperationObject } from './operation'
 import type { ParameterObject } from './parameter'

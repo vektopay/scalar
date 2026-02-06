@@ -1,4 +1,4 @@
-import type { Request } from '@scalar/oas-utils/entities/spec'
+import type { Request } from '@vektopay/oas-utils/entities/spec'
 
 /** Convert path string like '/planets/{planetId}' to regex pattern /\/planets/([^/]+)/ */
 export const pathToRegex = (path: string) => {

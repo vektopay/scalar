@@ -1,7 +1,7 @@
-import { isDefined } from '@scalar/helpers/array/is-defined'
-import { CLIENT_LS_KEYS, safeLocalStorage } from '@scalar/helpers/object/local-storage'
-import type { Collection, SecurityScheme } from '@scalar/oas-utils/entities/spec'
-import type { Path } from '@scalar/object-utils/nested'
+import { isDefined } from '@vektopay/helpers/array/is-defined'
+import { CLIENT_LS_KEYS, safeLocalStorage } from '@vektopay/helpers/object/local-storage'
+import type { Collection, SecurityScheme } from '@vektopay/oas-utils/entities/spec'
+import type { Path } from '@vektopay/object-utils/nested'
 import type { Entries } from 'type-fest'
 
 import type { WorkspaceStore } from '@/store/store'

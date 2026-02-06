@@ -1,4 +1,4 @@
-import { getRaw } from '@scalar/json-magic/magic-proxy'
+import { getRaw } from '@vektopay/json-magic/magic-proxy'
 import { toRaw } from 'vue'
 
 import { unpackDetectChangesProxy } from '@/helpers/detect-changes-proxy'

@@ -6,18 +6,18 @@ import {
   ScalarSidebarItem,
   useModal,
   type ScalarListboxOption,
-} from '@scalar/components'
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
+} from '@vektopay/components'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
 import {
   ScalarIconDotsThree,
   ScalarIconGlobe,
   ScalarIconPlus,
-} from '@scalar/icons'
-import type { DraggingItem, HoveredItem, SidebarState } from '@scalar/sidebar'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import { getParentEntry } from '@scalar/workspace-store/navigation'
-import type { TraversedEntry } from '@scalar/workspace-store/schemas/navigation'
+} from '@vektopay/icons'
+import type { DraggingItem, HoveredItem, SidebarState } from '@vektopay/sidebar'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import { getParentEntry } from '@vektopay/workspace-store/navigation'
+import type { TraversedEntry } from '@vektopay/workspace-store/schemas/navigation'
 import { capitalize, computed, nextTick, ref } from 'vue'
 
 import Rabbit from '@/assets/rabbit.ascii?raw'

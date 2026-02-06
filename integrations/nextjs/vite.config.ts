@@ -12,7 +12,7 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: './src/index.ts',
-      name: '@scalar/nextjs-api-reference',
+      name: '@vektopay/nextjs-api-reference',
       formats: ['es', 'cjs', 'umd'],
       fileName: 'index',
     },

@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import type { HeaderObject } from './header'
 import { HeaderObjectRef } from './ref-definitions'

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { cookieSchema, type Cookie } from '@scalar/oas-utils/entities/cookie'
-import type { Path, PathValue } from '@scalar/object-utils/nested'
+import { cookieSchema, type Cookie } from '@vektopay/oas-utils/entities/cookie'
+import type { Path, PathValue } from '@vektopay/object-utils/nested'
 import { computed } from 'vue'
 
 import Form from '@/components/Form/Form.vue'

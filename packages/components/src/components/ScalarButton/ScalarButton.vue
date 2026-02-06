@@ -14,7 +14,7 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 import { ScalarLoading } from '../ScalarLoading'
 import { BUTTON_VARIANT_STYLES } from './constants'

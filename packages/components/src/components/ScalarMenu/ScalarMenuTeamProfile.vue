@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ScalarIconUsers } from '@scalar/icons'
-import { useBindCx } from '@scalar/use-hooks/useBindCx'
+import { ScalarIconUsers } from '@vektopay/icons'
+import { useBindCx } from '@vektopay/use-hooks/useBindCx'
 
 defineProps<{
   src?: string

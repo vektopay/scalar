@@ -1,5 +1,5 @@
 {
-  "name": "@scalar/agent-chat",
+  "name": "@vektopay/agent-chat",
   "description": "Agent chat components",
   "license": "MIT",
   "author": "Scalar (https://github.com/scalar)",
@@ -50,15 +50,15 @@
   ],
   "dependencies": {
     "@ai-sdk/vue": "catalog:*",
-    "@scalar/api-client": "workspace:*",
-    "@scalar/components": "workspace:*",
-    "@scalar/helpers": "workspace:*",
-    "@scalar/icons": "workspace:*",
-    "@scalar/json-magic": "workspace:*",
-    "@scalar/openapi-types": "workspace:*",
-    "@scalar/themes": "workspace:*",
-    "@scalar/types": "workspace:*",
-    "@scalar/workspace-store": "workspace:*",
+    "@vektopay/api-client": "workspace:*",
+    "@vektopay/components": "workspace:*",
+    "@vektopay/helpers": "workspace:*",
+    "@vektopay/icons": "workspace:*",
+    "@vektopay/json-magic": "workspace:*",
+    "@vektopay/openapi-types": "workspace:*",
+    "@vektopay/themes": "workspace:*",
+    "@vektopay/types": "workspace:*",
+    "@vektopay/workspace-store": "workspace:*",
     "@vueuse/core": "catalog:*",
     "ai": "catalog:*",
     "neverpanic": "catalog:*",
@@ -69,12 +69,15 @@
   },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "catalog:*",
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "@tailwindcss/vite": "catalog:*",
     "@types/whatwg-mimetype": "catalog:*",
     "@vitejs/plugin-vue": "catalog:*",
     "hono": "catalog:*",
     "tailwindcss": "catalog:*",
     "vite": "catalog:*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

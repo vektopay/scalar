@@ -1,4 +1,4 @@
-import { json2xml } from '@scalar/helpers/file/json2xml'
+import { json2xml } from '@vektopay/helpers/file/json2xml'
 import type { Context } from 'hono'
 
 /**

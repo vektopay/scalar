@@ -5,7 +5,7 @@
 import path from 'node:path'
 
 import SwaggerParser from '@apidevtools/swagger-parser'
-import type { OpenAPI } from '@scalar/openapi-types'
+import type { OpenAPI } from '@vektopay/openapi-types'
 import { describe, expect, it } from 'vitest'
 
 import { readFiles } from '@/plugins/read-files/read-files'

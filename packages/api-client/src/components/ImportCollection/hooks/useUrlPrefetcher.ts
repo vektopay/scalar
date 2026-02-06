@@ -1,6 +1,6 @@
-import { redirectToProxy } from '@scalar/helpers/url/redirect-to-proxy'
-import { resolve } from '@scalar/import'
-import { fetchWithProxyFallback } from '@scalar/oas-utils/helpers'
+import { redirectToProxy } from '@vektopay/helpers/url/redirect-to-proxy'
+import { resolve } from '@vektopay/import'
+import { fetchWithProxyFallback } from '@vektopay/oas-utils/helpers'
 import { reactive } from 'vue'
 
 import { isUrl } from '@/libs'

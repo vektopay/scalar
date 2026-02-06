@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { getDocumentName } from './get-document-name'
-import type { OpenApiDocument } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { OpenApiDocument } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 
 describe('getDocumentName', () => {
   describe('URL-based documents', () => {

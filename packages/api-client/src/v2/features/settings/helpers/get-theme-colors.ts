@@ -1,4 +1,4 @@
-import type { IntegrationThemeId, ThemeId } from '@scalar/themes'
+import type { IntegrationThemeId, ThemeId } from '@vektopay/themes'
 
 type Themes = Exclude<ThemeId, IntegrationThemeId>
 

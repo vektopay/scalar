@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 import Lazy from '@/components/Lazy/Lazy.vue'
 import { Section, SectionHeader } from '@/components/Section'

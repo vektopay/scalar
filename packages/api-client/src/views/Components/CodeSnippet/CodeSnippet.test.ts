@@ -4,7 +4,7 @@ import {
   requestExampleSchema,
   securitySchemeSchema,
   serverSchema,
-} from '@scalar/oas-utils/entities/spec'
+} from '@vektopay/oas-utils/entities/spec'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 

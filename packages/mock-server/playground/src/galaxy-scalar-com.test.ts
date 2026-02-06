@@ -1,8 +1,8 @@
 import { readFile } from 'node:fs/promises'
 
 import { serve } from '@hono/node-server'
-import { Scalar } from '@scalar/hono-api-reference'
-import { createMockServer } from '@scalar/mock-server'
+import { Scalar } from '@vektopay/hono-api-reference'
+import { createMockServer } from '@vektopay/mock-server'
 import type { Context, Hono } from 'hono'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
@@ -11,8 +11,8 @@ import { configureApiReference, createApp, loadDocument, main, startServer } fro
 // Mock all external dependencies
 vi.mock('node:fs/promises')
 vi.mock('@hono/node-server')
-vi.mock('@scalar/hono-api-reference')
-vi.mock('@scalar/mock-server')
+vi.mock('@vektopay/hono-api-reference')
+vi.mock('@vektopay/mock-server')
 
 describe('galaxy-scalar-com', () => {
   const mockApp = {
@@ -57,7 +57,7 @@ describe('galaxy-scalar-com', () => {
       const result = await loadDocument()
 
       expect(console.error).toHaveBeenCalledWith(
-        '[@scalar/mock-server] Missing @scalar/galaxy. Please build it and try again.',
+        '[@vektopay/mock-server] Missing @vektopay/galaxy. Please build it and try again.',
       )
       expect(result).toBe('')
     })
@@ -134,7 +134,7 @@ describe('galaxy-scalar-com', () => {
           },
         ],
         theme: 'default',
-        proxyUrl: 'https://proxy.scalar.com',
+        proxyUrl: 'https://proxy.vektopay.com',
         baseServerURL: 'http://localhost:5052',
         persistAuth: true,
       })

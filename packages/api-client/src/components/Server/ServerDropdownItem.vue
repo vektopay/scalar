@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { ScalarListboxCheckbox, ScalarMarkdown } from '@scalar/components'
+import { ScalarListboxCheckbox, ScalarMarkdown } from '@vektopay/components'
 import type {
   Collection,
   Request as Operation,
   Server,
-} from '@scalar/oas-utils/entities/spec'
-import { emitCustomEvent } from '@scalar/workspace-store/events'
+} from '@vektopay/oas-utils/entities/spec'
+import { emitCustomEvent } from '@vektopay/workspace-store/events'
 import { computed, useId, useTemplateRef } from 'vue'
 
 import ServerVariablesForm from '@/components/Server/ServerVariablesForm.vue'

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ScalarIconComponent } from '@scalar/icons/types'
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 import type { Component } from 'vue'
 
 import type { Icon } from '../../'

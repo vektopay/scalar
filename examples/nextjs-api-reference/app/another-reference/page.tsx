@@ -1,12 +1,12 @@
 'use client'
 
-import { ApiReferenceReact } from '@scalar/api-reference-react'
+import { ApiReferenceReact } from '@vektopay/api-reference-react'
 
 export default function ApiReferencePage() {
   return (
     <ApiReferenceReact
       configuration={{
-        url: 'https://registry.scalar.com/@scalar/apis/galaxy?format=yaml',
+        url: 'https://registry.vektopay.com/@vektopay/apis/galaxy?format=yaml',
         withDefaultFonts: false,
         hideModels: true,
         tagsSorter: 'alpha',

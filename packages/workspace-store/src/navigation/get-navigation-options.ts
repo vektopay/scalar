@@ -1,4 +1,4 @@
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
 import { slug } from 'github-slugger'
 
 import type { TraverseSpecOptions } from '@/navigation/types'
@@ -16,6 +16,7 @@ export type NavigationOptions =
         | 'operationsSorter'
         | 'tagsSorter'
         | 'hideModels'
+        | 'includeInternal'
       >
     >
   | undefined
@@ -131,6 +132,7 @@ export const getNavigationOptions = (documentName: string, options?: NavigationO
 
   return {
     hideModels: options?.hideModels ?? false,
+    includeInternal: options?.includeInternal ?? false,
     operationsSorter: options?.operationsSorter,
     tagsSorter: options?.tagsSorter,
     generateId,

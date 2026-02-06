@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ScalarMarkdown, ScalarWrappingText } from '@scalar/components'
+import { ScalarMarkdown, ScalarWrappingText } from '@vektopay/components'
 
 defineProps<{
   label: string

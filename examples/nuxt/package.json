@@ -20,11 +20,11 @@
   },
   "type": "module",
   "dependencies": {
-    "@scalar/nuxt": "workspace:*",
+    "@vektopay/nuxt": "workspace:*",
     "nuxt": "3.19.0 || ^3.19.2"
   },
   "devDependencies": {
-    "@scalar/api-client": "workspace:*",
-    "@scalar/nuxt": "workspace:*"
+    "@vektopay/api-client": "workspace:*",
+    "@vektopay/nuxt": "workspace:*"
   }
 }

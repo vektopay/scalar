@@ -1,8 +1,8 @@
-import { objectKeys } from '@scalar/helpers/object/object-keys'
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import { resolve } from '@scalar/workspace-store/resolve'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
-import { isArraySchema } from '@scalar/workspace-store/schemas/v3.1/strict/type-guards'
+import { objectKeys } from '@vektopay/helpers/object/object-keys'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import { resolve } from '@vektopay/workspace-store/resolve'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
+import { isArraySchema } from '@vektopay/workspace-store/schemas/v3.1/strict/type-guards'
 
 /**
  * Merges multiple OpenAPI schema objects into a single schema object.

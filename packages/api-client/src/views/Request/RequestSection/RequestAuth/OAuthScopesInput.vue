@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ScalarButton, ScalarIcon } from '@scalar/components'
-import type { Oauth2Flow } from '@scalar/oas-utils/entities/spec'
+import { ScalarButton, ScalarIcon } from '@vektopay/components'
+import type { Oauth2Flow } from '@vektopay/oas-utils/entities/spec'
 import { computed } from 'vue'
 
 import {

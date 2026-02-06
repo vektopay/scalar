@@ -213,7 +213,7 @@ class TestFastAPIIntegration:
         html_content = response.text
 
         # Check that the Scalar script is included
-        assert 'src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"' in html_content
+        assert 'src="https://cdn.vektopay.com/@vektopay/api-reference"' in html_content
 
     def test_scalar_configuration_script(self, client):
         """Test that the configuration script is properly generated"""

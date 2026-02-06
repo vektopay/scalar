@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { SchemaObject } from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { SchemaObject } from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { useTemplateRef } from 'vue'
 
 import { useIntersection } from '@/hooks/use-intersection'

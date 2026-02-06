@@ -1,6 +1,6 @@
-import type { Operation, RequestExample } from '@scalar/oas-utils/entities/spec'
-import { mergeUrls } from '@scalar/oas-utils/helpers'
-import type { FormDataParam, HarRequest } from '@scalar/snippetz'
+import type { Operation, RequestExample } from '@vektopay/oas-utils/entities/spec'
+import { mergeUrls } from '@vektopay/oas-utils/helpers'
+import type { FormDataParam, HarRequest } from '@vektopay/snippetz'
 
 type Props = {
   baseUrl: string | undefined

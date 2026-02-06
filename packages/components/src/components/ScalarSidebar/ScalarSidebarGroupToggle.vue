@@ -10,9 +10,9 @@
 export default {}
 </script>
 <script setup lang="ts">
-import { ScalarIconCaretRight } from '@scalar/icons'
-import type { ScalarIconComponent } from '@scalar/icons/types'
-import { cva, useBindCx } from '@scalar/use-hooks/useBindCx'
+import { ScalarIconCaretRight } from '@vektopay/icons'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
+import { cva, useBindCx } from '@vektopay/use-hooks/useBindCx'
 import type { Component } from 'vue'
 
 import { type Icon, ScalarIconLegacyAdapter } from '../ScalarIcon'

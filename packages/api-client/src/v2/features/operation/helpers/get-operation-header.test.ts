@@ -1,6 +1,6 @@
-import { getResolvedRef } from '@scalar/workspace-store/helpers/get-resolved-ref'
-import type { OperationObject } from '@scalar/workspace-store/schemas/v3.1/strict/operation'
-import type { ParameterObject } from '@scalar/workspace-store/schemas/v3.1/strict/parameter'
+import { getResolvedRef } from '@vektopay/workspace-store/helpers/get-resolved-ref'
+import type { OperationObject } from '@vektopay/workspace-store/schemas/v3.1/strict/operation'
+import type { ParameterObject } from '@vektopay/workspace-store/schemas/v3.1/strict/parameter'
 import { describe, expect, it } from 'vitest'
 
 import { getOperationHeader } from './get-operation-header'

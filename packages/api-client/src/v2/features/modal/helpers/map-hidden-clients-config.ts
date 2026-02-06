@@ -1,7 +1,7 @@
-import { objectKeys } from '@scalar/helpers/object/object-keys'
-import type { ApiReferenceConfiguration } from '@scalar/types/api-reference'
-import type { AvailableClient, TargetId } from '@scalar/types/snippetz'
-import { AVAILABLE_CLIENTS, type AvailableClients, GROUPED_CLIENTS } from '@scalar/types/snippetz'
+import { objectKeys } from '@vektopay/helpers/object/object-keys'
+import type { ApiReferenceConfiguration } from '@vektopay/types/api-reference'
+import type { AvailableClient, TargetId } from '@vektopay/types/snippetz'
+import { AVAILABLE_CLIENTS, type AvailableClients, GROUPED_CLIENTS } from '@vektopay/types/snippetz'
 
 /**
  * Map the old hiddenClients config to the new httpClients config.

@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import { ScalarIconX } from '@scalar/icons'
+import { ScalarIconX } from '@vektopay/icons'
 import { defineAsyncComponent } from 'vue'
 
-import '@scalar/agent-chat/style.css'
-
-import type { ApiReferenceConfigurationWithSource } from '@scalar/types/api-reference'
-import type { WorkspaceStore } from '@scalar/workspace-store/client'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import type { ApiReferenceConfigurationWithSource } from '@vektopay/types/api-reference'
+import type { WorkspaceStore } from '@vektopay/workspace-store/client'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 
 import { useAgentContext } from '@/hooks/use-agent'
 

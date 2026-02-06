@@ -1,11 +1,11 @@
-import { isMacOS } from '@scalar/helpers/general/is-mac-os'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
+import { isMacOS } from '@vektopay/helpers/general/is-mac-os'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { handleHotkeys } from './handle-hotkeys'
 
 // Mock the isMacOS function
-vi.mock('@scalar/helpers/general/is-mac-os', () => ({
+vi.mock('@vektopay/helpers/general/is-mac-os', () => ({
   isMacOS: vi.fn(),
 }))
 

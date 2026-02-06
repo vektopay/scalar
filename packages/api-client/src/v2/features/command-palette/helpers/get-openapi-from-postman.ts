@@ -1,5 +1,5 @@
-import type { OpenAPIV3_1 } from '@scalar/openapi-types'
-import { convert } from '@scalar/postman-to-openapi'
+import type { OpenAPIV3_1 } from '@vektopay/openapi-types'
+import { convert } from '@vektopay/postman-to-openapi'
 
 /**
  * Converts a Postman collection JSON string to an OpenAPI specification document.

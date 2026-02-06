@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 export const XExamplesSchema = Type.Object({
   'x-examples': Type.Optional(Type.Record(Type.String(), Type.Unknown())),

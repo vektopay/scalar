@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 import { ServerVariableObjectRef } from './ref-definitions'
 import type { ServerVariableObject } from './server-variable'

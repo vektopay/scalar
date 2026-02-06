@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import { ScalarButton, useLoadingState } from '@scalar/components'
-import { pkceOptions } from '@scalar/oas-utils/entities/spec'
-import { useToasts } from '@scalar/use-toasts'
-import type { SecretsOAuthFlows } from '@scalar/workspace-store/entities/auth'
+import { ScalarButton, useLoadingState } from '@vektopay/components'
+import { pkceOptions } from '@vektopay/oas-utils/entities/spec'
+import { useToasts } from '@vektopay/use-toasts'
+import type { SecretsOAuthFlows } from '@vektopay/workspace-store/entities/auth'
 import type {
   ApiReferenceEvents,
   WorkspaceEventBus,
-} from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { XScalarCredentialsLocation } from '@scalar/workspace-store/schemas/extensions/security/x-scalar-credentials-location'
-import type { XusePkce } from '@scalar/workspace-store/schemas/extensions/security/x-use-pkce'
+} from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { XScalarCredentialsLocation } from '@vektopay/workspace-store/schemas/extensions/security/x-scalar-credentials-location'
+import type { XusePkce } from '@vektopay/workspace-store/schemas/extensions/security/x-use-pkce'
 import type {
   OAuthFlow,
   ServerObject,
-} from '@scalar/workspace-store/schemas/v3.1/strict/openapi-document'
+} from '@vektopay/workspace-store/schemas/v3.1/strict/openapi-document'
 import { computed, watch } from 'vue'
 
 import { DataTableRow } from '@/components/DataTable'

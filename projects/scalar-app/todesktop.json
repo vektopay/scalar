@@ -15,11 +15,11 @@
       "url": "https://scalar.com"
     },
     "dependencies": {
-      "@scalar/api-client": null,
-      "@scalar/themes": null,
-      "@scalar/components": null,
-      "@scalar/import": null,
-      "@scalar/pre-post-request-scripts": null
+      "@vektopay/api-client": null,
+      "@vektopay/themes": null,
+      "@vektopay/components": null,
+      "@vektopay/import": null,
+      "@vektopay/pre-post-request-scripts": null
     },
     "devDependencies": {
       "@types/node": null,

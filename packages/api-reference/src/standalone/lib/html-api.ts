@@ -2,8 +2,8 @@ import type {
   AnyApiReferenceConfiguration,
   ApiReferenceConfigurationWithSource,
   CreateApiReference,
-} from '@scalar/types/api-reference'
-import { apiReferenceConfigurationWithSourceSchema } from '@scalar/types/api-reference'
+} from '@vektopay/types/api-reference'
+import { apiReferenceConfigurationWithSourceSchema } from '@vektopay/types/api-reference'
 import { createHead } from '@unhead/vue'
 import { createApp, h, reactive } from 'vue'
 
@@ -58,7 +58,7 @@ export function getConfigurationFromDataAttributes(doc: Document): ApiReferenceC
     // <div data-spec-url="/scalar.json" />
     if (specUrlElement) {
       console.warn(
-        '[@scalar/api-reference] The [data-spec-url] HTML API is deprecated. Use the new <script id="api-reference" data-url="/scalar.json" /> API instead.',
+        '[@vektopay/api-reference] The [data-spec-url] HTML API is deprecated. Use the new <script id="api-reference" data-url="/scalar.json" /> API instead.',
       )
       const urlFromSpecUrlElement = specUrlElement.getAttribute('data-spec-url')
 
@@ -84,7 +84,7 @@ export function getConfigurationFromDataAttributes(doc: Document): ApiReferenceC
     // <div data-spec='{"openapi":"3.1.0","info":{"title":"Example"},"paths":{}}' />
     if (specElement) {
       console.warn(
-        '[@scalar/api-reference] The [data-spec] HTML API is deprecated. Use the new <script id="api-reference" type="application/json">{"openapi":"3.1.0","info":{"title":"Example"},"paths":{}}</script> API instead.',
+        '[@vektopay/api-reference] The [data-spec] HTML API is deprecated. Use the new <script id="api-reference" type="application/json">{"openapi":"3.1.0","info":{"title":"Example"},"paths":{}}</script> API instead.',
       )
       const specFromSpecElement = specElement.getAttribute('data-spec')?.trim()
 
@@ -97,7 +97,7 @@ export function getConfigurationFromDataAttributes(doc: Document): ApiReferenceC
   }
 
   const getProxyUrl = () => {
-    // <script id="api-reference" data-proxy-url="https://proxy.scalar.com">…</script>
+    // <script id="api-reference" data-proxy-url="https://proxy.vektopay.com">…</script>
     const specScriptTag = getSpecScriptTag(doc)
     if (specScriptTag) {
       const proxyUrl = specScriptTag.getAttribute('data-proxy-url')

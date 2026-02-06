@@ -17,7 +17,7 @@ describe('createApiClientApp', () => {
     expect(element.innerHTML).not.toContain('Request')
 
     await createApiClientApp(element, {
-      proxyUrl: 'https://proxy.scalar.com',
+      proxyUrl: 'https://proxy.vektopay.com',
     })
 
     // Make sure we wait for the client to be mounted

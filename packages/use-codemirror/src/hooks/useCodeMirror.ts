@@ -24,7 +24,7 @@ import {
   lineNumbers as lineNumbersExtension,
   placeholder as placeholderExtension,
 } from '@codemirror/view'
-import { ScalarIcon } from '@scalar/components'
+import { ScalarIcon } from '@vektopay/components'
 import { type MaybeRefOrGetter, type Ref, computed, h, onBeforeUnmount, ref, render, toValue, watch } from 'vue'
 
 import { customTheme } from '../themes'

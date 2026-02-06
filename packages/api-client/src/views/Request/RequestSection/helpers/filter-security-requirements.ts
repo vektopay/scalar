@@ -1,4 +1,4 @@
-import type { Collection, SecurityScheme } from '@scalar/oas-utils/entities/spec'
+import type { Collection, SecurityScheme } from '@vektopay/oas-utils/entities/spec'
 
 /**
  * Takes in selected security and filters it with the requirements

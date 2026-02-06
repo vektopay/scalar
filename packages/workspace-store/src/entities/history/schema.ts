@@ -1,4 +1,4 @@
-import { Type } from '@scalar/typebox'
+import { Type } from '@vektopay/typebox'
 
 const HeaderSchema = Type.Object({
   name: Type.String(),

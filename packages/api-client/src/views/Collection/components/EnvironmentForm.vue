@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ScalarButton } from '@scalar/components'
-import { ScalarIconTrash, ScalarIconWarning } from '@scalar/icons'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
+import { ScalarButton } from '@vektopay/components'
+import { ScalarIconTrash, ScalarIconWarning } from '@vektopay/icons'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
 import { computed, nextTick, onMounted, ref, watch } from 'vue'
 
 import CodeInput from '@/components/CodeInput/CodeInput.vue'

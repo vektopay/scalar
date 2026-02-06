@@ -32,7 +32,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@scalar/build-tooling": "workspace:*",
+    "@vektopay/build-tooling": "workspace:*",
     "vite": "catalog:*"
   }
 }

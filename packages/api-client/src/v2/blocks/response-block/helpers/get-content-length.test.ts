@@ -1,4 +1,4 @@
-import type { ResponseInstance } from '@scalar/oas-utils/entities/spec'
+import type { ResponseInstance } from '@vektopay/oas-utils/entities/spec'
 import { describe, expect, it } from 'vitest'
 
 import { getContentLength } from './get-content-length'

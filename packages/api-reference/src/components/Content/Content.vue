@@ -1,20 +1,20 @@
 <script setup lang="ts">
-import { generateClientOptions } from '@scalar/api-client/v2/blocks/operation-code-sample'
-import { mergeSecurity } from '@scalar/api-client/v2/blocks/scalar-auth-selector-block'
-import { mapHiddenClientsConfig } from '@scalar/api-client/v2/features/modal'
-import { getSelectedServer } from '@scalar/api-client/v2/features/operation'
-import { getServers } from '@scalar/api-client/v2/helpers'
-import { ScalarErrorBoundary } from '@scalar/components'
-import type { ApiReferenceConfigurationRaw } from '@scalar/types/api-reference'
-import type { Heading } from '@scalar/types/legacy'
-import type { AuthStore } from '@scalar/workspace-store/entities/auth'
-import type { WorkspaceEventBus } from '@scalar/workspace-store/events'
-import type { XScalarEnvironment } from '@scalar/workspace-store/schemas/extensions/document/x-scalar-environments'
-import type { TraversedEntry as TraversedEntryType } from '@scalar/workspace-store/schemas/navigation'
+import { generateClientOptions } from '@vektopay/api-client/v2/blocks/operation-code-sample'
+import { mergeSecurity } from '@vektopay/api-client/v2/blocks/scalar-auth-selector-block'
+import { mapHiddenClientsConfig } from '@vektopay/api-client/v2/features/modal'
+import { getSelectedServer } from '@vektopay/api-client/v2/features/operation'
+import { getServers } from '@vektopay/api-client/v2/helpers'
+import { ScalarErrorBoundary } from '@vektopay/components'
+import type { ApiReferenceConfigurationRaw } from '@vektopay/types/api-reference'
+import type { Heading } from '@vektopay/types/legacy'
+import type { AuthStore } from '@vektopay/workspace-store/entities/auth'
+import type { WorkspaceEventBus } from '@vektopay/workspace-store/events'
+import type { XScalarEnvironment } from '@vektopay/workspace-store/schemas/extensions/document/x-scalar-environments'
+import type { TraversedEntry as TraversedEntryType } from '@vektopay/workspace-store/schemas/navigation'
 import type {
   Workspace,
   WorkspaceDocument,
-} from '@scalar/workspace-store/schemas/workspace'
+} from '@vektopay/workspace-store/schemas/workspace'
 import { computed } from 'vue'
 
 import { ClientSelector } from '@/blocks/scalar-client-selector-block'

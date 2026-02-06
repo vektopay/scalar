@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { ScalarButton } from '@scalar/components'
-import type { Collection } from '@scalar/oas-utils/entities/spec'
-import { useToasts } from '@scalar/use-toasts'
+import { ScalarButton } from '@vektopay/components'
+import type { Collection } from '@vektopay/oas-utils/entities/spec'
+import { useToasts } from '@vektopay/use-toasts'
 import { useRouter } from 'vue-router'
 
 import { useWorkspace } from '@/store'

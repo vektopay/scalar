@@ -1,5 +1,5 @@
-import { capitalize } from '@scalar/helpers/string/capitalize'
-import { camelToTitleWords } from '@scalar/helpers/string/camel-to-title'
+import { capitalize } from '@vektopay/helpers/string/capitalize'
+import { camelToTitleWords } from '@vektopay/helpers/string/camel-to-title'
 
 import { parseLocalStorage } from '@/migrations/local-storage'
 import type { v_0_0_0 } from '@/migrations/v-0.0.0/types.generated'

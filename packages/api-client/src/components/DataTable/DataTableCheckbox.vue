@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cva, ScalarIcon } from '@scalar/components'
+import { cva, ScalarIcon } from '@vektopay/components'
 
 import DataTableCell from './DataTableCell.vue'
 

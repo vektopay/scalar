@@ -1,4 +1,4 @@
-import type { ScalarIconComponent } from '@scalar/icons/types'
+import type { ScalarIconComponent } from '@vektopay/icons/types'
 import type { Component } from 'vue'
 
 import type { LoadingState } from '../ScalarLoading/types'
@@ -47,10 +47,10 @@ export type ScalarButtonProps = {
   /**
    * The icon to display in the button
    *
-   * Use a component from the `@scalar/icons` package to display an icon.
+   * Use a component from the `@vektopay/icons` package to display an icon.
    *
    * @example
-   * import { ScalarIconAcorn } from '@scalar/icons'
+   * import { ScalarIconAcorn } from '@vektopay/icons'
    * ...
    * <ScalarButton :icon="ScalarIconAcorn">
    *   It's an acorn
@@ -63,7 +63,7 @@ export type ScalarButtonProps = {
    * @see ScalarLoading
    *
    * @example
-   * import { ScalarButton, useLoadingState } from '@scalar/components'
+   * import { ScalarButton, useLoadingState } from '@vektopay/components'
    * ...
    * const loader = useLoadingState()
    * loader.start()

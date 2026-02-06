@@ -1,8 +1,8 @@
-import type { Cookie } from '@scalar/oas-utils/entities/cookie'
-import type { Environment } from '@scalar/oas-utils/entities/environment'
-import type { Collection, Request, RequestExample, SecurityScheme, Server, Tag } from '@scalar/oas-utils/entities/spec'
-import type { Workspace } from '@scalar/oas-utils/entities/workspace'
-import type { Mutators } from '@scalar/object-utils/mutator-record'
+import type { Cookie } from '@vektopay/oas-utils/entities/cookie'
+import type { Environment } from '@vektopay/oas-utils/entities/environment'
+import type { Collection, Request, RequestExample, SecurityScheme, Server, Tag } from '@vektopay/oas-utils/entities/spec'
+import type { Workspace } from '@vektopay/oas-utils/entities/workspace'
+import type { Mutators } from '@vektopay/object-utils/mutator-record'
 
 export type StoreContext = {
   collections: Record<string, Collection>
